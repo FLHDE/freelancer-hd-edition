@@ -1,0 +1,67 @@
+DATA\AUDIO\pilot_f_ill_m02.utf
+DATA\AUDIO\pilot_f_ill_m02a.utf
+DATA\AUDIO\pilot_f_ill_m02b.utf
+- replaced "Preparing to" with another "I'm taking on" (they should have been
+  "Preparing to take on").
+
+DATA\INTERFACE\knowledgemap.ini
+- removed duplicates;
+- removed 60245 (trade lane zones);
+- fixed rumor 131154 (Montezuma). [Klaus]
+
+DATA\MISSIONS\mbases.ini
+- ku0502_blood_001_f: affiliation is fc_bd_grp, not fc_gc_grp;
+- removed rumor 131460 (see misctext).
+
+DATA\SCRIPTS\BASES\br_08_bar_ambi_ew02_01.thn
+DATA\SCRIPTS\BASES\cv_01_bar_ambi_bw03_02.thn
+DATA\SCRIPTS\BASES\cv_01_bar_ambi_bw03_03.thn
+DATA\SCRIPTS\BASES\cv_01_bar_ambi_iw06_01.thn
+DATA\SCRIPTS\BASES\cv_01_bar_ambi_rh05_01.thn
+DATA\SCRIPTS\BASES\ku_08_bar_ambi_ku05_02.thn
+DATA\SCRIPTS\BASES\li_09_bar_ambi_iw03_02.thn
+DATA\SCRIPTS\BASES\li_09_bar_ambi_iw05_02.thn
+DATA\SCRIPTS\BASES\li_09_bar_ambi_iw06_02.thn
+DATA\SCRIPTS\BASES\rh_08_bar_ambi_rh03_06.thn
+- ambi_skydome_sky_blank: moved down 10000 (cover the bottom of the background).
+  [Ruppet identified]
+
+DATA\SCRIPTS\BASES\cv_01_bar_ambi_br04_05.thn
+- ambi_LtG10_Terrain_Inf: enabled lightprops (lights asteroids). [Ruppet]
+
+DATA\SCRIPTS\BASES\cv_01_bar_ambi_ew04_01.thn
+- Ambi_Layer_Basic_cv_01_bar_Bw09_03: renamed to
+  Ambi_Layer_Basic_cv_01_bar_Ew04_01 (where it is); [Ruppet]
+- ambi_starsphere_Ew04_1 & ambi_starsphere_Ew04_stars_2: added (show in the bar
+  window). [Ruppet]
+
+DATA\SCRIPTS\STORY\s010x_nrml_lonnigan_li_01_cityscape_01.thn
+DATA\SCRIPTS\STORY\s019a_offer_syd_li_01_cityscape_01.thn
+DATA\SCRIPTS\STORY\s019b_accept_syd_li_01_cityscape_01.thn
+DATA\SCRIPTS\STORY\s045a_offer_ozu_ku_03_bar_01.thn
+DATA\SCRIPTS\STORY\s069x_nrml_neimann_li_10_prison_01.thn
+DATA\SCRIPTS\STORY\s072ab_offer_quintaine_pl_09_lab_01.thn
+- reverted lip sync changes.
+
+DATA\UNIVERSE\SYSTEMS\BR01\br01.ini
+DATA\UNIVERSE\SYSTEMS\BR04\br04.ini
+DATA\UNIVERSE\SYSTEMS\BW01\bw01.ini
+DATA\UNIVERSE\SYSTEMS\KU01\ku01.ini
+DATA\UNIVERSE\SYSTEMS\LI04\li04.ini
+- removed dummy ids_name (& ids_info) from zones (prevent my Zone plugin
+  from showing them).
+
+EXE\equipresources.dll
+- changed "ordinance" to "ordnance";
+- fixed Tanto Turret description.
+
+EXE\misctext.dll
+- changed "offical" to "official";
+- changed most "navy" to "Navy";
+- 131154: Padua should be Montezuma; [Klaus]
+- 131460: removed (inappropriate duplicate of 132157); [Klaus]
+- 131471: removed tag;
+- 131503: Omega-4 is presumably Omega-41; [Klaus identified]
+- 131756: changed "Kusari naval force" to "Kusari Naval Forces";
+- 133320: changed "Navy" to "navy";
+- 134323: changed "Charles" to "Edward" (the name of the wreck). [Klaus]

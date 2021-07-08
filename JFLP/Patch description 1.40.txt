@@ -1,0 +1,842 @@
+Summary
+This package contains the patches for Freelancer that were earlier released under the name Unofficial FL SP patch 1.1 and 1.2. Improved some of the patches and added some others. 
+
+Some time after the release of patch 1.2,  the SDK 1.3 was released and many Freelancers started using the SDK 1.3 ini files, which is good.
+But by using the SDK 1.3 files the majority of  the Unofficial patches were no longer available. This package gives you the opportunity to have them both, because all patches are implemented on SDK 1.3 ini files.
+This package would not have been possible without:
+* Louva-Deus for giving us his SDK 1.3 ini package.
+* Support and contributions from Crabtree and members of the WTS-team.
+* Bakedpotato for linking me with Crabtree. 
+
+Why is this not offered in FLMM-format?
+Well the reason is in the nature of the patch, it corrects errors. This package repairs from my point of view bugs that in the ideal world Microsoft and/or Digital Anvil "should" have corrected before or after releasing the game. They are minor bugs but still errors. The patch does not create anything new and it does not really add anything, it just repairs and makes available what already was there. 
+Warning. The package normally will not interfere with mods, but some mods use scripts to change your files. If a mod uses a script in a file that is patched, it may fail to load if it is trying to change the patched area in that file. Although the risk is very low because the patches are in code area's that are normally not subjected to modding, great efforts have been made to apply the patches in a way that this risk is reduced to the absolute minimum.
+
+What does the Unofficial FL SP 1.4 package do?
+The packages contains all the SDK 1.3 files and the credits for that go to Louva-Deus. All patches are performed on SDK 1.3 files. In this way you don't have to merge SDK 1.3 and the Unofficial FL SP 1.4 patch files yourself. It is all-in-one.
+The patched "errors":
+* Shipwrecks not delivering the correct loot
+* Unknown objects not having their id or wrong id
+* Missing reputations.
+* Wrong run by references.
+* Wrong local_faction
+* Lacking radiation warnings
+* Locked Jumpholes. Some of the jumpholes remain locked after finishing the game.
+* Roid_miners only visible when in range <= 2000
+* Some minor bini errors still present
+* Restored the original compressed engine_good.ini. The bini version causes problems for some servers.
+* Navmap related
+- Asteroid fields and/or clouds not visible
+- Jumpholes not visible
+- Mineable area's not or not correctly displayed
+- Missing names.
+- Missing reputations
+- Objects not on Navmap
+- No information. Some objects or area's had no Ids-info (?). 
+- Mine fields not visible.
+- Mineable aera's displaying the mineable resource
+- Visibility clouds on Navmap. Some black clouds were hardly or not visible on the Navmap. I altered their fog_colour settings slightly to make them better visible.
+- Hazardous area's reveal themselves when the cursor is over them on the Navmap.
+All repairs to the above mentioned are based on in dept studying the Namesresources.dll, Infocards.dll and all other FL files.
+
+What does the Unofficial FL SP 1.4 package NOT do?
+* Roid_miners. In Universe.ini, in the systemfolder and in some of the system ini-files there are code-lines that suggest that these miners are a kind of bases. Likely this is a leftover of the intention to have miners to be dockable. There are also some rooms declared for these miners. So far I have not found a miner where I could actually dock. In principle all these lines are obsolete and could be removed. I left them alone.
+I have not done any work on getting the miners to be dockable. Simply because there is absolutely nothing happening there and making things happening there would be modding and that is not what my patches are about. Furthermore, there are more than enough places in unmodded and modded Sirius where you can dock and where things are happening.
+* In all systems where robotbodies are used the following lines are present:
+space_costume = , robot_body_A or space_costume = , robot_body_B
+With other characters the syntax is space_costume = head, body. But since robots have their heads already attached to their bodies, a head does not need to be declared.
+The point/question is: should not be the syntax space_costume = 0, robot_body_A?
+Apparently having the head not declared does not seem to course any errors, at least I have not noticed it. Actually it seems that adding the 0 will cause problems for servers, according feedback from Crabtree. So- we left it the way it is in the SDK 1.3 files.
+
+How to install the Unofficial FL SP 1.4 package?
+Backup first!!! Close all mods before patching!!!.
+The package is a zip file. The zip was created with the option "save full path info" on. So when you unzip the package all files will unzip in a Freelancer folder structure. 
+To be on the safe side unzip the Unofficial FL SP package into a temporary directory so that you don't accidently overwrite files you did not want to loose and you will be able to see what exactly needs to be backed up. Then copy the Data and the EXE directory to your Freelancer directory. This way your old files will be replaced with the patched files. Make sure contents of  "Tmp-folder"\Data are copied in Freelancer\Data and contents of  "Tmp-folder"\Exe are copied in Freelancer\Exe.
+
+Be aware that:
+* Most of the patches are effective directly after restarting Freelancer and reloading your current game. And remember, to make the changes appear on your Navmap, you'll have to visit the place. 
+* However, some of the patches especially where clouds, asteroids and/or mineable area's are involved, the changes only become noticeable when starting a complete new game. This is due to flags that are set in your savegame file. If you don't want to start a new game: For those who are familiar with editing of savegame fl files, at the end of the detailed document there is a rough description of  the workaround I use to find out what needs to changed in .fl visit = code lines to get the desired result.
+* Some errors are still there. Simply because I have not come across them yet or due to the fact that at the time I could not find a proper solution for it or the solution was to complex.
+
+All modders are encouraged to use this package. You allowed to use it as a whole or parts in your mods. If you've already edited system files in place, the detailed information makes it every easy to patch your own system files on the fly. 
+
+See you in Sirius
+Buck Danny
+
+Detailed description Unofficial FL SP 1.4
+
+* Universe.ini in the folder \Data\Universe\
+1.	Patches made in Universe.ini to adjust incorrect "run by" references in the Universe.ini file. Corrections are based on the information that is within the infocards.dll file and displayed in the Navmap by clicking on the ?.
+[Base] - nickname = Br03_03_Base, changed BGCS_base_run_by = W02bF07 into W02bF08
+Battleship Norfolk is run by Bretonia Armed Forces
+[Base - nickname = Ku06_01_Base, changed BGCS_base_run_by = W02bF30 into W02bF03
+Kyoto is run by Blood Dragons 
+[Base] - nickname = Rh01_02_Base, changed BGCS_base_run_by = W02bF44 into W02bF14
+Oder Shipyard is run by Daumann Heavy Construction
+
+* Br01.ini in the folder \Data\Universe\Systems\Br01\
+1.	Patches made in Br01.ini to display hazardous areas on Navmap when the cursor is over them:
+[zone] - nickname = Zone_Br01_Southampton_toxic_001, added ids_name = 261347
+[zone] - nickname = Zone_Br01_Southampton_toxic_002, added ids_name = 261347
+[zone] - nickname = Zone_Br01_Cumbria_gas_001, added ids_name = 261347
+[zone] - nickname = Zone_Br01_Devon_gas_001, added ids_name = 261347
+[zone] - nickname = Zone_Br01_Somerset_gas_001, added ids_name = 261347
+[zone] - nickname = Zone_Br01_Somerset_gas_002, added ids_name = 261347
+[zone] - nickname = Zone_Br01_Cumbria_gas_002, added ids_name = 261347
+
+* Br03.ini in the folder \Data\Universe\Systems\Br03\
+1.	Patch made in Br03.ini to correct wrong local faction:
+ [SystemInfo] - changed local_faction = li_p_grp into local_faction = br_p_grp
+
+2.	Patch made in Br03.ini to make the Br03 Sun's name presented on the Navmap and the ? symbol will now display correct information on the sun. 
+[Object] - nickname = Br03_Sun, changed ids_info = 66157 into 66162
+
+3.	Patches made in Br03.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = Zone_Br03_Grasmere_ice_cloud, changed visit = 36 into 32
+[zone] - nickname = Zone_Br03_Grasmere_ice_asteroids, changed visit = 128 into 36
+[zone] - nickname = Zone_Br03_Keswick_ice_cloud, changed visit = 36 into 32
+[zone] - nickname = Zone_Br03_Keswick_ice_asteroids, changed visit = 128 into 36
+
+4.	Patch made in Br03.ini to make jumphole visible on Navmap:
+[Object] - nickname = Br03_to_Br04_hole, changed visit = 128 into 0
+[Object] - nickname = Br03_to_Bw01_hole, changed visit = 128 into 0
+
+5.	Patch made in Br03.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Br03_Cardiff_mine, added ids_info = 65886
+
+* Br04.ini in the folder \Data\Universe\Systems\Br04\
+1.	Patch made in Br04.ini to make jumpholes visible on Navmap:
+[Object] - nickname = Br04_to_Iw03_hole, changed visit = 128 into 0
+[Object] - nickname = Br04_to_Br03_hole, changed visit = 128 into 0
+
+2.	Patches made in Br04.ini to make asteroid fields and/or clouds visible on Navmap.
+	The asteroids in the East Leeds and the West Leeds area were not visible. In this system the cloud and the asteroid field were not declared separately as elsewhere. Trying to make the asteroids visible by changing only the property flag in the nebula were not succesfull. 
+	Declaring the asteroid fields separately did solve the problem.
+1. [Asteroids] - file = solar\asteroids\Br04_Leeds_smog_cloud_asteroids.ini, changed zone = Zone_Br04_West_Leeds_smog_cloud into zone = Zone_Br04_West_Leeds_smog_asteroids
+[Asteroids] - file = solar\asteroids\Br04_Leeds_smog_cloud_asteroids.ini, changed zone = Zone_Br04_East_Leeds_smog_cloud into zone = Zone_Br04_East_Leeds_asteroids
+2.	Added:
+[zone]
+nickname = Zone_Br04_West_Leeds_smog_asteroids
+pos = -29625, 0, 51943
+rotate = 0, 90, 0
+shape = ELLIPSOID
+size = 30000, 15000, 25000
+property_flags = 65
+visit = 32
+
+[zone]
+nickname = Zone_Br04_East_Leeds_asteroids
+pos = 48525, 0, 59572
+rotate = 0, 30, 0
+shape = ELLIPSOID
+size = 25000, 10000, 20000
+property_flags = 65
+visit = 32
+3.	Patch made in Br04.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Br04_Stokes_mineable_asteroid_field, added ids_info = 65909
+
+* Br05.ini in the folder \Data\Universe\Systems\Br05\
+1.	Patches made in Br05.ini to make the field's name presented on the Navmap and the ? symbol will now display information on the field. 
+[zone] - nickname = Zone_Br05_GSM_minedout_field, added ids_name = 261247
+[zone] - nickname = Zone_Br05_GSM_minedout_field, added ids_info = 65941
+
+2.	In the Br05, the whole of GSM minedout aera is presented as a mineable area, which is not correct. Within the area, only the GSM mineable gold field is mineable.
+[zone] - nickname = Zone_Br05_GSM_minedout_field, changed visit = 36 into 32
+
+3.	Patches made in Br05.ini to solve unknown objects in flight:
+[Object] - nickname = Br05_04, added base = Br05_04_Base
+In flight the Essex was labelled as Armed Forces Base
+
+4.	Patch made in Br05.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Br05_GSM_mineable_gold_field, changed ids_info = 65941 into 65898
+	Ids_info 65941 applies to the GSM mine field as a whole and already present there.
+
+* Br06.ini in the folder \Data\Universe\Systems\Br06\
+1.	Patches made in Br06.ini to make the field's name presented on the Navmap and the ? symbol will now display correct information on the field. 
+[zone] - nickname = Zone_Br06_Islay_ice_asteroids, changed ids_info = 65946 into 65921
+[zone] - nickname = Zone_Br06_Arran_ice_asteroids, added ids_info = 65946 into 65921
+
+2.	Patches made in Br06.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = Zone_Br06_Islay_ice_asteroids, changed visit = 128 into 36
+[zone] - nickname = Zone_Br06_Arran_ice_asteroids, changed visit = 128 into 36
+
+3.	In the Br06, the whole of Islay cloud aera is presented as a mineable area, which is not correct. Within the area, only the asteroid field is mineable.
+[zone] - nickname = Zone_Br06_Islay_ice_cloud, changed visit = 36 into 32
+
+* Bw01.ini in the folder \Data\Universe\Systems\Bw01\
+1.	Patch made in Bw01.ini to make jumphole visible on Navmap:
+[Object] - nickname = Bw01_to_Br03_hole, changed visit = 128 into 0
+[Object] - nickname = Bw01_to_Bw02_hole, added visit = 0
+
+2.	Patch made in Bw01.ini to make cloud visible on Navmap.
+[zone -  nickname = Zone_Bw01_Graham_ice_cloud, changed visit = 128 into 0
+
+* Bw02.ini in the folder \Data\Universe\Systems\Bw02\
+1.	Patch made in Bw02.ini to solve unknown objects on Navmap:
+[Object] - nickname = Bw02_suprise_co_elite_12, added ids_name = 261749
+[Object] - nickname = Bw02_suprise_bw_elite_7, added ids_name = 261747
+
+* Bw03.ini in the folder \Data\Universe\Systems\Bw03\
+1.	Patch made in Bw03.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Bw03_Fursten_gas, added ids_info = 65892
+[zone] - nickname = Zone_Bw03_Kruger_mining_area, added ids_info = 65916
+[zone] - nickname = Zone_Bw03_IMG_silver_mining_area, added ids_info = 65916
+[zone] - nickname = Zone_Bw03_IMG_copper_mining_area, added ids_info = 65892
+[zone] - nickname = Zone_Bw03_IMG_cobalt_mining_area, added ids_info = 65889
+[zone] - nickname = Zone_Bw03_Daumann_copper_mining_area, added ids_info = 65892
+[zone] - nickname = Zone_Bw03_Daumann_cobalt_mining_area, added ids_info = 65889
+
+2.	Patches made in Bw03.ini to display hazardous areas on Navmap when the cursor is over them:
+[zone] - nickname = Zone_Bw03_Guben_gas, added ids_name = 261347
+[zone] - nickname = Zone_Bw03_Guben_gas, changed visit = 36 into 0
+[zone] - nickname = Zone_Bw03_Ebers_gas, added ids_name = 261347
+[zone] - nickname = Zone_Bw03_Ebers_gas, changed visit = 36 into 0
+
+3.	Patch made in Bw03.ini in order to mark the asteroid miner on the Navmap. The asteroid miner was declared as a Satellite by its archetype = roid_miner. This archetype is used for docked miners. Archetype = Roid_miner2 has a Station declaration, which is used by all other roid_miners that are mining.
+[Object] - nickname = Bw03_Roid_Miner_5, changed archetype = Roid_Miner into archetype = Roid_Miner2
+
+* Bw04.ini in the folder \Data\Universe\Systems\Bw04\
+1.	Patch made in Bw04.ini in order to mark the asteroid miner on the Navmap. The asteroid miner was declared as a Satellite by its archetype = roid_miner. This archetype is used for docked miners. Archetype = Roid_miner2 has a Station declaration, which is used by all other roid_miners that are mining.
+[Object] - nickname = Bw04_Roid_Miner_1, changed archetype = Roid_Miner into archetype = Roid_Miner2
+
+* Bw05.ini in the folder \Data\Universe\Systems\Bw05\
+1.	Patches made in Bw05.ini to make jumpholes visible on Navmap:
+[Object] - nickname = Bw05_to_Rh01_hole, changed visit = 128 into 0
+[Object] - nickname = Bw05_to_Ku06_hole, changed visit = 128 into 0
+
+2.	Patch made in Bw05.ini to make Old Kruger Storage surprise visible on Navmap and the ? symbol will now display information.
+[Object] - nickname = Bw05_depot_construction_machinery_1, changed visit = 0 into 16
+[Object] - nickname = Bw05_depot_construction_machinery_1, changed ids_info = 66457 into 66417
+
+* Bw06.ini in the folder \Data\Universe\Systems\Bw06\
+1.	In the Bw06, the Kunashir is presented as a mineable area, which is not correct. 
+[zone] - nickname = Zone_Bw06_Kunashir_cloud, changed visit = 36 into 0
+
+* Bw08.ini in the folder \Data\Universe\Systems\Bw08\
+1.	Patch made in Bw08.ini to make minefields visible on Navmap:
+[zone] - nickname = Zone_Bw08_mines1, changed property_flags = 82 into 4128
+[zone] - nickname = Zone_Bw08_mines1 , changed visit = 128 into 32
+[zone] - nickname = Zone_Bw08_mines2, changed property_flags = 82 into 4128
+[zone] - nickname = Zone_Bw08_mines2 , changed visit = 128 into 32
+[zone] - nickname = Zone_Bw08_mines3, changed property_flags = 82 into 4128
+[zone] - nickname = Zone_Bw08_mines3 , changed visit = 128 into 32
+
+2.	Patches made in Bw08.ini to solve unknown objects in flight:
+[Object] - nickname = Bw08_nav_buoy_1, added ids_name = 261162
+[Object] - nickname = Bw08_nav_buoy_1, added reputation = co_me_grp
+[Object] - nickname = Bw08_nav_buoy_1, added ids_info = 66147
+[Object] - nickname = Bw08_nav_buoy_6, added ids_name = 261162
+[Object] - nickname = Bw08_nav_buoy_6, added reputation = co_me_grp
+[Object] - nickname = Bw08_nav_buoy_6, added ids_info = 66147
+
+3.	Patches made in Bw08.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Bw08_niobium1, added ids_info = 65909
+[zone] - nickname = Zone_Bw08_niobium2, added ids_info = 65909
+[zone] - nickname = Zone_Bw08_niobium3, added ids_info = 65909
+[zone] - nickname = Zone_Bw08_beryllium, added ids_info = 65886
+
+* Bw09.ini in the folder \Data\Universe\Systems\Bw09\
+1.	In the Bw09 system, the Samura (Shinkaku) ics asteroid field aera is presented as a mineable area, which is not correct. Within the area, only one pocket, the High density is mineable.
+[zone] - nickname = Zone_Bw09_Shinkaku_ice_asteroid_field, changed visit = 36 into 32
+
+2.	Patches made in Bw09.ini to display hazardous areas on Navmap when the cursor is over them:
+[zone] - nickname = Zone_Bw09_oxygen_pocket3, added ids_name = 261347
+[zone] - nickname = Zone_Bw09_oxygen_pocket1, added ids_name = 261347
+[zone] - nickname = Zone_Bw09_oxygen_pocket2, added ids_name = 261347
+
+3.	Patch made in Bw09.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Bw09_Shinkaku_field_high_density, added ids_info = 65921
+
+* Bw10.ini in the folder \Data\Universe\Systems\Bw10\
+1.	Patches made in Bw10.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Bw10_IMG_oxygen_mining_area, added ids_info = 65897
+[zone] - nickname = Zone_Bw10_Planetform_mining_area, added ids_info = 65921
+[zone - nickname = Zone_Bw10_IMG_water_mining_area, added ids_info = 65921
+
+* Ew01.ini in the folder \Data\Universe\Systems\Ew01\
+1.	Patch made in Ew01.ini to solve unknown object in flight:
+[Object] - nickname = Ew01_planet_core, added ids_name = 261329
+
+2.	Patches made in Ew01.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = Zone_Ew01_Malvinas_asteroids, changed visit = 128 into 0
+[zone] - nickname = Zone_Ew01_Bermejo_ice_crystals, changed visit = 128 into 0
+
+3.	Patches made in Ew01.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area. In this was only possible for the area around Falkland base. By the way this area has a higher yield than the greater Malvinas cloud.
+[zone] - nickname = Zone_Ew01_IMG_mining_area, added ids_info = 65909
+
+* Ew02.ini in the folder \Data\Universe\Systems\Ew02\
+1.	Patches made in Ew02.ini to make asteroid fields and/or clouds visible on Navmap.
+The cloud in the Ew02 system was not visible. In this system the cloud and the asteroid field were not declared separately as elsewhere. Trying to make the cloud visible by changing only the property flag in the nebula was not succesfull. Changing the flag from 17410, which is 16378 (cloud) + 1026 (asteroid) into 33794 which represents 32768 (cloud) and 1026 (asteroid) didn't bring the desired result. 
+Declaring the asteroid field separately did solve the problem.
+1.	[Asteroids] - file = solar\asteroids\Ew02_nomad_asteroids.ini, changed zone = Zone_Ew02_edge_nebula into zone = Zone_Ew02_edge_asteroid
+2.	[zone] - nickname = Zone_Ew02_edge_nebula, changed property_flags = 17410 into 32768
+[zone] - nickname = Zone_Ew02_edge_nebula, changed visit = 36 into 32
+3.	Added:
+[zone]
+nickname = Zone_Ew02_edge_asteroid
+ids_name = 261345
+pos = 121, 0, 5
+shape = ELLIPSOID
+size = 80000, 50000, 80000
+property_flags = 1026
+damage = 5
+visit = 36
+ids_info = 66222
+sort = 1
+
+* Ew03.ini in the folder \Data\Universe\Systems\Ew03\
+1.	Patch made in Ew03.ini to make the minefields visible on Navmap:
+The minefields in the Omega-41 system are not visible on the Navmap for 3 reasons:
+* The minefields are declared before the Planetary Fragments field
+* The property flag was 82
+* Visit flag is set to 128
+The following patches were made in the Ew03.ini file:
+* The [zone] - nickname = Zone_Ew03_northeast_minefield part and the [zone] - nickname = Zone_Ew03_west_minefield part were placed directly after the [zone] - nickname = Zone_Ew03_planetary_fragments part
+* [zone] - nickname = Zone_Ew03_northeast_minefield changed property_flags = 82 into 4128
+[zone] - nickname = Zone_Ew03_west_minefield changed property_flags = 82 into 4128
+* [zone] - nickname = Zone_Ew03_northeast_minefield changed visit = 128 into 0
+[zone] - nickname = Zone_Ew03_west_minefield changed visit = 128 into 0
+
+* Ew04.ini in the folder \Data\Universe\Systems\Ew04\
+1.	Patches made in Ew04.ini to make the field's name presented on the Navmap and the ? symbol will now display information on the field. 
+[zone] - nickname = Zone_Ew04_Sabana_fragments, added ids_info = 66026
+[zone] - nickname = Zone_Ew04_Napo_nebula, added ids_info = 66024
+[zone] - nickname = Zone_Ew04_Napo_asteroids, added ids_name = 261331
+[zone] - nickname = Zone_Ew04_Orinoco_nebula, added ids_info = 66025
+[zone] - nickname = Zone_Ew04_Orinoco_asteroids, added ids_name = 261332
+[zone] - nickname = Zone_Ew04_Amarus_nebula, added ids_info = 66023
+[zone] - nickname = Zone_Ew04_Amarus_asteroids, added ids_name = 261330
+
+2.	Patches made in Ew04.ini to make asteroid fields or clouds visible on Navmap:
+[zone] - nickname = Zone_Ew04_Napo_nebula, changed property_flags = 16384 into 32768
+[zone] - nickname = Zone_Ew04_Napo_nebula, changed visit = 36 into 32
+[zone] - nickname = Zone_Ew04_Napo_asteroids, changed visit = 128 into 36
+[zone] - nickname = Zone_Ew04_Orinoco_nebula, changed property_flags = 16384 into 32768
+[zone] - nickname = Zone_Ew04_Orinoco_nebula, changed visit = 36 into 32
+[zone] - nickname = Zone_Ew04_Orinoco_asteroids, changed visit = 128 into 36
+[zone] - nickname = Zone_Ew04_Amarus_nebula, changed property_flags = 16384 into 32768
+[zone] - nickname = Zone_Ew04_Amarus_nebula, changed visit = 36 into 32
+[zone] - nickname = Zone_Ew04_Amarus_asteroids, changed visit = 128 into 36
+
+3.	Patch made in Ew04.ini to solve unknown objects on Navmap:
+[Object] - nickname = Ew04_to_Hi01_hole, added ids_name = 260896
+
+4.	Patches made in Ew04.ini to solve unknown objects in flight:
+[Object] - nickname = Ew04_02_Pygar, set reputation inactive ;reputation = gd_z_grp
+In flight Planet Pygar was labelled as Zoner's Planet, but there is no base there. The reputation prevents the label Planet Pygar to appear. 
+
+5.	Flying in the Ew04 nebulae there is radiation damage. In the asteroid area's the radiation warning in the HUD was not present, though radiation damage was still present. The HUD damage warning was apparently overwritten by the asteroid declaration field. By adding a damage statement in the asteroid field with the same amount of damage the problem was solved.
+[zone] - nickname = Zone_Ew04_Napo_asteroids, added damage = 7
+[zone] - nickname = Zone_Ew04_Orinoco_asteroids, added damage = 5
+[zone] - nickname = Zone_Ew04_Amarus_asteroids, added damage = 10
+
+6.	Patches made in Ew04.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Ew04_Napo_asteroids, added ids_info = 65884
+[zone] - nickname = Zone_Ew04_Orinoco_asteroids, added ids_info = 65910
+[zone] - nickname = Zone_Ew04_Amarus_asteroids, added ids_info = 65910
+
+7.	Patches made in Ew04.ini to display hazardous areas on Navmap when the cursor is over them:
+[zone] - nickname = Zone_Ew04_Napo_nebula, changed ids_name = 261331 into ids_name = 261348
+[zone] - nickname = Zone_Ew04_Orinoco_nebula, changed ids_name = 261332 into ids_name = 261348
+[zone] - nickname = Zone_Ew04_Amarus_nebula, changed ids_name = 261330 into ids_name = 261348
+
+* Hi01.ini in the folder \Data\Universe\Systems\Hi01\
+1.	Patch made in Hi01.ini to make the moon's information presented on the Navmap. The ? symbol will now display information on the moon. 
+[Object] - nickname = Hi01_moon_Vesuvius, added ids_info = 66066
+
+* Hi02.ini in the folder \Data\Universe\Systems\Hi02\
+1.	Patches made in Hi02.ini to make the field's name presented on the Navmap and the ? symbol will now display information on the field. 
+[zone] - nickname = Zone_Hi02_Malvada_nube, added ids_name = 261338
+[zone] - nickname = Zone_Hi02_Malvada_nube, added ids_info = 66021
+[zone] - nickname = Zone_Hi02_Gredos_nube, added ids_name = 261339
+[zone] - nickname = Zone_Hi02_Gredos_nube, added ids_info = 66022
+[zone] - nickname = Zone_Hi02_Tenereife_campo, added ids_name = 261337
+[zone] - nickname = Zone_Hi02_Tenereife_campo, added ids_info = 66020
+
+2.	Patches made in Hi02.ini to make asteroid fields or clouds visible on Navmap:
+[zone] - nickname = Zone_Hi02_Malvada_asteroids, changed visit = 128 into 0
+[zone] - nickname = Zone_Hi02_Gredos_asteroids, changed visit = 128 into 0
+ [zone] - nickname = Zone_Hi02_Tenereife_campo, added visit = 32
+
+3.	Patches made in Hi02.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference was added to the zone With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone - nickname = Zone_Hi02_Tenereife_debris_field, added ids_info = 65915
+[zone] - nickname = Zone_Hi02_Malvada_artifacts1, added ids_info = 65884
+[zone] - nickname = Zone_Hi02_Malvada_artifacts2, added ids_info = 65884
+
+* Iw03.ini in the folder \Data\Universe\Systems\Iw03\
+1.	Patch made in Iw03.ini to make jumphole visible on Navmap:
+[Object] - nickname = Iw03_to_Br04_hole, changed visit = 128 into 0
+
+2.	Patches made in Iw03.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = Zone_Iw03_Barrier_ice_cloud, changed visit = 36 into 32
+[zone] - nickname = Zone_Iw03_Barrier_ice_asteroids, changed visit = 128 into 36
+[zone] - nickname = Zone_Iw03_Barrier_ice_asteroids, removed ids_name = 261288
+
+3.	Patch made in Iw03.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Iw03_Barrier_ice_asteroids, changed ids_info = 65979 into 65921
+
+4.	Patch made in Iw03.ini in order to mark the asteroid miner on the Navmap. The asteroid miner was declared as a Satellite by its archetype = roid_miner. This archetype is used for docked miners. Archetype = Roid_miner2 has a Station declaration, which is used by all other roid_miners that are mining.
+[Object] - nickname = Iw03_Roid_Miner_1, changed archetype = Roid_Miner into archetype = Roid_Miner2
+
+5.	Patch made in Iw03.ini in order to correct different ids_names between parent and child.
+[Object] - nickname = Iw03_space_tankl4_2, changed ids_name = 60251 into ids_name = 261161
+
+* Iw04.ini in the folder \Data\Universe\Systems\Iw04\
+1.	Patch made in Iw04.ini to make jumphole visible on Navmap:
+[Object] - nickname = Iw04_to_Iw03_hole, added visit = 0
+
+2.	Patches made in Iw04.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = Zone_Iw04_Roatan_cloud, changed visit = 36 into 32
+[zone] - nickname = Zone_Iw04_Paloma_cloud, changed visit = 36 into 32
+[zone - nickname = Zone_Iw04_Roatan_ice_crystals, changed visit = 128 into 36
+[zone] - nickname = Zone_Iw04_Paloma_ice_crystals, changed visit = 128 into 36
+
+3.	Patch made in Iw04.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Iw04_Roatan_ice_crystals, added ids_info = 65921
+[zone] - nickname = Zone_Iw04_Paloma_ice_crystals, added ids_info = 65921
+
+* Iw05.ini in the folder \Data\Universe\Systems\ Iw05 \
+1.	Patches made in Iw05.ini to make asteroid fields or clouds visible on Navmap:
+[zone] - nickname = Zone_Iw05_Denko_asteroids, changed property_flags =0 into 65
+[zone] - nickname = Zone_Iw05_Denko_asteroids, changed visit =128 into 0
+[zone] - nickname = Zone_Iw05_Matsuo_asteroids, changed property_flags =0 into 65
+[zone] - nickname = Zone_Iw05_Matsuo_asteroids, changed visit =128 into 0
+[zone] - nickname = Zone_Iw05_Kuryo_asteroids, changed property_flags =0 into 65
+[zone] - nickname = Zone_Iw05_Kuryo_asteroids, changed visit =128 into 0
+
+* Iw06.ini in the folder \Data\Universe\Systems\ Iw06 \
+1.	Patch made in Iw06.ini to make the object's information correctly presented on the Navmap. 
+[Object] - nickname = Iw06_suprise_transport_1, changed ids_info = 66450 into 66448
+
+2.	Patches made in Iw06.ini to make asteroid fields or clouds visible on Navmap:
+[zone] - nickname = Zone_Iw06_Reppu_cloud, added visit = 0
+[zone] - nickname = Zone_Iw06_Komatsu_cloud, added visit = 0
+[zone] - nickname = Zone_Iw06_Raiden_cloud, added visit = 0
+[zone] - nickname = Zone_Iw06_Reppu_asteroids, added visit = 0
+[zone] - nickname = Zone_Iw06_Reppu_asteroids, changed property_flags = 0 into 65
+[zone] - nickname = Zone_Iw06_Komatsu_asteroids, added visit = 0
+[zone] - nickname = Zone_Iw06_Komatsu_asteroids, changed property_flags = 0 into 65
+[zone] - nickname = Zone_Iw06_Raiden_asteroids, added visit = 0
+[zone] - nickname = Zone_Iw06_Raiden_asteroids, changed property_flags = 0 into 65
+
+* Ku02.ini in the folder \Data\Universe\Systems\Ku02\
+1.	Patches made in Ku02.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = ZONE_Ku02_Saiun_asteroid_1, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku02_Saiun_asteroid_2, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku02_Saiun_asteroid_3, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku02_Saiun_asteroid_4, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku02_Shiun_asteroid_1, added visit = 0
+[zone] - nickname = ZONE_Ku02_Shiun_asteroid_2, added visit = 0
+[zone] - nickname = ZONE_Ku02_Keiun_asteroid_1, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku02_Keiun_asteroid_2, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku02_Keiun_asteroid_3, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku02_Keiun_asteroid_4, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku02_Keiun_asteroid_5, changed visit = 128 into 0
+
+* Ku03.ini in the folder \Data\Universe\Systems\Ku03\
+1.	Patch made in Ku03.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = ZONE_Ku03_Seiran_asteroid_1, changed visit = 128 into 0
+
+* Ku04.ini in the folder \Data\Universe\Systems\Ku04\
+1.	Patches made in Ku04.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = ZONE_Ku04_Hiyo_asteroid_1, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Hiyo_asteroid_2, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Hiyo_asteroid_3, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Hiyo_asteroid_4, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Chuyu_asteroid_1, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Chuyu_asteroid_2, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Chuyu_asteroid_3, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Hiryo_asteroid_1, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Hiryo_asteroid_2, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku04_Hiryo_asteroid_3, changed visit = 128 into 0
+
+* Ku05.ini in the folder \Data\Universe\Systems\Ku05\
+1.	Patches made in Ku05.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = ZONE_Ku05_Kayo_asteroid_1, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Kayo_asteroid_2, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Unyo_asteroid_1, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Unyo_asteroid_2, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Unyo_asteroid_3, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Shiden_asteroid_1, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Shiden_asteroid_2, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Shiden_asteroid_3, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Shiden_asteroid_4, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Shiden_asteroid_5, changed visit = 128 into 0
+[zone] - nickname = ZONE_Ku05_Shiden_asteroid_6, changed visit = 128 into 0
+
+* Ku06.ini in the folder \Data\Universe\Systems\Ku06\
+1.	Patch made in Ku06.ini to make jumphole visible on Navmap:
+[Object] - nickname = Ku06_to_BW05_hole, changed visit = 128 into 0
+
+2.	Patch made in Ku06.ini to make the field's name presented on the Navmap. 
+[zone] - nickname = Zone_Ku06_Okamura_cloud, added ids_name = 261351
+	This patch is only effective when you use the supplied patched nameresource.dll as well.
+
+3.	Patch made in Ku06.ini to make the field's ? symbol will now display information on the field. 
+[zone] - nickname = Zone_Ku06_Okamura_cloud, added ids_info = 66615
+
+4.	Patches made in Ku06.ini to make asteroid fields and/or clouds visible on Navmap.
+		The cloud in the Ku06 system was not visible. In this system the cloud and the asteroid field were not declared separately as elsewhere. Trying to make the cloud visible by changing only the property flag in the nebula was not succesfull. The flag was 33832, which is 32768 (cloud) + 66 (asteroid. 
+		Declaring the asteroid field separately did solve the problem.
+1.	 [Asteroids] - file = solar\asteroids\Ku06_Okamura_rock_asteroid_field.ini, changed zone = Zone_Ku06_Okamura_cloud into zone = Zone_Ku06_Okamura_asteroid
+2. [zone] - nickname = Zone_Ku06_Okamura_cloud, changed property_flags = 32834 into 32768
+3.	Added:
+[zone]
+nickname = Zone_Ku06_Okamura_asteroid
+ids_info = 66615
+pos = -1299, 0, -680
+shape = SPHERE
+size = 100000
+property_flags = 66
+visit = 32
+
+5.	Patch made in Ku06.ini to correct a wrong reference:
+[Object] - nickname = Ku06_to_BW05_hole, changed msg_id_prefix = gcs_refer_system_Ku07 into msg_id_prefix = gcs_refer_system_Bw05
+
+* Ku07.ini in the folder \Data\Universe\Systems\Ku07\
+1.	Patch made in Ku07.ini to make the field's name presented on the Navmap. 
+[zone] - nickname = Zone_Ku07_Izu_planetary_fragments, added ids_name = 261350
+[zone] - nickname = Zone_Ku07_Nampo_cloud, added ids_name = 261349
+	This patch is only effective when you use the supplied patched nameresource.dll as well.
+
+2.	Patch made in Ku07.ini to make the field's ? symbol will now display information on the field. 
+[zone] - nickname = Zone_Ku07_Izu_planetary_fragments, added ids_info = 66615
+[zone] - nickname = Zone_Ku07_Nampo_cloud, added ids_info = 66615
+
+3.	Patches made in Ku07.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = Zone_Ku07_Nampo_planetary_fragments, changed visit =128 into 0
+
+* Li01.ini in the folder \Data\Universe\Systems\Li01\
+1.	Patches made in Li01.ini to make jumpholes visible on Navmap:
+[Object] - nickname = Li01b_to_Li01a_hole, changed visit = 128 into 0
+[Object] - nickname = Li01_to_Li03_hole, added visit = 0
+
+2.	Patch made in Li01.ini to solve unknown objects on Navmap. 
+	Ithaca does not show up on the Navmap. For this patch you also have to use the patched solararch.ini file. The following patches were made:
+	[Object] - nickname = Li01_Ithaca_station_1, added visit = 0 
+[Object] - nickname = Li01_Ithaca_station_1, added base = Li01_05_Base
+[Object] - nickname = Li01_Ithaca_station_1, added reputation = li_p_grp
+
+3.	Patches made in Li01.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = Zone_Li01_Badlands_Asteroids, changed visit = 128 into 32
+[zone] - nickname = Zone_Li01_Pittsburgh_Pirate_Base_Nebula, added visit = 32 
+
+4.	Patch mineable
+[zone] - nickname = Zone_Li01_Detroit_high_density_debris, changed visit = 36 into 0
+[zone] - nickname = Zone_Li01_Pittsburgh_high_density_debris, changed visit = 36 into 0
+
+5.	Patches made in Li01.ini to make the clouds better visible on the Navmap.
+[zone] - nickname = Zone_Li01_012_Station_Li01_04, changed property_fog_color = 10.000000, 7.000000, 30.000000 into 70.000000, 80.000000, 80.000000
+[zone] - nickname = Zone_Li01_013_Station_Li01_05, changed property_fog_color = 10.000000, 7.000000, 30.000000 into 70.000000, 80.000000, 80.000000
+[zone] - nickname = Zone_Li01_Jumpgate_to_Iw03, changed property_fog_color = 10.000000, 7.000000, 30.000000 into 70.000000, 80.000000, 80.000000
+[zone] - nickname = Zone_Li01_Badlands_Nebula, changed property_fog_color = 10.000000, 7.000000, 30.000000 into 70.000000, 80.000000, 80.000000
+[zone] - nickname = Zone_Li01_Exclusion_depot, changed property_fog_color = 20.000000, 18.000000, 24.000000 into 70.000000, 80.000000, 80.000000
+[zone] - nickname = Zone_Li01_Pittsburgh_Pirate_Base_Nebula, changed property_fog_color = 20.000000, 18.000000, 24.000000 into 70.000000, 80.000000, 80.000000
+
+6.	Patches made in Li01.ini to display hazardous areas on Navmap when the cursor is over them. In the Badlands there are 3 surprise wreckage area's. The area's around the wreckages are radiation hazardous. 
+[zone] - nickname = Zone_li01_badlands_radiation1, added ids_name = 261348
+[zone] - nickname = Zone_li01_badlands_radiation1, changed visit = 128 into 0
+[zone] - nickname = Zone_li01_badlands_radiation2, added ids_name = 261348
+[zone] - nickname = Zone_li01_badlands_radiation2, changed visit = 128 into 0
+[zone] - nickname = Zone_li01_badlands_radiation, added ids_name = 261348
+[zone] - nickname = Zone_li01_badlands_radiation, changed visit = 128 into 0
+
+* Li02.ini in the folder \Data\Universe\Systems\Li02\
+1.	Patches made in Li02.ini to make asteroid fields and/or clouds visible on Navmap.
+[zone] - nickname = Zone_Li02_Tahoe_ice_crystal_cloud, changed visit = 36 into 32
+[zone] - nickname = zone_Li02_Tahoe_ice_crystal_field, changed visit = 128 into 36
+
+* Li04.ini in the folder \Data\Universe\Systems\ Li04 \
+1.	Patches made in Li04.ini to make the field's name presented on the Navmap and the ? symbol will now display information on the field. 
+[zone] - nickname = Zone_Li04_South_Dallas_debris_field, added ids_info = 66046
+
+2.	Patches made in Li04.ini to give objects a reputation.
+[Object] - nickname = Li04_wplatform_12, added reputation = li_n_grp
+[Object] - nickname = Li04_wplatform_13, added reputation = li_n_grp
+[Object] - nickname = Li04_space_tankl4_3, added reputation = li_p_grp
+[Object] - nickname = Li04_space_tankl4_2, added reputation = li_p_grp
+[Object] - nickname = Li04_space_tanklx4_1, added reputation = li_p_grp
+[Object] - nickname = Li04_space_tanklx4_2, added reputation = li_p_grp
+[Object] - nickname = Li04_space_tankl4_5, added reputation = li_p_grp
+
+3.	Patches made in Li04.ini to solve unknown objects in flight:
+[Object] - nickname = Li04_space_tankl4_5, added ids_name = 60251
+[Object] - nickname = Li04_space_tanklx4_1, added ids_name = 60251
+[Object] - nickname = Li04_space_tanklx4_2, added ids_name = 60251
+
+4.	Patches made in Li04.ini to make asteroid fields or clouds visible on Navmap:
+[zone] - nickname = Zone_Li04_Pequena_Negra_debris, changed visit = 128 into 0
+[zone] - nickname = Zone_Li04_Grande_Negra_debris, changed visit = 128 into 0
+
+5.	Patch made in Li04.ini to make cloud better visible on Navmap:
+[zone] - nickname = Zone_Li04_Pequena_Negra, changed property_fog_color = 30.000000, 30.000000, 30.000000 into 70.000000, 80.000000, 80.000000
+[zone] - nickname = Zone_Li04_Grande_Negra, changed property_fog_color = 30.000000, 30.000000, 30.000000 into 70.000000, 80.000000, 80.000000
+
+* Rh01.ini in the folder \Data\Universe\Systems\Rh01\
+1.	Patch made in RH01.ini to make jumphole visible on Navmap:
+[Object] - nickname = Rh01_to_Bw05_hole, changed visit = 128 into 0
+
+2.	Patches made in Rh01.ini to solve unknown objects in flight:
+[Object] - nickname = Rh01_space_tanks4_1, added reputation = fc_j_grp
+[Object] - nickname = Rh01_space_tanks4_1, added parent = Rh01_08
+[Object] - nickname = Rh01_space_tanks4_2, added reputation = fc_j_grp
+[Object] - nickname = Rh01_space_tanks4_2, added parent = Rh01_08
+
+3.	Patch made in Rh01.ini to correct reputation for parent Rh01_02, Oder Shipyard. Based on the info in the infocards, this base is run by Daumann. The reputation for the childs are in line with that.
+[Object] - nickname = Rh01_02, changed reputation = rh_n_grp into reputation = co_khc_grp
+
+4.	Patches made in Rh01.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for Scrap Metal was added to the zone With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Rh01_Ruhr_debris_field, added ids_info = 65915
+
+5.	Patches made in Rh01.ini to display hazardous areas on Navmap when the cursor is over them:
+[zone] - nickname = Zone_Rh01_Ruhr_radioactive_001, added ids_name = 261348
+[zone] - nickname = Zone_Rh01_Ruhr_radioactive_001 - visit = 128 changed in 0 
+[zone] - nickname = Zone_Rh01_Ruhr_radioactive_002, added ids_name = 261348
+[zone] - nickname = Zone_Rh01_Ruhr_radioactive_002 - visit = 128 changed in 0 
+
+* Rh02.ini in the folder \Data\Universe\Systems\Rh02\
+1.	Patch made in Rh02.ini to make jumphole visible on Navmap:
+[Object] - nickname = Rh02_to_Rh04_holeb, changed visit = 128 in 0
+
+* Rh03.ini in the folder \Data\Universe\Systems\Rh03\
+1.	Patches made in Rh03.ini to make asteroid fields or clouds visible on Navmap:
+[zone] - nickname = ZONE_Rh03_Westnebel_asteroid_1, changed visit =128 in 0
+[zone] - nickname = ZONE_Rh03_Ostnebel_asteroid_1, changed visit =128 in 0
+[zone] - nickname = ZONE_Rh03_Ostnebel_asteroid_2, changed visit =128 in 0
+[zone] - nickname = ZONE_Rh03_Ostnebel_asteroid_3, changed visit =128 in 0
+[zone] - nickname = ZONE_Rh03_Ostnebel_asteroid_4, changed visit =128 in 0
+
+* Rh04.ini in the folder \Data\Universe\Systems\Rh04\
+1.	Patches made in Rh04.ini to make the Taunus field's name presented on the Navmap and the ? symbol will now display information on the field. 
+[zone] - nickname = Zone_Rh04_Taunus_felde, added ids_name = 261278
+[zone] - nickname = Zone_Rh04_Taunus_felde, added ids_info = 65949
+
+2.	Patch made in Rh04.ini to make jumphole visible on Navmap:
+[Object] - nickname = Rh04_to_Rh02_holeb, visit = 128 changed in visit = 0
+
+3.	Patches made in Rh04.ini to make mine field visible on Navmap 
+[zone] - nickname = Zone_Rh04_minefield, visit = 128 changed in visit = 32
+
+4.	Patch made in Rh04.ini to make cloud better visible on Navmap:
+[zone] - nickname = Zone_Rh04_Geheimniswolke_nebula - property_fog_color = 70.000000, 80.000000, 80.000000 was property_fog_color = 40.000000, 20.000000, 10.000000
+
+* Rh05.ini in the folder \Data\Universe\Systems\Rh05\
+* Rh05_Schwefelwolke_lavafeld.ini in the folder \Data\Solar\Asteroids\
+1.	The Schwefelwolke aera is presented as a mineable area, which is not correct. Within the Schwefelwolke only one pocket, the Kruger Diamonds area is mineable.
+	To correct this the following patch was made:
+* In the folder \Data\Solar\Asteroids\ the following patch was made in the file Rh05_Schwefelwolke_lavafeld.ini by adding the reference to the Kruger Diamonds area:
+[LootableZone] - zone = zone_Rh05_Kruger_diamonds
+This approach is found in many other asteroid.ini files.
+* Patches made in Rh05.ini to make asteroid fields or clouds visible on Navmap: 
+[zone] - nickname = Zone_Rh05_Kruger_diamonds, added visit = 36.
+[zone] - nickname = Zone_Rh05_Schwefelwolke - visit = 36 changed in 32
+[zone] - nickname = Zone_Rh05_Schwefelwolke_asteroids - visit = 128 changed in 0
+
+2.	Patches made in Rh05.ini to make asteroid fields or clouds visible on Navmap:
+[zone] - nickname = Zone_Rh05_Daumann_feld - visit = 128 changed in 0
+
+3.	Patches made in Rh05.ini to display hazardous areas on Navmap when the cursor is over them:
+[zone] - nickname = Zone_Rh05_Schlectewolke_east_acid_pocket, added ids_name = 261348
+[zone] - nickname = Zone_Rh05_Schlectewolke_south_acid_pocket, added ids_name = 261348
+[zone] - nickname = Zone_Rh05_Schlectewolke_se_acid_pocket, added ids_name = 261348
+	Note : Although the information on the Schlechtewolke suggests that damage is coursed by an acid environment, Freelancer treats it as a radiation hazard.
+
+4.	Patch made in Rh05.ini in order to make the mineable resource known on the Nav map. The commodity ids_info reference for the resources was added to the zone. With cursor on the area, the ? symbol will now display the resource that can be mined in the area.
+[zone] - nickname = Zone_Rh05_Kruger_diamonds, added ids_info = 65893
+[zone] - nickname = Zone_Rh05_Daumann_cobalt_mining_area, added ids_info = 65889
+[zone] - nickname = Zone_Rh05_Daumann_copper_mining_area, added ids_info = 65892
+
+
+* Shiparch.ini in the folder \Data\Ships\
+1.	Patch made in Shiparch.ini in the part of a ku_elite surprise fighter to remove spaces.
+[Ship] - ids_name = 237027
+[CollisionGroup] - dmg_hp = DpStarboard _arm rotator changed in dmg_hp = DpStarboard_arm_rotator
+[CollisionGroup] - dmg_hp = DpPort _arm rotator changed in dmg_hp = DpPort_arm_rotator
+The suggestion that this is an bini error seems to be confirmed by the Ku_elite 3db and sur files
+in the Ku_elite ship folder.
+
+* Solararch.ini in the folder \Data\Solar\
+1.	Patch made in Solararch.ini as a part of the BW05 - Sigma-13 patch regarding the Old Kurger Storage Depot surprise. It will now display as a surprise on Navmap (red cross).
+[Solar] - nickname = surprise_machinery, changed shape_name = NAV_lootabledepot into NAV_surpriseX
+
+2.	Patch made in Solararch.ini to correct shape_name for depot_construction_machinery and bring it in line with the other destroyable depots.
+[Solar] - nickname = depot_construction_machinery, changed shape_name = NNM_SM_COMMUNICATIONS into shape_name = NAV_lootabledepot	
+
+3.	Patch made in Solararch.ini as a part of the Li01 - New York patch regarding the Ithaca Station. 
+[Solar] - nickname = Ithaca_station, changed type = MISSION_SATELLITE into STATION
+
+4.	Patch made in Solararch.ini in the part of a ku_elite surprise fighter to remove spaces.
+[Solar] - type = MISSION_SATELLITE - nickname = suprise_ku_elite 
+[CollisionGroup] - dmg_hp = DpStarboard _arm rotator changed in dmg_hp = DpStarboard_arm_rotator
+[CollisionGroup] - dmg_hp = DpPort _arm rotator changed in dmg_hp = DpPort_arm_rotator
+The suggestion that this is an bini error seems to be confirmed by the Ku_elite 3db and sur files
+in the Ku_elite ship folder.
+
+5.	Patch made in Solararch.ini to make nodock Jumpgates appear on the navmap and allow their name to be presented on the navmap. 
+[Solar] - nickname = jumpgate_nodock, type = SATELLITE changed in type = JUMP_GATE
+
+6.	Patch made in Solararch.ini to make roid_miners appear in space earlier than they do right now. 
+Apparently only 4 LOD ranges are present in the roid_miners 3D files. This makes the roid_miner appear when in range 2000, while it should already appear at range 12000. The way to solve this problem would be to add an additonal LOD to the 3D files of the roid_miners. Untill that is done a good workaround alternative is to change the roid_miners LOD ranges in the Solararch.ini which gives the desired results also.
+[Solar] - nickname = Roid_Miner, LODranges = 0, 750, 1300, 2000, 12000 changed in LODranges = 0, 750, 2000, 12000
+[Solar] - nickname = Roid_Miner2, LODranges = 0, 750, 1300, 2000, 12000 changed in LODranges = 0, 750, 2000, 12000
+
+* Weapon_equip.ini in the folder \Data\Equipment
+1.	Patch made in weapon_equip.ini to have surprise freighter release more of their turrets.
+[Gun] - nickname = co_transport_turret01_mark01, changed lootable = false into lootable = true
+[Gun] - nickname = co_transport_turret01_mark02, changed lootable = false into lootable = true
+
+* Suprise_solar.ini in the folder \Data\Fx\
+To have more turrets lootable the weapon_equip.ini has to be patched also.
+1.	Patch made in suprise_solar.ini concerning suprise_li_freighter to make all loot available.
+[fuse] - name = fuse_suprise_li_freighter
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = li_starboard_sidepanel_lod1
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = li_port_sidepanel_lod1
+This makes the following loot availalble:
+* equip = co_turret01_mark02, HpTurret02
+* equip = co_turret01_mark02, HpTurret03
+And effects the following surprise wrecks: Sigma-17 - Robert Fitzgerald and Tau-31 - Whetstone
+
+2.	Patch made in suprise_solar.ini concerning suprise_br_elite to make all loot available.
+[fuse] -= name = fuse_suprise_br_elite
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = br_port_wing_lod1
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = br_star_wing_lod1
+This makes the following loot availalble:
+* equip = br_gun01_mark02, HpWeapon02
+* equip = br_gun01_mark02, HpWeapon06
+And effects the following surprise wreck: Dublin - Storm
+
+3.	Patch made in suprise_solar.ini concerning suprise_br_freighter to make all loot available.
+[fuse] - name = fuse_suprise_br_freighter
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = br_freighter_port_wing_lod1
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = br_freighter_star_wing_lod1
+This makes the following loot availalble:
+* equip = co_turret01_mark03, HpTurret01
+* equip = co_turret01_mark03, HpTurret02
+And effects the following surprise wreck: OmnicronTheta - Fearless
+
+4.	Patch made in suprise_solar.ini concerning suprise_rh_elite to make all loot available.
+[fuse] - name = fuse_suprise_rh_elite
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = Rh_tail_lod1
+This makes the following loot availalble:
+* equip = rh_turret01_mark01, HpTurret01
+And effects the following surprise wrecks:
+* Omega-41 - Volsung
+* Sigma-13 - OldImperialNavyFighter
+* Sigma-13 - OldImperialNavyFighter
+* Sigma-13 - OldImperialNavyFighter
+* Sigma-13 - OldImperialNavyFighter
+* Sigma-13 - OldImperialNavyFighter
+* Sigma-13 - OldImperialNavyFighter
+
+5.	Patch made in suprise_solar.ini concerning suprise_bh_elite2 to make all loot available.
+[fuse] - name = fuse_suprise_bh_elite2
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = bh_star_wing_lod1
+This makes the following loot availalble:
+* equip = missile03_mark04, HpWeapon03
+And effects the following surprise wrecks:
+* Omega-11 - BountyHunterFighter
+* Sigma-17 - Mongoose
+* Tau-37 - Griffin
+* Omicron Beta - Pathfinder
+* Omnicron Theta - Rebel
+* Omicron Alpha - Viking
+* Omicron Gamma - Vengeance
+
+6.	Patch made in suprise_solar.ini concerning suprise_bw_elite2 to make all loot available.
+[fuse] - name = fuse_suprise_bw_elite2
+;[destroy_group]
+;fate = disappear
+;at_t = 0.100000
+;group_name = bw_port_wing01_lod1
+This makes the following loot availalble:
+* equip = missile03_mark04, HpWeapon03
+And effects the following surprise wrecks:
+* Omicron Alpha - OutcastFighter
+* Omicron Alpha - OutcastFighter
+* Omicron Alpha - OutcastFighter
+* Omicron Alpha - OutcastFighter
+
+* Nameresources.dll in the folder \Exe\
+The patches are related to the patches in the Ku06 and KU07 systems and effective directly after restarting Freelancer and reloading your current game. The names are derived from their infocards.
+1.	Patch made in Stringtable 4047 to make names available for the Navmap.
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+64736, 	"Omega-7 Walker Cloud"
+64737, 	"Omicron Beta Edge Nebula"
+64738, 	"Planetary Fragments Field"
+64739, 	"Explosive Gas Zone"
+64740, 	"Radioactive Zone"
+Added :
+64741, 	"Nampo Cloud"
+64742, 	"Izu Planetary Fragments"
+64743, 	"Okamura Cloud"
+}
+
+* M13.ini in the folder \Data\Missions\M13\
+1.	Patch made in m13.ini to unlock locked jumpholes after finishing storyline
+[Trigger] - nickname = enter_bar
+Added:
+Act_LockDock = Player,Li01a_to_Li01b_hole, unlock
+Act_LockDock = Player,Li01b_to_Li01a_hole, unlock
+Act_LockDock = Player,Li01_to_Li04, unlock
+Act_LockDock = Player,Li04_to_Li01, unlock
+Act_LockDock = Player,Li01_to_Li05, unlock
+Act_LockDock = Player,Li05_to_Li01, unlock
+Act_LockDock = Player,Ku05_to_Ku07_hole, unlock
+Act_LockDock = Player,Ku07_to_Ku05_hole, unlock
+Act_LockDock = Player,Ku06_to_Ku07_hole, unlock
+Act_LockDock = Player,Ku07_to_Ku06_hole, unlock
+Act_LockDock = Player,St01_to_St02_hole, unlock
+Act_LockDock = Player,St02_to_St01_hole, unlock
+Act_LockDock = Player,St01_to_St03_hole, unlock
+Act_LockDock = Player,St03_to_St01_hole, unlock
+
+
+
+Workaround - editing savegame files to get new visit = code lines
+* Exit Freelancer
+* Install the new system files.
+* Restart Freelancer
+* Fly to a base close to the area/object that is not yet displayed correctly. 
+* Save the game. 
+* Save the game again but under a different name.
+* Delete all visit = xxxxxxxxxxx,xx from the 2nd savegame file.
+* Load the edited savegame file.
+* Enter space and fly to the area/object.
+* As soon as the area appears on the Navmap and looks ok, turnaround and dock.
+* Save the game.
+* Compare the new visit = with visit = in the first savegame. This will give you the difference(s).
+* Example:
+* Entry in 1st savegame: visit = 3155450887, 45 (area is displayed as being mineable)
+* Entry in 2nd savegame: visit = 3155450887, 41 (area is displayed as being nonmineable) 
+
+
+Unofficial FL SP Patch 1.40
+
+Patch description 1.40.doc		2
+

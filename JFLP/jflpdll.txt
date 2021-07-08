@@ -1,0 +1,115 @@
+			    Jason's Freelancer Patch
+				DLL Version 1.25
+
+
+JFLP.DLL has several options to fine tune its control.	These are added straight
+after its name in dacom.ini (e.g. "jflp.dll nofovx no8way").
+
+
+nofovx: The fovx value in cameras.ini is always calculated according to the
+	current resolution; overriding it is not possible.
+
+nostats: Do not display the extra stats.
+
+no4way: Prevent vertical strafing.
+
+no8way: Prevent diagonal strafing.
+
+
+The extra stats are for Powerplants, Engines, Scanners, Tractor Beams and Armor.
+If you want to disable some, but not all as "nostats" does, add a non-breaking
+space (Alt+0160) to the equipment's name - this will show the stat as "n/a" (not
+available).  The original intention was for second-hand equipment, where it
+should not be certain of what you were getting.
+
+
+=======
+HISTORY
+=======
+
+Legend: * changed, - fixed, + added.
+
+v1.25, 2 September, 2020:
+
+- Fixed the size of the crosshair in widescreen.
+
+
+v1.24, 31 August, 2020:
+
+- Contact List text was not properly clipped in widescreen.
+
+
+v1.23, 11 October, 2019:
+
+- Cinematics in widescreen resolutions are properly letterboxed.
+
+
+v1.22, 22 June, 2018.
+
+- Fixed crash running under Steam (DLLs loaded at a different address).
+
+
+v1.21, 25 July, 2012.
+
+- Fixed crashes (particularly chat) due to a wrong patch address (ADDR_FONT4a).
+
++ Removed the "ArchDB::Get" FLSpew warning caused by random missions (jobs).
+
+
+v1.20, 11 July, 2011.
+
++ Implemented Alt+Enter, to toggle between full screen and windowed.
+
++ Allow viewing of server info, even for different versions.
+
+- Further widescreen improvements (adjust cameras and fonts when changing res-
+  olution; fixed the news ticker; removed the "cockpit aspect" FLSpew warning).
+  You can now freely change between 4:3 and widescreen resolutions without
+  having to restart.  (Well, almost, scripts will still use the previous ratio.)
+
+* The various versions have been combined into one, using options to select.
+
+* fovx is always calculated; append '!' to override (e.g. "fovx = 70!").  This
+  allows the original value to be preserved, should jflp.dll not be loaded.
+
+
+v1.12, 6 December, 2010.
+
++ If an equipment name contains a non-breaking space (Alt+0160), display "n/a"
+  (not available) instead of the actual stats (extra stats only).
+
++ NS versions to remove the extra stats display altogether (No Stats).
+
+- Improved widescreen support (fixed mouse sensitivity; fixed script view;
+  fixed Alt+Tab with the Nav Map open).
+
+
+v1.11, 22 October, 2009.
+
++ If MultiCruise is being used, include the cruise speed in the Engine stats.
+
+
+v1.10, 3 October, 2009.
+
+- Freelancer actually tests if the resolution is 4:3, so your widescreen desktop
+  resolution still wouldn't show up in the list (originally put down to using an
+  unsupported windowed resolution).
+
+* Use En Dash instead of Hyphen-Minus for the trade lane arrow (and chat
+  prompt).  I had intended to use an actual arrow, but the Agency FB font
+  doesn't have it.  (Using the angle quotation mark worked well for the Nav Map,
+  but not so good anywhere else, so the greater-than sign remains.)
+
++ Added 8-way strafing.  Allows simultaneous keypresses to strafe diagonally.
+
++ Put the sector letter first (as in "Sector C4").  (FL Hack can be used to
+  restore the number first.)
+
++ JFLPAC.DLL provides an anti-cheat for cameras.ini.  It prevents fovx and fovy
+  from changing the camera, always using the calculated fovx value (although
+  fovx must still be present in cameras.ini).
+
+
+v1.01, 22 September, 2009.
+
++ Allow roll to work during mouse flight.
