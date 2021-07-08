@@ -1,0 +1,97 @@
+This is a list of mods that have problems with JFLP.  Of course, I've only
+tested those I have (using FLMM v1.5 beta 1 and default options), so it's by no
+means definitive, but it should at least tell you what problems you may
+encounter.  This has not been updated for v1.20, so new incompatibilities may
+exist.
+
+"Title" is the name that shows up in the list of mods; "Path" is the directory
+within the mods folder; "JFLPMOD" indicates that jflpmod.exe should be run
+first; "Additional" then describes extra changes that need to be made, if any.
+
+Title:	    ]Imperium's Advanced Freelancer Client v0.7b[
+Path:	    Imperium's Advanced Freelancer Client v08
+JFLPMOD:    Yes
+Additional: Option "Change Tizona/Rapier effect?"
+	    * select No (the default effect is part of the patch)
+	    * to make the Debilitator effect work:
+	      - delete lines 249, 253, 264 & 268 (the four "vis_generic"
+		lines in the two "options="906:3"" sections)
+
+Title:	    Beam Weapon Mod
+Path:	    beamweaponmod
+JFLPMOD:    Yes
+
+Title:	    Black Label Mod
+Path:	    blacklabelv2
+JFLPMOD:    Yes
+Additional: Spinning Planets.xml
+	    * delete lines 443 to 481 (the three intro.ini sections)
+	    * delete lines 508 to 520 (the Ku01_planet_storm_5000_1 section)
+
+Title:	    Discovery Mod v4.85
+Path:	    Discovery485
+Additional: add "jflp.dll" to the [Libraries] section of EXE\dacom.ini
+
+Title:	    Itano Circus
+Path:	    ItanoCircus
+Additional: add "jflp.dll" to the [Libraries] section of EXE\dacom.ini
+
+Title:	    Nomad Battleship Mod
+Path:	    nomadbattleship
+JFLPMOD:    Yes
+
+Title:	    NoStory
+Path:	    nostory
+JFLPMOD:    Yes
+
+Title:	    Phoenix 1.03
+Path:	    Phoenix 1.03
+JFLPMOD:    Yes (or just create DATA\MISSIONS\mshipprops.ini)
+Additional: add "jflp.dll" to the [Libraries] section of EXE\dacom.ini
+
+Title:	    Scenes Cut Mod
+Path:	    ScenesCut (or ScenesCutSDK)
+JFLPMOD:    Yes
+Additional: script.xml
+	    * remove " = true" from all "autoplay" lines
+	    * delete lines 103-107 (the first Act_MovePlayer section)
+	    * delete lines 488-492 (the first m03_Survivor1 section)
+	    * delete lines 650-654 (the first M04_space_enter section)
+
+Title:	    THE ORDER MOD 56.64 Nomads Revenge open single player ...
+Path:	    theordermod56.64
+JFLPMOD:    Yes (or just create DATA\MISSIONS\mshipprops.ini)
+
+Title:	    TIE Universe v9.1
+Path:	    TIE Universe 9.1
+JFLPMOD:    Yes
+Additional: amb_sp.xml
+	    * delete lines 57, 81 & 93 (name = Br04/Bw10/Ew01)
+	    ships.xml
+	    * replace lines 37 to 40 (ids_name = 237057) and 106 to 109
+	      (ids_name = 237058) with these:
+---------------------------------------------
+HP_bay_surface = HpBayDoor01
+HP_bay_external = HpBayDoor02
+HP_tractor_source = HpTractor_Source
+num_exhaust_nozzles = 5
+---------------------------------------------
+	    * make "ship_class = 3" at line 540 (nickname = or_elite)
+	    Universe.xml
+	    * lines 92 & 95 (nickname = Ku06_01_Base section):
+	      change the two run_by lines from W02bF30 to W02bF03
+	    * line 1007 (nickname = Li04_space_tankl4_1 section)
+	      insert line "parent = Li04_05" after it
+	    * line 1047 (nickname = Li04_space_tankl4_2 section)
+	      insert line "reputation = li_p_grp" after it
+	    * line 1062 (nickname = Li04_space_tankl4_3 section)
+	      insert line "reputation = li_p_grp" after it
+	    * line 1671 (nickname = Rh01_shipyard_2 section):
+	      change reputation from co_khc_grp to rh_n_grp
+	    * lines 3405 & 3408 ([Asteroids] section)
+	      change the zones from nebula to asteroid
+	    * delete lines 4706 to 4890 (JUNK region)
+
+Title:	    Working Cloak Mod [v0.96 beta]
+Path:	    working_cloak_096beta
+Additional: add "jflp.dll" to the [Libraries] section of EXE\dacom.ini

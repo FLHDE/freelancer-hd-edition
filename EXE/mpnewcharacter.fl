@@ -1,0 +1,99 @@
+[Player]
+name = %%NAME%%
+;initial_rep = %%FACTION%%
+rank = 0
+
+money = %%MONEY%%
+;voice = %%VOICE%%
+;All must be Trent!
+voice = trent_voice
+
+costume = %%BASE_COSTUME%%
+com_costume = %%COMM_COSTUME%%
+
+system = %%HOME_SYSTEM%%
+base = %%HOME_BASE%%
+
+house = 0.91, li_n_grp
+house = 0.91, li_lsf_grp
+house = 0.65, li_p_grp
+house = 0, br_n_grp
+house = 0, br_p_grp
+house = 0, ku_n_grp
+house = 0, ku_p_grp
+house = 0, rh_n_grp
+house = 0, rh_p_grp
+house = 0, co_alg_grp
+house = 0, co_be_grp
+house = 0, br_m_grp
+house = 0, co_nws_grp
+house = 0, co_hsp_grp
+house = 0.65, co_ic_grp
+house = -0.3, co_khc_grp
+house = -0.3, co_kt_grp
+house = 0, rh_m_grp
+house = 0.65, co_me_grp
+house = 0.65, co_ni_grp
+house = 0, co_os_grp
+house = -0.3, co_rs_grp
+house = -0.3, co_shi_grp
+house = 0.65, co_ss_grp
+house = 0, co_ti_grp
+house = 0.65, co_vr_grp
+house = -0.3, fc_bd_grp
+house = -0.3, fc_b_grp
+house = -0.65, fc_c_grp
+house = -0.3, fc_fa_grp
+house = -0.3, fc_g_grp
+house = -0.3, fc_gc_grp
+house = -0.3, fc_h_grp
+house = -0.3, fc_j_grp
+house = -0.65, fc_lh_grp
+house = -0.65, fc_lr_grp
+house = -0.3, fc_lwb_grp
+house = -0.65, fc_m_grp
+house = -0.65, fc_ou_grp
+house = -0.65, fc_rh_grp
+house = 0, fc_or_grp
+house = -0.65, fc_u_grp
+house = -0.65, fc_x_grp
+house = 0, gd_gm_grp
+house = 0, fc_uk_grp
+house = -0.65, fc_n_grp
+house = -0.65, fc_ln_grp
+house = -0.65, fc_kn_grp
+house = -0.65, fc_rn_grp
+house = 0, fc_ouk_grp
+house = 0, fc_q_grp
+house = 0, fc_f_grp
+house = 0, gd_im_grp
+house = 0, gd_z_grp
+house = -0.3, gd_bh_grp
+
+visit = 2745692751,1	;Li02
+visit = 2208818767,1	;Li03
+visit = 2745633359,1	;Li04
+visit = 2945966082,1	;Br01
+visit = 2409077762,1	;Br02
+visit = 2945943554,1	;Br03
+visit = 2409063426,1	;Br04
+visit = 2945937410,1	;Br05
+visit = 2409040898,1	;Br06
+visit = 2281145474,1	;Rh01
+visit = 2818046082,1	;Rh02
+visit = 2281172098,1	;Rh03
+visit = 2817982594,1	;Rh04
+visit = 2281116802,1	;Rh05
+visit = 3013596745,1	;Ku01
+visit = 2476714569,1	;Ku02
+Visit = 3013590601,1	;Ku03
+visit = 2476692041,1	;Ku04
+visit = 3013559881,1	;Ku05
+visit = 3146760779,1	;Iw01
+visit = 2609888843,1	;Iw02
+visit = 3146754635,1	;Iw03
+visit = 2609858123,1	;Iw04
+visit = 3146732107,1	;Iw05
+visit = 2609851979,1	;Iw06
+
+%%PACKAGE%%
