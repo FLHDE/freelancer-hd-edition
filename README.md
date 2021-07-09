@@ -1,5 +1,5 @@
 # Freelancer: HD Edition
-Freelancer: HD Edition is a modpack that aims to improve every visual and aural aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible.
+Freelancer: HD Edition is a modpack that aims to improve every visual and aural aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless other patches and HD mods.
 
 ## Credits
 * BC46 - Many general spelling and name fixes, maximized draw distances addon
