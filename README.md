@@ -4,6 +4,14 @@ Freelancer: HD Edition is a modpack that aims to improve every visual and aural 
 ## Content
 TODO
 
+## Recommendations 
+For the best possible experience, it is recommended to force enable anti-aliasing and anisotropic filtering for Freelancer through your GPU settings.
+
+To learn how to do this, please visit the link from your GPU manufacturer:
+* NVIDIA: https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/nv3d/Manage_3D_Settings_(reference).htm
+* AMD: https://www.amd.com/en/support/kb/faq/dh-012
+* Intel: https://www.intel.com/content/www/us/en/support/articles/000057285/graphics.html
+
 ## Credits
 * BC46 
   - [Maximized Draw Distances addon](https://github.com/BC46/freelancer-maximized-draw-distances)
