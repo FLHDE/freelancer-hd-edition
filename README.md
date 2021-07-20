@@ -11,6 +11,8 @@ TODO
   - [Text Strings Revision addon](https://github.com/BC46/freelancer-text-strings-revision) 
 * Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
+* crosire et al.
+  - [d3d8to9](https://github.com/crosire/d3d8to9)
 * Jason Hood
   - [Jason's Freelancer Patch](http://adoxa.altervista.org/freelancer/index.html)
 * Louva-Deus
