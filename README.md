@@ -28,8 +28,8 @@ To learn how to do this, please visit the link from your GPU manufacturer:
 
 ## Credits
 * BC46 
+  - General fixes
   - [Maximized Draw Distances addon](https://github.com/BC46/freelancer-maximized-draw-distances)
-  - Small general game fixes
   - [Text Strings Revision addon](https://github.com/BC46/freelancer-text-strings-revision) 
 * Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
