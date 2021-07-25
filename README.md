@@ -17,6 +17,7 @@ Freelancer: HD Edition is a modpack that aims to improve every visual and aural 
 * Fixed several incorrect/missing names and descriptions in EW05, EW06, ST01, ST03 and ST03b
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
 * Improved Nomad group member names
+* Make all planets spin slowly
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Show the names of zones as you enter and leave them
