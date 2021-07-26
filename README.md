@@ -1,5 +1,5 @@
 # Freelancer: HD Edition
-Freelancer: HD Edition is a modpack that aims to improve every visual, aural and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
+Freelancer: HD Edition is a modpack that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
 
 ## Content
 ### Visibility
@@ -12,12 +12,13 @@ Freelancer: HD Edition is a modpack that aims to improve every visual, aural and
 * 1.1 Patch
 * Added support for zooming in turret view
 * All content from Jason's Freelancer Patch v1.25
+* Allow players to be called differently in Single Player
 * Direct3D 9 wrapper
 * Disabled IPv6 adresses in Multiplayer Server list
 * Enabled NPC paths in multiplayer
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
-* Fixed several incorrect/missing names and descriptions in EW05, EW06, ST01, ST03 and ST03b
+* Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
 * Improved infocards for unknown factions
 * Improved Nomad group member names
 * Include player ships in ship filter
@@ -31,6 +32,7 @@ Freelancer: HD Edition is a modpack that aims to improve every visual, aural and
 * Set maximum level in Single Player to 40
 * Show "Far" in contact list only at distances of 999.999K or higher
 * Show the names of zones as you enter and leave them
+* Show the remaining shield and hull points of the selected target
 * Support for scrolling through menus
 * Removed ESRB notice
 * Removed EULA on first run
