@@ -80,4 +80,7 @@ Credits:
 </description>
 </header>
 
+<data file="DLLS\BIN\callsign.dll2" method="renamefile" newfilename="DLLS\BIN\callsign.dll">
+</data>
+
 </script>
