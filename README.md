@@ -50,7 +50,7 @@ To learn how to do this, please visit the link from your GPU manufacturer:
 * Intel: https://www.intel.com/content/www/us/en/support/articles/000057285/graphics.html
 
 ## Installation instructions
-**N.B. Do NOT extract the files manually!**
+**N.B. Do NOT extract the files to your Freelancer folder manually!**
 * Make sure you have a clean install of Freelancer
 * Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
 * Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
