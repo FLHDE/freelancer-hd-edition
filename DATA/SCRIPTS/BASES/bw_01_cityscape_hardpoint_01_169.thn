@@ -1,0 +1,242 @@
+duration = 20
+
+entities =
+{
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "Camera_0",
+		lt_grp = 0,
+		type = 3,
+		template_name = "",
+		spatialprops =
+		{
+			pos = { -104.02813, 52.325657, 202.555878 },
+			orient =
+			{
+				{ 0.87069, 0, 0.491832 },
+				{ 0.022629, 0.998941, -0.04006 },
+				{ -0.491311, 0.046009, 0.869768 }
+			}
+		},
+		cameraprops =
+		{
+			farplane = 4000,
+			hvaspect = 1.31,
+			fovh = 23,
+			nearplane = 25
+		}
+	},
+	{
+		spatialprops =
+		{
+			pos = { 6.979485, -0.32244, -4.669521 },
+			orient =
+			{
+				{ -0.927881, 0, 0.372875 },
+				{ 0, 1, 0 },
+				{ -0.372875, 0, -0.927881 }
+			}
+		},
+		lt_grp = 0,
+		template_name = "",
+		usr_flg = 0,
+		entity_name = "X/Shipcentre/01",
+		srt_grp = 0,
+		type = 7
+	},
+	{
+		spatialprops =
+		{
+			pos = { 21.650627, 0, 9.835029 },
+			orient =
+			{
+				{ -0.689897, 0, -0.723907 },
+				{ 0, 1, 0 },
+				{ 0.723907, 0, -0.689897 }
+			}
+		},
+		lt_grp = 0,
+		template_name = "",
+		usr_flg = 0,
+		entity_name = "Zg/PC/Player/01/A/Stand",
+		srt_grp = 0,
+		type = 7
+	},
+	{
+		spatialprops =
+		{
+			pos = { -99.323601, 51.885284, 194.227875 },
+			orient =
+			{
+				{ 0.87069, 0, 0.491832 },
+				{ 0.022629, 0.998941, -0.04006 },
+				{ -0.491311, 0.046009, 0.869768 }
+			}
+		},
+		lt_grp = 0,
+		template_name = "",
+		usr_flg = 0,
+		entity_name = "X/Marker_Weather",
+		srt_grp = 0,
+		type = 7
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "LtGlareSource",
+		lt_grp = 0,
+		type = 5,
+		lightprops =
+		{
+			specular = { 0, 0, 0 },
+			atten = { 1, 0, 4e-006 },
+			diffuse = { 1, 1, 1 },
+			theta = 90,
+			type = 1,
+			cutoff = 98.999977,
+			color = { 255, 255, 255 },
+			direction = { 0, 0, 1 },
+			on = 0,
+			range = 2000,
+			ambient = { 0, 0, 0 }
+		},
+		template_name = "",
+		spatialprops =
+		{
+			pos = { -99.323601, 61.885284, 194.227875 },
+			orient =
+			{
+				{ 0.87069, 0, 0.491832 },
+				{ 0.022629, 0.998941, -0.04006 },
+				{ -0.491311, 0.046009, 0.869768 }
+			}
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "LtShadowSource",
+		lt_grp = 0,
+		type = 5,
+		lightprops =
+		{
+			specular = { 0, 0, 0 },
+			atten = { 1, 0, 4e-006 },
+			diffuse = { 0, 0, 0 },
+			theta = 90,
+			type = 3,
+			cutoff = 98.999977,
+			color = { 255, 255, 255 },
+			direction = { 0, 0, 1 },
+			on = 0,
+			range = 2000,
+			ambient = { 0, 0, 0 }
+		},
+		template_name = "",
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 0.00232, 0.999997 },
+				{ 0, -0.999997, 0.00232 }
+			}
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		front = 2,
+		entity_name = "Layer_Bw_01_cityscape_hardpoint",
+		lt_grp = 0,
+		up = 1,
+		type = 9,
+		template_name = "",
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		ambient = { 0, 0, 0 }
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		userprops =
+		{
+			category = "Room"
+		},
+		entity_name = "Set_Bw_01_Cityscape",
+		lt_grp = 9,
+		type = 1,
+		flags = 4,
+		template_name = "bw_01_cityscape",
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		}
+	},
+	{
+		usr_flg = 2,
+		srt_grp = -80,
+		userprops =
+		{
+			category = "Prop"
+		},
+		entity_name = "Set_bw_01_Cityscape_BG",
+		lt_grp = 11,
+		type = 1,
+		flags = 4,
+		template_name = "bw_01_background",
+		spatialprops =
+		{
+			pos = { 11.792271, -77.608734, 11.368984 },
+			orient =
+			{
+				{ 0.487239, 0.027272, 0.872842 },
+				{ -0.873227, 0.02497, 0.486674 },
+				{ -0.008523, -0.999316, 0.035981 }
+			}
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "Camera_0_rc",
+		lt_grp = 0,
+		type = 3,
+		template_name = "",
+		spatialprops =
+		{
+			pos = { 4.207298, 17.134844, 127.681328 },
+			orient =
+			{
+				{ 0.973015, 0, 0.230742 },
+				{ -0.012177, 0.998606, 0.051349 },
+				{ -0.230421, -0.052773, 0.971659 }
+			}
+		},
+		cameraprops =
+		{
+			farplane = 4000,
+			hvaspect = 1.31,
+			fovh = 22.999998,
+			nearplane = 25
+		}
+	}
+}
+
+events = {}
