@@ -91,7 +91,359 @@ Credits:
 </description>
 </header>
 
+<options default="1:1, 2:1, 3:1, 4:5, 5:7, 6:2"> 
+<option name="What would you like to be called by the NPCs in Single Player?" savesafe="true">
+<item id="1" name="Freelancer Alpha 1-1 (Default)">
+</item>
+
+<item id="2" name="Navy Beta 2-5">
+</item>
+
+<item id="3" name="Bretonia Police Iota 3-4">
+</item>
+
+<item id="4" name="Military Epsilon 11-6">
+</item>
+
+<item id="5" name="Naval Forces Matsu 4-9">
+</item>
+
+<item id="6" name="IMG Red 18-6">
+</item>
+
+<item id="7" name="Kishiro Yanagi 7-3">
+</item>
+
+<item id="8" name="Outcasts Lambda 9-12">
+</item>
+
+<item id="9" name="Dragons Green 16-13">
+</item>
+
+<item id="10" name="Spa and Cruise Omega 8-0">
+</item>
+
+<item id="11" name="Daumann Zeta 11-17">
+</item>
+
+<item id="12" name="Bowex Gamma 5-7">
+</item>
+
+<item id="13" name="Order Omicron 0-0">
+</item>
+
+<item id="14" name="LSF Beta 6-9">
+</item>
+
+<item id="15" name="Hacker Kappa 4-20">
+</item>
+</option>
+
+<option name="Fix clipping and geometry issues with planetscapes for 16:9 resolutions (Select No if you play in 4:3)" savesafe="true">
+<item id="1" name="Yes">
+</item>
+
+<item id="2" name="No">
+</item>
+</option>
+
+<option name="Add improved reflections" savesafe="true">
+<item id="1" name="Yes">
+</item>
+
+<item id="2" name="No">
+</item>
+</option>
+
+<option name="Startup Screen resolution (Higher resolution options may negatively impact startup speed)" savesafe="true">
+<item id="1" name="None">
+</item>
+
+<item id="2" name="720p 16:9 - 1280x720">
+</item>
+
+<item id="3" name="960p 4:3 - 1280x960 (Default)">
+</item>
+
+<item id="4" name="1080p 4:3 - 1440x1080">
+</item>
+
+<item id="5" name="1080p 16:9 - 1920x1080">
+</item>
+
+<item id="6" name="1440p 4:3 - 1920x1440">
+</item>
+
+<item id="7" name="1440p 16:9 - 2560x1440">
+</item>
+
+<item id="8" name="4K 4:3 - 2880x2160">
+</item>
+
+<item id="9" name="4K 16:9 - 3840x2160">
+</item>
+</option>
+
+<option name="Main Menu Freelancer Logo resolution (Higher resolution options may negatively impact startup speed)" savesafe="true">
+<item id="1" name="None">
+</item>
+
+<item id="2" name="450p 16:9 - 800x450">
+</item>
+
+<item id="3" name="600p 4:3 - 800x600 (Default)">
+</item>
+
+<item id="4" name="720p 16:9 - 1280x720">
+</item>
+
+<item id="5" name="960p 4:3 - 1280x960">
+</item>
+
+<item id="6" name="1080p 4:3 - 1440x1080">
+</item>
+
+<item id="7" name="1080p 16:9 - 1920x1080">
+</item>
+
+<item id="8" name="1440p 4:3 - 1920x1440">
+</item>
+
+<item id="9" name="1440p 16:9 - 2560x1440">
+</item>
+
+<item id="10" name="4K 4:3 - 2880x2160">
+</item>
+
+<item id="11" name="4K 16:9 - 3840x2160">
+</item>
+</option>
+
+<option name="Apply patch that fixes Windows 10 compatibility issues (broken interior lighting and missing glass reflections.) WARNING: THIS PATCH IS UNSTABLE. IT MAY CAUSE CRASHES, STUTTERS AND BUGS. TRY AT YOUR OWN RISK." savesafe="true">
+<item id="1" name="Yes">
+</item>
+
+<item id="2" name="No">
+</item>
+</option>
+
+</options>
+
+
 <data file="DLLS\BIN\callsign.dll2" method="renamefile" newfilename="DLLS\BIN\callsign.dll">
 </data>
+
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:2">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, li_n 2 2-5
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:3">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, br_p 8 3-4
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:4">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, rh_n 5 11-6
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:5">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, ku_n 22 4-9
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:6">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, gd_im 14 18-6
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:7">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, co_kt 29 7-3
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:8">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, fc_ou 10 9-12
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:9">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, fc_bd 17 16-13
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:10">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, co_os 13 8-0
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:11">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, co_khc 6 11-17
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:12">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, co_be 3 5-7
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:13">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, fc_or 11 0-0
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:14">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, li_lsf 2 6-9
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:15">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, fc_lh 9 4-20
+</source>
+</data>
+
+
+<data file="DATA\SCRIPTS\BASES\br_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\br_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\br_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\br_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\br_03_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\br_03_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\bw_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\bw_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\bw_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\bw_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\hi_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\hi_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\hi_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\hi_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\ku_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\ku_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\ku_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\ku_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\ku_03_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\ku_03_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\li_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\li_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\li_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\li_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\li_03_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\li_03_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\li_04_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\li_04_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\rh_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\rh_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\rh_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\rh_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\rh_03_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\rh_03_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+
+
+<data file="DATA\FX\envmapbasic_new.mat" method="renamefile" newfilename="DATA\FX\envmapbasic.mat" options="3:1">
+</data>
+<data file="DATA\FX\envmapglass_new.mat" method="renamefile" newfilename="DATA\FX\envmapglass.mat" options="3:1">
+</data>
+
+
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x960.tga" options="4:1">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:3">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1440x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:4">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1920x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:5">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1920x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:6">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_2560x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:7">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_2880x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:8">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:9">
+</data>
+
+
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x600.tga" options="5:1">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x450.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:3">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1280x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:4">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1280x960.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:5">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1440x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:6">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1920x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:7">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1920x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:8">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_2560x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:9">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_2880x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:10">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:11">
+</data>
+
+<data file="EXE\D3D8_compat.dll" method="renamefile" newfilename="EXE\d3d8.dll" options="6:1">
+</data>
+
 
 </script>
