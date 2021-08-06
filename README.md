@@ -3,6 +3,8 @@ Freelancer: HD Edition is a modpack that aims to improve every visual, aural, an
 
 **N.B. This modpack does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this modpack to play on all vanilla servers as long as the server owners allow these changes.**
 
+Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with the latest news and information.
+
 ## Content
 ### Visual
 * Increased effect pool sizes
@@ -42,12 +44,14 @@ Freelancer: HD Edition is a modpack that aims to improve every visual, aural, an
 * Removed unknown graphics card warning
 
 ## Recommendations 
-For the best possible experience, it is recommended to force enable anti-aliasing and anisotropic filtering for Freelancer through your GPU settings.
-
-To learn how to do this, please visit the link from your GPU manufacturer:
+For the best possible experience, it is recommended to force enable anti-aliasing and anisotropic filtering for Freelancer through your GPU settings. To learn how to do this, please visit the link from your GPU manufacturer:
 * NVIDIA: https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/nv3d/Manage_3D_Settings_(reference).htm
 * AMD: https://www.amd.com/en/support/kb/faq/dh-012
 * Intel: https://www.intel.com/content/www/us/en/support/articles/000057285/graphics.html
+
+If you have selected the Windows 10 compatibility patch when installing this mod, you can learn how to enable native anti-aliasing and anisotropic filtering here: [How to enable native MSAA and Anisotropic Filtering with the Windows 10 compatibility patch](https://github.com/BC46/freelancer-hd-edition/wiki/How-to-enable-native-MSAA-and-Anisotropic-Filtering-with-the-Windows-10-compatibility-patch)
+
+Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
 
 ## Installation instructions
 **N.B. Do NOT extract the files to your Freelancer folder manually!**
@@ -55,6 +59,9 @@ To learn how to do this, please visit the link from your GPU manufacturer:
 * Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
 * Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
 * Install it like any other mod
+
+## Contributing
+Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
 
 ## Credits
 * BC46 
