@@ -15,7 +15,7 @@ Disable this option if you play in 4:3.
 
 
 Add improved reflections:
-This option speaks for itself. It makes the way light reflects off glass, ships, bases, etc, a lot nicer.
+This option speaks for itself. It makes the way light reflects off ships, bases, etc, a lot nicer.
 
 
 Start Screen resolution:

@@ -452,8 +452,6 @@ DLL = callsign.dll, fc_lh 9 4-20
 
 <data file="DATA\FX\envmapbasic_new.mat" method="renamefile" newfilename="DATA\FX\envmapbasic.mat" options="3:1">
 </data>
-<data file="DATA\FX\envmapglass_new.txm" method="renamefile" newfilename="DATA\FX\envmapglass.txm" options="3:1">
-</data>
 
 
 <data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x960.tga" options="4:1">
