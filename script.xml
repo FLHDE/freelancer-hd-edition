@@ -90,7 +90,20 @@ Credits:
   - Freelancer Patch 1.1
 </description>
 
-<options default="1:1,2:1,3:1,4:5,5:7,6:2"> 
+<options>
+<option name="Open mod_options.txt in the folder of this mod">
+<item id="0" name="">
+</item>
+</option>
+<option name="for more detailed information about the mod options">
+<item id="0" name="">
+</item>
+</option>
+<option name="">
+<item id="0" name="">
+</item>
+</option>
+ 
 <option id="1" name="Single Player ID Code" savesafe="true">
 <item id="1" name="Freelancer Alpha 1-1 (Default)">
 </item>
