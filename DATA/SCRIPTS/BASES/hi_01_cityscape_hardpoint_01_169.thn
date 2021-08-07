@@ -1,0 +1,361 @@
+duration = 20
+
+entities =
+{
+	{
+		entity_name = "Layer_Hi_01_Cityscape_hardpoint",
+		type = SCENE,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		up = Y_AXIS,
+		front = Z_AXIS,
+		ambient = { 0, 0, 0 }
+	},
+	{
+		entity_name = "Set_hi_01_madrid_cityscape",
+		type = COMPOUND,
+		template_name = "hi_01_madrid_cityscape",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 31.37245, 0, -39.618107 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Room"
+		}
+	},
+	{
+		entity_name = "Set_hi_01_madrid_cityscape_BG",
+		type = COMPOUND,
+		template_name = "hi_01_madrid_background",
+		lt_grp = 11,
+		srt_grp = -50,
+		usr_flg = 2,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -13.657826, 250, -410.708008 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "Camera_0",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 29.10565, 63.430801, 210.861435 },
+			orient =
+			{
+				{ 0.998135, 0, -0.061048 },
+				{ 0, 1, 0 },
+				{ 0.061048, 0, 0.998135 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 25,
+			hvaspect = 1.31,
+			nearplane = 0.3,
+			farplane = 4000
+		}
+	},
+	{
+		entity_name = "X/Shipcentre/01",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 2.674883, 0, -42.431786 },
+			orient =
+			{
+				{ -0.480921, 0, -0.876764 },
+				{ 0, 1, 1e-006 },
+				{ 0.876764, 1e-006, -0.480921 }
+			}
+		}
+	},
+	{
+		entity_name = "Zg/PC/Player/01/A/Stand",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -15.372077, -4.410937, -33.541931 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		}
+	},
+	{
+		entity_name = "X/Marker_Weather",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -11.832596, 43.953678, 220.349915 },
+			orient =
+			{
+				{ 0.999704, 0, -0.024325 },
+				{ 0.003254, 0.991011, 0.133741 },
+				{ 0.024106, -0.133781, 0.990718 }
+			}
+		}
+	},
+	{
+		entity_name = "LtGlareSource",
+		type = LIGHT,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -11.832596, 53, 220.349915 },
+			orient =
+			{
+				{ 0.999704, 0, -0.024325 },
+				{ 0.003254, 0.991011, 0.133741 },
+				{ 0.024106, -0.133781, 0.990718 }
+			}
+		},
+		lightprops =
+		{
+			on = N,
+			color = { 255, 255, 255 },
+			diffuse = { 0.164706, 0.164706, 0.164706 },
+			specular = { 0, 0, 0 },
+			ambient = { 0, 0, 0 },
+			direction = { 0, 0, 1 },
+			range = 2000,
+			cutoff = 98.999977,
+			type = L_POINT,
+			theta = 90,
+			atten = { 1, 0, 4e-006 }
+		}
+	},
+	{
+		entity_name = "LtShadowSource",
+		type = LIGHT,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 0, 1 },
+				{ 0, -1, 0 }
+			}
+		},
+		lightprops =
+		{
+			on = N,
+			color = { 255, 255, 255 },
+			diffuse = { 0, 0, 0 },
+			specular = { 0, 0, 0 },
+			ambient = { 0, 0, 0 },
+			direction = { 0, 0, 1 },
+			range = 2000,
+			cutoff = 98.999977,
+			type = L_DIRECT,
+			theta = 90,
+			atten = { 1, 0, 4e-006 }
+		}
+	},
+	{
+		entity_name = "Cam_Ex_Shipdlr_Zin",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 64.126877, 80.095139, 16.061291 },
+			orient =
+			{
+				{ 0.999883, 0, -0.015326 },
+				{ 0.001585, 0.994637, 0.10342 },
+				{ 0.015244, -0.103432, 0.99452 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 30,
+			hvaspect = 1.85,
+			nearplane = 0.3,
+			farplane = 4000
+		}
+	},
+	{
+		entity_name = "Cam_Ex_Equip_Zin",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -48.449963, 101.911057, -8.727413 },
+			orient =
+			{
+				{ 0.967045, 0, -0.254604 },
+				{ 0, 1, 0 },
+				{ 0.254604, 0, 0.967045 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 30,
+			hvaspect = 1.85,
+			nearplane = 0.3,
+			farplane = 4000
+		}
+	},
+	{
+		entity_name = "Cam_Ex_Trade_Zin",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 65.930344, 34.884121, -25.090813 },
+			orient =
+			{
+				{ 0.975041, 0, -0.222023 },
+				{ 0.014602, 0.997835, 0.064128 },
+				{ 0.221542, -0.065769, 0.97293 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 30,
+			hvaspect = 1.85,
+			nearplane = 0.3,
+			farplane = 4000
+		}
+	},
+	{
+		entity_name = "Cam_Ex_Bar_Zin",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -31.842571, 69.962097, -183.006882 },
+			orient =
+			{
+				{ 0.999048, 0, -0.043623 },
+				{ 0, 1, 0 },
+				{ 0.043623, 0, 0.999048 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 30,
+			hvaspect = 1.85,
+			nearplane = 0.3,
+			farplane = 4000
+		}
+	},
+	{
+		entity_name = "Camera_0_rc",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -51.636566, 15.859268, 41.521374 },
+			orient =
+			{
+				{ 0.902904, 0, 0.429842 },
+				{ -0.088217, 0.978714, 0.185303 },
+				{ -0.420692, -0.20523, 0.883685 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 40,
+			hvaspect = 1.31,
+			nearplane = 0.3,
+			farplane = 4000
+		}
+	}
+}
+
+events =
+{
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"LtGlareSource",
+			"Set_hi_01_madrid_cityscape"
+		},
+		{
+			duration = 10,
+			offset = { -11.8326, 53, 220.349899 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "",
+			target_type = ROOT,
+			flags = POSITION + ORIENTATION + ENTITY_RELATIVE
+		}
+	}
+}

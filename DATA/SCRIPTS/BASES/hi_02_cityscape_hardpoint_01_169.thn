@@ -1,0 +1,312 @@
+duration = 20
+
+entities =
+{
+	{
+		usr_flg = 0,
+		ambient = { 0, 0, 0 },
+		srt_grp = 0,
+		entity_name = "Layer_Hi_02_Cityscape_Hardpoint",
+		front = 2,
+		lt_grp = 0,
+		type = 9,
+		up = 1,
+		template_name = "",
+		spatialprops =
+		{
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			},
+			pos = { 0, 0, 0 }
+		}
+	},
+	{
+		srt_grp = 0,
+		spatialprops =
+		{
+			orient =
+			{
+				{ -0.480921, 0, -0.876764 },
+				{ 0, 1, 1e-006 },
+				{ 0.876764, 1e-006, -0.480921 }
+			},
+			pos = { -0.414808, 0, -18.336733 }
+		},
+		template_name = "",
+		lt_grp = 0,
+		entity_name = "X/Shipcentre/01",
+		usr_flg = 0,
+		type = 7
+	},
+	{
+		srt_grp = 0,
+		spatialprops =
+		{
+			orient =
+			{
+				{ -0.96254, 0, 0.271138 },
+				{ 0, 1, 0 },
+				{ -0.271138, 0, -0.96254 }
+			},
+			pos = { -15.372077, 0, -33.541931 }
+		},
+		template_name = "",
+		lt_grp = 0,
+		entity_name = "Zg/PC/Player/01/A/Stand",
+		usr_flg = 0,
+		type = 7
+	},
+	{
+		srt_grp = 0,
+		spatialprops =
+		{
+			orient =
+			{
+				{ 0.993792, 0, -0.111254 },
+				{ -0.000607, 0.999985, -0.005419 },
+				{ 0.111252, 0.005453, 0.993777 }
+			},
+			pos = { 4.244057, 26.483141, 85.735603 }
+		},
+		template_name = "",
+		lt_grp = 0,
+		entity_name = "X/Marker_Weather",
+		usr_flg = 0,
+		type = 7
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "LtGlareSource",
+		lt_grp = 0,
+		type = 5,
+		template_name = "",
+		lightprops =
+		{
+			on = 0,
+			cutoff = 98.999977,
+			direction = { 0, 0, 1 },
+			ambient = { 0, 0, 0 },
+			range = 2000,
+			diffuse = { 0.164706, 0.164706, 0.164706 },
+			specular = { 0, 0, 0 },
+			type = 1,
+			atten = { 1, 0, 4e-006 },
+			color = { 255, 255, 255 },
+			theta = 90
+		},
+		spatialprops =
+		{
+			orient =
+			{
+				{ 0.993792, 0, -0.111254 },
+				{ -0.000607, 0.999985, -0.005419 },
+				{ 0.111252, 0.005453, 0.993777 }
+			},
+			pos = { 4.243365, 27.611019, 85.729431 }
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "LtShadowSource",
+		lt_grp = 0,
+		type = 5,
+		template_name = "",
+		lightprops =
+		{
+			on = 0,
+			cutoff = 98.999977,
+			direction = { 0, 0, 1 },
+			ambient = { 0, 0, 0 },
+			range = 2000,
+			diffuse = { 0, 0, 0 },
+			specular = { 0, 0, 0 },
+			type = 3,
+			atten = { 1, 0, 4e-006 },
+			color = { 255, 255, 255 },
+			theta = 90
+		},
+		spatialprops =
+		{
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, -0.005561, 0.999985 },
+				{ 0, -0.999985, -0.005561 }
+			},
+			pos = { 0, 0, 0 }
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "Set_hi_02_Cityscape",
+		userprops =
+		{
+			category = "Room"
+		},
+		lt_grp = 9,
+		flags = 4,
+		type = 1,
+		template_name = "hi_02_cadiz_cityscape",
+		spatialprops =
+		{
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			},
+			pos = { 0, 0, 0 }
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "Camera_0",
+		lt_grp = 0,
+		type = 3,
+		spatialprops =
+		{
+			orient =
+			{
+				{ 0.993792, 0, -0.111254 },
+				{ -0.000607, 0.999985, -0.005419 },
+				{ 0.111252, 0.005453, 0.993777 }
+			},
+			pos = { 4.244057, 26.483141, 85.735603 }
+		},
+		template_name = "",
+		cameraprops =
+		{
+			farplane = 4000,
+			hvaspect = 1.31,
+			fovh = 30,
+			nearplane = 0.3
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "Cam_Ex_Bar_Zin",
+		lt_grp = 0,
+		type = 3,
+		spatialprops =
+		{
+			orient =
+			{
+				{ 0.973864, 0, 0.22713 },
+				{ -0.012614, 0.998457, 0.054083 },
+				{ -0.226779, -0.055534, 0.972362 }
+			},
+			pos = { 7.285092, 48.715481, -20.151794 }
+		},
+		template_name = "",
+		cameraprops =
+		{
+			farplane = 4000,
+			hvaspect = 1.85,
+			fovh = 30,
+			nearplane = 0.3
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "Cam_Ex_Equip_Zin",
+		lt_grp = 0,
+		type = 3,
+		spatialprops =
+		{
+			orient =
+			{
+				{ 0.551438, 0, -0.834216 },
+				{ 0.053303, 0.997957, 0.035235 },
+				{ 0.832511, -0.063896, 0.550311 }
+			},
+			pos = { 43.244232, 18.618189, 50.49276 }
+		},
+		template_name = "",
+		cameraprops =
+		{
+			farplane = 4000,
+			hvaspect = 1.85,
+			fovh = 30,
+			nearplane = 0.3
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "Cam_Ex_Trade_Zin",
+		lt_grp = 0,
+		type = 3,
+		spatialprops =
+		{
+			orient =
+			{
+				{ 0.946149, 0, -0.32373 },
+				{ -0.001764, 0.999985, -0.005156 },
+				{ 0.323726, 0.005449, 0.946135 }
+			},
+			pos = { 8.420835, 27.600374, 15.03731 }
+		},
+		template_name = "",
+		cameraprops =
+		{
+			farplane = 4000,
+			hvaspect = 1.85,
+			fovh = 30,
+			nearplane = 0.3
+		}
+	},
+	{
+		usr_flg = 0,
+		srt_grp = 0,
+		entity_name = "Camera_0_rc",
+		lt_grp = 0,
+		type = 3,
+		spatialprops =
+		{
+			orient =
+			{
+				{ 0.989757, 0, 0.142765 },
+				{ -0.006916, 0.998826, 0.047949 },
+				{ -0.142597, -0.048445, 0.988595 }
+			},
+			pos = { -22.555042, 5.618356, 73.944977 }
+		},
+		template_name = "",
+		cameraprops =
+		{
+			farplane = 4000,
+			hvaspect = 1.31,
+			fovh = 30,
+			nearplane = 0.3
+		}
+	},
+	{
+		srt_grp = 0,
+		spatialprops =
+		{
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			},
+			pos = { 0, 0, 0 }
+		},
+		template_name = "",
+		lt_grp = 0,
+		entity_name = "Playership_shipcushion_marker_A",
+		usr_flg = 0,
+		type = 7
+	}
+}
+
+events = {}

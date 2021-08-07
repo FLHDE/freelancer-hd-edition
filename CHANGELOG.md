@@ -1,5 +1,24 @@
 # Changelog
 
+## [[0.2] - 2021-08-07](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.2)
+
+### Changed
+* Added HQ Music
+* Added Flat Interface
+* Added bar script fixes
+* Added 16:9 planetscape fixes
+* Added HD Universe map
+* Added HD Starspheres
+* Added HD Mission & News images
+* Reverted trade lane map visibility change
+* Added improved reflections
+* AddedHD Startup screen & main menu logo
+* Added HD system map
+* Added dgVoodoo2 as optional Windows 10 compat patch
+* Move the neural net bar 1 px up so the pixel line disappears
+* Added Freelancer manual
+
+
 ## [[0.1] - 2021-07-28](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.1)
 
 ### Changed

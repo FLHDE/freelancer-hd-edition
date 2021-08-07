@@ -1,0 +1,923 @@
+duration = 10000
+
+entities =
+{
+	{
+		entity_name = "Layer_li_01_Cityscape_hardpoint",
+		type = SCENE,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		up = Y_AXIS,
+		front = Z_AXIS,
+		ambient = { 0, 0, 0 }
+	},
+	{
+		entity_name = "SET_LtG09_li_01_Cityscape",
+		type = COMPOUND,
+		template_name = "li_01_cityscape",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Room"
+		}
+	},
+	{
+		entity_name = "Camera_0",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 59.658787, 46.31464, 97.572746 },
+			orient =
+			{
+				{ 0.998543, 0, 0.053967 },
+				{ 8e-006, 1, -0.000141 },
+				{ -0.053967, 0.000141, 0.998543 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 29.5,
+			hvaspect = 1.31,
+			nearplane = 20,
+			farplane = 7000
+		}
+	},
+	{
+		entity_name = "Camera_Ex_Bar_Zin",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 484.732513, 109.845901, -645.060425 },
+			orient =
+			{
+				{ 0.997591, -0.052078, 0.045829 },
+				{ 0.048192, 0.995453, 0.082161 },
+				{ -0.049899, -0.079754, 0.995565 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 29.999989,
+			hvaspect = 1.85,
+			nearplane = 25,
+			farplane = 100000
+		}
+	},
+	{
+		entity_name = "Camera_Ex_equip_Zin",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 21.40991, 25.941263, -15.605212 },
+			orient =
+			{
+				{ 0.996054, -0.052078, 0.071862 },
+				{ 0.04603, 0.995453, 0.083391 },
+				{ -0.075878, -0.079754, 0.993922 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 29.999989,
+			hvaspect = 1.85,
+			nearplane = 25,
+			farplane = 100000
+		}
+	},
+	{
+		entity_name = "Camera_Ex_shipdlr_Zin",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 88.818565, 26.533684, -6.414805 },
+			orient =
+			{
+				{ 0.997591, -0.052078, 0.045829 },
+				{ 0.048192, 0.995453, 0.082161 },
+				{ -0.049899, -0.079754, 0.995565 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 29.999989,
+			hvaspect = 1.85,
+			nearplane = 25,
+			farplane = 100000
+		}
+	},
+	{
+		entity_name = "Camera_Ex_trade_Zin",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 4.945489, 73.841248, 3.953757 },
+			orient =
+			{
+				{ 0.997591, -0.052078, 0.045829 },
+				{ 0.048192, 0.995453, 0.082161 },
+				{ -0.049899, -0.079754, 0.995565 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 29.999989,
+			hvaspect = 1.85,
+			nearplane = 25,
+			farplane = 100000
+		}
+	},
+	{
+		entity_name = "Zg/PC/Player/01/A/Stand",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 39.046791, 0.006284, -63.802807 },
+			orient =
+			{
+				{ -0.960639, 0, 0.277801 },
+				{ 0, 1, 0 },
+				{ -0.277801, 0, -0.960639 }
+			}
+		}
+	},
+	{
+		entity_name = "X/Shipcentre/01",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 57.198235, 0.01599, -64.136986 },
+			orient =
+			{
+				{ -0.98794, 0, 0.154836 },
+				{ 0, 1, 0 },
+				{ -0.154836, 0, -0.98794 }
+			}
+		}
+	},
+	{
+		entity_name = "LtShadowSource",
+		type = LIGHT,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -1.462841, 0, 0.748814 },
+			orient =
+			{
+				{ 0.417061, 0.002899, 0.908874 },
+				{ -0.908876, -0.001079, 0.417066 },
+				{ 0.00219, -0.999995, 0.002184 }
+			}
+		},
+		lightprops =
+		{
+			on = N,
+			color = { 255, 255, 255 },
+			diffuse = { 0, 0, 0 },
+			specular = { 0, 0, 0 },
+			ambient = { 0, 0, 0 },
+			direction = { 0, 0, 1 },
+			range = 2000,
+			cutoff = 98.999977,
+			type = L_DIRECT,
+			theta = 90,
+			atten = { 1, 0, 1 }
+		}
+	},
+	{
+		entity_name = "LtGlareSource",
+		type = LIGHT,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -2.338717, 89.305305, 1.150742 },
+			orient =
+			{
+				{ 0.432904, -0.382624, 0.816206 },
+				{ -0.751596, -0.65311, 0.092469 },
+				{ 0.497692, -0.653488, -0.570313 }
+			}
+		},
+		lightprops =
+		{
+			on = N,
+			color = { 255, 255, 255 },
+			diffuse = { 1, 1, 1 },
+			specular = { 0, 0, 0 },
+			ambient = { 0, 0, 0 },
+			direction = { 0, 0, 1 },
+			range = 2000,
+			cutoff = 98.999977,
+			type = L_POINT,
+			theta = 90,
+			atten = { 1, 0, 4e-006 }
+		}
+	},
+	{
+		entity_name = "SET_LtG12_Li_01_mountain_beige_1",
+		type = COMPOUND,
+		template_name = "mountain_beige",
+		lt_grp = 12,
+		srt_grp = -50,
+		usr_flg = 2,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1764.628296, 1152.453369, -22319.273438 },
+			orient =
+			{
+				{ 0.998239, 0, 0.059321 },
+				{ 0, 1, 0 },
+				{ -0.059321, 0, 0.998239 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop",
+			NoFog = "Y"
+		}
+	},
+	{
+		entity_name = "X/Marker_Weather",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 59.658787, 56.31464, 97.572746 },
+			orient =
+			{
+				{ 0.998543, 0, 0.053967 },
+				{ 8e-006, 1, -0.000141 },
+				{ -0.053967, 0.000141, 0.998543 }
+			}
+		}
+	},
+	{
+		entity_name = "Camera_0_rc",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 23.909746, 8.13599, 61.667351 },
+			orient =
+			{
+				{ 0.985161, 0, 0.171633 },
+				{ -0.02456, 0.989709, 0.14097 },
+				{ -0.169867, -0.143094, 0.975023 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 29.5,
+			hvaspect = 1.31,
+			nearplane = 25,
+			farplane = 100000
+		}
+	},
+	{
+		entity_name = "SET_LtG11_li_01_SkyLine_Cntr",
+		type = COMPOUND,
+		template_name = "li_01_cityscape_bg",
+		lt_grp = 11,
+		srt_grp = -40,
+		usr_flg = 2,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 652.891602, 100, -5753.464844 },
+			orient =
+			{
+				{ 0.999352, 0.00204, 0.035924 },
+				{ -0.001702, 0.999954, -0.009429 },
+				{ -0.035942, 0.009362, 0.99931 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop",
+			NoFog = "y"
+		}
+	},
+	{
+		entity_name = "SET_LtG11_li_01_SkyLine_Rt",
+		type = COMPOUND,
+		template_name = "li_01_cityscape_bg",
+		lt_grp = 11,
+		srt_grp = -40,
+		usr_flg = 2,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 4065.256348, 0, -2692.80957 },
+			orient =
+			{
+				{ -0.026206, 0.00204, 0.999655 },
+				{ 0.009412, 0.999954, -0.001794 },
+				{ -0.999612, 0.009362, -0.026224 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop",
+			NoFog = "y"
+		}
+	},
+	{
+		entity_name = "SET_LtG11_li_01_SkyLine_Lt",
+		type = COMPOUND,
+		template_name = "li_01_cityscape_bg",
+		lt_grp = 11,
+		srt_grp = -40,
+		usr_flg = 2,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -3723.139648, 0, -3056.077148 },
+			orient =
+			{
+				{ 0.164431, 0.00204, -0.986387 },
+				{ -0.00957, 0.999954, 0.000473 },
+				{ 0.986342, 0.009362, 0.164443 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop",
+			NoFog = "y"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_A",
+		type = COMPOUND,
+		template_name = "li01_bldg_A",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -1196.683838, -1000, -2851.005859 },
+			orient =
+			{
+				{ 0.965116, 0, 0.261824 },
+				{ 0, 1, 0 },
+				{ -0.261824, 0, 0.965116 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_B",
+		type = COMPOUND,
+		template_name = "li01_bldg_B",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1708.346313, -850, -3398.023438 },
+			orient =
+			{
+				{ 0.798786, 0, 0.601616 },
+				{ 0, 1, 0 },
+				{ -0.601616, 0, 0.798786 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_C",
+		type = COMPOUND,
+		template_name = "li01_bldg_C",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -986.759216, -800, -4563.527344 },
+			orient =
+			{
+				{ 0.728299, 0, 0.685259 },
+				{ 0, 1, 0 },
+				{ -0.685259, 0, 0.728299 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_D",
+		type = COMPOUND,
+		template_name = "li01_bldg_D",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1005.49939, -800, -3372.706055 },
+			orient =
+			{
+				{ 0.662781, 0, 0.748813 },
+				{ 0, 1, 0 },
+				{ -0.748813, 0, 0.662781 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_E",
+		type = COMPOUND,
+		template_name = "li01_bldg_E",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 2556.950439, -800, -3957.424805 },
+			orient =
+			{
+				{ 0.517001, 0, 0.855985 },
+				{ 0, 1, 0 },
+				{ -0.855985, 0, 0.517001 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_F",
+		type = COMPOUND,
+		template_name = "li01_bldg_F",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 88.486259, -600, -4115.954102 },
+			orient =
+			{
+				{ 0.703799, 0, 0.710399 },
+				{ 0, 1, 0 },
+				{ -0.710399, 0, 0.703799 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_G",
+		type = COMPOUND,
+		template_name = "li01_bldg_G",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 2179.193604, -500, -5497.117188 },
+			orient =
+			{
+				{ 0.763192, 0, -0.646172 },
+				{ 0, 1, 0 },
+				{ 0.646172, 0, 0.763192 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_H",
+		type = COMPOUND,
+		template_name = "li01_bldg_H",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -939.882629, -500, -6126.546875 },
+			orient =
+			{
+				{ 0.534185, 0, 0.845367 },
+				{ 0, 1, 0 },
+				{ -0.845367, 0, 0.534185 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_C_02",
+		type = COMPOUND,
+		template_name = "li01_bldg_C",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1700, -500, -400 },
+			orient =
+			{
+				{ -0.817516, 0, 0.575906 },
+				{ 0, 1, 0 },
+				{ -0.575906, 0, -0.817516 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_D_02",
+		type = COMPOUND,
+		template_name = "li01_bldg_D",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 3000, -800, -200 },
+			orient =
+			{
+				{ -0.747226, 0, 0.66457 },
+				{ 0, 1, 0 },
+				{ -0.66457, 0, -0.747226 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_A_02",
+		type = COMPOUND,
+		template_name = "li01_bldg_A",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 3521.009277, -800, -4646.59082 },
+			orient =
+			{
+				{ 0.136495, 0, 0.990641 },
+				{ 0, 1, 0 },
+				{ -0.990641, 0, 0.136495 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_H_02",
+		type = COMPOUND,
+		template_name = "li01_bldg_H",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 2600, -500, -3232.229492 },
+			orient =
+			{
+				{ 0.534185, 0, 0.845367 },
+				{ 0, 1, 0 },
+				{ -0.845367, 0, 0.534185 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_B_02",
+		type = COMPOUND,
+		template_name = "li01_bldg_B",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -2109.80542, -850, 220.685181 },
+			orient =
+			{
+				{ 0.731563, 0, -0.681773 },
+				{ 0, 1, 0 },
+				{ 0.681773, 0, 0.731563 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_E_02",
+		type = COMPOUND,
+		template_name = "li01_bldg_E",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -978.340454, -800, -22.365845 },
+			orient =
+			{
+				{ 0.689812, 0, -0.723988 },
+				{ 0, 1, 0 },
+				{ 0.723988, 0, 0.689812 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_G_02",
+		type = COMPOUND,
+		template_name = "li01_bldg_G",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -1418.575439, -500, -1278.554932 },
+			orient =
+			{
+				{ -0.54952, 0, -0.835481 },
+				{ 0, 1, 0 },
+				{ 0.835481, 0, -0.54952 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_F_02",
+		type = COMPOUND,
+		template_name = "li01_bldg_F",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 2124.431396, -600, -1860.040283 },
+			orient =
+			{
+				{ -0.353423, 0, 0.935464 },
+				{ 0, 1, 0 },
+				{ -0.935464, 0, -0.353423 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_F_03",
+		type = COMPOUND,
+		template_name = "li01_bldg_F",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -1289.96936, -600, -3905.832764 },
+			orient =
+			{
+				{ 0.98535, 0, -0.170544 },
+				{ 0, 1, 0 },
+				{ 0.170544, 0, 0.98535 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_C_03",
+		type = COMPOUND,
+		template_name = "li01_bldg_C",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1609.538818, -750, -3994.554932 },
+			orient =
+			{
+				{ 0.17813, 0, 0.984007 },
+				{ 0, 1, 0 },
+				{ -0.984007, 0, 0.17813 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_B_03",
+		type = COMPOUND,
+		template_name = "li01_bldg_B",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -1100, -400, 2500 },
+			orient =
+			{
+				{ -0.273596, 0, -0.961845 },
+				{ 0, 1, 0 },
+				{ 0.961845, 0, -0.273596 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG11_li_01_SkyLine_Cntr_Front",
+		type = COMPOUND,
+		template_name = "li_01_cityscape_bg",
+		lt_grp = 11,
+		srt_grp = -40,
+		usr_flg = 2,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -1000, 300, 5000 },
+			orient =
+			{
+				{ -0.994115, 0.00204, -0.108313 },
+				{ 0.001014, 0.999954, 0.009528 },
+				{ 0.108327, 0.009362, -0.994071 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop",
+			NoFog = "y"
+		}
+	},
+	{
+		entity_name = "SET_LtG09_li01_bldg_E_03",
+		type = COMPOUND,
+		template_name = "li01_bldg_E",
+		lt_grp = 9,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -844.777954, -500, 1431.244263 },
+			orient =
+			{
+				{ 0.04761, 0, -0.998866 },
+				{ 0, 1, 0 },
+				{ 0.998866, 0, 0.04761 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop"
+		}
+	},
+	{
+		entity_name = "SET_LtG12_Li_01_mountain_beige_2",
+		type = COMPOUND,
+		template_name = "mountain_beige",
+		lt_grp = 12,
+		srt_grp = -50,
+		usr_flg = 2,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 6925.716797, -1122.487549, -15327.515625 },
+			orient =
+			{
+				{ 0.977658, -0.011793, 0.209873 },
+				{ 0.015607, 0.999742, -0.016527 },
+				{ -0.209624, 0.019433, 0.977589 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop",
+			NoFog = "y"
+		}
+	}
+}
+
+events = {}

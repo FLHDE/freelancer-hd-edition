@@ -1,8 +1,8 @@
 <script>
 
-<header name="Freelancer: HD Edition 0.1" savesafe="true">
+<header name="Freelancer: HD Edition 0.2" savesafe="true">
 <scriptversion>
-1.0
+1.3
 </scriptversion>
 <author>
 BC46
@@ -16,26 +16,50 @@ Freelancer: HD Edition is a modpack that aims to improve every visual, aural, an
 N.B. This modpack does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this modpack to play on all vanilla servers as long as the server owners allow these changes.
 
 Check out the GitHub repository for more information: https://github.com/BC46/freelancer-hd-edition
-  
+Also, don't forget to join our Discord server! https://discord.gg/ScqgYuFqmU
+
+
+## Recommendations
+For the best possible experience, it is recommended to force enable anti-aliasing and anisotropic filtering for Freelancer through your GPU settings. To learn how to do this, please visit the link from your GPU manufacturer:
+* NVIDIA: https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/nv3d/Manage_3D_Settings_(reference).htm
+* AMD: https://www.amd.com/en/support/kb/faq/dh-012
+* Intel: https://www.intel.com/content/www/us/en/support/articles/000057285/graphics.html
+
+If you have selected the Windows 10 compatibility patch when installing this mod, you can learn how to enable native anti-aliasing and anisotropic filtering here: https://github.com/BC46/freelancer-hd-edition/wiki/How-to-enable-native-MSAA-and-Anisotropic-Filtering-with-the-Windows-10-compatibility-patch
+
+Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
+
+
 Content:
 ### Visual
+* Added HD Mission & News images
+* Added HD Starspheres
+* Added HD Startup Screen & Main Menu logo
+* Added HD System & Universe Map
+* Added improved reflections
+* Added new interface with new icons
 * Increased effect pool sizes
 * Maximized draw distances for space structures, asteroids and effects
 
+### Audio
+* Added HQ Music
+
 ### Gameplay
+* Added 16:9 planetscape fixes
 * Added support for scrolling through menus
 * Added support for zooming in turret view
 * Allow players to be called differently in Single Player
+* Applied fixes in many bar scripts
 * Enabled NPC paths in multiplayer
 * Include player ships in ship filter
 * Make all planets spin slowly
-* Make the first and last trade lane ring in a sequence visible on the nav map after encountering them
 * Set maximum level in Single Player to 40
 * Show the names of zones as you enter and leave them
 * Show the remaining shield and hull points of the selected target as numbers
 
 ### Misc
 * 1.1 Patch
+* Added Freelancer manual
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
 * Disabled IPv6 adresses in Multiplayer Server list
@@ -45,6 +69,7 @@ Content:
 * Improved infocards for unknown factions
 * Improved Nomad group member names
 * Make energy, shield, and hull bars solid
+* Moved neural net bar 1 px up so the pixel line disappears
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Prevent intentional frame drops from occurring
@@ -54,18 +79,33 @@ Content:
 * Removed ESRB notice
 * Removed EULA on first run
 * Removed unknown graphics card warning
-  
+* Windows 10 compatibility patch (dgVoodoo2)
+
+
 Credits:
-* BC46 
+* BC46
+  - HD Mission & News images
+  - HD Starsphere improvements and HD Starsphere for ST03b
+  - HD Startup Screen & Main Menu logo
+  - HD System Map
+  - Improved reflections
   - Many misc fixes
   - Many misc improvements
   - Maximized Draw Distances
   - Spinning planets
   - Text Strings Revision
 * Buck Danny
-  - Unofficial FL SP 1.4 patch *(included in Jason's Freelancer Patch)*
+  - Unofficial FL SP 1.4 patch (included in Jason's Freelancer Patch)
 * crosire et al.
-  - d3d8to9
+  - d3d8to9]
+* Dege
+  - dgVoodoo2
+* Freestalker.fl
+  - FLHQmusics Remaster
+* HUN0R
+  - Flat Interface
+  - HD Starsphere pack
+  - HD Universe Map
 * Jason Hood
   - Call Sign plugin
   - Jason's Freelancer Patch v1.25
@@ -74,13 +114,382 @@ Credits:
   - Wheel Scroll plugin
   - Zone plugin
 * Louva-Deus
-  - Freelancer SDK/QuickFix *(included in Jason's Freelancer Patch)*
+  - Freelancer SDK/QuickFix (included in Jason's Freelancer Patch)
 * Microsoft
   - Freelancer Patch 1.1
+* Ruppetus
+  - Planetscapes Fixed for 16:9 Resolutions
+  - Many bar script fixes
 </description>
+
+<options>
+<option name="Open mod_options.txt in the folder of this mod">
+<item id="0" name="">
+</item>
+</option>
+<option name="for more detailed information about the mod options">
+<item id="0" name="">
+</item>
+</option>
+<option name="">
+<item id="0" name="">
+</item>
+</option>
+ 
+<option id="1" name="Single Player ID Code" savesafe="true">
+<item id="1" name="Freelancer Alpha 1-1 (Default)">
+</item>
+
+<item id="2" name="Navy Beta 2-5">
+</item>
+
+<item id="3" name="Bretonia Police Iota 3-4">
+</item>
+
+<item id="4" name="Military Epsilon 11-6">
+</item>
+
+<item id="5" name="Naval Forces Matsu 4-9">
+</item>
+
+<item id="6" name="IMG Red 18-6">
+</item>
+
+<item id="7" name="Kishiro Yanagi 7-3">
+</item>
+
+<item id="8" name="Outcasts Lambda 9-12">
+</item>
+
+<item id="9" name="Dragons Green 16-13">
+</item>
+
+<item id="10" name="Spa and Cruise Omega 8-0">
+</item>
+
+<item id="11" name="Daumann Zeta 11-17">
+</item>
+
+<item id="12" name="Bowex Gamma 5-7">
+</item>
+
+<item id="13" name="Order Omicron 0-0">
+</item>
+
+<item id="14" name="LSF Delta 6-9">
+</item>
+
+<item id="15" name="Hacker Kappa 4-20">
+</item>
+</option>
+
+<option id="2" name="Fix clipping with 16:9 resolution planetscapes" savesafe="true">
+<item id="1" name="Yes">
+</item>
+
+<item id="2" name="No">
+</item>
+</option>
+
+<option id="3" name="Add improved reflections" savesafe="true">
+<item id="1" name="Yes">
+</item>
+
+<item id="2" name="No">
+</item>
+</option>
+
+<option id="4" name="Startup Screen resolution" savesafe="true">
+<item id="5" name="1080p 16:9 - 1920x1080">
+</item>
+
+<item id="1" name="None">
+</item>
+
+<item id="2" name="720p 16:9 - 1280x720">
+</item>
+
+<item id="3" name="960p 4:3 - 1280x960 (Default)">
+</item>
+
+<item id="4" name="1080p 4:3 - 1440x1080">
+</item>
+
+<item id="6" name="1440p 4:3 - 1920x1440">
+</item>
+
+<item id="7" name="1440p 16:9 - 2560x1440">
+</item>
+
+<item id="8" name="4K 4:3 - 2880x2160">
+</item>
+
+<item id="9" name="4K 16:9 - 3840x2160">
+</item>
+</option>
+
+<option id="5" name="Main Menu Freelancer Logo resolution" savesafe="true">
+<item id="7" name="1080p 16:9 - 1920x1080">
+</item>
+
+<item id="1" name="None">
+</item>
+
+<item id="2" name="450p 16:9 - 800x450">
+</item>
+
+<item id="3" name="600p 4:3 - 800x600 (Default)">
+</item>
+
+<item id="4" name="720p 16:9 - 1280x720">
+</item>
+
+<item id="5" name="960p 4:3 - 1280x960">
+</item>
+
+<item id="6" name="1080p 4:3 - 1440x1080">
+</item>
+
+<item id="8" name="1440p 4:3 - 1920x1440">
+</item>
+
+<item id="9" name="1440p 16:9 - 2560x1440">
+</item>
+
+<item id="10" name="4K 4:3 - 2880x2160">
+</item>
+
+<item id="11" name="4K 16:9 - 3840x2160">
+</item>
+</option>
+
+<option id="6" name="Fix Windows 10 compat issues. TRY AT YOUR OWN RISK" savesafe="true">
+<item id="2" name="No">
+</item>
+
+<item id="1" name="Yes">
+</item>
+</option>
+
+</options>
 </header>
 
+
 <data file="DLLS\BIN\callsign.dll2" method="renamefile" newfilename="DLLS\BIN\callsign.dll">
+</data>
+
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:2">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, li_n 2 2-5
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:3">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, br_p 8 3-4
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:4">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, rh_n 5 11-6
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:5">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, ku_n 22 4-9
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:6">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, gd_im 14 18-6
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:7">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, co_kt 29 7-3
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:8">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, fc_ou 10 9-12
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:9">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, fc_bd 17 16-13
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:10">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, co_os 13 8-0
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:11">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, co_khc 6 11-17
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:12">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, co_be 3 5-7
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:13">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, fc_or 11 0-0
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:14">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, li_lsf 4 6-9
+</source>
+</data>
+
+<data file="EXE\freelancer.ini" method="filereplace" options="1:15">
+<dest>
+DLL = callsign.dll, player 1 1-1
+</dest>
+<source>
+DLL = callsign.dll, fc_lh 9 4-20
+</source>
+</data>
+
+
+<data file="DATA\SCRIPTS\BASES\br_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\br_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\br_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\br_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\br_03_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\br_03_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\bw_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\bw_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\bw_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\bw_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\hi_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\hi_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\hi_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\hi_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\ku_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\ku_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\ku_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\ku_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\ku_03_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\ku_03_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\li_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\li_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\li_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\li_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\li_03_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\li_03_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\li_04_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\li_04_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\rh_01_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\rh_01_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\rh_02_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\rh_02_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+<data file="DATA\SCRIPTS\BASES\rh_03_cityscape_hardpoint_01_169.thn" method="renamefile" newfilename="DATA\SCRIPTS\BASES\rh_03_cityscape_hardpoint_01.thn" options="2:1">
+</data>
+
+
+<data file="DATA\FX\envmapbasic_new.mat" method="renamefile" newfilename="DATA\FX\envmapbasic.mat" options="3:1">
+</data>
+<data file="DATA\FX\envmapglass_new.txm" method="renamefile" newfilename="DATA\FX\envmapglass.txm" options="3:1">
+</data>
+
+
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x960.tga" options="4:1">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:3">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1440x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:4">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1920x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:5">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1920x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:6">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_2560x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:7">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_2880x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:8">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:9">
+</data>
+
+
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x600.tga" options="5:1">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x450.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:3">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1280x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:4">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1280x960.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:5">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1440x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:6">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1920x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:7">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1920x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:8">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_2560x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:9">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_2880x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:10">
+</data>
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:11">
+</data>
+
+<data file="EXE\D3D8_compat.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="6:1">
+</data>
+<data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="6:2">
 </data>
 
 </script>

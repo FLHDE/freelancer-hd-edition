@@ -1,0 +1,9 @@
+Thank you for downloading Freelancer: HD Edition!
+
+Make sure you join our Discord server at https://discord.gg/ScqgYuFqmU so you always stay up to date with the latest news and information regarding the mod!
+
+Have something to contribute to make the mod even better? Feel free to create a pull request or feature request at https://github.com/BC46/freelancer-hd-edition . We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
+
+If you encounter any issues related to this mod during installation or gameplay, please refer to the wiki at https://github.com/BC46/freelancer-hd-edition/wiki for potential solutions. In case none of these work, you may add an issue at https://github.com/BC46/freelancer-hd-edition/issues and we'll look into it for you. You can also ask for help on the Discord server https://discord.gg/ScqgYuFqmU
+
+To continue the installation process, click "Yes".
