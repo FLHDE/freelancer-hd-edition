@@ -1,4 +1,4 @@
-Since Freelancer Mod Manager has fixed width for the mod options name sections, there is insufficient space for extra descriptions. 
+Since Freelancer Mod Manager has a limited width for the mod options name sections, there is insufficient space for extra descriptions. 
 Hence we've compiled a list of more comprehensive descriptions and explanations for the mod options here:
 
 
