@@ -3,27 +3,38 @@ Freelancer: HD Edition is a modpack that aims to improve every visual, aural, an
 
 **N.B. This modpack does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this modpack to play on all vanilla servers as long as the server owners allow these changes.**
 
-Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with the latest news and information.
+Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with the latest news and information!
 
 ## Content
 ### Visual
+* Added HD Mission & News images
+* Added HD Starspheres
+* Added HD Startup Screen & Main Menu logo
+* Added HD System & Universe Map
+* Added improved reflections
+* Added new interface with new icons
 * Increased effect pool sizes
 * Maximized draw distances for space structures, asteroids and effects
 
+### Audio
+* Added HQ Music
+
 ### Gameplay
+* Added 16:9 planetscape fixes
 * Added support for scrolling through menus
 * Added support for zooming in turret view
 * Allow players to be called differently in Single Player
+* Applied fixes in many bar scripts
 * Enabled NPC paths in multiplayer
 * Include player ships in ship filter
 * Make all planets spin slowly
-* Make the first and last trade lane ring in a sequence visible on the nav map after encountering them
 * Set maximum level in Single Player to 40
 * Show the names of zones as you enter and leave them
 * Show the remaining shield and hull points of the selected target as numbers
 
 ### Misc
 * 1.1 Patch
+* Added Freelancer manual
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
 * Disabled IPv6 adresses in Multiplayer Server list
@@ -33,6 +44,7 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 * Improved infocards for unknown factions
 * Improved Nomad group member names
 * Make energy, shield, and hull bars solid
+* Moved neural net bar 1 px up so the pixel line disappears
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Prevent intentional frame drops from occurring
@@ -42,6 +54,7 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 * Removed ESRB notice
 * Removed EULA on first run
 * Removed unknown graphics card warning
+* Windows 10 compatibility patch (dgVoodoo2)
 
 ## Recommendations 
 For the best possible experience, it is recommended to force enable anti-aliasing and anisotropic filtering for Freelancer through your GPU settings. To learn how to do this, please visit the link from your GPU manufacturer:
@@ -64,7 +77,12 @@ Due to the large file size of many textures used in this mod, some users may exp
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
 
 ## Credits
-* BC46 
+* BC46
+  - HD Mission & News images
+  - HD Starsphere improvements and HD Starsphere for ST03b
+  - HD Startup Screen & Main Menu logo
+  - HD System Map
+  - Improved reflections
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances)
@@ -74,6 +92,14 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
 * crosire et al.
   - [d3d8to9](https://github.com/crosire/d3d8to9)
+* Dege
+  - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
+* Freestalker.fl
+  - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
+* HUN0R
+  - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
+  - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
+  - [HD Universe Map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
 * Jason Hood
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html)
   - [Jason's Freelancer Patch v1.25](http://adoxa.altervista.org/freelancer/index.html)
@@ -85,3 +111,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
+* Ruppetus
+  - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
+  - Many bar script fixes
+  

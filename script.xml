@@ -18,6 +18,7 @@ N.B. This modpack does not add additional content op top of Freelancer but rathe
 Check out the GitHub repository for more information: https://github.com/BC46/freelancer-hd-edition
 Also, don't forget to join our Discord server! https://discord.gg/ScqgYuFqmU
 
+
 ## Recommendations
 For the best possible experience, it is recommended to force enable anti-aliasing and anisotropic filtering for Freelancer through your GPU settings. To learn how to do this, please visit the link from your GPU manufacturer:
 * NVIDIA: https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/nv3d/Manage_3D_Settings_(reference).htm
@@ -27,26 +28,38 @@ For the best possible experience, it is recommended to force enable anti-aliasin
 If you have selected the Windows 10 compatibility patch when installing this mod, you can learn how to enable native anti-aliasing and anisotropic filtering here: https://github.com/BC46/freelancer-hd-edition/wiki/How-to-enable-native-MSAA-and-Anisotropic-Filtering-with-the-Windows-10-compatibility-patch
 
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
-  
+
+
 Content:
 ### Visual
+* Added HD Mission & News images
+* Added HD Starspheres
+* Added HD Startup Screen & Main Menu logo
+* Added HD System & Universe Map
+* Added improved reflections
+* Added new interface with new icons
 * Increased effect pool sizes
 * Maximized draw distances for space structures, asteroids and effects
 
+### Audio
+* Added HQ Music
+
 ### Gameplay
+* Added 16:9 planetscape fixes
 * Added support for scrolling through menus
 * Added support for zooming in turret view
 * Allow players to be called differently in Single Player
+* Applied fixes in many bar scripts
 * Enabled NPC paths in multiplayer
 * Include player ships in ship filter
 * Make all planets spin slowly
-* Make the first and last trade lane ring in a sequence visible on the nav map after encountering them
 * Set maximum level in Single Player to 40
 * Show the names of zones as you enter and leave them
 * Show the remaining shield and hull points of the selected target as numbers
 
 ### Misc
 * 1.1 Patch
+* Added Freelancer manual
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
 * Disabled IPv6 adresses in Multiplayer Server list
@@ -56,6 +69,7 @@ Content:
 * Improved infocards for unknown factions
 * Improved Nomad group member names
 * Make energy, shield, and hull bars solid
+* Moved neural net bar 1 px up so the pixel line disappears
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Prevent intentional frame drops from occurring
@@ -65,18 +79,33 @@ Content:
 * Removed ESRB notice
 * Removed EULA on first run
 * Removed unknown graphics card warning
-  
+* Windows 10 compatibility patch (dgVoodoo2)
+
+
 Credits:
-* BC46 
+* BC46
+  - HD Mission & News images
+  - HD Starsphere improvements and HD Starsphere for ST03b
+  - HD Startup Screen & Main Menu logo
+  - HD System Map
+  - Improved reflections
   - Many misc fixes
   - Many misc improvements
   - Maximized Draw Distances
   - Spinning planets
   - Text Strings Revision
 * Buck Danny
-  - Unofficial FL SP 1.4 patch *(included in Jason's Freelancer Patch)*
+  - Unofficial FL SP 1.4 patch (included in Jason's Freelancer Patch)
 * crosire et al.
-  - d3d8to9
+  - d3d8to9]
+* Dege
+  - dgVoodoo2
+* Freestalker.fl
+  - FLHQmusics Remaster
+* HUN0R
+  - Flat Interface
+  - HD Starsphere pack
+  - HD Universe Map
 * Jason Hood
   - Call Sign plugin
   - Jason's Freelancer Patch v1.25
@@ -85,9 +114,12 @@ Credits:
   - Wheel Scroll plugin
   - Zone plugin
 * Louva-Deus
-  - Freelancer SDK/QuickFix *(included in Jason's Freelancer Patch)*
+  - Freelancer SDK/QuickFix (included in Jason's Freelancer Patch)
 * Microsoft
   - Freelancer Patch 1.1
+* Ruppetus
+  - Planetscapes Fixed for 16:9 Resolutions
+  - Many bar script fixes
 </description>
 
 <options>
