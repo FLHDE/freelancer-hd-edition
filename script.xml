@@ -144,7 +144,7 @@ Credits:
 <item id="13" name="Order Omicron 0-0">
 </item>
 
-<item id="14" name="LSF Beta 6-9">
+<item id="14" name="LSF Delta 6-9">
 </item>
 
 <item id="15" name="Hacker Kappa 4-20">
@@ -360,7 +360,7 @@ DLL = callsign.dll, fc_or 11 0-0
 DLL = callsign.dll, player 1 1-1
 </dest>
 <source>
-DLL = callsign.dll, li_lsf 2 6-9
+DLL = callsign.dll, li_lsf 4 6-9
 </source>
 </data>
 
@@ -412,7 +412,7 @@ DLL = callsign.dll, fc_lh 9 4-20
 
 <data file="DATA\FX\envmapbasic_new.mat" method="renamefile" newfilename="DATA\FX\envmapbasic.mat" options="3:1">
 </data>
-<data file="DATA\FX\envmapglass_new.mat" method="renamefile" newfilename="DATA\FX\envmapglass.mat" options="3:1">
+<data file="DATA\FX\envmapglass_new.txm" method="renamefile" newfilename="DATA\FX\envmapglass.txm" options="3:1">
 </data>
 
 
@@ -455,8 +455,9 @@ DLL = callsign.dll, fc_lh 9 4-20
 <data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:11">
 </data>
 
-<data file="EXE\D3D8_compat.dll" method="renamefile" newfilename="EXE\d3d8.dll" options="6:1">
+<data file="EXE\D3D8_compat.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="6:1">
 </data>
-
+<data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="6:2">
+</data>
 
 </script>
