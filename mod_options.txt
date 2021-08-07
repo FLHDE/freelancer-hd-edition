@@ -18,12 +18,14 @@ Start Screen resolution:
 By default, the "Freelancer" splash screen you see when you start the game has a resolution of 1280x960.
 This makes it appear stretched and a bit blurry on HD 16:9 resolutions.
 Setting this to a higher resolution makes the splash screen look nice and sharp. Hence we recommend setting this option to your monitor's native resolution.
+Selecting the "None" option completely removes the start screen if you like it that way.
 NOTE: A higher resolution option may negatively impact the game's startup speed.
 
 Main Menu Freelancer logo resolution:
 When you view the game's main menu, you will see a "Freelancer" logo on the top-left of your screen.
 This logo has a resolution of 800x600 by default, which makes it look stretched and pixelated/blurry on HD 16:9 monitors.
 Setting this to a higher resolution with the correct aspect ratio makes the logo look nice and sharp and not stretched-out. Hence we recommend setting this option to your monitor's native resolution.
+Selecting the "None" option completely removes the Freelancer logo if you like it that way.
 NOTE: A higher resolution option may negatively impact the game's startup speed.
 
 

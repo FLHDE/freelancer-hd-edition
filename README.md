@@ -54,7 +54,7 @@ If you have selected the Windows 10 compatibility patch when installing this mod
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
 
 ## Installation instructions
-**N.B. Do NOT extract the files to your Freelancer folder manually!**
+**N.B. Do NOT extract the files to your Freelancer folder manually, it won't work! This mod comes with a lot of custom options that can only be configured in FLMM**
 * Make sure you have a clean install of Freelancer
 * Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
 * Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
