@@ -450,7 +450,7 @@ DLL = callsign.dll, fc_lh 9 4-20
 
 <data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x960.tga" options="4:1">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:3">
+<data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:2">
 </data>
 <data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1440x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" options="4:4">
 </data>
@@ -468,7 +468,7 @@ DLL = callsign.dll, fc_lh 9 4-20
 
 <data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x600.tga" options="5:1">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x450.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:3">
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x450.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:2">
 </data>
 <data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1280x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:4">
 </data>
