@@ -2,17 +2,21 @@ Since Freelancer Mod Manager has a limited width for the mod options name sectio
 Hence we've compiled a list of more comprehensive descriptions and explanations for the mod options here:
 
 
+
 Single Player ID Code:
 You know when each time an NPC talks to you in-game, they call you Freelancer Alpha 1-1? 
 This is your ID Code. Well, this mod gives you the ability to change your ID Code in Single Player! Just select any option you like and the NPCs will call you by that.
+
 
 Fix clipping with 16:9 resolution planetscapes:
 Since Freelancer was never optimized for 16:9 resolutions, there are several inconsistencies with planetscapes that occur while viewing them in 16:9, such as clipping and geometry issues.
 This mod gives you the option of fixing this, as it adjusts the camera values in the planetscapes so the issues are no longer visible in 16:9 resolutions.
 Disable this option if you play in 4:3.
 
+
 Add improved reflections:
 This option speaks for itself. It makes the way light reflects off glass, ships, bases, etc, a lot nicer.
+
 
 Start Screen resolution:
 By default, the "Freelancer" splash screen you see when you start the game has a resolution of 1280x960.
@@ -20,6 +24,7 @@ This makes it appear stretched and a bit blurry on HD 16:9 resolutions.
 Setting this to a higher resolution makes the splash screen look nice and sharp. Hence we recommend setting this option to your monitor's native resolution.
 Selecting the "None" option completely removes the start screen if you like it that way.
 NOTE: A higher resolution option may negatively impact the game's startup speed.
+
 
 Main Menu Freelancer logo resolution:
 When you view the game's main menu, you will see a "Freelancer" logo on the top-left of your screen.
@@ -38,3 +43,9 @@ We've included a Legacy DirectX wrapper named dgVoodoo2 in this mod, which serve
 However, we have disabled this option by default as you may experience, crashes, bugs, and stutters while using it. So please try it at your own risk.
 
 If you experience a refresh rate/fps lock to 60 while using this patch, please refer to the wiki for a solution: https://github.com/BC46/freelancer-hd-edition/wiki
+
+
+Fix missing text and button misalignments on 4K resolutions:
+Many 4K resolution users who play Freelancer have reported missing HUD text and misaligned buttons in menus.
+This option fixes these issues by simply applying the changes mentioned here: http://adoxa.altervista.org/freelancer/widescreen.html
+Enable this option only if you're going to play Freelancer in 4K (3840x2160) or higher.

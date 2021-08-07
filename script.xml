@@ -263,6 +263,14 @@ Credits:
 </item>
 </option>
 
+<option id="6" name="Fix missing text and button misalignments on 4K resolutions" savesafe="true">
+<item id="2" name="No">
+</item>
+
+<item id="1" name="Yes">
+</item>
+</option>
+
 <option id="6" name="Fix Windows 10 compat issues. TRY AT YOUR OWN RISK" savesafe="true">
 <item id="2" name="No">
 </item>
@@ -487,9 +495,37 @@ DLL = callsign.dll, fc_lh 9 4-20
 <data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:11">
 </data>
 
+
 <data file="EXE\D3D8_compat.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="6:1">
 </data>
 <data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="6:2">
+</data>
+
+
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="7:1">
+<dest>
+nickname = HudSmall
+font = Agency FB
+fixed_height = 0.03
+</dest>
+<source>
+nickname = HudSmall
+font = Agency FB
+fixed_height = 0.02
+</source>
+</data>
+
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="7:1">
+<dest>
+nickname = Normal
+font = Agency FB
+fixed_height = 0.035
+</dest>
+<source>
+nickname = Normal
+font = Agency FB
+fixed_height = 0.02
+</source>
 </data>
 
 </script>
