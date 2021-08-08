@@ -191,7 +191,7 @@ Credits:
 </item>
 </option>
 
-<option id="9" name="Add 16:9 Advanced Widescreen HUD" savesafe="true">
+<option id="9" name="Add Advanced Widescreen HUD for 16:9 resolutions" savesafe="true">
 <item id="1" name="Yes">
 </item>
 

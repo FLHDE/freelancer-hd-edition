@@ -17,8 +17,9 @@ Add 16:9 Advanced Widescreen HUD:
 This option adds two new useful widgets to your hud. 
 Next to your contact list, you will have a wireframe representation of your selected target.
 Next to your weapons list, you will have a wireframe of your own ship.
-The Advanced Widescreen HUD makes great use of the unused space, hence we recommend it for all players who play in 16:9.
+The Advanced Widescreen HUD makes great use of the unused space that you normally see in widescreen, hence we recommend it for all players who play in 16:9.
 If you play in 4:3 however, disable this option. It only works for widescreen resolutions.
+N.B. If you disable this option, you will still get support for the default 16:9 hud and corresponding resolutions.
 
 
 Add improved reflections:
@@ -41,6 +42,19 @@ Selecting the "None" option completely removes the Freelancer logo if you like i
 NOTE: A higher resolution option may negatively impact the game's startup speed.
 
 
+Fix missing text and button misalignments on 4K resolutions:
+Many 4K resolution users who play Freelancer have reported missing HUD text and misaligned buttons in menus.
+This option fixes these issues by simply applying the changes mentioned here: http://adoxa.altervista.org/freelancer/widescreen.html
+Enable this option only if you're going to play Freelancer in 4K (3840x2160) or higher.
+
+
+Add Single Player command console:
+This option speaks for itself.
+It allows players to make use of various console commands in Single Player.
+To use it, press Enter while in-game and type "help" for a list of available commands.
+This command console is very userful for testing and debugging purposes.
+
+
 Fix Windows 10 compat issues:
 Windows 10 users may experience the following compatibility issues while playing (vanilla) Freelancer:
 - Broken lighting in many base interiors
@@ -50,9 +64,3 @@ We've included a Legacy DirectX wrapper named dgVoodoo2 in this mod, which serve
 However, we have disabled this option by default as you may experience, crashes, bugs, and stutters while using it. So please try it at your own risk.
 
 If you experience a refresh rate/fps lock to 60 while using this patch, please refer to the wiki for a solution: https://github.com/BC46/freelancer-hd-edition/wiki
-
-
-Fix missing text and button misalignments on 4K resolutions:
-Many 4K resolution users who play Freelancer have reported missing HUD text and misaligned buttons in menus.
-This option fixes these issues by simply applying the changes mentioned here: http://adoxa.altervista.org/freelancer/widescreen.html
-Enable this option only if you're going to play Freelancer in 4K (3840x2160) or higher.
