@@ -191,6 +191,14 @@ Credits:
 </item>
 </option>
 
+<option id="9" name="Add 16:9 Advanced Widescreen HUD" savesafe="true">
+<item id="1" name="Yes">
+</item>
+
+<item id="2" name="No">
+</item>
+</option>
+
 <option id="3" name="Add improved reflections" savesafe="true">
 <item id="1" name="Yes">
 </item>
@@ -528,6 +536,7 @@ fixed_height = 0.02
 </source>
 </data>
 
+
 <data file="EXE\dacom.ini" method="filereplace" options="8:1">
 <dest>
 ;console.dll
@@ -535,6 +544,36 @@ fixed_height = 0.02
 <source>
 console.dll
 </source>
+</data>
+
+
+<data file="EXE\dacom.ini" method="filereplace" options="9:1">
+<dest>
+;HudFacility.dll
+;HudWeaponGroups.dll
+;HudTarget.dll
+;HudStatus.dll
+</dest>
+<source>
+HudFacility.dll
+HudWeaponGroups.dll
+HudTarget.dll
+HudStatus.dll
+</source>
+</data>
+
+<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
+<dest>
+;HudWeaponGroups = true
+</dest>
+<source>
+HudWeaponGroups = true
+</source>
+</data>
+
+<data file="DATA\INTERFACE\HUD\hud_shipinfo_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_shipinfo.cmp" options="9:1">
+</data>
+<data file="DATA\INTERFACE\HUD\hud_target_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_target.cmp" options="9:1">
 </data>
 
 

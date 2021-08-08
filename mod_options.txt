@@ -13,6 +13,13 @@ Since Freelancer was never optimized for 16:9 resolutions, there are several inc
 This mod gives you the option of fixing this, as it adjusts the camera values in the planetscapes so the issues are no longer visible in 16:9 resolutions.
 Disable this option if you play in 4:3.
 
+Add 16:9 Advanced Widescreen HUD:
+This option adds two new useful widgets to your hud. 
+Next to your contact list, you will have a wireframe representation of your selected target.
+Next to your weapons list, you will have a wireframe of your own ship.
+The Advanced Widescreen HUD makes great use of the unused space, hence we recommend it for all players who play in 16:9.
+If you play in 4:3 however, disable this option. It only works for widescreen resolutions.
+
 
 Add improved reflections:
 This option speaks for itself. It makes the way light reflects off ships, bases, etc, a lot nicer.
