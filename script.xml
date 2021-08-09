@@ -571,6 +571,40 @@ HudWeaponGroups = true
 </source>
 </data>
 
+<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
+<dest>
+position = 4e0a80, -0.3630, 4e0a94, -0.3025		; wireframe
+position = 4e0fe7, -0.4105, 4e0fef, -0.3700		; TargetMinimizedFrame
+position = 4e10ff, -0.4820, 4e1107, -0.2000		; TargetShipName
+position = 4e1145, -0.4820, 4e1158, -0.2000
+position = 4e1180, -0.4820, 4e1188, -0.2180		; SubtargetName
+position = 4e11e2, -0.4820, 4e11f0, -0.2180
+position = 4e1247, -0.2605, 4e124f, -0.2695		; TargetPreviousButton
+position = 4e12b4, -0.2645, 4e12bc, -0.3005		; TargetNextButton
+position = 4e175c, -0.4940, 4e1764, -0.3610		; TargetRankText
+</dest>
+<source>
+position = 4e0a80, -0.1270, 4e0a94, -0.3000		; wireframe
+position = 4e0fe7, -0.4105, 4e0fef, -0.3700		; TargetMinimizedFrame
+position = 4e10ff, -0.2430, 4e1107, -0.2030		; TargetShipName
+position = 4e1145, -0.2430, 4e1158, -0.2030
+position = 4e1180, -0.2430, 4e1188, -0.2210		; SubtargetName
+position = 4e11e2, -0.2430, 4e11f0, -0.2210
+position = 4e1247, -0.0545, 4e124f, -0.2770		; TargetPreviousButton
+position = 4e12b4, -0.0575, 4e12bc, -0.3080		; TargetNextButton
+position = 4e175c, -0.2550, 4e1764, -0.3610		; TargetRankText
+</source>
+</data>
+
+<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
+<dest>
+position = 4da2fa,  0.4180, 4da30e, -0.2900
+</dest>
+<source>
+position = 4da2fa,  0.5165, 4da30e, -0.3065, -1.0
+</source>
+</data>
+
 <data file="DATA\INTERFACE\HUD\hud_shipinfo_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_shipinfo.cmp" options="9:1">
 </data>
 <data file="DATA\INTERFACE\HUD\hud_target_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_target.cmp" options="9:1">
