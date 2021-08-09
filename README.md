@@ -82,10 +82,12 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
   - HD System Map
+  - HUD alignment fixes
   - Improved reflections
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances)
+  - Mod script
   - Spinning planets
   - [Text Strings Revision](https://github.com/BC46/freelancer-text-strings-revision)
 * Buck Danny
@@ -101,12 +103,14 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [HD Universe Map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
 * Jason Hood
-  - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html)
+  - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
+  - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
+  - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/index.html#hudshift)
   - [Jason's Freelancer Patch v1.25](http://adoxa.altervista.org/freelancer/index.html)
-  - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html)
-  - [Numeric plugin](http://adoxa.altervista.org/freelancer/plugins.html)
-  - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html)
-  - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html)
+  - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
+  - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
+  - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
+  - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft
