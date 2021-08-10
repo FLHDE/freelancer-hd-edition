@@ -349,6 +349,9 @@ Credits:
 <data file="DLLS\BIN\callsign.dll2" method="renamefile" newfilename="DLLS\BIN\callsign.dll">
 </data>
 
+<data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll">
+</data>
+
 
 <data file="EXE\freelancer.ini" method="filereplace" options="1:2">
 <dest>
@@ -658,9 +661,7 @@ position = 4da2fa,  0.5165, 4da30e, -0.3065, -1.0
 </data>
 
 
-<data file="EXE\D3D8_compat.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="7:1">
-</data>
-<data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="7:2">
+<data file="EXE\D3D9_compat.dll2" method="renamefile" newfilename="EXE\d3d9.dll" options="7:1">
 </data>
 
 </script>
