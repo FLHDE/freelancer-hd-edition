@@ -127,15 +127,23 @@ Credits:
 <item id="0" name="">
 </item>
 </option>
+
 <option name="for more detailed information about the mod options">
 <item id="0" name="">
 </item>
 </option>
+
 <option name="">
 <item id="0" name="">
 </item>
 </option>
- 
+
+
+<option name="Gameplay options:">
+<item id="0" name="">
+</item>
+</option>
+
 <option id="1" name="Single Player ID Code" savesafe="true">
 <item id="1" name="Freelancer Alpha 1-1 (Default)">
 </item>
@@ -183,6 +191,25 @@ Credits:
 </item>
 </option>
 
+<option id="9" name="Add Advanced Widescreen HUD for 16:9 resolutions" savesafe="true">
+<item id="1" name="Yes">
+</item>
+
+<item id="2" name="No">
+</item>
+</option>
+
+<option name="">
+<item id="0" name="">
+</item>
+</option>
+
+
+<option name="Fixes:">
+<item id="0" name="">
+</item>
+</option>
+
 <option id="2" name="Fix clipping with 16:9 resolution planetscapes" savesafe="true">
 <item id="1" name="Yes">
 </item>
@@ -191,11 +218,30 @@ Credits:
 </item>
 </option>
 
-<option id="9" name="Add Advanced Widescreen HUD for 16:9 resolutions" savesafe="true">
-<item id="1" name="Yes">
+<option id="6" name="Fix missing text and button misalignments on 4K resolutions" savesafe="true">
+<item id="2" name="No">
 </item>
 
+<item id="1" name="Yes">
+</item>
+</option>
+
+<option id="7" name="Fix Windows 10 compat issues. TRY AT YOUR OWN RISK" savesafe="true">
 <item id="2" name="No">
+</item>
+
+<item id="1" name="Yes">
+</item>
+</option>
+
+<option name="">
+<item id="0" name="">
+</item>
+</option>
+
+
+<option name="Visual options:">
+<item id="0" name="">
 </item>
 </option>
 
@@ -271,11 +317,15 @@ Credits:
 </item>
 </option>
 
-<option id="6" name="Fix missing text and button misalignments on 4K resolutions" savesafe="true">
-<item id="2" name="No">
-</item>
 
-<item id="1" name="Yes">
+<option name="">
+<item id="0" name="">
+</item>
+</option>
+
+
+<option name="Misc options:">
+<item id="0" name="">
 </item>
 </option>
 
@@ -287,16 +337,9 @@ Credits:
 </item>
 </option>
 
-<option id="7" name="Fix Windows 10 compat issues. TRY AT YOUR OWN RISK" savesafe="true">
-<item id="2" name="No">
-</item>
-
-<item id="1" name="Yes">
-</item>
-</option>
-
 </options>
 </header>
+
 
 
 <data file="DLLS\BIN\callsign.dll2" method="renamefile" newfilename="DLLS\BIN\callsign.dll">
