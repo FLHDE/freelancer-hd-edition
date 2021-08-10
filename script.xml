@@ -655,6 +655,15 @@ position = 4da2fa,  0.5165, 4da30e, -0.3065, -1.0
 </source>
 </data>
 
+<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
+<dest>
+position = 4e3592, -0.2950, 4e359a, -0.1710
+</dest>
+<source>
+position = 4e3592, -0.2950, 4e359a, -0.5710
+</source>
+</data>
+
 <data file="DATA\INTERFACE\HUD\hud_shipinfo_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_shipinfo.cmp" options="9:1">
 </data>
 <data file="DATA\INTERFACE\HUD\hud_target_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_target.cmp" options="9:1">
