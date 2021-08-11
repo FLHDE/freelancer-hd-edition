@@ -68,10 +68,10 @@ Due to the large file size of many textures used in this mod, some users may exp
 
 ## Installation instructions
 **N.B. Do NOT extract the files to your Freelancer folder manually, it won't work! This mod comes with a lot of custom options that can only be configured in FLMM**
-* Make sure you have a clean install of Freelancer
-* Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
-* Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
-* Install it like any other mod
+1. Make sure you have a clean install of Freelancer
+2. Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
+3. Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
+4. Install it like any other mod
 
 ## Contributing
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
