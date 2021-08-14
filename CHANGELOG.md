@@ -1,6 +1,6 @@
 # Changelog
 
-## [[0.3] - 2021-08-07](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.3)
+## [[0.3] - 2021-08-15](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.3)
 
 ### Changed
 - Added missing text fix for 4K users
