@@ -7,6 +7,7 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 
 ## Content
 ### Visual
+* Added HD Character Models
 * Added HD Mission & News images
 * Added HD Starspheres
 * Added HD Startup Screen & Main Menu logo
@@ -20,6 +21,7 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 * Added HQ Music
 
 ### Gameplay
+* Added Advanced Widescreen HUD
 * Added 16:9 planetscape fixes
 * Added support for scrolling through menus
 * Added support for zooming in turret view
@@ -35,11 +37,14 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 ### Misc
 * 1.1 Patch
 * Added Freelancer manual
+* Added Single Player console
+* Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
 * Disabled IPv6 adresses in Multiplayer Server list
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
+* Fixed missing text and incorrect HUD alignment on 4K displays
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
 * Improved infocards for unknown factions
 * Improved Nomad group member names
@@ -48,12 +53,14 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Prevent intentional frame drops from occurring
+* Realigned HUD elements
 * Removed cruise speed display limit
 * Removed general speed display limit
-* Show "Far" in contact list only at distances of 999.999K or higher
 * Removed ESRB notice
 * Removed EULA on first run
 * Removed unknown graphics card warning
+* Show "Far" in contact list only at distances of 999.999K or higher
+* Smoothened jump effect
 * Windows 10 compatibility patch (dgVoodoo2)
 
 ## Recommendations 
@@ -78,6 +85,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 
 ## Credits
 * BC46
+  - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models)
   - HD Mission & News images
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
@@ -111,6 +119,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
+* Jeider & Whiskas T-Mech
+  - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft
