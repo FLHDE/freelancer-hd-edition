@@ -6,6 +6,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
 
 If you encounter any issues related to this mod during installation or gameplay, please refer to the wiki at https://github.com/BC46/freelancer-hd-edition/wiki for potential solutions. In case none of these work, you may add an issue at https://github.com/BC46/freelancer-hd-edition/issues and we'll look into it for you. You can also ask for help on the Discord server https://discord.gg/ScqgYuFqmU
 
-**NOTE** This mod is large, 3GB+ unpacked. Make sure you have at least 10 GB of free disk space to both unpack this mod and installing it.
+**NOTE** This mod is large, 4 GB+ unpacked. Make sure you have at least 12 GB of free disk space to both unpack and install this mod.
 
 To continue the installation process, click "Yes".
