@@ -8,7 +8,9 @@ Freelancer: HD Edition is a mod that aims to improve every visual, aural, and ga
 
 **N.B. This mod does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
 
-Join our Discord server to stay up to date with the latest news and information! [![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ScqgYuFqmU)
+Join our Discord server to stay up to date with the latest news and information! 
+
+[![Support Server](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/ScqgYuFqmU)
 
 ## Content
 ### Visual
