@@ -1,5 +1,23 @@
 # Changelog
 
+## [[0.3] - 2021-08-15](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.3)
+
+### Changed
+- Added missing text fix for 4K users
+- Improved environment map materials (reflections)
+- Improved system map
+- Added console plugin
+- Added Advanced Widescreen HUD
+- HUD realignment
+- Updated HUDShift
+- Script improvements
+- Improved universe button in nav map
+- Updated dgVoodoo
+- Fixed starsphere & news images banding
+- Smoothened jump effect
+- Added HD Character Models
+
+
 ## [[0.2] - 2021-08-07](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.2)
 
 ### Changed

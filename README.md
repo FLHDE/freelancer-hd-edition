@@ -1,12 +1,13 @@
 # Freelancer: HD Edition
-Freelancer: HD Edition is a modpack that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
+Freelancer: HD Edition is a mod that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
 
-**N.B. This modpack does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this modpack to play on all vanilla servers as long as the server owners allow these changes.**
+**N.B. This mod does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
 
 Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with the latest news and information!
 
 ## Content
 ### Visual
+* Added HD Character Models
 * Added HD Mission & News images
 * Added HD Starspheres
 * Added HD Startup Screen & Main Menu logo
@@ -20,6 +21,7 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 * Added HQ Music
 
 ### Gameplay
+* Added Advanced Widescreen HUD
 * Added 16:9 planetscape fixes
 * Added support for scrolling through menus
 * Added support for zooming in turret view
@@ -35,11 +37,14 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 ### Misc
 * 1.1 Patch
 * Added Freelancer manual
+* Added Single Player console
+* Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
 * Disabled IPv6 adresses in Multiplayer Server list
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
+* Fixed missing text and incorrect HUD alignment on 4K displays
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
 * Improved infocards for unknown factions
 * Improved Nomad group member names
@@ -48,12 +53,14 @@ Join our Discord server at https://discord.gg/ScqgYuFqmU to stay up to date with
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Prevent intentional frame drops from occurring
+* Realigned HUD elements
 * Removed cruise speed display limit
 * Removed general speed display limit
-* Show "Far" in contact list only at distances of 999.999K or higher
 * Removed ESRB notice
 * Removed EULA on first run
 * Removed unknown graphics card warning
+* Show "Far" in contact list only at distances of 999.999K or higher
+* Smoothened jump effect
 * Windows 10 compatibility patch (dgVoodoo2)
 
 ## Recommendations 
@@ -68,24 +75,27 @@ Due to the large file size of many textures used in this mod, some users may exp
 
 ## Installation instructions
 **N.B. Do NOT extract the files to your Freelancer folder manually, it won't work! This mod comes with a lot of custom options that can only be configured in FLMM**
-* Make sure you have a clean install of Freelancer
-* Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
-* Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
-* Install it like any other mod
+1. Make sure you have a clean install of Freelancer
+2. Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
+3. Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
+4. Install it like any other mod
 
 ## Contributing
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
 
 ## Credits
 * BC46
+  - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models)
   - HD Mission & News images
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
   - HD System Map
+  - HUD alignment fixes
   - Improved reflections
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances)
+  - Mod script
   - Spinning planets
   - [Text Strings Revision](https://github.com/BC46/freelancer-text-strings-revision)
 * Buck Danny
@@ -101,12 +111,16 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [HD Universe Map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
 * Jason Hood
-  - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html)
+  - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
+  - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
+  - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/index.html#hudshift)
   - [Jason's Freelancer Patch v1.25](http://adoxa.altervista.org/freelancer/index.html)
-  - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html)
-  - [Numeric plugin](http://adoxa.altervista.org/freelancer/plugins.html)
-  - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html)
-  - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html)
+  - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
+  - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
+  - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
+  - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
+* Jeider & Whiskas T-Mech
+  - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft

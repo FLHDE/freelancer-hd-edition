@@ -1,6 +1,6 @@
 <script>
 
-<header name="Freelancer: HD Edition 0.2" savesafe="true">
+<header name="Freelancer: HD Edition 0.3" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -11,12 +11,12 @@ BC46
 https://github.com/BC46/freelancer-hd-edition
 </modurl>
 <description>
-Freelancer: HD Edition is a modpack that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
+Freelancer: HD Edition is a mod that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
 
-N.B. This modpack does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this modpack to play on all vanilla servers as long as the server owners allow these changes.
+N.B. This mod does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.
 
 Check out the GitHub repository for more information: https://github.com/BC46/freelancer-hd-edition
-Also, don't forget to join our Discord server! https://discord.gg/ScqgYuFqmU
+Also, don't forget to join our Discord server to stay up to date with the latest news and information! https://discord.gg/ScqgYuFqmU
 
 
 ## Recommendations
@@ -30,8 +30,9 @@ If you have selected the Windows 10 compatibility patch when installing this mod
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
 
 
-Content:
+## Content
 ### Visual
+* Added HD Character Models
 * Added HD Mission & News images
 * Added HD Starspheres
 * Added HD Startup Screen & Main Menu logo
@@ -45,6 +46,7 @@ Content:
 * Added HQ Music
 
 ### Gameplay
+* Added Advanced Widescreen HUD
 * Added 16:9 planetscape fixes
 * Added support for scrolling through menus
 * Added support for zooming in turret view
@@ -60,11 +62,14 @@ Content:
 ### Misc
 * 1.1 Patch
 * Added Freelancer manual
+* Added Single Player console
+* Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
 * Disabled IPv6 adresses in Multiplayer Server list
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
+* Fixed missing text and incorrect HUD alignment on 4K displays
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
 * Improved infocards for unknown factions
 * Improved Nomad group member names
@@ -73,31 +78,35 @@ Content:
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Prevent intentional frame drops from occurring
+* Realigned HUD elements
 * Removed cruise speed display limit
 * Removed general speed display limit
-* Show "Far" in contact list only at distances of 999.999K or higher
 * Removed ESRB notice
 * Removed EULA on first run
 * Removed unknown graphics card warning
+* Show "Far" in contact list only at distances of 999.999K or higher
+* Smoothened jump effect
 * Windows 10 compatibility patch (dgVoodoo2)
 
 
-Credits:
 * BC46
+  - HD Character Models
   - HD Mission & News images
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
   - HD System Map
+  - HUD alignment fixes
   - Improved reflections
   - Many misc fixes
   - Many misc improvements
   - Maximized Draw Distances
+  - Mod script
   - Spinning planets
   - Text Strings Revision
 * Buck Danny
-  - Unofficial FL SP 1.4 patch (included in Jason's Freelancer Patch)
+  - Unofficial FL SP 1.4 patch *(included in Jason's Freelancer Patch)*
 * crosire et al.
-  - d3d8to9]
+  - d3d8to9
 * Dege
   - dgVoodoo2
 * Freestalker.fl
@@ -108,13 +117,17 @@ Credits:
   - HD Universe Map
 * Jason Hood
   - Call Sign plugin
+  - Console plugin
+  - HUD Shift plugin
   - Jason's Freelancer Patch v1.25
   - MP Rep plugin
-  - Numeric plugin
+  - Numeric Damage plugin
   - Wheel Scroll plugin
   - Zone plugin
+* Jeider & Whiskas T-Mech
+  - Freelancer Advanced Widescreen HUD
 * Louva-Deus
-  - Freelancer SDK/QuickFix (included in Jason's Freelancer Patch)
+  - Freelancer SDK/QuickFix
 * Microsoft
   - Freelancer Patch 1.1
 * Ruppetus
@@ -123,19 +136,27 @@ Credits:
 </description>
 
 <options>
-<option name="Open mod_options.txt in the folder of this mod">
+<option name="Open mod_options.rtf in the folder of this mod">
 <item id="0" name="">
 </item>
 </option>
+
 <option name="for more detailed information about the mod options">
 <item id="0" name="">
 </item>
 </option>
+
 <option name="">
 <item id="0" name="">
 </item>
 </option>
- 
+
+
+<option name="Gameplay options:">
+<item id="0" name="">
+</item>
+</option>
+
 <option id="1" name="Single Player ID Code" savesafe="true">
 <item id="1" name="Freelancer Alpha 1-1 (Default)">
 </item>
@@ -183,11 +204,57 @@ Credits:
 </item>
 </option>
 
+<option id="9" name="Add Advanced Widescreen HUD for 16:9 resolutions" savesafe="true">
+<item id="1" name="Yes">
+</item>
+
+<item id="2" name="No">
+</item>
+</option>
+
+<option name="">
+<item id="0" name="">
+</item>
+</option>
+
+
+<option name="Fixes:">
+<item id="0" name="">
+</item>
+</option>
+
 <option id="2" name="Fix clipping with 16:9 resolution planetscapes" savesafe="true">
 <item id="1" name="Yes">
 </item>
 
 <item id="2" name="No">
+</item>
+</option>
+
+<option id="6" name="Fix missing text and button misalignments on 4K resolutions" savesafe="true">
+<item id="2" name="No">
+</item>
+
+<item id="1" name="Yes">
+</item>
+</option>
+
+<option id="7" name="Fix Windows 10 compat issues. TRY AT YOUR OWN RISK" savesafe="true">
+<item id="2" name="No">
+</item>
+
+<item id="1" name="Yes">
+</item>
+</option>
+
+<option name="">
+<item id="0" name="">
+</item>
+</option>
+
+
+<option name="Visual options:">
+<item id="0" name="">
 </item>
 </option>
 
@@ -263,7 +330,19 @@ Credits:
 </item>
 </option>
 
-<option id="6" name="Fix Windows 10 compat issues. TRY AT YOUR OWN RISK" savesafe="true">
+
+<option name="">
+<item id="0" name="">
+</item>
+</option>
+
+
+<option name="Misc options:">
+<item id="0" name="">
+</item>
+</option>
+
+<option id="8" name="Add Single Player command console" savesafe="true">
 <item id="2" name="No">
 </item>
 
@@ -271,11 +350,19 @@ Credits:
 </item>
 </option>
 
+<option name="">
+<item id="0" name="">
+</item>
+</option>
 </options>
 </header>
 
 
+
 <data file="DLLS\BIN\callsign.dll2" method="renamefile" newfilename="DLLS\BIN\callsign.dll">
+</data>
+
+<data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll">
 </data>
 
 
@@ -444,8 +531,6 @@ DLL = callsign.dll, fc_lh 9 4-20
 
 <data file="DATA\FX\envmapbasic_new.mat" method="renamefile" newfilename="DATA\FX\envmapbasic.mat" options="3:1">
 </data>
-<data file="DATA\FX\envmapglass_new.txm" method="renamefile" newfilename="DATA\FX\envmapglass.txm" options="3:1">
-</data>
 
 
 <data file="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\startupscreen_1280_1280x960.tga" options="4:1">
@@ -487,9 +572,118 @@ DLL = callsign.dll, fc_lh 9 4-20
 <data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:11">
 </data>
 
-<data file="EXE\D3D8_compat.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="6:1">
+
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:1">
+<dest>
+nickname = HudSmall
+font = Agency FB
+fixed_height = 0.03
+</dest>
+<source>
+nickname = HudSmall
+font = Agency FB
+fixed_height = 0.02
+</source>
 </data>
-<data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="6:2">
+
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:1">
+<dest>
+nickname = Normal
+font = Agency FB
+fixed_height = 0.035
+</dest>
+<source>
+nickname = Normal
+font = Agency FB
+fixed_height = 0.02
+</source>
+</data>
+
+
+<data file="EXE\dacom.ini" method="filereplace" options="8:1">
+<dest>
+;console.dll
+</dest>
+<source>
+console.dll
+</source>
+</data>
+
+
+<data file="EXE\dacom.ini" method="filereplace" options="9:1">
+<dest>
+;HudFacility.dll
+;HudWeaponGroups.dll
+;HudTarget.dll
+;HudStatus.dll
+</dest>
+<source>
+HudFacility.dll
+HudWeaponGroups.dll
+HudTarget.dll
+HudStatus.dll
+</source>
+</data>
+
+<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
+<dest>
+;HudWeaponGroups = true
+</dest>
+<source>
+HudWeaponGroups = true
+</source>
+</data>
+
+<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
+<dest>
+position = 4e0a80, -0.3630, 4e0a94, -0.3025		; wireframe
+position = 4e0fe7, -0.4105, 4e0fef, -0.3700		; TargetMinimizedFrame
+position = 4e10ff, -0.4820, 4e1107, -0.2000		; TargetShipName
+position = 4e1145, -0.4820, 4e1158, -0.2000
+position = 4e1180, -0.4820, 4e1188, -0.2180		; SubtargetName
+position = 4e11e2, -0.4820, 4e11f0, -0.2180
+position = 4e1247, -0.2605, 4e124f, -0.2695		; TargetPreviousButton
+position = 4e12b4, -0.2645, 4e12bc, -0.3005		; TargetNextButton
+position = 4e175c, -0.4940, 4e1764, -0.3610		; TargetRankText
+</dest>
+<source>
+position = 4e0a80, -0.1270, 4e0a94, -0.3000		; wireframe
+position = 4e0fe7, -0.4105, 4e0fef, -0.3700		; TargetMinimizedFrame
+position = 4e10ff, -0.2430, 4e1107, -0.2030		; TargetShipName
+position = 4e1145, -0.2430, 4e1158, -0.2030
+position = 4e1180, -0.2430, 4e1188, -0.2210		; SubtargetName
+position = 4e11e2, -0.2430, 4e11f0, -0.2210
+position = 4e1247, -0.0545, 4e124f, -0.2770		; TargetPreviousButton
+position = 4e12b4, -0.0575, 4e12bc, -0.3080		; TargetNextButton
+position = 4e175c, -0.2550, 4e1764, -0.3610		; TargetRankText
+</source>
+</data>
+
+<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
+<dest>
+position = 4da2fa,  0.4180, 4da30e, -0.2900
+</dest>
+<source>
+position = 4da2fa,  0.5165, 4da30e, -0.3065, -1.0
+</source>
+</data>
+
+<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
+<dest>
+position = 4e3592, -0.2950, 4e359a, -0.1710
+</dest>
+<source>
+position = 4e3592, -0.2950, 4e359a, -0.5710
+</source>
+</data>
+
+<data file="DATA\INTERFACE\HUD\hud_shipinfo_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_shipinfo.cmp" options="9:1">
+</data>
+<data file="DATA\INTERFACE\HUD\hud_target_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_target.cmp" options="9:1">
+</data>
+
+
+<data file="EXE\D3D9_compat.dll2" method="renamefile" newfilename="EXE\d3d9.dll" options="7:1">
 </data>
 
 </script>
