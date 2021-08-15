@@ -231,11 +231,14 @@ Due to the large file size of many textures used in this mod, some users may exp
 </item>
 </option>
 
-<option id="6" name="Fix missing text and button misalignments on 4K resolutions" savesafe="true">
-<item id="2" name="No">
+<option id="6" name="Fix missing/small text on higher resolutions" savesafe="true">
+<item id="3" name="No">
 </item>
 
-<item id="1" name="Yes">
+<item id="1" name="Yes, apply fix for 1440p (2560x1440) monitors">
+</item>
+
+<item id="2" name="Yes, apply fix for 4K (3840x2160) monitors">
 </item>
 </option>
 
@@ -575,6 +578,19 @@ DLL = callsign.dll, fc_lh 9 4-20
 
 <data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:1">
 <dest>
+nickname = NavMap1600
+font = Agency FB
+fixed_height = 0.015
+</dest>
+<source>
+nickname = NavMap1600
+font = Agency FB
+fixed_height = 0.025
+</source>
+</data>
+
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:2">
+<dest>
 nickname = HudSmall
 font = Agency FB
 fixed_height = 0.03
@@ -582,11 +598,11 @@ fixed_height = 0.03
 <source>
 nickname = HudSmall
 font = Agency FB
-fixed_height = 0.02
+fixed_height = 0.029
 </source>
 </data>
 
-<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:1">
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:2">
 <dest>
 nickname = Normal
 font = Agency FB
@@ -595,7 +611,20 @@ fixed_height = 0.035
 <source>
 nickname = Normal
 font = Agency FB
-fixed_height = 0.02
+fixed_height = 0.029
+</source>
+</data>
+
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:2">
+<dest>
+nickname = NavMap1600
+font = Agency FB
+fixed_height = 0.015
+</dest>
+<source>
+nickname = NavMap1600
+font = Agency FB
+fixed_height = 0.025
 </source>
 </data>
 
