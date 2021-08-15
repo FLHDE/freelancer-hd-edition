@@ -231,14 +231,14 @@ Due to the large file size of many textures used in this mod, some users may exp
 </item>
 </option>
 
-<option id="6" name="Fix missing/small text on higher resolutions" savesafe="true">
+<option id="6" name="Fix missing/small text on 1440p/4K resolutions" savesafe="true">
 <item id="3" name="No">
 </item>
 
-<item id="1" name="Yes, apply fix for 1440p (2560x1440) monitors">
+<item id="1" name="Yes, apply fix for 2560x1440 screens">
 </item>
 
-<item id="2" name="Yes, apply fix for 4K (3840x2160) monitors">
+<item id="2" name="Yes, apply fix for 3840x2160 screens">
 </item>
 </option>
 
