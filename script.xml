@@ -371,9 +371,6 @@ Due to the large file size of many textures used in this mod, some users may exp
 <data file="DLLS\BIN\callsign.dll2" method="renamefile" newfilename="DLLS\BIN\callsign.dll">
 </data>
 
-<data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll">
-</data>
-
 
 <data file="EXE\freelancer.ini" method="filereplace" options="1:2">
 <dest>
@@ -718,7 +715,10 @@ position = 4e3592, -0.2950, 4e359a, -0.5710
 </data>
 
 
-<data file="EXE\D3D9_compat.dll2" method="renamefile" newfilename="EXE\d3d9.dll" options="7:1">
+<data file="EXE\D3D8_compat.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="7:1">
+</data>
+
+<data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="7:2">
 </data>
 
 </script>
