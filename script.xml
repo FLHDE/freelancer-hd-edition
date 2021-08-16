@@ -1,6 +1,6 @@
 <script>
 
-<header name="Freelancer: HD Edition 0.3" savesafe="true">
+<header name="Freelancer: HD Edition 0.4" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -32,26 +32,29 @@ Due to the large file size of many textures used in this mod, some users may exp
 
 ## Content
 ### Visual
-* Added HD Character Models
-* Added HD Mission & News images
-* Added HD Starspheres
-* Added HD Startup Screen & Main Menu logo
-* Added HD System & Universe Map
-* Added improved reflections
-* Added new interface with new icons
+* HD Character Models
+* HD Effects
+* HD Mission & News images
+* HD Shine light
+* HD Ships
+* HD Starspheres
+* HD Startup Screen & Main Menu logo
+* HD System & Universe Map
+* Improved reflections
 * Increased effect pool sizes
-* Maximized draw distances for space structures, asteroids and effects
+* Maximized draw distances for space structures, asteroids, effects and characters
+* New interface with new icons
 
 ### Audio
-* Added HQ Music
+* HQ Music
 
 ### Gameplay
-* Added Advanced Widescreen HUD
-* Added 16:9 planetscape fixes
-* Added support for scrolling through menus
-* Added support for zooming in turret view
+* Advanced Widescreen HUD
+* 16:9 planetscape fixes
+* Support for scrolling through menus
+* Support for zooming in turret view
 * Allow players to be called differently in Single Player
-* Applied fixes in many bar scripts
+* Fixes in many bar scripts
 * Enabled NPC paths in multiplayer
 * Include player ships in ship filter
 * Make all planets spin slowly
@@ -61,20 +64,19 @@ Due to the large file size of many textures used in this mod, some users may exp
 
 ### Misc
 * 1.1 Patch
-* Added Freelancer manual
-* Added Single Player console
+* Freelancer manual
+* Single Player console
 * Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
 * Disabled IPv6 adresses in Multiplayer Server list
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
-* Fixed missing text and incorrect HUD alignment on 4K displays
+* Fixed missing/small text on 1440p and 4K displays
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
 * Improved infocards for unknown factions
 * Improved Nomad group member names
 * Make energy, shield, and hull bars solid
-* Moved neural net bar 1 px up so the pixel line disappears
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Prevent intentional frame drops from occurring
@@ -89,14 +91,18 @@ Due to the large file size of many textures used in this mod, some users may exp
 * Windows 10 compatibility patch (dgVoodoo2)
 
 
+## Credits
 * BC46
   - HD Character Models
+  - HD Explosion effects
   - HD Mission & News images
+  - HD Nomad ships
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
-  - HD System Map
+  - HD System Map with HD Map objects
   - HUD alignment fixes
   - Improved reflections
+  - Many general HD additions
   - Many misc fixes
   - Many misc improvements
   - Maximized Draw Distances
@@ -231,11 +237,14 @@ Due to the large file size of many textures used in this mod, some users may exp
 </item>
 </option>
 
-<option id="6" name="Fix missing text and button misalignments on 4K resolutions" savesafe="true">
-<item id="2" name="No">
+<option id="6" name="Fix missing/small text on 1440p/4K resolutions" savesafe="true">
+<item id="3" name="No">
 </item>
 
-<item id="1" name="Yes">
+<item id="1" name="Yes, apply fix for 2560x1440 screens">
+</item>
+
+<item id="2" name="Yes, apply fix for 3840x2160 screens">
 </item>
 </option>
 
@@ -575,6 +584,19 @@ DLL = callsign.dll, fc_lh 9 4-20
 
 <data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:1">
 <dest>
+nickname = NavMap1600
+font = Agency FB
+fixed_height = 0.015
+</dest>
+<source>
+nickname = NavMap1600
+font = Agency FB
+fixed_height = 0.025
+</source>
+</data>
+
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:2">
+<dest>
 nickname = HudSmall
 font = Agency FB
 fixed_height = 0.03
@@ -582,11 +604,11 @@ fixed_height = 0.03
 <source>
 nickname = HudSmall
 font = Agency FB
-fixed_height = 0.02
+fixed_height = 0.029
 </source>
 </data>
 
-<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:1">
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:2">
 <dest>
 nickname = Normal
 font = Agency FB
@@ -595,7 +617,20 @@ fixed_height = 0.035
 <source>
 nickname = Normal
 font = Agency FB
-fixed_height = 0.02
+fixed_height = 0.029
+</source>
+</data>
+
+<data file="DATA\FONTS\fonts.ini" method="filereplace" options="6:2">
+<dest>
+nickname = NavMap1600
+font = Agency FB
+fixed_height = 0.015
+</dest>
+<source>
+nickname = NavMap1600
+font = Agency FB
+fixed_height = 0.025
 </source>
 </data>
 
