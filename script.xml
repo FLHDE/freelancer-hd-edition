@@ -699,7 +699,7 @@ position = 4e175c, -0.2550, 4e1764, -0.3610		; TargetRankText
 position = 4da2fa,  0.4180, 4da30e, -0.2900
 </dest>
 <source>
-position = 4da2fa,  0.5165, 4da30e, -0.3065, -1.0
+position = 4da2fa,  0.5165, 4da30e, -0.3035, -1.0
 </source>
 </data>
 
