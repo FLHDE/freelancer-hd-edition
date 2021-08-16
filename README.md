@@ -14,26 +14,28 @@ Join our Discord server to stay up to date with the latest news and information!
 
 ## Content
 ### Visual
-* Added HD Character Models
-* Added HD Mission & News images
-* Added HD Starspheres
-* Added HD Startup Screen & Main Menu logo
-* Added HD System & Universe Map
-* Added improved reflections
-* Added new interface with new icons
+* HD Character Models
+* HD Effects
+* HD Mission & News images
+* HD Ships
+* HD Starspheres
+* HD Startup Screen & Main Menu logo
+* HD System & Universe Map
+* Improved reflections
 * Increased effect pool sizes
-* Maximized draw distances for space structures, asteroids and effects
+* Maximized draw distances for space structures, asteroids, effects and characters
+* New interface with new icons
 
 ### Audio
-* Added HQ Music
+* HQ Music
 
 ### Gameplay
-* Added Advanced Widescreen HUD
-* Added 16:9 planetscape fixes
-* Added support for scrolling through menus
-* Added support for zooming in turret view
+* Advanced Widescreen HUD
+* 16:9 planetscape fixes
+* Support for scrolling through menus
+* Support for zooming in turret view
 * Allow players to be called differently in Single Player
-* Applied fixes in many bar scripts
+* Fixes in many bar scripts
 * Enabled NPC paths in multiplayer
 * Include player ships in ship filter
 * Make all planets spin slowly
@@ -43,8 +45,8 @@ Join our Discord server to stay up to date with the latest news and information!
 
 ### Misc
 * 1.1 Patch
-* Added Freelancer manual
-* Added Single Player console
+* Freelancer manual
+* Single Player console
 * Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
@@ -56,7 +58,6 @@ Join our Discord server to stay up to date with the latest news and information!
 * Improved infocards for unknown factions
 * Improved Nomad group member names
 * Make energy, shield, and hull bars solid
-* Moved neural net bar 1 px up so the pixel line disappears
 * No longer hide The Order and the Nomads from the factions list
 * No-CD Patch
 * Prevent intentional frame drops from occurring
@@ -93,12 +94,15 @@ Have something to contribute to make the mod even better? Feel free to create a 
 ## Credits
 * BC46
   - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models)
+  - HD Explosion effects
   - HD Mission & News images
+  - HD Nomad ships
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
-  - HD System Map
+  - HD System Map with HD Map objects
   - HUD alignment fixes
   - Improved reflections
+  - Many general HD additions
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances)
@@ -135,4 +139,3 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * Ruppetus
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many bar script fixes
-  
