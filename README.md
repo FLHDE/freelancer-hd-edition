@@ -18,6 +18,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * HD Effects
 * HD Mission & News images
 * HD Ships
+* HD Shine light
 * HD Starspheres
 * HD Startup Screen & Main Menu logo
 * HD System & Universe Map
@@ -53,7 +54,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Disabled IPv6 adresses in Multiplayer Server list
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
-* Fixed missing text and incorrect HUD alignment on 4K displays
+* Fixed missing/small text on 1440p and 4K displays
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
 * Improved infocards for unknown factions
 * Improved Nomad group member names
