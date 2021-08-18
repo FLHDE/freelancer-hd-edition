@@ -24,7 +24,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * HD System & Universe Map
 * Improved reflections
 * Increased effect pool sizes
-* Maximized draw distances for space structures, asteroids, effects and characters
+* Maximized draw distances
 * New interface with new icons
 
 ### Audio
@@ -137,7 +137,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * Jeider, RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
   - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
-  - [Additional textures from https://www.moddb.com/mods/freelancer-nomad-legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
+  - [Additional textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft
