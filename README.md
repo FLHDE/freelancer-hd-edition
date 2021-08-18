@@ -118,6 +118,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 * Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
+* Hrimthur
+  - [Freelancer Full-HD](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=5070)
 * HUN0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
@@ -128,15 +130,20 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/index.html#hudshift)
   - [Jason's Freelancer Patch v1.25](http://adoxa.altervista.org/freelancer/index.html)
   - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
+  - [MP3 Codec Fix](http://adoxa.altervista.org/freelancer/plugins.html#mp3codec)
   - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
-* Jeider & Whiskas T-Mech
+* Jeider, RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
+  - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
+  - [Additional textures from https://www.moddb.com/mods/freelancer-nomad-legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
+* Radiant
+  - [HD Textures 1.2](https://www.moddb.com/games/freelancer/addons/hd-textures-12)
 * Ruppetus
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many bar script fixes
