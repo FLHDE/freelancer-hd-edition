@@ -3,10 +3,10 @@
 ## [[0.4] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)
 
 ### Changed
-- Improved HUD fixes for 1440p/4K screens *
-- Added HD Liberty news logo *
-- Added HD Nav map objects *
-- Added HD explosives and missile effects *
+- Improved HUD fixes for 1440p/4K screens
+- Added HD Liberty news logo
+- Added HD Nav map objects
+- Added HD explosives and missile effects
 - Added HD Ships
 - Added HD Effects
 - Added MP3 Codec Fix
