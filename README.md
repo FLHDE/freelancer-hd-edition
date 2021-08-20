@@ -14,11 +14,15 @@ Join our Discord server to stay up to date with the latest news and information!
 
 ## Content
 ### Visual
+* HD Asteroids
 * HD Character Models
+* HD Cockpits
 * HD Effects
 * HD Mission & News images
+* HD Nebulae
+* HD Planets
 * HD Ships
-* HD Shine light
+* HD Space objects
 * HD Starspheres
 * HD Startup Screen & Main Menu logo
 * HD System & Universe Map
@@ -55,6 +59,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
 * Fixed missing/small text on 1440p and 4K displays
+* Fixed MP3 codec error spam
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
 * Improved infocards for unknown factions
 * Improved Nomad group member names
@@ -95,15 +100,17 @@ Have something to contribute to make the mod even better? Feel free to create a 
 ## Credits
 * BC46
   - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models)
+  - HD Cockpits
   - HD Explosion effects
   - HD Mission & News images
-  - HD Nomad ships
+  - HD Nebulae
+  - HD Nomad, Corsair, Bretonia, Blood Dragon and Utility ships
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
   - HD System Map with HD Map objects
   - HUD alignment fixes
   - Improved reflections
-  - Many general HD additions
+  - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances)

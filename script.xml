@@ -32,17 +32,21 @@ Due to the large file size of many textures used in this mod, some users may exp
 
 ## Content
 ### Visual
+* HD Asteroids
 * HD Character Models
+* HD Cockpits
 * HD Effects
 * HD Mission & News images
-* HD Shine light
+* HD Nebulae
+* HD Planets
 * HD Ships
+* HD Space objects
 * HD Starspheres
 * HD Startup Screen & Main Menu logo
 * HD System & Universe Map
 * Improved reflections
 * Increased effect pool sizes
-* Maximized draw distances for space structures, asteroids, effects and characters
+* Maximized draw distances
 * New interface with new icons
 
 ### Audio
@@ -73,6 +77,7 @@ Due to the large file size of many textures used in this mod, some users may exp
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
 * Fixed missing/small text on 1440p and 4K displays
+* Fixed MP3 codec error spam
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
 * Improved infocards for unknown factions
 * Improved Nomad group member names
@@ -94,15 +99,17 @@ Due to the large file size of many textures used in this mod, some users may exp
 ## Credits
 * BC46
   - HD Character Models
+  - HD Cockpits
   - HD Explosion effects
   - HD Mission & News images
-  - HD Nomad ships
+  - HD Nebulae
+  - HD Nomad, Corsair, Bretonia, Blood Dragon and Utility ships
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
   - HD System Map with HD Map objects
   - HUD alignment fixes
   - Improved reflections
-  - Many general HD additions
+  - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
   - Maximized Draw Distances
@@ -117,6 +124,8 @@ Due to the large file size of many textures used in this mod, some users may exp
   - dgVoodoo2
 * Freestalker.fl
   - FLHQmusics Remaster
+* Hrimthur
+  - Freelancer Full-HD
 * HUN0R
   - Flat Interface
   - HD Starsphere pack
@@ -127,15 +136,20 @@ Due to the large file size of many textures used in this mod, some users may exp
   - HUD Shift plugin
   - Jason's Freelancer Patch v1.25
   - MP Rep plugin
+  - MP3 Codec Fix
   - Numeric Damage plugin
   - Wheel Scroll plugin
   - Zone plugin
-* Jeider & Whiskas T-Mech
+* Jeider, RenderG & Whiskas T-Mech
   - Freelancer Advanced Widescreen HUD
+  - Nomad Legacy HD textures pack
+  - Additional textures from Freelancer: The Nomad Legacy
 * Louva-Deus
-  - Freelancer SDK/QuickFix
+  - Freelancer SDK/QuickFix *(included in Jason's Freelancer Patch)*
 * Microsoft
   - Freelancer Patch 1.1
+* Radiant
+  - HD Textures 1.2
 * Ruppetus
   - Planetscapes Fixed for 16:9 Resolutions
   - Many bar script fixes
