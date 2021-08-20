@@ -50,8 +50,7 @@ Join our Discord server to stay up to date with the latest news and information!
 
 ### Misc
 * 1.1 Patch
-* Freelancer manual
-* Single Player console
+- Added support for running multiple instances of Freelancer on the same machine
 * Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
@@ -61,6 +60,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Fixed missing/small text on 1440p and 4K displays
 * Fixed MP3 codec error spam
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
+* Freelancer manual
 * Improved infocards for unknown factions
 * Improved Nomad group member names
 * Make energy, shield, and hull bars solid
@@ -74,6 +74,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Removed EULA on first run
 * Removed unknown graphics card warning
 * Show "Far" in contact list only at distances of 999.999K or higher
+* Single Player console
 * Smoothened jump effect
 * Windows 10 compatibility patch (dgVoodoo2)
 
