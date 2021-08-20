@@ -93,7 +93,7 @@ Due to the large file size of many textures used in this mod, some users may exp
 1. Make sure you have a clean installation of Freelancer
 2. Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
 3. Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
-4. Open Freelancer Mod Manager and make sure it is opened as an Administrator
+4. Open Freelancer Mod Manager as an Administrator
 5. Activate Freelancer: HD Edition
 
 ## Contributing
