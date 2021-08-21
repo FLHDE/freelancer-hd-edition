@@ -50,7 +50,8 @@ Join our Discord server to stay up to date with the latest news and information!
 
 ### Misc
 * 1.1 Patch
-- Added support for running multiple instances of Freelancer on the same machine
+* Added more sound and general options
+* Added support for running multiple instances of Freelancer on the same machine
 * Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper

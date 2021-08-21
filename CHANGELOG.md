@@ -19,6 +19,7 @@
 - Added HD Nebulae
 - Added HD Asteroids
 - Added support for running multiple instances of Freelancer on the same machine
+- Added more sound and general options
 
 
 ## [[0.3] - 2021-08-15](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.3)
