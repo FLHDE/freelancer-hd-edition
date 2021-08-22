@@ -14,17 +14,21 @@ Join our Discord server to stay up to date with the latest news and information!
 
 ## Content
 ### Visual
+* HD Asteroids
 * HD Character Models
+* HD Cockpits
 * HD Effects
 * HD Mission & News images
+* HD Nebulae
+* HD Planets
 * HD Ships
-* HD Shine light
+* HD Space objects
 * HD Starspheres
 * HD Startup Screen & Main Menu logo
 * HD System & Universe Map
 * Improved reflections
 * Increased effect pool sizes
-* Maximized draw distances for space structures, asteroids, effects and characters
+* Maximized draw distances
 * New interface with new icons
 
 ### Audio
@@ -46,8 +50,8 @@ Join our Discord server to stay up to date with the latest news and information!
 
 ### Misc
 * 1.1 Patch
-* Freelancer manual
-* Single Player console
+* Added more sound and general options
+* Added support for running multiple instances of Freelancer on the same machine
 * Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
@@ -55,7 +59,9 @@ Join our Discord server to stay up to date with the latest news and information!
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
 * Fixed missing/small text on 1440p and 4K displays
+* Fixed MP3 codec error spam
 * Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
+* Freelancer manual
 * Improved infocards for unknown factions
 * Improved Nomad group member names
 * Make energy, shield, and hull bars solid
@@ -66,9 +72,9 @@ Join our Discord server to stay up to date with the latest news and information!
 * Removed cruise speed display limit
 * Removed general speed display limit
 * Removed ESRB notice
-* Removed EULA on first run
 * Removed unknown graphics card warning
 * Show "Far" in contact list only at distances of 999.999K or higher
+* Single Player console
 * Smoothened jump effect
 * Windows 10 compatibility patch (dgVoodoo2)
 
@@ -84,10 +90,11 @@ Due to the large file size of many textures used in this mod, some users may exp
 
 ## Installation instructions
 **N.B. Do NOT extract the files to your Freelancer folder manually, it won't work! This mod comes with a lot of custom options that can only be configured in FLMM**
-1. Make sure you have a clean install of Freelancer
+1. Make sure you have a clean installation of Freelancer
 2. Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
 3. Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
-4. Install it like any other mod
+4. Open Freelancer Mod Manager as an Administrator
+5. Activate Freelancer: HD Edition
 
 ## Contributing
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
@@ -95,15 +102,17 @@ Have something to contribute to make the mod even better? Feel free to create a 
 ## Credits
 * BC46
   - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models)
+  - HD Cockpits
   - HD Explosion effects
   - HD Mission & News images
-  - HD Nomad ships
+  - HD Nebulae
+  - HD Nomad, Corsair, Bretonia, Blood Dragon and Utility ships
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
   - HD System Map with HD Map objects
   - HUD alignment fixes
   - Improved reflections
-  - Many general HD additions
+  - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances)
@@ -118,6 +127,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 * Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
+* Hrimthur
+  - [Freelancer Full-HD](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=5070)
 * HUN0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
@@ -128,15 +139,20 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/index.html#hudshift)
   - [Jason's Freelancer Patch v1.25](http://adoxa.altervista.org/freelancer/index.html)
   - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
+  - [MP3 Codec Fix](http://adoxa.altervista.org/freelancer/plugins.html#mp3codec)
   - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
-* Jeider & Whiskas T-Mech
+* Jeider, RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
+  - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
+  - [Additional textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
+* Radiant
+  - [HD Textures 1.2](https://www.moddb.com/games/freelancer/addons/hd-textures-12)
 * Ruppetus
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many bar script fixes

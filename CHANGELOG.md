@@ -1,14 +1,25 @@
 # Changelog
 
-## [[0.4] - 2021-08-18](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)
+## [[0.4] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)
 
 ### Changed
-- Improved HUD fixes for 1440p/4K screens *
-- Added HD liberty news logo *
-- Added HD nav map objects *
-- Added HD explosives and missile effects *
-- Added HD Nomad ships *
-- Added HD shine light
+- Improved HUD fixes for 1440p/4K screens
+- Added HD Liberty news logo
+- Added HD Nav map objects
+- Added HD explosives and missile effects
+- Added HD Ships
+- Added HD Effects
+- Added MP3 Codec Fix
+- Added HD Bases
+- Added HD Planets
+- Added HD Cockpits
+- Fixed contact list view icon
+- Fixed trade request button in MP
+- Fixed banding in EW01 starsphere
+- Added HD Nebulae
+- Added HD Asteroids
+- Added support for running multiple instances of Freelancer on the same machine
+- Added more sound and general options
 
 
 ## [[0.3] - 2021-08-15](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.3)
