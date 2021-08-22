@@ -717,40 +717,12 @@ position = 4da2fa,  0.5165, 4da30e, -0.3035, -1.0
 
 <data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
 <dest>
-position = 4e3592, -0.2950, 4e359a, -0.1710
-</dest>
-<source>
-position = 4e3592, -0.2950, 4e359a, -0.5710
-</source>
-</data>
-
-<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
-<dest>
-position = 4e3afc, -0.3430, 4e3b04, -0.3700
-</dest>
-<source>
-position = 4e3afc, -0.3430, 4e3b04, -0.5700
-</source>
-</data>
-
-<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
-<dest>
-position = 4e31f6, -0.3430, 4e31fe, -0.3700
-</dest>
-<source>
-position = 4e31f6, -0.3430, 4e31fe, -0.5700
-</source>
-</data>
-
-<data file="DATA\INTERFACE\HudShift.ini" method="filereplace" options="9:1">
-<dest>
 position = 4e14db, -0.2020, 4e14e3, -0.3700		; TargetTradeButton
 </dest>
 <source>
 position = 4e14db, -0.0180, 4e14e3, -0.3700		; TargetTradeButton
 </source>
 </data>
-
 
 <data file="DATA\INTERFACE\HUD\hud_shipinfo_adv_wide_hud.cmp" method="renamefile" newfilename="DATA\INTERFACE\HUD\hud_shipinfo.cmp" options="9:1">
 </data>
