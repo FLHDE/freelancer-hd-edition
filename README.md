@@ -72,7 +72,6 @@ Join our Discord server to stay up to date with the latest news and information!
 * Removed cruise speed display limit
 * Removed general speed display limit
 * Removed ESRB notice
-* Removed EULA on first run
 * Removed unknown graphics card warning
 * Show "Far" in contact list only at distances of 999.999K or higher
 * Single Player console
