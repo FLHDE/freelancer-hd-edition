@@ -41,7 +41,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Support for zooming in turret view
 * Allow players to be called differently in Single Player
 * Fixes in many bar scripts
-* Enabled NPC paths in multiplayer
+* Enabled NPC paths in Multiplayer
 * Include player ships in ship filter
 * Make all planets spin slowly
 * Set maximum level in Single Player to 40
@@ -76,6 +76,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Show "Far" in contact list only at distances of 999.999K or higher
 * Single Player console
 * Smoothened jump effect
+* Updated zlib.dll for better performance in Multiplayer
 * Windows 10 compatibility patch (dgVoodoo2)
 
 ## Recommendations 
@@ -144,6 +145,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Turret Zoom plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
+* Jean-loup Gailly and Mark Adler
+  - [zlib](https://zlib.net/)
 * Jeider, RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
   - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
@@ -157,3 +160,5 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * Ruppetus
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many bar script fixes
+* Why485
+  - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)

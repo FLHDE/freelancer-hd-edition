@@ -1,6 +1,6 @@
 <script>
 
-<header name="Freelancer: HD Edition 0.4" savesafe="true">
+<header name="Freelancer: HD Edition 0.4.1" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -59,7 +59,7 @@ Due to the large file size of many textures used in this mod, some users may exp
 * Support for zooming in turret view
 * Allow players to be called differently in Single Player
 * Fixes in many bar scripts
-* Enabled NPC paths in multiplayer
+* Enabled NPC paths in Multiplayer
 * Include player ships in ship filter
 * Make all planets spin slowly
 * Set maximum level in Single Player to 40
@@ -94,6 +94,7 @@ Due to the large file size of many textures used in this mod, some users may exp
 * Show "Far" in contact list only at distances of 999.999K or higher
 * Single Player console
 * Smoothened jump effect
+* Updated zlib.dll for better performance in Multiplayer
 * Windows 10 compatibility patch (dgVoodoo2)
 
 
@@ -142,6 +143,8 @@ Due to the large file size of many textures used in this mod, some users may exp
   - Turret Zoom plugin
   - Wheel Scroll plugin
   - Zone plugin
+* Jean-loup Gailly and Mark Adler
+  - zlib
 * Jeider, RenderG & Whiskas T-Mech
   - Freelancer Advanced Widescreen HUD
   - Nomad Legacy HD textures pack
@@ -155,6 +158,8 @@ Due to the large file size of many textures used in this mod, some users may exp
 * Ruppetus
   - Planetscapes Fixed for 16:9 Resolutions
   - Many bar script fixes
+* Why485
+  - The Big Huge Effects Pack
 </description>
 
 <options>
