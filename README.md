@@ -141,6 +141,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
   - [MP3 Codec Fix](http://adoxa.altervista.org/freelancer/plugins.html#mp3codec)
   - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
+  - [Turret Zoom plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
 * Jeider, RenderG & Whiskas T-Mech
