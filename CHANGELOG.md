@@ -5,6 +5,7 @@
 ### Changed
 - Updated zlib.dll for better performance in Multiplayer
 - Added HD Missile effects
+- Fixed size of 16:9 Freelancer logos
 
 
 ## [[0.4] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)

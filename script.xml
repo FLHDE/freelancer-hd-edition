@@ -334,37 +334,34 @@ Due to the large file size of many textures used in this mod, some users may exp
 </option>
 
 <option id="5" name="Main Menu Freelancer Logo resolution" savesafe="true">
-<item id="7" name="1080p 16:9 - 1920x1080">
+<item id="6" name="1080p 16:9 - 1920x1080">
 </item>
 
 <item id="1" name="None">
 </item>
 
-<item id="2" name="450p 16:9 - 800x450">
+<item id="2" name="600p 4:3 - 800x600 (Default)">
 </item>
 
-<item id="3" name="600p 4:3 - 800x600 (Default)">
+<item id="3" name="720p 4:3 - 960x720">
 </item>
 
 <item id="4" name="720p 16:9 - 1280x720">
 </item>
 
-<item id="5" name="960p 4:3 - 1280x960">
+<item id="5" name="1080p 4:3 - 1440x1080">
 </item>
 
-<item id="6" name="1080p 4:3 - 1440x1080">
+<item id="7" name="1440p 4:3 - 1920x1440">
 </item>
 
-<item id="8" name="1440p 4:3 - 1920x1440">
+<item id="8" name="1440p 16:9 - 2560x1440">
 </item>
 
-<item id="9" name="1440p 16:9 - 2560x1440">
+<item id="9" name="4K 4:3 - 2880x2160">
 </item>
 
-<item id="10" name="4K 4:3 - 2880x2160">
-</item>
-
-<item id="11" name="4K 16:9 - 3840x2160">
+<item id="10" name="4K 16:9 - 3840x2160">
 </item>
 </option>
 
@@ -588,23 +585,21 @@ DLL = callsign.dll, fc_lh 9 4-20
 
 <data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x600.tga" options="5:1">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_800x450.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:2">
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_960x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:3">
 </data>
 <data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1280x720.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:4">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1280x960.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:5">
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1440x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:5">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1440x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:6">
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1920x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:6">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1920x1080.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:7">
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1920x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:7">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_1920x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:8">
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_2560x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:8">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_2560x1440.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:9">
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_2880x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:9">
 </data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_2880x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:10">
-</data>
-<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:11">
+<data file="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo_3840x2160.tga" method="renamefile" newfilename="DATA\INTERFACE\INTRO\IMAGES\front_freelancerlogo.tga" options="5:10">
 </data>
 
 
