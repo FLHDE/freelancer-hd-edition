@@ -1,5 +1,12 @@
 # Changelog
 
+## [[0.4.1] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4.1)
+
+### Changed
+- Updated zlib.dll for better performance in Multiplayer
+- Added HD Missile effects
+
+
 ## [[0.4] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)
 
 ### Changed
