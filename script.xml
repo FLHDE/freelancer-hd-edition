@@ -291,6 +291,14 @@ Due to the large file size of many textures used in this mod, some users may exp
 </item>
 </option>
 
+<option id="10" name="Add new missile effects" savesafe="true">
+<item id="2" name="No">
+</item>
+
+<item id="1" name="Yes">
+</item>
+</option>
+
 <option id="4" name="Startup Screen resolution" savesafe="true">
 <item id="5" name="1080p 16:9 - 1920x1080">
 </item>
@@ -735,6 +743,40 @@ position = 4e14db, -0.0180, 4e14e3, -0.3700		; TargetTradeButton
 </data>
 
 <data file="EXE\d3d8to9.dll2" method="renamefile" newfilename="EXE\d3d8.dll" options="7:2">
+</data>
+
+
+<data file="DATA\FX\WEAPONS\br_empmissile_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\br_empmissile.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\br_missile01_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\br_missile01.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\br_missile02_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\br_missile02.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\ku_empmissile_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\ku_empmissile.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\ku_missile01_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\ku_missile01.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\ku_missile02_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\ku_missile02.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\ku_torpedo01_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\ku_torpedo01.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\li_empmissile_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\li_empmissile.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\li_missile01_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\li_missile01.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\li_missile02_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\li_missile02.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\li_torpedo01_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\li_torpedo01.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\pi_missile01_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\pi_missile01.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\pi_missile02_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\pi_missile02.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\rh_empmissile_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\rh_empmissile.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\rh_missile01_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\rh_missile01.ale" options="10:1">
+</data>
+<data file="DATA\FX\WEAPONS\rh_missile02_new.ale" method="renamefile" newfilename="DATA\FX\WEAPONS\rh_missile02.ale" options="10:1">
 </data>
 
 </script>
