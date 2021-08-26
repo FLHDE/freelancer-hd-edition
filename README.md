@@ -102,7 +102,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 
 ## Credits
 * BC46
-  - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models)
+  - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
   - HD Cockpits
   - HD Explosion effects
   - HD Mission & News images
@@ -116,10 +116,10 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
-  - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances)
+  - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
   - Mod script
   - Spinning planets
-  - [Text Strings Revision](https://github.com/BC46/freelancer-text-strings-revision)
+  - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
 * Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
 * crosire et al.
