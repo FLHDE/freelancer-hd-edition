@@ -2,6 +2,7 @@
 [![Github all releases](https://img.shields.io/github/downloads/BC46/freelancer-hd-edition/total.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
 [![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ScqgYuFqmU)
 
+[![Mod DB](https://button.moddb.com/rating/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
 
 # Freelancer: HD Edition
 Freelancer: HD Edition is a mod that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
