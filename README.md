@@ -1,6 +1,7 @@
 [![GitHub release](https://img.shields.io/github/release/BC46/freelancer-hd-edition.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
 [![Github all releases](https://img.shields.io/github/downloads/BC46/freelancer-hd-edition/total.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
 [![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ScqgYuFqmU)
+[![GitHub stars](https://img.shields.io/github/stars/BC46/freelancer-hd-edition.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/BC46/freelancer-hd-edition/stargazers/)
 
 [![Mod DB](https://button.moddb.com/rating/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
 
