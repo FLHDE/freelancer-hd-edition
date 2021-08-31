@@ -8,7 +8,11 @@
 # Freelancer: HD Edition
 Freelancer: HD Edition is a mod that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
 
-**N.B. This mod does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
+This mod was made possible thanks to the assistance of project Freelancer: Nomad Legacy. Huge thanks to the developers for allowing us to use their textures!  
+[Freelancer: Nomad Legacy website](https://freelancer2.space/en/)  
+[Freelancer: Nomad Legacy Mod DB page](https://www.moddb.com/mods/freelancer-nomad-legacy)
+
+**N.B. Freelancer: HD Edition does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
 
 Join our Discord server to stay up to date with the latest news and information! 
 
