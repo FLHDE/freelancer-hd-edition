@@ -60,7 +60,7 @@
 * Added HD Mission & News images
 * Reverted trade lane map visibility change
 * Added improved reflections
-* AddedHD Startup screen & main menu logo
+* Added HD Startup screen & main menu logo
 * Added HD system map
 * Added dgVoodoo2 as optional Windows 10 compat patch
 * Move the neural net bar 1 px up so the pixel line disappears
