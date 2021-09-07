@@ -1,7 +1,9 @@
 [![GitHub release](https://img.shields.io/github/release/BC46/freelancer-hd-edition.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
 [![Github all releases](https://img.shields.io/github/downloads/BC46/freelancer-hd-edition/total.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
 [![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ScqgYuFqmU)
+[![GitHub stars](https://img.shields.io/github/stars/BC46/freelancer-hd-edition.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/BC46/freelancer-hd-edition/stargazers/)
 
+[![Mod DB](https://button.moddb.com/rating/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
 
 # Freelancer: HD Edition
 Freelancer: HD Edition is a mod that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
@@ -102,7 +104,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 
 ## Credits
 * BC46
-  - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models)
+  - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
   - HD Cockpits
   - HD Explosion effects
   - HD Mission & News images
@@ -116,10 +118,10 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
-  - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances)
+  - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
   - Mod script
   - Spinning planets
-  - [Text Strings Revision](https://github.com/BC46/freelancer-text-strings-revision)
+  - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
 * Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
 * crosire et al.
