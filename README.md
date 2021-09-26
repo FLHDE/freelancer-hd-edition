@@ -163,6 +163,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
 * Radiant
   - [HD Textures 1.2](https://www.moddb.com/games/freelancer/addons/hd-textures-12)
+* Raikkonen
+  - HD cursor and several icons
 * Ruppetus
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many bar script fixes
