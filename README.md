@@ -134,6 +134,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 * Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
+  - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
 * Hrimthur
   - [Freelancer Full-HD](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=5070)
 * HUN0R
