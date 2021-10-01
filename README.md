@@ -166,6 +166,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [HD Textures 1.2](https://www.moddb.com/games/freelancer/addons/hd-textures-12)
 * Raikkonen
   - HD cursor and several icons
+  - [Installer script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
 * Ruppetus
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many bar script fixes
