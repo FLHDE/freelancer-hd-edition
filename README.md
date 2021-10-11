@@ -12,7 +12,7 @@ This mod was made possible thanks to the assistance of project Freelancer: Nomad
 [Freelancer: Nomad Legacy website](https://freelancer2.space/en/)  
 [Freelancer: Nomad Legacy Mod DB page](https://www.moddb.com/mods/freelancer-nomad-legacy)
 
-**N.B. Freelancer: HD Edition does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
+**N.B. Freelancer: HD Edition does not add additional content on top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
 
 Join our Discord server to stay up to date with the latest news and information! 
 
@@ -157,13 +157,11 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * Jeider, RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
   - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
-  - [Additional textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
+  - [HD Ships and Stations textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
-* Radiant
-  - [HD Textures 1.2](https://www.moddb.com/games/freelancer/addons/hd-textures-12)
 * Raikkonen
   - HD cursor and several icons
   - [Installer script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
