@@ -61,7 +61,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
-* Disabled IPv6 adresses in Multiplayer Server list
+* Disabled IPv6 addresses in Multiplayer Server list
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
 * Fixed missing/small text on 1440p and 4K displays
