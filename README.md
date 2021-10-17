@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/BC46/freelancer-hd-edition?style=social)](https://GitHub.com/BC46/freelancer-hd-edition/stargazers/)
 [![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ScqgYuFqmU)
 
-[![Mod DB](https://button.moddb.com/rating/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
+[![Mod DB](https://button.moddb.com/popularity/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
 
 # Freelancer: HD Edition
 Freelancer: HD Edition is a mod that aims to improve every visual, aural, and gameplay aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as an all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
@@ -12,7 +12,7 @@ This mod was made possible thanks to the assistance of project Freelancer: Nomad
 [Freelancer: Nomad Legacy website](https://freelancer2.space/en/)  
 [Freelancer: Nomad Legacy Mod DB page](https://www.moddb.com/mods/freelancer-nomad-legacy)
 
-**N.B. Freelancer: HD Edition does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
+**N.B. Freelancer: HD Edition does not add additional content on top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
 
 Join our Discord server to stay up to date with the latest news and information! 
 
@@ -123,7 +123,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
-  - Mod script
   - Spinning planets
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
 * Buck Danny
@@ -134,6 +133,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 * Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
+  - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
 * Hrimthur
   - [Freelancer Full-HD](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=5070)
 * HUN0R
@@ -156,13 +156,15 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * Jeider, RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
   - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
-  - [Additional textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
+  - [HD Ships and Stations textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * Microsoft
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
 * Radiant
   - [HD Textures 1.2](https://www.moddb.com/games/freelancer/addons/hd-textures-12)
+* Raikkonen
+  - [Installation script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
 * Ruppetus
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many bar script fixes
