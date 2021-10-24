@@ -121,6 +121,9 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
   - Spinning planets
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
+* [Bolte](https://github.com/bolte-io) & [DragonFire](https://github.com/Drakohen)
+  - Support
+  - Testing
 * Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
 * [crosire](https://github.com/crosire) et al.
