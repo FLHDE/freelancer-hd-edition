@@ -12,7 +12,7 @@ This mod was made possible thanks to the assistance of project Freelancer: Nomad
 [Freelancer: Nomad Legacy website](https://freelancer2.space/en/)  
 [Freelancer: Nomad Legacy Mod DB page](https://www.moddb.com/mods/freelancer-nomad-legacy)
 
-**N.B. Freelancer: HD Edition does not add additional content op top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
+**N.B. Freelancer: HD Edition does not add additional content on top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
 
 Join our Discord server to stay up to date with the latest news and information! 
 
@@ -61,7 +61,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Added updated HUD Shift plugin
 * All content from Jason's Freelancer Patch v1.25
 * Direct3D 9 wrapper
-* Disabled IPv6 adresses in Multiplayer Server list
+* Disabled IPv6 addresses in Multiplayer Server list
 * Fixed friendly jumphole in mission 6
 * Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
 * Fixed missing/small text on 1440p and 4K displays
@@ -96,18 +96,14 @@ If you have selected the Windows 10 compatibility patch when installing this mod
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
 
 ## Installation instructions
-**N.B. Do NOT extract the files to your Freelancer folder manually, it won't work! This mod comes with a lot of custom options that can only be configured in FLMM**
-1. Make sure you have a clean installation of Freelancer
-2. Download the mod from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
-3. Open the .flmod file using [Freelancer Mod Manager 1.31](https://www.moddb.com/games/freelancer/downloads/freelancer-mod-manager-131)
-4. Open Freelancer Mod Manager as an Administrator
-5. Activate Freelancer: HD Edition
+1. Download FreelancerHDSetup.exe from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
+2. Open the setup file and read the instructions on-screen carefully
 
 ## Contributing
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
 
 ## Credits
-* BC46
+* [BC46](https://github.com/BC46)
   - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
   - HD Cockpits
   - HD Explosion effects
@@ -123,12 +119,14 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
-  - Mod script
   - Spinning planets
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
+* [Bolte](https://github.com/bolte-io) & [DragonFire](https://github.com/Drakohen)
+  - Support
+  - Testing
 * Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
-* crosire et al.
+* [crosire](https://github.com/crosire) et al.
   - [d3d8to9](https://github.com/crosire/d3d8to9)
 * Dege
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
@@ -141,7 +139,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [HD Universe Map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
-* Jason Hood
+* [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
   - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
   - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/index.html#hudshift)
@@ -152,23 +150,23 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Turret Zoom plugin](http://adoxa.altervista.org/freelancer/plugins.html#turretzoom)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
-* Jean-loup Gailly and Mark Adler
+* Jean-loup Gailly and [Mark Adler](https://github.com/madler)
   - [zlib](https://zlib.net/)
-* Jeider, RenderG & Whiskas T-Mech
+* [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
   - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
-  - [Additional textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
+  - [HD Ships and Stations textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 * Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
-* Microsoft
+* [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
 * Radiant
   - [HD Textures 1.2](https://www.moddb.com/games/freelancer/addons/hd-textures-12)
-* Raikkonen
+* [Raikkonen](https://github.com/ollieraikkonen)
   - HD cursor and several icons
-  - [Installer script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
-* Ruppetus
+  - [Installation script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
+* [Ruppetus](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
-  - Many bar script fixes
-* Why485
+  - Many other .thn fixes
+* [Why485](https://github.com/brihernandez)
   - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)
