@@ -126,10 +126,10 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Testing
 * Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
-* [crosire](https://github.com/crosire) et al.
-  - [d3d8to9](https://github.com/crosire/d3d8to9)
 * Dege
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
+* [Elisha Riedlinger](https://github.com/elishacloud) et al.
+  - [DxWrapper](https://github.com/elishacloud/dxwrapper)
 * Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
   - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
