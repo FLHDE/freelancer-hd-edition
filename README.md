@@ -126,6 +126,10 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Testing
 * Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
+* [CallumDev](https://github.com/CallumDev)
+  - [flplusplus](https://github.com/CallumDev/flplusplus)
+* [crosire](https://github.com/crosire) et al.
+  - [ReShade](https://github.com/crosire/reshade)
 * Dege
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 * [Elisha Riedlinger](https://github.com/elishacloud) et al.
