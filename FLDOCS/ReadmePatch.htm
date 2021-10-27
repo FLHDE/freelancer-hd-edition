@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Freelancer Server Readme</title>
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body background="BackgroundPattern.bmp" style="color: #FFFFFF; font-family: Agency FB" bgcolor="#000000" link="#00FF00" vlink="#00FF00">
+
+<h1><i>Freelancer</i> Server Patch ReadMe</h1>
+<h2>Change Summary</h2>
+<h3>Server Changes</h3>
+<p>Server crash prevention measures were added, including crashes that result 
+from client-side mods and common cheats.</p>
+<p>The log output was cleaned up. Unimportant log entries were removed and more 
+entries were added for player actions.</p>
+<p>Cheat detection measures were added, including the automatic disconnection and 
+logging of suspected cheaters.</p>
+<p>Player data is now saved when landing. Previously, saves occurred only on 
+launching and disconnection.</p>
+<p>The server will no longer attempt to connect to the global server if the 
+option to make the server Internet accessible is disabled.</p>
+<h3>Client Changes</h3>
+<p>Fixed MP Account ID generation in cases where no ID was generated.</p>
+<p>Fixed crashes related to running client and server on the same machine.</p>
+<p>Fixed bogus lag indicator when running client and server on the same machine.</p>
+<h2>Logging Changes</h2>
+<p>Logging was added for account creation, account deletion, character creation, 
+character deletion, and cheat detection.</p>
+<p>System enter and exit entries were removed.</p>
+<p>Informational log entries (vs. warnings and trace output) are prefixed with 
+&quot;LOG:&quot; to make them easier to parse out.</p>
+<h2>Cheat Detection Details</h2>
+<p>Players that are caught cheating are automatically disconnected from the server. A chat 
+message is sent by the server to all of the players indicating the name of the 
+player that was caught cheating. A log entry is also generated with the account 
+name of the player caught cheating. The chat message sent to all of the players 
+is stored in the file CHEATMESSAGE.TXT in the same directory as the FLSERVER.EXE 
+program. It is a Unicode text file and can be edited by the server admin if 
+desired. The maximum length of the cheat message is 80 characters.</p>
+<p>Detected cheaters are also logged in the CHEATERS.LOG file in the multiplayer 
+account directory. Each entry lists the date and time of the detection, the 
+character name, and the account name of the player.</p>
+<p>Cheaters are not automatically banned. It is up to the server admin to ban 
+cheaters if desired.</p>
+
+<p>
+&nbsp;</p>
+
+<p>
+<font face="Times New Roman">© 2003 Microsoft Corporation. All rights reserved. 
+Microsoft, Digital Anvil, DirectX, <i>Freelancer</i>, the Microsoft logo, the 
+Microsoft Games Studio logo, the .Net logo, Windows, and Windows NT are either 
+registered trademarks or trademarks of Microsoft Corporation in the United 
+States and/or other countries.</font></p>
+
+</body>
+
+</html>
