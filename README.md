@@ -109,7 +109,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - HD Explosion effects
   - HD Mission & News images
   - HD Nebulae
-  - HD Nomad, Corsair, Bretonia, Blood Dragon and Utility ships
+  - HD Nomad, Pirate, Bretonia, Blood Dragon and Utility ships
   - HD Starsphere improvements and HD Starsphere for ST03b
   - HD Startup Screen & Main Menu logo
   - HD System Map with HD Map objects
