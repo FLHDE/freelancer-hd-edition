@@ -142,7 +142,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
   - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
-  - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/index.html#hudshift)
+  - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/plugins.html#hudshift)
   - [Jason's Freelancer Patch v1.25](http://adoxa.altervista.org/freelancer/index.html)
   - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
   - [MP3 Codec Fix](http://adoxa.altervista.org/freelancer/plugins.html#mp3codec)
