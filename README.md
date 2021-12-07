@@ -151,6 +151,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
   - [MP3 Codec Fix](http://adoxa.altervista.org/freelancer/plugins.html#mp3codec)
   - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
+  - [Ranks plugin](http://adoxa.altervista.org/freelancer/plugins.html#ranks)
+  - [Territory plugin](http://adoxa.altervista.org/freelancer/plugins.html#territory)
   - [Turret Zoom plugin](http://adoxa.altervista.org/freelancer/plugins.html#turretzoom)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
@@ -165,7 +167,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
 * [Raikkonen](https://github.com/ollieraikkonen)
-  - HD cursor and several icons
   - [Installation script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
 * [Ruppetus](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
