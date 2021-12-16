@@ -157,6 +157,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Turret Zoom plugin](http://adoxa.altervista.org/freelancer/plugins.html#turretzoom)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
+  - Support
 * Jean-loup Gailly & [Mark Adler](https://github.com/madler)
   - [zlib](https://zlib.net/)
 * [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
