@@ -1,0 +1,30 @@
+This .txt file documents which manual HEX edits have been made to several binary files in Freelancer: HD Edition.
+
+TODO: Add datatypes, add descriptions, proper format
+TODO: Replace Common.dll faction edits with the StoryFactions plugin
+
+Common.dll. Base: Default from the official 1.1 Freelancer patch
+0E698E: 7C      [ EB ] . Allows many planets to continue spinning.
+143C88: "fc_or_grp"     [ 00 00 00 00 00 00 00 00 00 ]
+143C94: "fc_n_grp"      [ 00 00 00 00 00 00 00 00 ]
+
+Freelancer.exe (TODO: update). Base: Default No-CD EXE
+01AD6F: 80 00   [ 00 20 ]
+0B1375: 20      [ 64 ]
+0D094B: 0F 85 2A 05 00 00       [ 74 04 FE C8 75 C4 ]
+0D2C94: 9F 86 01        [ 3F 42 0F ]
+0D5936: 0F 85   [ 90 E9 ]
+0D5984: 7E      [ EB ]
+158A14: D9 1D 0C 0A 61 00       [ 90 90 90 90 90 90 ]
+166C2B: 75      [ EB ]
+1ACF6A: 51 8D "L$ Q" 8D 8C 24 C8 00 00 00  [ "@tcHQ" 8D 54 E4 20 52 83 E9 08 ]
+1C8912: 9C 46   [ 1C 47 ]
+1D7E50: 9A 99 99 99 99 99 E9    [ 00 00 00 00 00 00 F0 ]
+1E6DCC: 46      [ 00 ]
+213EC8: 00 40 1C 46     [ F0 23 74 49 ]
+
+rendcomp.dll. Base: Default from Freelancer 1.0
+00C499: 02      [ 00 ] . Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
+
+rp8.dll. Base: Default from Freelancer 1.0
+004467: 7D      [ EB ] . Removes the D3DERR_INVALIDCALL error spam in FLSpew.txt.
