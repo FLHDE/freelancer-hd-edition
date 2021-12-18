@@ -153,6 +153,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [MP3 Codec Fix](http://adoxa.altervista.org/freelancer/plugins.html#mp3codec)
   - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
   - [Ranks plugin](http://adoxa.altervista.org/freelancer/plugins.html#ranks)
+  - [Story Factions plugin](http://adoxa.altervista.org/freelancer/plugins.html#storyfactions)
   - [Territory plugin](http://adoxa.altervista.org/freelancer/plugins.html#territory)
   - [Turret Zoom plugin](http://adoxa.altervista.org/freelancer/plugins.html#turretzoom)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)

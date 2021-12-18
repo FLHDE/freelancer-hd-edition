@@ -1,13 +1,10 @@
 This .txt file documents which manual HEX edits have been made to several binary files in Freelancer: HD Edition.
 
 TODO: Add proper formatting
-TODO: Replace Common.dll faction edits with the StoryFactions plugin
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch
 0E698E: Binary 7C -> EB . Allows many planets to continue spinning.
 13F48C: Single (float32) 10000 -> 50000 . Increases the maximum docking initiation distance
-143C88: "fc_or_grp"     [ 00 00 00 00 00 00 00 00 00 ] . Allows The Order to be displayed in the reputation list.
-143C94: "fc_n_grp"      [ 00 00 00 00 00 00 00 00 ] . Allows the Nomads to be displayed in the reputation list.
 
 Freelancer.exe. Base: Default No-CD EXE
 01AD6F: Binary 80 00 -> 00 20 . Fixes a bug that causes some textures to be shown in a low-quality state.
