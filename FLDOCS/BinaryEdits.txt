@@ -19,6 +19,7 @@ Freelancer.exe. Base: Default No-CD EXE
 166C2B: Binary 75 -> EB . Bypasses the ESRB notice when entering the Multiplayer menu.
 1ACF6A: Binary 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08 . Prevents IPv6 adresses from being displayed in the server list.
 1C8910: Single (float32) 20000 -> 40000 . Increases the poly flipping distance, which allows jumpholes to be seen from further away.
+1D7964: Single (float32) 3 -> 0,5 . Reduces the time between contact list refreshes.
 1D7E50: Double (float64) 0,8 -> 0,85 . Increases the width of the gauge bars.
 1E6DCC: AnsiChar / char8_t 'F' -> '' . Breaks the CreateMutex IpName, allowing multiple instances of Freelancer to run simultaneously. 
 213EC8: Single (float32) 10000 -> 999999 . Increases the maximum draw distance for space objects like battleships and trade lanes.
