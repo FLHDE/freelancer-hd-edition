@@ -4,6 +4,7 @@ TODO: Add proper formatting
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch
 0E698E: Binary 7C -> EB . Allows many planets to continue spinning.
+13DFDC: Single (float32) 1,74 -> 3,48 . Increases the fill distance multiplier for asteroid fields.
 13F48C: Single (float32) 10000 -> 50000 . Increases the maximum docking initiation distance
 
 Freelancer.exe. Base: Default No-CD EXE
