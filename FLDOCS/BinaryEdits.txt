@@ -1,0 +1,34 @@
+This .txt file documents which manual HEX edits have been made to several binary files in Freelancer: HD Edition.
+
+TODO: Add proper formatting
+
+Common.dll. Base: Default from the official 1.1 Freelancer patch
+0E698E: Binary 7C -> EB . Allows many planets to continue spinning.
+13DFDC: Single (float32) 1,74 -> 3,48 . Increases the fill distance multiplier for asteroid fields.
+13F48C: Single (float32) 10000 -> 50000 . Increases the maximum docking initiation distance
+
+Freelancer.exe. Base: Default No-CD EXE
+01AD6F: Binary 80 00 -> 00 20 . Fixes a bug that causes some textures to be shown in a low-quality state.
+06A440: Int8 80 -> 127 . Increases the maximum number of characters in the chat input box.
+0691D1: Int8 32 -> 127 . Increases the maximum number of chat lines in the chat history window.
+0A8004: Binary 05 -> 1A . Shows the current worth in Multiplayer.
+0B1375: Int8 32 -> 100 . Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu.
+0D094B: Binary 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4 . Includes player ships in the contact list's ship filter.
+0D2C94: Int24 99999 -> 999999 . Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list.
+0D5936: Binary 0F 85 -> 90 E9 . Removes the cruise speed display limit (300).
+0D5984: Binary 7E -> EB . Removes the general speed display limit (999), which can be seen when using a trade lane.
+158A14: Binary D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90 . Prevents intentional framerate drops to 25 from occuring.
+166C2B: Binary 75 -> EB . Bypasses the ESRB notice when entering the Multiplayer menu.
+1ACF6A: Binary 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08 . Prevents IPv6 adresses from being displayed in the server list.
+1C8910: Single (float32) 20000 -> 40000 . Increases the poly flipping distance, which allows jumpholes to be seen from further away.
+1D7964: Single (float32) 3 -> 0,5 . Reduces the time between contact list refreshes.
+1D7E50: Double (float64) 0,8 -> 0,85 . Increases the width of the gauge bars.
+1E6DCC: AnsiChar / char8_t 'F' -> '' . Breaks the CreateMutex IpName, allowing multiple instances of Freelancer to run simultaneously. 
+213EC8: Single (float32) 10000 -> 999999 . Increases the maximum draw distance for space objects like battleships and trade lanes.
+Freelancer.exe's default .ico was replaced so it has the "HDE" logo.
+
+rendcomp.dll. Base: Default from Freelancer 1.0
+00C499: Binary 02 -> 00 . Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
+
+rp8.dll. Base: Default from Freelancer 1.0
+004467: Binary 7D -> EB . Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.

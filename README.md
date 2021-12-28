@@ -146,14 +146,19 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
   - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
+  - [HUDless plugin](http://adoxa.altervista.org/freelancer/plugins.html#hudless)
   - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/index.html#hudshift)
   - [Jason's Freelancer Patch v1.25](http://adoxa.altervista.org/freelancer/index.html)
   - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
   - [MP3 Codec Fix](http://adoxa.altervista.org/freelancer/plugins.html#mp3codec)
   - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
+  - [Ranks plugin](http://adoxa.altervista.org/freelancer/plugins.html#ranks)
+  - [Story Factions plugin](http://adoxa.altervista.org/freelancer/plugins.html#storyfactions)
+  - [Territory plugin](http://adoxa.altervista.org/freelancer/plugins.html#territory)
   - [Turret Zoom plugin](http://adoxa.altervista.org/freelancer/plugins.html#turretzoom)
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
+  - Support
 * Jean-loup Gailly & [Mark Adler](https://github.com/madler)
   - [zlib](https://zlib.net/)
 * [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
@@ -164,10 +169,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
-* Radiant
-  - [HD Textures 1.2](https://www.moddb.com/games/freelancer/addons/hd-textures-12)
 * [Raikkonen](https://github.com/ollieraikkonen)
-  - HD cursor and several icons
   - [Installation script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
 * [Ruppetus](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
