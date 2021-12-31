@@ -1,0 +1,368 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Freelancer Server Readme</title>
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<!-- <body background="BackgroundPattern.bmp" style="color: #87C3E0; font-family: Agency FB"> -->
+<body background="BackgroundPattern.bmp" style="color: #FFFFFF; font-family: Agency FB" bgcolor="#000000" link="#00FF00" vlink="#00FF00">
+
+
+<h1><i>Freelancer</i> Server ReadMe</h1>
+<h2>Menu Items</h2>
+<p>&nbsp;The table below describes the menu items for the <i>Freelancer</i> server.</p>
+<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" bordercolor="#87C3E0" width="100%" id="AutoNumber1">
+  <tr>
+    <td width="50%" align="center"><b>Menu</b></td>
+    <td width="50%" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">File | Exit</td>
+    <td width="50%" align="center">Saves the character data for every connected 
+    player and forces them to log off. Then shuts down the server and exits.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Edit | Copy, Edit | Select All, Edit | 
+    Find..., Edit | Find Next</td>
+    <td width="50%" align="center">Performs the normal editing commands when in 
+    Console view.<p>Disabled when in Status Summary view.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Edit |  Accounts...</td>
+    <td width="50%" align="center">Displays the Account Management dialog.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">&nbsp;Edit | Message of the Day...</td>
+    <td width="50%" align="center">Displays the dialog for editing the server's 
+    current news, also called the message of the day.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">View | Status Bar</td>
+    <td width="50%" align="center">Toggles the visible state of the status bar 
+    at the bottom of the server's window.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">View | Status Summary</td>
+    <td width="50%" align="center">Switches the server display to the Status 
+    Summary view. </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">View | Console</td>
+    <td width="50%" align="center">Switches the server display to the Console 
+    view.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Chat | Chat With Universe</td>
+    <td width="50%" align="center">Displays the dialog for sending chat messages 
+    to everyone on the server.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Chat | Chat With Star System</td>
+    <td width="50%" align="center">Displays the dialog for chatting with the 
+    players in a given star system.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Chat | Chat With Player</td>
+    <td width="50%" align="center">Displays the dialog for sending a private 
+    message to a given player.</td>
+  </tr>
+</table>
+<h2>Dialogs</h2>
+<p>&nbsp;Below is information about each of the dialogs the server 
+can display while running. For information about the main server configuration 
+dialog box, see the game manual.</p>
+<h3><a name="Account Management">Account Management</a></h3>
+<p>&nbsp;The Account Management dialog allows you to delete 
+characters, force characters to log off, and delete and/or ban accounts from 
+your server. It displays the list of accounts on your server and each of the 
+characters for those accounts. All of these operations can be performed while 
+the server is running. </p>
+<p>&nbsp;See the <a href="#Managing Accounts">Managing Accounts</a> 
+section below for more information about managing the accounts on your server.</p>
+<p>&nbsp;To close the dialog, click the <b>OK</b> button.</p>
+<p>&nbsp;To delete a character, select the character name and click 
+the <b>Delete Character</b> button.</p>
+<p>&nbsp;To delete an account, select the account name and click 
+the <b>Delete Account</b> button.</p>
+<p>&nbsp;<a name="To ban an account">To ban an account</a>, select 
+the account name and click the <b>Edit Account</b> button. In the dialog that pops 
+up, set the check on the &quot;banned&quot; checkbox and click the <b>OK</b> button.</p>
+<p>&nbsp;To remove the ban on an account, select the account name 
+and click the <b>Edit Account</b> button. In the dialog that pops up, unset the check 
+on the &quot;banned&quot; checkbox and click the <b>OK</b> button.</p>
+<p>&nbsp;<a name="To force a player to log off of your server">To 
+force a player to log off of your server</a>, select the account name for the 
+character you want to kick off, click the <b>Edit Account</b> button, and then click the 
+<b>Kick Account From Server</b> button. Click the <b>OK</b> button to close the dialog.</p>
+<p>&nbsp;NOTE: If your server allows new accounts, it is better to 
+ban an account than to delete it. If the account is deleted, the same player's 
+account will be created when they connect to your server again (but without the 
+characters they had when the account was deleted). Banning the account without 
+deleting it prevents the player from logging into you server until you remove 
+the ban.</p>
+<h3>Message of the Day</h3>
+<p>&nbsp;This dialog allows you to examine and modify the news 
+about your server. This news is displayed to players on your server in their 
+character selection screen. The news you enter for your server is saved and used 
+each time the server is launched until you change it again.</p>
+<p>&nbsp;To change the news for your server, type the news you want 
+and click the <b>OK</b> button. Any players currently connected and on the Character 
+Selection screen will see the news.</p>
+<p>&nbsp;To close the dialog without changing the news, click the 
+<b>Cancel</b> button.</p>
+<h3>Universe Chat</h3>
+<p>&nbsp;This dialog allows you to send chat messages to all of the 
+players connected to your server.</p>
+<p>&nbsp;To send a message to the universe, type the message you 
+want to send in the single-line box at the bottom, and then press ENTER.</p>
+<p>&nbsp;To close the dialog, click the <b>Close</b> button.</p>
+<h3>System Chat</h3>
+<p>&nbsp;This dialog allows you to monitor the chat traffic in the 
+star systems on your server, and allows you to send chat messages to entire 
+systems.</p>
+<p>&nbsp;To monitor the chat messages in a system, select the  Chat 
+| Chat With Star System menu item, then select the desired star system from 
+those listed and click the <b>OK</b> button. A System Chat dialog will then appear. 
+The system channel chat messages in that system will appear in the top box. You 
+can have more than one System Chat dialog open at a time, allowing you to 
+monitor more than one system. When selecting a star system, only those systems 
+that currently contain online players will be listed.</p>
+<p>&nbsp;To send chat messages to a system, in a system chat 
+dialog, type your message in the single-line box at the bottom, and then press 
+ENTER.</p>
+<p>&nbsp;To close a system chat dialog, click the <b>Close</b> button.</p>
+<h3>Player Chat</h3>
+<p>&nbsp;This dialog allows you to send a private chat message to 
+an online player.</p>
+<p>&nbsp;To open a Player Chat dialog, select the  Chat | Chat With 
+Player menu item, and then select the desired player from those listed and click 
+the <b>OK</b> button. A Player Chat dialog will appear. You can have more than one 
+Player Chat dialog open at a time.</p>
+<p>&nbsp;To send a private chat message to a player, open a Player 
+Chat dialog for the player you wish to send the message to, and then enter your 
+message in the single-line box at the bottom and press ENTER.</p>
+<p>&nbsp;To close a Private Chat dialog, click the <b>Close</b> button.</p>
+<h2>Views</h2>
+<p>&nbsp;The server displays information in one of two views: the Status Summary view and the 
+Console view.</p>
+<h3>Status Summary</h3>
+<p>&nbsp;The Status Summary view is the default and is most likely 
+the only view you will ever use. It displays the current load on your server , 
+and some other statistics about your server.</p>
+<p>&nbsp;The server load is a measure of how long it takes your 
+computer to process a single simulation step. It is displayed numerically in 
+milliseconds and graphically as a colored bar. A lower value is better. If your 
+computer is processing each simulation frame faster than the ideal rate, the 
+load bar will be less than half its full height and will be colored green. In 
+this situation, your computer has more CPU cycles than it needs to run the 
+server and will provide the best game experience it can. If your 
+computer is processing each simulation frame slightly slower than the ideal 
+rate, the load bar will be over half its full height and colored yellow. In this 
+situation your computer can still provide a good game experience, but you may 
+start to experience some lag on connected clients. If your computer is 
+processing each simulation frame must slower than the ideal rate, the load bar 
+will be near the top and will be colored red. In this situation your server is 
+providing a poor game experience; you will definitely see lag on connected 
+clients.</p>
+<p>&nbsp;The server load varies with how many players are connected 
+and what those players are doing. In general, the more players you have on your 
+server and the wider apart they are spread across the universe, the higher the 
+load will be on your server. If you find that you are consistently running in 
+the yellow or red on your server, you can limit the number of players that can 
+be connected to your server at once. For information on how to limit the number 
+of players, see the game manual's section on running a 
+game server.</p>
+<p>&nbsp;The table below explains each one of the displayed 
+statistics. Unless otherwise noted, all statistics are since the server was last 
+started.</p>
+<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" bordercolor="#87C3E0" width="100%" id="AutoNumber2">
+  <tr>
+    <td width="50%" align="center" bordercolor="#87C3E0"><b>Statistic</b></td>
+    <td width="50%" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Player Count</td>
+    <td width="50%" align="center">The number of players currently connected to 
+    your server.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Total Logins</td>
+    <td width="50%" align="center">The total number of players that have logged 
+    onto your server.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Total Logouts</td>
+    <td width="50%" align="center">The total number of players that have logged 
+    off of your server.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Failed Logins</td>
+    <td width="50%" align="center">The total number of players that have failed 
+    to log onto your server.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Aborted Missions</td>
+    <td width="50%" align="center">The total number of missions that have been 
+    aborted by players on your server.</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">Player Deaths</td>
+    <td width="50%" align="center">The total number of times a player has died 
+    on your server.</td>
+  </tr>
+  </table>
+<h3>Console</h3>
+<p>&nbsp;The Console view displays information  useful only when 
+debugging server issues. As the server runs it generates messages about what is 
+doing, including errors it may find and notification of exceptional conditions. 
+These are displayed in the Console view.</p>
+<p>&nbsp;When in Console view, the Edit menu is active, and you can 
+select and copy sections from the console to the clipboard.</p>
+<h2>Maintenance</h2>
+<p>&nbsp;As people play on your server, you will accumulate account 
+and character information. If you intend your server to be a persistent place 
+for <i>Freelancer</i> players to come play, you will need to spend a little time 
+maintaining it. This section covers typical maintenance tasks for the <i>Freelancer</i> 
+server.</p>
+<h3><a name="Managing Accounts">Managing Accounts</a></h3>
+<p>&nbsp;Each time a player who has never connected to your server 
+connects to it, a new account will be created for that player. You can prevent 
+new accounts from being created on your server by un-checking the Allow New 
+Players checkbox in the server configuration dialog.</p>
+<p>&nbsp;If you wish to prevent a player from logging onto your 
+server, you can <a href="#To ban an account">ban that player</a>. You can ban a 
+player that is currently online, at which point the player will be immediately 
+logged off.</p>
+<p>&nbsp;If you don't want to ban the player, you can just
+<a href="#To force a player to log off of your server">kick the player off of 
+your server</a>. Of course, the player can just turn around and log back in 
+unless you ban their account.</p>
+<p>&nbsp;Player accounts can be manipulated in the Account 
+Management dialog. See the section on the <a href="#Account Management">Account 
+Management</a> dialog for more information.</p>
+<p>&nbsp;If a character or account is currently online when 
+it is deleted, the player is automatically logged off.</p>
+<p>&nbsp;NOTE: Accounts are tied to the build number of the server 
+on which they run. Therefore, your character files will not work on a server 
+with a different build number.</p>
+<h3>Backing up Your Accounts</h3>
+<p>&nbsp;The accounts for your server are stored in the My Games\Freelancer\Accts\Multiplayer folder of your documents folder. If you are 
+running Windows 2000/XP, this means that different users on the same computer 
+can run their own servers with different sets of accounts.</p>
+<p>&nbsp;You can back up the accounts for your server by backing up 
+the entire My Games\Freelancer\Accts\Multiplayer folder in your documents folder. You must back up the 
+entire directory.</p>
+<h3>Moving Your Accounts</h3>
+<p>&nbsp;You can move the entire set of accounts from one server to another by 
+replacing the My Games\Freelancer\Accts\Multiplayer folder on the destination server 
+with the contents of the same folder from the source server. Copying of 
+individual accounts to another server is not supported.</p>
+<p>&nbsp;To move your accounts from server A to server B:</p>
+<ol>
+  <li>Delete the My Games\Freelancer\Accts\Multiplayer folder in your &quot;My 
+  Documents&quot; folder on server B.</li>
+  <li>Copy the My Games\Freelancer\Accts\Multiplayer folder (and all it 
+  sub-folders) from your &quot;My Documents&quot; folder on server A to the My 
+  Games\Freelancer\Accts\Multiplayer folder in your &quot;My Documents&quot; folder on 
+  server B.</li>
+  <li>Once you have moved these accounts from A to B, do not attempt to run servers on both machines at the same time.</li>
+</ol>
+<h2>Tips for Firewalls and Routers</h2>
+<p>&nbsp;<i>Freelancer</i> uses the DirectPlay protocol for client/server 
+communications. Therefore, the game client should work through most Network Address Translation (NAT) 
+routers and works with the Windows 2000/XP Internet Connection Sharing (ICS) 
+feature without requiring a configuration change. Special steps (<a href="#Internet Connection Sharing (ICS) on Win98/Me">described 
+below</a>) are required when using ICS on Windows 98/Me.</p>
+<p>&nbsp;DirectPlay can coordinate with a Universal Plug and Play 
+(UPnP) NAT/ICS to open the proper ports for running a <i>Freelancer</i> server. 
+However, if you have a hardware NAT or router that is not , you will most likely need to 
+configure it in order to run a <i>Freelancer</i> server behind it. See the section 
+below on the <a href="#Ports Used By Freelancer and the Freelancer Server">ports 
+used by <i>Freelancer</i></a> for more information.</p>
+<p>&nbsp;If you are running a firewall, you may need to configure 
+it in order to play <i>Freelancer</i> on the Internet. If you are able to 
+play other games that use the DirectPlay protocol through your firewall, you 
+should be able to play <i>Freelancer</i> as well. For more detailed information, see 
+the section below on the
+<a href="#Ports Used By Freelancer and the Freelancer Server">ports used by 
+<i>Freelancer</i></a>.</p>
+<h3><a name="Ports Used By Freelancer and the Freelancer Server">Ports Used By 
+<i>Freelancer</i> and the 
+<i>Freelancer </i>Server</a></h3>
+<p>&nbsp;<i>Freelancer</i> uses the standard DirectPlay8 UDP ports 2300–2400. 
+Ports are allocated starting at 2300, working toward 2400. Port 2300 is only 
+used when connecting to the global server.</p>
+<p>&nbsp;This port range is used by both the game client and game 
+server. The game server uses it to connect to the list server and to accept 
+incoming connections from game clients. The game client uses it to connect to 
+both the list server and the game servers.</p>
+<h3><a name="Internet Connection Sharing (ICS) on Win98/Me">Internet Connection Sharing (ICS) on Win98/Me</a></h3>
+<p>
+&nbsp;Windows98 ICS is not Universal Plug &amp; 
+Play (UPnP) compliant. This prevents <i>Freelancer</i> servers from negotiating 
+with ICS to open the proper ports.&nbsp;If you want to host <i>Freelancer</i> games 
+behind a Windows98 ICS system, you 
+have to configure your ICS to allow the <i>Freelancer</i> server to be accessed from 
+the Internet.</p>
+
+<p>
+&nbsp;We have provided an INF file 
+that contains special configuration instructions for <i>Freelancer</i>’s server with 
+Windows98 ICS.&nbsp;This file is located in the Extras folder where you installed 
+<i>Freelancer</i> and is called Win98ICS.inf. This file must be installed on the 
+machine that serves as the ICS host (i.e. the machine with the real Internet 
+connection).&nbsp;</p>
+<p>
+&nbsp;If you are simply running a <i>Freelancer</i> server on your ICS host machine, you can use this file as-is. If 
+you are running a <i>Freelancer</i> server on another machine on your network, or you’ve 
+chosen a specific port with the /P option, you will need to edit this file 
+before installing it.&nbsp;When you’re happy with the contents of this file, 
+right-click on it and choose <b>Install</b>.&nbsp;You must reboot the ICS machine for the changes to take 
+effect.&nbsp;This should properly configure your ICS to work with <i>Freelancer</i>.</p>
+
+<h3>Simple Fix for Most NAT/ICS/Firewall Issues</h3>
+
+<p>
+&nbsp;Many NAT, ICS, and firewall 
+issues can be resolved by simply opening up ports 2300–2400 on your NAT/ICS 
+server or firewall. If you just want to run a single server on your NAT/ICS 
+network, this should work well for you.</p>
+<h3>
+How to Control the Port Number that the <i>Freelancer </i>Server Uses</h3>
+<p>
+&nbsp;The <i>Freelancer</i> server normally 
+picks its own port (in the range of 2302–2400) when hosting a game.&nbsp;This works 
+well in most cases.&nbsp;However, there are situations where you may want to control the port choice for the server.&nbsp;These situations are 
+usually caused by running more than one DirectPlay game on your network at a 
+time.</p>
+<p>
+&nbsp;You can control the port 
+selection with the /P command line option to the FLServer.exe program. For 
+example, if you wanted to have the server host on port 1234, you would use the 
+following command line FLServer.exe /P1234. You can easily modify the provided 
+shortcut to FLServer.exe to include this option.&nbsp;Simply edit the  Target 
+line and add your own /Pxxx after the  FLServer.exe text.</p>
+
+<p>
+&nbsp;</p>
+
+<p>
+<font face="Times New Roman">© 2003 Microsoft Corporation. All rights reserved. 
+Microsoft, Digital Anvil, DirectX, <i>Freelancer</i>, the Microsoft logo, the 
+Microsoft Games Studio logo, the .Net logo, Windows, and Windows NT are either 
+registered trademarks or trademarks of Microsoft Corporation in the United 
+States and/or other countries.</font></p>
+
+</body>
+
+</html>
