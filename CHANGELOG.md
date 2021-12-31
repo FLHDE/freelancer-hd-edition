@@ -1,11 +1,121 @@
 # Changelog
 
+## [[0.5] - TBD](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
+
+### Changed
+- Added higher quality startup movies
+- Added improved HD Nebulae and Fog
+- Compressed HQ Music to 320 kbp/s (fixes issues with Freelancer sometimes not looping or playing the music)
+- Added an HD Smoke effect
+- Added HD weapon models
+- Added HD equipment carts
+- Replaced Liberty Defender with Juni's Defender in Kress cutscene
+- Adjusted the HQ reveal and exposition music so it has the same length as the original
+- Reduced vanilla icon sizes in contact list so they no longer overlap
+- Added HD Nomad Lair textures
+- Added HD Dyson Sphere textures
+- Increased asteroid field fill distance
+- Multiplied the maximum docking initiation distance by 5x
+- Reduced time between contact list refreshes to 0.5 seconds
+- Allowed the current worth to be shown in Multiplayer
+- Increased max number of characters in the chat input box
+- Increased the max number of chat lines in the chat history window
+- Improved the zoomed map by adding more, smaller stars to it
+- Added many HD weapon and misc effect textures
+- Added HD Base Interior tables
+- Improved HD Nomad, Pirate, Bretonia, Blood Dragon and Utility ship textures
+- Improved texture quality of some original ship textures
+- Improved HD cockpits
+- Fixed fog colors on the New York nav map
+- Added HD cargo crates
+- Made both Unknown systems appear on the nav map after visiting them
+- Inverted the Moonblu Planet color so it looks more like the original
+- Made the Text Strings Revision patch optional
+- Added the Territory plugin with a custom config
+- Added the Ranks plugin with a custom config
+- Added the HUDless plugin
+- Replaced manual hex edits with the Factions plugin for making several factions appear in the faction list 
+- Added updated version of the HD Character Models addon (tremendously improved character textures over the previous versoin)
+- Improved the St03b starsphere
+- Added a trail-less version of the CSV engine (unused)
+- Added HD Base Interiors (Proof of Concept) for the following bases:
+    - Manhattan
+	- Pittsburgh
+	- Liberty Dreadnought
+- Ensured the Rowlett's Revenge weapon drop has the correct string name (it used to be called Nomad Prototype)
+- When both the Dark HUD and Adv Wide HUD have been selected, the player will now actually get both
+- Added HD vanilla HUD
+- Added HD mouse cursors
+- Added HD button textures and other icons
+- Made the Dark HUD optional
+- Made the Flat Interface optional
+- Add a visit tag to the gravity buoy in Ew01 so it can no longer be selected in the target window
+- Reverted the solid gauge bars (made the gaps a bit smaller than the original)
+- Removed a purposeless hazard buoy on the outer edge of Bw06
+- Added optional shinier reflections
+- Improved overall reflections
+- Assigned a faction to the Magellan -> New York Jump Gate so its name is displayed properly
+- Added an improved explosion texture
+- Adjust colors slightly in the Ew05 and Ew06 starspheres
+- Centered the nav map animation on 16:9
+- Added the latest version of HUD Shift which centers all windows correctly
+- Improved station textures:
+    - Fixed outline for dome trees
+	- Improved dome grass
+	- Added new station numbers
+	- Added HD base windows
+	- Added HD light panel textures
+	- Improved texture quality of previously original textures for asteroid stations
+- Fixed seams in some Bretonia starspheres
+- Added optional single player modes:
+    - Normal: the player starts on Manhattan with a basic loadout and a default reputation
+	- Pirate: the player starts on Rochester with a basic loadout and an inverted reputation
+- Removed pause in the zone_nebula_nomad ambient sound
+- Made the fog in the Liberty Dreadnought deck start right away, instead of 30 seconds later
+- Moved Armored Transport in mission 13 cutscene so it's no longer on the same landing pad as the Anubis
+- Ensured Bounty Hunter and Corsair ships have Corsair engines (like the NPCs do)
+- Added updated Maximized Draw Distances addon (enables high quality sphere rendering)
+- Adjusted the cutscene music attenuation according to the differences in volume between the standard and HD music
+- Mission 1 cutscene fixes:
+	- Prevented the Transport ship from tilting downwards at the very start
+    - Prevented Freeport 7 escorts from colliding with each another off-screen
+	- Adjusted the angle and position of the 3rd Nomad attacker ship so it can fire torpedoes properly
+	- Ensure the Nomad attacker ship's engines can't be seen as they are decloaking when the camera zooms out
+- Properly despawn Freeport 7 so it can't be seen in New York during mission 1
+- Ensured the Planet Houston -> Bering Jump Gate has the correct name
+- Assigned a faction to the Alaska -> New York Jump Gate so its name is displayed properly
+- Set numerous friendly jumpholes during story missions to neutral
+- Prevent cloaked Rheinland Battleships from being visible during mission 7
+- Turned down the volume of a rather loud voice line in mission 6
+- Removed a screech in the Omicron Battle music
+- Replaced Freelancer.exe's application icon with a Freelancer: HD Edition icon
+- Added an alternative base interior lighting fix
+- Include a copy of ReShade with a basic, optional config (includes HDR, increased saturation, and bloom)
+- Replaced d3d8to9 with DxWrapper
+- Changed dgVoodoo2 version to 2.54
+- Added optional player engine trails
+- Added an FLDOCS folder with useful Readmes and documentation
+- Include documentation regarding manual hex/binary edits for Freelancer: HD Edition
+- Applied engine fixes in the gasminer3.thn main menu script
+- Compressed R8G8B8 textures to DXT1 and DXT5 (saves space)
+- Added an HD jump effect
+- Disabled the D3D8 error spam in FLSpew (Freelancer log)
+- Added flplusplus
+- Added a new continuous damage effect
+- Added HD background stars
+- Fixed uneven edges in HD main menu Freelancer logos
+- Set the mine detonation distance to 6 (mitigates the mine collision bug)
+- Added missing audio files from JFLP v1.25
+- Dropped support for installations via Freelancer Mod Manager
+
+
 ## [[0.4.1] - 2021-08-25](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4.1)
 
 ### Changed
 - Updated zlib.dll for better performance in Multiplayer
 - Added HD Missile effects
 - Fixed size of 16:9 Freelancer logos
+- Added support for installations via a dedicated installer
 
 
 ## [[0.4] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)
