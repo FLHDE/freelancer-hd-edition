@@ -1,3 +1,5 @@
 *.rtf linguist-detectable=false
 *.html linguist-detectable=false
 *.htm linguist-detectable=false
+*.fx linguist-detectable=false
+*.fxh linguist-detectable=false
