@@ -18,86 +18,41 @@ Join our Discord server to stay up to date with the latest news and information!
 
 [![Support Server](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/ScqgYuFqmU)
 
-## Content
-### Visual
+## Key Features
+* HD Space Stations
+* HD Ships
+* HD Planets
+* HD Effects
 * HD Asteroids
 * HD Character Models
-* HD Cockpits
-* HD Effects
-* HD Mission & News images
+* HD Base Interiors (WIP)
+* HD HUD
 * HD Nebulae
-* HD Planets
-* HD Ships
-* HD Space objects
 * HD Starspheres
-* HD Startup Screen & Main Menu logo
-* HD System & Universe Map
-* Improved reflections
-* Increased effect pool sizes
-* Maximized draw distances
-* New interface with new icons
-
-### Audio
+* HD Effects
+* Maximized Draw Distances
+* Anti-Aliasing and Anisotropic Filtering support
 * HQ Music
-
-### Gameplay
-* Advanced Widescreen HUD
-* 16:9 planetscape fixes
-* Support for scrolling through menus
-* Support for zooming in turret view
-* Allow players to be called differently in Single Player
-* Fixes in many bar scripts
-* Enabled NPC paths in Multiplayer
-* Include player ships in ship filter
-* Make all planets spin slowly
-* Set maximum level in Single Player to 40
-* Show the names of zones as you enter and leave them
-* Show the remaining shield and hull points of the selected target as numbers
-
-### Misc
-* 1.1 Patch
-* Added more sound and general options
-* Added support for running multiple instances of Freelancer on the same machine
-* Added updated HUD Shift plugin
-* All content from Jason's Freelancer Patch v1.25
-* Direct3D 9 wrapper
-* Disabled IPv6 addresses in Multiplayer Server list
-* Fixed friendly jumphole in mission 6
-* Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
-* Fixed missing/small text on 1440p and 4K displays
-* Fixed MP3 codec error spam
-* Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
-* Freelancer manual
-* Improved infocards for unknown factions
-* Improved Nomad group member names
-* Make energy, shield, and hull bars solid
-* No longer hide The Order and the Nomads from the factions list
+* Jason's Freelancer Patch
+	* Full Widescreen support
+	* Improvements
+	* New features
+	* Bug fixes
+* flplusplus
 * No-CD Patch
-* Prevent intentional frame drops from occurring
-* Realigned HUD elements
-* Removed cruise speed display limit
-* Removed general speed display limit
-* Removed ESRB notice
-* Removed unknown graphics card warning
-* Show "Far" in contact list only at distances of 999.999K or higher
-* Single Player console
-* Smoothened jump effect
-* Updated zlib.dll for better performance in Multiplayer
-* Windows 10 compatibility patch (dgVoodoo2)
+* Official 1.1 Patch
+* Tons of additional bug fixes
+* Additional gameplay improvements
+* Compatible with vanilla Freelancer
+
+To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/BC46/freelancer-hd-edition/blob/main/CHANGELOG.md).
+
 
 ## Recommendations 
-For the best possible experience, it is recommended to force enable anti-aliasing and anisotropic filtering for Freelancer through your GPU settings. To learn how to do this, please visit the link from your GPU manufacturer:
-* NVIDIA: https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/nv3d/Manage_3D_Settings_(reference).htm
-* AMD: https://www.amd.com/en/support/kb/faq/dh-012
-* Intel: https://www.intel.com/content/www/us/en/support/articles/000057285/graphics.html
-
-If you have selected the Windows 10 compatibility patch when installing this mod, you can learn how to enable native anti-aliasing and anisotropic filtering here: [How to enable native MSAA and Anisotropic Filtering with the Windows 10 compatibility patch](https://github.com/BC46/freelancer-hd-edition/wiki/How-to-enable-native-MSAA-and-Anisotropic-Filtering-with-the-Windows-10-compatibility-patch)
-
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
 
 ## Installation instructions
-1. Download FreelancerHDSetup.exe from [Releases](https://github.com/BC46/freelancer-hd-edition/releases)
-2. Open the setup file and read the instructions on-screen carefully
+[Visit this link to view the installation instructions.](https://github.com/BC46/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions)
 
 ## Contributing
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
@@ -106,22 +61,17 @@ Have something to contribute to make the mod even better? Feel free to create a 
 * [BC46](https://github.com/BC46)
   - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
   - HD Cockpits
-  - HD Explosion effects
-  - HD Mission & News images
-  - HD Nebulae
+  - HD HUD
+  - HD Nebulae & Fog
   - HD Nomad, Pirate, Bretonia, Blood Dragon and Utility ships
-  - HD Starsphere improvements and HD Starsphere for ST03b
-  - HD Startup Screen & Main Menu logo
-  - HD System Map with HD Map objects
-  - HUD alignment fixes
-  - Improved reflections
+  - HD Starsphere improvements
+  - HD System Map
   - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
-  - Spinning planets
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
-* [Bolte](https://github.com/bolte-io) & [DragonFire](https://github.com/Drakohen)
+* [Bolte](https://github.com/bolte-io)
   - Support
   - Testing
 * Buck Danny
@@ -132,8 +82,15 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [ReShade](https://github.com/crosire/reshade)
 * Dege
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
+* [DragonFire](https://github.com/Drakohen)
+  - Player engine trails and fixes
+  - HQ Music compression
+  - Support
+  - Testing
 * [Elisha Riedlinger](https://github.com/elishacloud) et al.
   - [DxWrapper](https://github.com/elishacloud/dxwrapper)
+* [Freelancer Developers](https://github.com/fl-devs)
+  - [FLHook](https://github.com/fl-devs/FLHook)
 * Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
   - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
@@ -169,8 +126,10 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 * [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
-* [Raikkonen](https://github.com/ollieraikkonen)
+* [Raikkonen](https://github.com/ollieraikkonen), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
   - [Installation script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
+  - Support
+  - Testing
 * [Ruppetus](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many other .thn fixes
