@@ -29,7 +29,6 @@ Join our Discord server to stay up to date with the latest news and information!
 * HD HUD
 * HD Nebulae
 * HD Starspheres
-* HD Effects
 * Maximized Draw Distances
 * Anti-Aliasing and Anisotropic Filtering support
 * HQ Music
@@ -44,7 +43,7 @@ Join our Discord server to stay up to date with the latest news and information!
 * Official 1.1 Patch
 * Tons of additional bug fixes
 * Additional gameplay improvements
-* Compatible with vanilla Freelancer
+* Full vanilla Multiplayer support
 
 To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/BC46/freelancer-hd-edition/blob/main/CHANGELOG.md).
 
@@ -71,7 +70,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many misc fixes
   - Many misc improvements
   - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
-  - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
+  - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-text-strings-revision))*
 * [Bolte](https://github.com/bolte-io)
   - Support
   - Testing
