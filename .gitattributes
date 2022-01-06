@@ -1,3 +1,4 @@
-*.html linguist-vendored
-*.fx linguist-vendored
-*.fxh linguist-vendored
+* linguist-vendored
+*.html linguist-vendored=false
+*.fx linguist-vendored=false
+*.fxh linguist-vendored=false
