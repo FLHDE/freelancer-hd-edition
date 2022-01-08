@@ -19,7 +19,6 @@
 - Added HD weapon models
 - Added HD equipment carts
 - Added HD background stars
-- Added an optional FLHook server installation
 - Added HD vanilla HUD
 - Added HD mouse cursors
 - Added HD button textures and other icons
