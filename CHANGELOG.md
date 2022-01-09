@@ -110,7 +110,7 @@
 - Disabled the D3D8 error spam in FLSpew (Freelancer log)
 - Added flplusplus; allows for configurable draw distances, PNG screenshots, and more
 - Fixed uneven edges in HD main menu Freelancer logos
-- Set the mine detonation distance to 6 (mitigates the mine collision bug)
+- Set the mine detonation distance to 8 (mitigates the mine collision bug)
 - Added missing audio files from JFLP v1.25; fixes some incorrect NPC chatter
 - Dropped support for installations via Freelancer Mod Manager
 
