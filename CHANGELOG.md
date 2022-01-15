@@ -112,6 +112,7 @@
 - Fixed uneven edges in HD main menu Freelancer logos
 - Set the mine detonation distance to 8 (mitigates the mine collision bug)
 - Added missing audio files from JFLP v1.25; fixes some incorrect NPC chatter
+- Applied several vanilla compatibility hotfixes (prevents crashes when playing on vanilla servers)
 - Dropped support for installations via Freelancer Mod Manager
 
 
