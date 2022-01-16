@@ -1,6 +1,6 @@
 # Changelog
 
-## [[0.5] - TBD](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
+## [[0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
 
 ### Changed
 
