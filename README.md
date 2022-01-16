@@ -6,6 +6,8 @@
 [![Mod DB](https://button.moddb.com/popularity/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
 
 # Freelancer: HD Edition
+![Freelancer: HD Edition](https://i.imgur.com/OSfaBzg.png)
+
 Freelancer: HD Edition is a mod that aims to improve every aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as a customizable all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
 
 This mod was made possible thanks to the assistance of project Freelancer: Nomad Legacy. Huge thanks to the developers for allowing us to use their textures!  
