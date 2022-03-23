@@ -21,31 +21,31 @@ Join our Discord server to stay up to date with the latest news and information!
 [![Support Server](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/ScqgYuFqmU)
 
 ## Key Features
-* HD Space Stations
-* HD Ships
-* HD Planets
-* HD Effects
-* HD Asteroids
-* HD Character Models
-* HD Base Interiors (WIP)
-* HD HUD
-* HD Nebulae
-* HD Starspheres
-* Maximized Draw Distances
-* Anti-Aliasing and Anisotropic Filtering support
-* HQ Music
-* Windows compatibility fixes
-* Jason's Freelancer Patch
-	* Full Widescreen support
-	* Improvements
-	* New features
-	* Bug fixes
-* flplusplus
-* No-CD Patch
-* Official 1.1 Patch
-* Tons of additional bug fixes
-* Additional gameplay improvements
-* Full vanilla Multiplayer support
+- HD Space Stations
+- HD Ships
+- HD Planets
+- HD Effects
+- HD Asteroids
+- HD Character Models
+- HD Base Interiors (WIP)
+- HD HUD
+- HD Nebulae
+- HD Starspheres
+- Maximized Draw Distances
+- Anti-Aliasing and Anisotropic Filtering support
+- HQ Music
+- Windows compatibility fixes
+- Jason's Freelancer Patch
+	- Full Widescreen support
+	- Improvements
+	- New features
+	- Bug fixes
+- flplusplus
+- No-CD Patch
+- Official 1.1 Patch
+- Tons of additional bug fixes
+- Additional gameplay improvements
+- Full vanilla Multiplayer support
 
 To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/BC46/freelancer-hd-edition/blob/main/CHANGELOG.md).
 
@@ -61,11 +61,11 @@ Have something to contribute to make the mod even better? Feel free to create a 
 
 ## Related projects
 
-* [Freelancer: HD Edition Installer](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
+- [Freelancer: HD Edition Installer](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
   - Source code for the Inno Setup script which is used to install Freelancer: HD Edition.
 
 ## Credits
-* [BC46](https://github.com/BC46)
+- [BC46](https://github.com/BC46)
   - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
   - HD Cockpits
   - HD HUD
@@ -78,37 +78,37 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many misc improvements
   - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-text-strings-revision))*
-* [Bolte](https://github.com/bolte-io)
+- [Bolte](https://github.com/bolte-io)
   - Support
   - Testing
-* Buck Danny
+- Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
-* [CallumDev](https://github.com/CallumDev)
+- [CallumDev](https://github.com/CallumDev)
   - [flplusplus](https://github.com/CallumDev/flplusplus)
-* [crosire](https://github.com/crosire) et al.
+- [crosire](https://github.com/crosire) et al.
   - [ReShade](https://github.com/crosire/reshade)
-* Dege
+- Dege
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
-* [DragonFire](https://github.com/Drakohen)
+- [DragonFire](https://github.com/Drakohen)
   - Player engine trails and fixes
   - HQ Music compression
   - Support
   - Testing
-* [Elisha Riedlinger](https://github.com/elishacloud) et al.
+- [Elisha Riedlinger](https://github.com/elishacloud) et al.
   - [DxWrapper](https://github.com/elishacloud/dxwrapper)
-* [Freelancer Developers](https://github.com/fl-devs)
+- [Freelancer Developers](https://github.com/fl-devs)
   - [FLHook](https://github.com/fl-devs/FLHook)
-* Freestalker.fl
+- Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
   - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
   - New commodity icon
-* Hrimthur
+- Hrimthur
   - [Freelancer Full-HD](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=5070)
-* HUN0R
+- HUN0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [HD Universe Map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
-* [Jason Hood](https://github.com/adoxa)
+- [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
   - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
   - [HUDless plugin](http://adoxa.altervista.org/freelancer/plugins.html#hudless)
@@ -124,22 +124,22 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
   - Support
-* Jean-loup Gailly & [Mark Adler](https://github.com/madler)
+- Jean-loup Gailly & [Mark Adler](https://github.com/madler)
   - [zlib](https://zlib.net/)
-* [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
+- [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
   - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
   - [HD Ships and Stations textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
-* Louva-Deus
+- Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
-* [Microsoft](https://github.com/microsoft)
+- [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
-* [Raikkonen](https://github.com/ollieraikkonen), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
+- [Raikkonen](https://github.com/ollieraikkonen), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
   - [Installation script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
   - Support
   - Testing
-* [Ruppetus](https://github.com/IrateRedKite)
+- [Ruppetus](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many other .thn fixes
-* [Why485](https://github.com/brihernandez)
+- [Why485](https://github.com/brihernandez)
   - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)
