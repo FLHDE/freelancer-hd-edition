@@ -64,10 +64,10 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [Freelancer: HD Edition Installer](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
   - Source code for the Inno Setup script which is used to install Freelancer: HD Edition.
 - Content that is free to use in other mods or anything else, no questions asked:
+  - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-character-models))*
+  - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances))*
+  - [Text Strings Revision](https://github.com/BC46/freelancer-text-strings-revision) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision))*
   - [Broken Interior Lighting Fix](https://www.moddb.com/games/freelancer/downloads/freelancer-broken-interior-lighting-fix)
-  - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
-  - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
-  - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-text-strings-revision))*
 
 ## Credits
 - [BC46](https://github.com/BC46)
