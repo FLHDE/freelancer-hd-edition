@@ -101,8 +101,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Testing
 - [Elisha Riedlinger](https://github.com/elishacloud) et al.
   - [DxWrapper](https://github.com/elishacloud/dxwrapper)
-- [Freelancer Developers](https://github.com/fl-devs)
-  - [FLHook](https://github.com/fl-devs/FLHook)
 - Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
   - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
