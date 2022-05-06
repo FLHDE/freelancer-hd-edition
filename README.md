@@ -135,6 +135,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [HD Ships and Stations textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 - Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
+- M0tah
+  - [DelayDisplay plugin](https://forge.the-starport.net/projects/delaydisplay)
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
 - [Raikkonen](https://github.com/ollieraikkonen), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
