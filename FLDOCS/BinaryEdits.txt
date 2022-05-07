@@ -1,4 +1,4 @@
-This .txt file documents the manual HEX edits have been made to several binary files in Freelancer: HD Edition.
+This .txt file documents the manual HEX edits that have been made to several binary files in Freelancer: HD Edition.
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch
 0E698E: Binary 7C -> EB. Allows many planets to continue spinning.
