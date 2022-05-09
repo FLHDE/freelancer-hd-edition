@@ -34,7 +34,7 @@ Join our Discord server to stay up to date with the latest news and information!
 - Maximized Draw Distances
 - Anti-Aliasing and Anisotropic Filtering support
 - HQ Music
-- Windows compatibility fixes
+- Windows 10 & 11 compatibility fixes
 - Jason's Freelancer Patch
 	- Full Widescreen support
 	- Improvements
