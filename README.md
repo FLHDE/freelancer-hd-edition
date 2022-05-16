@@ -27,7 +27,7 @@ Join our Discord server to stay up to date with the latest news and information!
 - HD Effects
 - HD Asteroids
 - HD Character Models
-- HD Base Interiors (WIP)
+- HD Base Interiors & Planetscapes
 - HD HUD
 - HD Nebulae
 - HD Starspheres
