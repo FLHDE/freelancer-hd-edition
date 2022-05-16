@@ -105,8 +105,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
   - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
   - New commodity icon
-- Hrimthur
-  - [Freelancer Full-HD](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=5070)
 - DAVENAT0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
