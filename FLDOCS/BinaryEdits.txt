@@ -6,6 +6,8 @@ Common.dll. Base: Default from the official 1.1 Freelancer patch
 
 Freelancer.exe. Base: Default No-CD EXE
 01AD6F: Binary 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
+02477A: Binary CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1. This edit is applied by the installer.
+02490D: Binary CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2. This edit is applied by the installer.
 06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 0691D1: Int8 32 -> 127. Increases the maximum number of chat lines in the chat history window.
 0A8004: Binary 05 -> 1A. Shows the current worth in Multiplayer.
@@ -17,6 +19,9 @@ Freelancer.exe. Base: Default No-CD EXE
 158A14: Binary D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90. Prevents intentional framerate drops to 25 from occuring.
 166C2B: Binary 75 -> EB. Bypasses the ESRB notice when entering the Multiplayer menu.
 1ACF6A: Binary 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08. Prevents IPv6 adresses from being displayed in the server list.
+1B16CC: Binary 01 -> 00. Forces Freelancer to run in windowed mode. This edit is applied by the installer.
+1B264C: Binary 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed. This edit is applied by the installer.
+1B2665: Binary 74 -> EB. Keeps Freelancer running when Alt-Tabbed. This edit is applied by the installer.
 1C8910: Single (float32) 20000 -> 40000. Increases the poly flipping distance, which allows jumpholes to be seen from further away.
 1D7964: Single (float32) 3 -> 0,5. Reduces the time between contact list refreshes.
 1D8484: Single (float32) 1 -> 0,1. Reduces the time between weapon list refreshes.
