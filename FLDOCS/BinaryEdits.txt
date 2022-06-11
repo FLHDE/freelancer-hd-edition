@@ -31,7 +31,7 @@ Freelancer.exe. Base: Default No-CD EXE
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo.
 
 rendcomp.dll. Base: Default from Freelancer 1.0
-00C499: Binary 02 -> 00 . Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
+00C499: Binary 02 -> 00. Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
 
 rp8.dll. Base: Default from Freelancer 1.0
-004467: Binary 7D -> EB . Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
+004467: Binary 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
