@@ -75,7 +75,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - HD Cockpits
   - HD HUD
   - HD Nebulae & Fog
-  - HD Nomad, Pirate, Bretonia, Blood Dragon and Utility ships
+  - HD Nomad, Pirate, Bretonia, Blood Dragon, Utility, Civilian and Borderworld ships
   - HD Starsphere improvements
   - HD System Map
   - Many general HD and effect additions
