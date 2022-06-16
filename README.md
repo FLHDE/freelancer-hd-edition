@@ -75,7 +75,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - HD Cockpits
   - HD HUD
   - HD Nebulae & Fog
-  - HD Nomad, Pirate, Bretonia, Blood Dragon, Utility, Civilian and Borderworld ships
+  - HD Ships
   - HD Starsphere improvements
   - HD System Map
   - Many general HD and effect additions
@@ -131,7 +131,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
   - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
-  - [HD Ships and Stations textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
+  - [HD Station textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 - Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 - M0tah
