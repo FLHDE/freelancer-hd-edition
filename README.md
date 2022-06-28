@@ -60,7 +60,7 @@ Due to the large file size of many textures used in this mod, some users may exp
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
 
 ## Related projects
-- [Freelancer: HD Edition Installer](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
+- [Freelancer: HD Edition Installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
   - Source code for the Inno Setup script which is used to install Freelancer: HD Edition.
 - Content that is free to use in other mods or anything else, no questions asked:
   - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-character-models))*
@@ -138,8 +138,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [DelayDisplay plugin](https://forge.the-starport.net/projects/delaydisplay)
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
-- [Raikkonen](https://github.com/ollieraikkonen), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
-  - [Installation script](https://github.com/ollieraikkonen/Freelancer-hd-edition-install-script)
+- [Raikkonen](https://github.com/oliverpechey), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
+  - [Installation script](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
   - Support
   - Testing
 - [Ruppetus](https://github.com/IrateRedKite)
