@@ -40,7 +40,7 @@
 - Added more HD general effects
 
 ### Features
-[Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
+- [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
 - flplusplus plugin changes:
 	- Fixed an issue that caused Freelancer to crash when launching on some Windows installs
 	- Improved timestamp logging
