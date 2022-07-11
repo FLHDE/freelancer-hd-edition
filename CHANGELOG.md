@@ -1,6 +1,4 @@
-# Changelog
-
-## [[0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
+## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
 
 ### Visual
 - Added HD Nomad Lair textures
@@ -38,7 +36,7 @@
 - Added an improved explosion effect texture
 - Improved the zoomed map by adding more, smaller stars to it
 - Improved texture quality of some original ship textures
-- Adjust colors slightly in the Ew05 and Ew06 starspheres
+- Adjust colors slightly in the Ew05 and Ew06 (both Unknown systems) starspheres
 - Added updated Maximized Draw Distances addon (enables high quality sphere rendering)
 - Include a copy of ReShade with a basic, optional config (includes HDR, increased saturation, and bloom)
 - Added optional player engine trails
@@ -78,8 +76,8 @@
 - Ensured the Rowlett's Revenge weapon drop has the correct string reference (it used to be called Nomad Prototype)
 - Reduced LODCurve in the dyson_city hypergate ale effect to ensure it doesn't look too dense
 - When both the Dark HUD and Adv Wide HUD have been selected, the player will now actually get both
-- Added a visit tag to the gravity buoy in Ew01 so it can no longer be selected in the contact list
-- Removed a purposeless hazard buoy on the outer edge of Bw06
+- Added a visit tag to the gravity buoy in Tau-37 so it can no longer be selected in the contact list
+- Removed a purposeless hazard buoy on the outer edge of Sigma-17
 - Centered the nav map animation in 16:9
 - Fixed seams in some Bretonia starspheres
 - Removed silence in the zone_nebula_nomad ambient sound
@@ -123,7 +121,7 @@
 - Dropped support for installations via Freelancer Mod Manager
 
 
-## [[0.4.1] - 2021-08-25](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4.1)
+## [[v0.4.1] - 2021-08-25](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4.1)
 
 ### Visual
 - Added alternative effects
@@ -136,7 +134,7 @@
 - Added support for installations via [a dedicated installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
 
 
-## [[0.4] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)
+## [[v0.4] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)
 
 ### Visual
 - Added HD Liberty news logo
@@ -155,14 +153,14 @@
 - Improved HUD fixes for 1440p/4K screens
 - Fixed contact list view icon
 - Fixed trade request button in MP
-- Fixed banding in EW01 starsphere
+- Fixed banding in Tau-37 starsphere
 
 ### Misc
 - Added support for running multiple instances of Freelancer on the same machine
 - Added more sound and general options
 
 
-## [[0.3] - 2021-08-15](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.3)
+## [[v0.3] - 2021-08-15](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.3)
 
 ### Visual
 - Added HD Character Models
@@ -181,12 +179,12 @@
 - Realigned HUD so everything is properly centered
 
 ### Misc
-- Updated HUDShift
+- Updated HUD Shift
 - Improved Freelancer Mod Manager install script
 - Updated dgVoodoo
 
 
-## [[0.2] - 2021-08-07](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.2)
+## [[v0.2] - 2021-08-07](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.2)
 
 ### Visual
 - Added Flat Interface
@@ -201,19 +199,19 @@
 - Added HQ Music
 
 ### Features
-- Added dgVoodoo2 as optional Windows 10 compat patch
+- Added dgVoodoo2 as optional Windows 10 compatibility patch
 
 ### Fixes
 - Added bar script fixes
 - Added 16:9 planetscape fixes
 - Reverted trade lane map visibility change
-- Moved the neural net bar 1 px up so the pixel line disappears
+- Moved the neural net bar 1 pixel up so the pixel line disappears
 
 ### Misc
 - Added Freelancer manual
 
 
-## [[0.1] - 2021-07-28](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.1)
+## [[v0.1] - 2021-07-28](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.1)
 
 ### Visual
 - Maximized draw distances for space structures, asteroids and effects
@@ -233,10 +231,10 @@
 
 ### Fixes
 - Removed unknown graphics card warning
-- Disabled IPv6 adresses in Multiplayer Server list
+- Disabled IPv6 addresses in the Multiplayer Server list
 - Fixed friendly jumphole in mission 6
 - Fixed many typos, grammar mistakes, inconsistencies, and more, in the game's text strings
-- Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b
+- Fixed several incorrect/missing names and infocards in EW05, EW06, ST01, ST03 and ST03b (unknown and story systems)
 - Improved infocards for unknown factions
 - Improved Nomad group member names
 - Prevent intentional frame drops from occurring
@@ -252,4 +250,3 @@
 - Removed general speed display limit
 - Show "Far" in contact list only at distances of 999.999K or higher
 - Removed ESRB notice
-- Removed EULA on first run
