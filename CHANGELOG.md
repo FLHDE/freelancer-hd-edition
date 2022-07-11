@@ -1,3 +1,89 @@
+# Changelog
+
+## [[v0.6] - TBD](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.6)
+
+### Visual
+- Added the following HD Base Interiors & Planetscapes:
+	- Bretonia
+	- Generic
+	- Kusari
+	- Liberty
+	- Pirate
+	- Rheinland
+- Added HD vanilla starspheres for the following systems/regions:
+	- Liberty
+	- Bretonia
+	- Rheinland
+	- Unknown systems
+	- Independent Worlds
+	- Tau-37
+- Added HD oceans
+- Added HD skies
+- Added improved Earth and water planet textures so they look more like the originals
+- Added HD vanilla ship textures that are more faithful to the originals
+- Added improved station number textures that have a higher resolution
+- Added HD sun effects that look more like the originals
+- Improved the commodity icon
+- Added higher resolution space cursor textures
+- Improved cargo pod textures clarity
+- Added HD mine and spike textures
+- Character model and props changes:
+	- Compressed textures to save space and reduce load times
+	- Fixed artefact on Orillion's lip
+	- Fixed ridge on the green glass
+	- Removed orange stripes from Tobias' mustache
+	- Improved several textures which were previously not as good as they should've been
+- Denoised jump effect texture
+- Added improved lava asteroids
+- Added improved Badlands obsidian and mined asteroid textures
+- Added HD organism effect textures
+- Added more HD general effects
+
+### Features
+[Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
+- flplusplus plugin changes:
+	- Fixed an issue that caused Freelancer to crash when launching on some Windows installs
+	- Improved timestamp logging
+	- Removed sound-related patches
+- Added more pitch variations for the NPC chatter
+- Added the DelayDisplay plugin which shows the cooldown timer for weapons that require ammunition
+- Allow the player to visit the lab on Planet Toledo
+
+### Fixes
+- Fixed an issue that caused the debris explosion trail effect to stretch out tremendously
+- Updated the faction for the Alaska -> New York jumpgate to prevent it from being hostile in mission 11
+- Added an engine to Battleship Arizona so it can properly move towards the Alaska -> New York  jumpgate during mission 11
+- Assigned correct descriptions to the nebulae in Omicron Theta
+- Corrected numerous German typos and inconsistencies in the English text resources
+- Fixed typos and newline issues in the neural net and interface text resources
+- Fixed seams in ST03b (Dyson Sphere system) starsphere
+- No longer overwrite the neural net and Pirate voice audio files with English versions by default
+- Fixed bar space backdrops in Kensington and Waterloo station
+- Prevented the Valkyrie from landing on the same position as the Anubis in one of the Planet Toledo mission cutscenes
+- Fixed a bug that caused player ships to not be able to collide with some asteroids
+- Decrease saturation and darkness for the ice white blue planet
+- Corrected Frankfurt's nebula color on the nav map
+- Ensure Juni will always say her last voice line in New York during mission 4
+- Make Ozu and the Blood Dragon escort say something after encountering the first hostile contacts in Tohoku during mission 9
+- Made the edges of the job board icon softer
+- Ensure Ozu and Hakkera's ships use the correct engine during the Tekagi cutscene in mission 9
+- Add updated MP Rep plugin which fixes a crash that would occur on some Windows installs when the equipment or commodity dealer window is opened
+
+### Misc
+- Compressed nav map textures for faster load times
+- Removed unused and unedited texture/configuration files
+- Compressed all character textures to increase load times
+- Updated ReShade to version v5.2.2
+- Ensure the user sees some explanations about ReShade on first launch
+- Check "Inherit Color Profile" option in the default dgVoodoo config
+- Reduced time between weapon list refreshes to 0.1 seconds
+- Increased time between contact list refreshes to 1 second
+- Added a Tonemap shader which will be used when the fullscreen windowed option is enabled
+- Renamed "GMG Station Glorious" to "Mining Station Glorious"
+- Added an ambient sound to the lab on Planet Toledo
+- Changed icon of the track rings in the Dublin system to trade lane rings
+
+
 ## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
 
 ### Visual
