@@ -3,13 +3,7 @@
 ## [[v0.6] - TBD](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.6)
 
 ### Visual
-- Added the following HD Base Interiors & Planetscapes:
-	- Bretonia
-	- Generic
-	- Kusari
-	- Liberty
-	- Pirate
-	- Rheinland
+- Added all remaining HD Base Interiors & Planetscapes
 - Added HD vanilla starspheres for the following systems/regions:
 	- Liberty
 	- Bretonia
@@ -19,13 +13,14 @@
 	- Tau-37
 - Added HD oceans
 - Added HD skies
-- Added improved Earth and water planet textures so they look more like the originals
+- Added improved Earth and water planet textures that look more like the originals
 - Added HD vanilla ship textures that are more faithful to the originals
-- Added improved station number textures that have a higher resolution
+- Improved ship window textures
+- Added improved HD station number textures that have a higher resolution
 - Added HD sun effects that look more like the originals
 - Improved the commodity icon
 - Added higher resolution space cursor textures
-- Improved cargo pod textures clarity
+- Improved cargo pod texture clarity
 - Added HD mine and spike textures
 - Character model and props changes:
 	- Compressed textures to save space and reduce load times
@@ -37,7 +32,7 @@
 - Added improved lava asteroids
 - Added improved Badlands obsidian and mined asteroid textures
 - Added HD organism effect textures
-- Added more HD general effects
+- Added more general improved HD effects
 
 ### Features
 - [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
@@ -52,27 +47,28 @@
 ### Fixes
 - Fixed an issue that caused the debris explosion trail effect to stretch out tremendously
 - Updated the faction for the Alaska -> New York jumpgate to prevent it from being hostile in mission 11
-- Added an engine to Battleship Arizona so it can properly move towards the Alaska -> New York  jumpgate during mission 11
+- Added an engine to Battleship Arizona so it can properly move towards the Alaska -> New York jumpgate during mission 11
 - Assigned correct descriptions to the nebulae in Omicron Theta
 - Corrected numerous German typos and inconsistencies in the English text resources
 - Fixed typos and newline issues in the neural net and interface text resources
+- Changed "Weapons off-line" text to "Weapons offline"
 - Fixed seams in ST03b (Dyson Sphere system) starsphere
 - No longer overwrite the neural net and Pirate voice audio files with English versions by default
-- Fixed bar space backdrops in Kensington and Waterloo station
+- Fixed black space backdrops in Kensington and Waterloo station bars
 - Prevented the Valkyrie from landing on the same position as the Anubis in one of the Planet Toledo mission cutscenes
 - Fixed a bug that caused player ships to not be able to collide with some asteroids
-- Decrease saturation and darkness for the ice white blue planet
+- Decreased saturation and darkness for the ice white blue planet
 - Corrected Frankfurt's nebula color on the nav map
 - Ensure Juni will always say her last voice line in New York during mission 4
 - Make Ozu and the Blood Dragon escort say something after encountering the first hostile contacts in Tohoku during mission 9
 - Made the edges of the job board icon softer
-- Ensure Ozu and Hakkera's ships use the correct engine during the Tekagi cutscene in mission 9
-- Add updated MP Rep plugin which fixes a crash that would occur on some Windows installs when the equipment or commodity dealer window is opened
+- Ensure Ozu and Hakkera's ships use the correct engine effects during the Tekagi cutscene in mission 9
+- Added updated MP Rep plugin which fixes a crash that would occur on some Windows installs when the equipment or commodity dealer window is opened
 
 ### Misc
 - Compressed nav map textures for faster load times
+- Compressed several Manhattan base textures for faster load times
 - Removed unused and unedited texture/configuration files
-- Compressed all character textures to increase load times
 - Updated ReShade to version v5.2.2
 - Ensure the user sees some explanations about ReShade on first launch
 - Check "Inherit Color Profile" option in the default dgVoodoo config
@@ -82,6 +78,7 @@
 - Renamed "GMG Station Glorious" to "Mining Station Glorious"
 - Added an ambient sound to the lab on Planet Toledo
 - Changed icon of the track rings in the Dublin system to trade lane rings
+- Added a description for the Racetrack Buoy in the Dublin system
 
 
 ## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
@@ -228,7 +225,6 @@
 - Added HD explosives and missile effects
 - Added HD Ships
 - Added HD Effects
-- Added MP3 Codec Fix
 - Added HD Bases
 - Added HD Planets
 - Added HD Cockpits
@@ -240,6 +236,7 @@
 - Fixed contact list view icon
 - Fixed trade request button in MP
 - Fixed banding in Tau-37 starsphere
+- Added MP3 Codec Fix
 
 ### Misc
 - Added support for running multiple instances of Freelancer on the same machine
