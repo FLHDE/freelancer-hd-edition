@@ -56,9 +56,6 @@ Due to the large file size of many textures used in this mod, some users may exp
 ## Installation instructions
 [Visit this link to view the installation instructions.](https://github.com/BC46/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions)
 
-## Contributing
-Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
-
 ## Related projects
 - [Freelancer: HD Edition Installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
   - Source code for the Inno Setup script which is used to install Freelancer: HD Edition.
@@ -68,6 +65,9 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances))*
   - [Text Strings Revision](https://github.com/BC46/freelancer-text-strings-revision) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision))*
   - [Broken Interior Lighting Fix](https://www.moddb.com/games/freelancer/downloads/freelancer-broken-interior-lighting-fix)
+
+## Contributing
+Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
 
 ## Credits
 - [BC46](https://github.com/BC46)
