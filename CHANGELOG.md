@@ -50,7 +50,7 @@
 - Added an engine to Battleship Arizona so it can properly move towards the Alaska -> New York jumpgate during mission 11
 - Assigned correct descriptions to the nebulae in Omicron Theta
 - Corrected numerous German typos and inconsistencies in the English text resources
-- Fixed typos and newline issues in the neural net and interface text resources
+- Fixed typos and newline issues in the neural net, interface, and account ID info text resources
 - Changed "Weapons off-line" text to "Weapons offline"
 - Fixed seams in ST03b (Dyson Sphere system) starsphere
 - No longer overwrite the neural net and Pirate voice audio files with English versions by default
@@ -81,6 +81,7 @@
 - Added an ambient sound to the lab on Planet Toledo
 - Changed icon of the track rings in the Dublin system to trade lane rings
 - Added a description for the Racetrack Buoy in the Dublin system
+- Renamed "AMBIANCE" to "AMBIENCE" in the sound options
 
 
 ## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
