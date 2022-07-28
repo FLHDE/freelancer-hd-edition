@@ -1,5 +1,9 @@
 This .txt file documents the manual HEX edits that have been made to several binary files in Freelancer: HD Edition.
 
+Format:
+Filename. Base: Origin
+Offset: Data type Original value -> New value. Explanation.
+
 Common.dll. Base: Default from the official 1.1 Freelancer patch
 0E698E: Binary 7C -> EB. Allows many planets to continue spinning.
 13F48C: Single (float32) 10000 -> 50000. Increases the maximum docking initiation distance
@@ -35,3 +39,9 @@ rendcomp.dll. Base: Default from Freelancer 1.0
 
 rp8.dll. Base: Default from Freelancer 1.0
 004467: Binary 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
+
+soundmanager.dll. Base: Default from Freelancer 1.0
+00A021: Binary 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #1. This edit is applied by the installer.
+
+soundstreamer.dll. Base: Default from Freelancer 1.0
+0018A9: Binary 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #2. This edit is applied by the installer.
