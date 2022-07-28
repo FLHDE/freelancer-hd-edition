@@ -64,6 +64,7 @@
 - Made the edges of the job board icon softer
 - Ensure Ozu and Hakkera's ships use the correct engine effects during the Tekagi cutscene in mission 9
 - Added updated MP Rep plugin which fixes a crash that would occur on some Windows installs when the equipment or commodity dealer window is opened
+- Ensure the correct help text is shown for the Change View button
 
 ### Misc
 - Compressed nav map textures for faster load times
