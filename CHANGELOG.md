@@ -65,6 +65,7 @@
 - Ensure Ozu and Hakkera's ships use the correct engine effects during the Tekagi cutscene in mission 9
 - Added updated MP Rep plugin which fixes a crash that would occur on some Windows installs when the equipment or commodity dealer window is opened
 - Ensure the correct help text is shown for the Change View button
+- Fixed an issue that caused one of the uncloaking Rheinland ships from mission 5 to attack the player too early sometimes
 
 ### Misc
 - Compressed nav map textures for faster load times
