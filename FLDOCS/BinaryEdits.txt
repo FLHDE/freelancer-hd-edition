@@ -14,6 +14,9 @@ Freelancer.exe. Base: Default No-CD EXE
 02490D: Binary CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2. This edit is applied by the installer.
 06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 0691D1: Int8 32 -> 127. Increases the maximum number of chat lines in the chat history window.
+080499: Binary 74 -> EB. Allows the purchase of equipment below the required level. This edit is applied by the installer.
+082E95: Binary 74 -> EB. Changes the display of equipment below the required level. This edit is applied by the installer.
+0B948D: Binary 74 -> EB. Allows the purchase of ships below the required level. This edit is applied by the installer.
 0A8004: Binary 05 -> 1A. Shows the current worth in Multiplayer.
 0B1375: Int8 32 -> 100. Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu.
 0D094B: Binary 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4. Includes player ships in the contact list's ship filter.
