@@ -43,6 +43,7 @@
 - Added more pitch variations for the NPC chatter
 - Added the DelayDisplay plugin which shows the cooldown timer for weapons that require ammunition
 - Allow the player to visit the lab on Planet Toledo
+- Added the MultiIntro plugin which shows an unused 4th menu intro
 
 ### Fixes
 - Fixed an issue that caused the debris explosion trail effect to stretch out tremendously
@@ -50,7 +51,7 @@
 - Added an engine to Battleship Arizona so it can properly move towards the Alaska -> New York jumpgate during mission 11
 - Assigned correct descriptions to the nebulae in Omicron Theta
 - Corrected numerous German typos and inconsistencies in the English text resources
-- Fixed typos and newline issues in the neural net, interface, and account ID info text resources
+- Fixed typos and newline issues in the neural net, interface and options menu text resources
 - Changed "Weapons off-line" text to "Weapons offline"
 - Fixed seams in ST03b (Dyson Sphere system) starsphere
 - No longer overwrite the neural net and Pirate voice audio files with English versions by default
@@ -67,6 +68,7 @@
 - Ensure the correct help text is shown for the Change View button
 - Fixed an issue that caused one of the uncloaking Rheinland ships from mission 5 to attack the player too early sometimes
 - Updated the orientation of the Freeport station in the gasminer3 intro script so it's no longer upside down
+- Fixed an issue that caused Rep. Benno Henning on Planet New Berlin to sometimes show an empty bribe dialog
 
 ### Misc
 - Compressed nav map textures for faster load times
