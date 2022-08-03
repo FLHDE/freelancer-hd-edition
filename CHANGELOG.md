@@ -51,7 +51,7 @@
 - Added an engine to Battleship Arizona so it can properly move towards the Alaska -> New York jumpgate during mission 11
 - Assigned correct descriptions to the nebulae in Omicron Theta
 - Corrected numerous German typos and inconsistencies in the English text resources
-- Fixed typos and newline issues in the neural net, interface and options menu text resources
+- Fixed typos and newline issues in the neural net and interface text resources
 - Changed "Weapons off-line" text to "Weapons offline"
 - Fixed seams in ST03b (Dyson Sphere system) starsphere
 - No longer overwrite the neural net and Pirate voice audio files with English versions by default
@@ -64,11 +64,11 @@
 - Make Ozu and the Blood Dragon escort say something after encountering the first hostile contacts in Tohoku during mission 9
 - Made the edges of the job board icon softer
 - Ensure Ozu and Hakkera's ships use the correct engine effects during the Tekagi cutscene in mission 9
-- Added updated MP Rep plugin which fixes a crash that would occur on some Windows installs when the equipment or commodity dealer window is opened
+- Updated the MP Rep plugin to fix a crash that would occur on some Windows installs when the equipment or commodity dealer window is opened
 - Ensure the correct help text is shown for the Change View button
 - Fixed an issue that caused one of the uncloaking Rheinland ships from mission 5 to attack the player too early sometimes
 - Updated the orientation of the Freeport station in the gasminer3 intro script so it's no longer upside down
-- Fixed an issue that caused Rep. Benno Henning on Planet New Berlin to sometimes show an empty bribe dialog
+- Fixed an issue that caused Benno Henning on Planet New Berlin to sometimes show an empty bribe dialog
 
 ### Misc
 - Compressed nav map textures for faster load times
@@ -85,6 +85,7 @@
 - Changed icon of the track rings in the Dublin system to trade lane rings
 - Added a description for the Racetrack Buoy in the Dublin system
 - Renamed "AMBIANCE" to "AMBIENCE" in the sound options
+- Renamed "CUT SCENE" to "CUTSCENE" in the video options
 
 
 ## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
