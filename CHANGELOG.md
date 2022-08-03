@@ -33,6 +33,7 @@
 - Added improved Badlands obsidian and mined asteroid textures
 - Added HD organism effect textures
 - Added more general improved HD effects
+- Ensure all menu intros use backgrounds with stars
 
 ### Features
 - [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
@@ -86,6 +87,7 @@
 - Added a description for the Racetrack Buoy in the Dublin system
 - Renamed "AMBIANCE" to "AMBIENCE" in the sound options
 - Renamed "CUT SCENE" to "CUTSCENE" in the video options
+- Revived the unused water planet menu intro from the original game files
 
 
 ## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
