@@ -17,6 +17,7 @@
 - Added HD vanilla ship textures that are more faithful to the originals
 - Improved ship window textures
 - Added improved HD station number textures that have a higher resolution
+- Improved the Planet Pittsburgh cliff textures
 - Added HD sun effects that look more like the originals
 - Improved the commodity icon
 - Added higher resolution space cursor textures
@@ -33,7 +34,7 @@
 - Added improved Badlands obsidian and mined asteroid textures
 - Added HD organism effect textures
 - Added more general improved HD effects
-- Ensure all menu intros use backgrounds with stars
+- Ensure all menu intros use space backdrops with stars
 
 ### Features
 - [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
@@ -43,8 +44,8 @@
 	- Removed sound-related patches
 - Added more pitch variations for the NPC chatter
 - Added the DelayDisplay plugin which shows the cooldown timer for weapons that require ammunition
-- Allow the player to visit the lab on Planet Toledo
 - Added the MultiIntro plugin which shows an unused 4th menu intro
+- Allow the player to visit the lab on Planet Toledo
 
 ### Fixes
 - Fixed an issue that caused the debris explosion trail effect to stretch out tremendously
@@ -57,6 +58,7 @@
 - Fixed seams in ST03b (Dyson Sphere system) starsphere
 - No longer overwrite the neural net and Pirate voice audio files with English versions by default
 - Fixed black space backdrops in Kensington and Waterloo station bars
+- Applied general fixes to the space backgrounds in numerous bar scripts to ensure they represent an accurate view of the space the bases are in
 - Prevented the Valkyrie from landing on the same position as the Anubis in one of the Planet Toledo mission cutscenes
 - Fixed a bug that caused player ships to not be able to collide with some asteroids
 - Decreased saturation and darkness for the ice white blue planet
