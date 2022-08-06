@@ -17,6 +17,7 @@
 - Added HD vanilla ship textures that are more faithful to the originals
 - Improved ship window textures
 - Added improved HD station number textures that have a higher resolution
+- Improved the Nomad asteroids
 - Improved the Planet Pittsburgh cliff textures
 - Added HD sun effects that look more like the originals
 - Improved the commodity icon
