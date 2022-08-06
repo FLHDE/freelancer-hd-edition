@@ -53,6 +53,8 @@ To learn more about all the changes made in this mod, please refer to the [Chang
 ## Recommendations 
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
 
+For the best vanilla Multiplayer experience with this mod, check out the [https://www.zoneruniverse.com/](Zoner Universe server).
+
 ## Installation instructions
 [Visit this link to view the installation instructions.](https://github.com/BC46/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions)
 
