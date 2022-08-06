@@ -56,7 +56,6 @@
 - Assigned correct descriptions to the nebulae in Omicron Theta
 - Corrected numerous German typos and inconsistencies in the English text resources
 - Fixed typos and newline issues in the neural net and interface text resources
-- Changed "Weapons off-line" text to "Weapons offline"
 - Fixed seams in ST03b (Dyson Sphere system) starsphere
 - No longer overwrite the neural net and Pirate voice audio files with English versions by default
 - Fixed black space backdrops in Kensington and Waterloo station bars
@@ -90,6 +89,7 @@
 - Added an ambient sound to the lab on Planet Toledo
 - Changed icon of the track rings in the Dublin system to trade lane rings
 - Added a description for the Racetrack Buoy in the Dublin system
+- Changed the "WEAPONS OFF-LINE" text to "WEAPONS OFFLINE"
 - Renamed "AMBIANCE" to "AMBIENCE" in the sound options
 - Renamed "CUT SCENE" to "CUTSCENE" in the video options
 - Revived the unused water planet menu intro from the original game files
