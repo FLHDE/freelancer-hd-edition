@@ -74,6 +74,7 @@
 - Fixed an issue that caused one of the uncloaking Rheinland ships from mission 5 to attack the player too early sometimes
 - Updated the orientation of the Freeport station in the gasminer3 intro script so it's no longer upside down
 - Fixed an issue that caused Benno Henning on Planet New Berlin to sometimes show an empty bribe dialog
+- Fixed the double spaces issue in Zoner pilot names
 
 ### Misc
 - Compressed nav map textures for faster load times
