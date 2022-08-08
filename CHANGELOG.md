@@ -61,7 +61,7 @@
 - Fixed black space backdrops in Kensington and Waterloo station bars
 - Applied general fixes to the space backgrounds in numerous bar scripts to ensure they represent an accurate view of the space the bases are in
 - Prevented the Valkyrie from landing on the same position as the Anubis in one of the Planet Toledo mission cutscenes
-- Fixed a bug that caused player ships to not be able to collide with some asteroids
+- Reverted a change regarding asteroid draw distances that caused player ships to not be able to collide with some asteroids
 - Decreased saturation and darkness for the ice white blue planet
 - Corrected Frankfurt's nebula color on the nav map
 - Ensure Juni will always say her last voice line in New York during mission 4
@@ -83,7 +83,7 @@
 - Ensure the user sees some explanations about ReShade on first launch
 - Check "Inherit Color Profile" option in the default dgVoodoo config
 - Reduced time between weapon list refreshes to 0.1 seconds
-- Increased time between contact list refreshes to 1 second
+- Increased time between contact list refreshes to 1.5 seconds
 - Added a Tonemap shader which will be used when the fullscreen windowed option is enabled
 - Renamed "GMG Station Glorious" to "Mining Station Glorious"
 - Added an ambient sound to the lab on Planet Toledo
