@@ -95,6 +95,7 @@
 - Renamed "CUT SCENE" to "CUTSCENE" in the video options
 - Revived the unused water planet menu intro from the original game files
 - Updated the in-game version text so Freelancer: HD Edition's version number is displayed too
+- Reduced the draw distances of the lower Unknown asteroid field
 
 
 ## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
