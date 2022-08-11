@@ -38,6 +38,7 @@
 - Ensure all menu intros use space backdrops with stars
 - Added the unused Neutron Star effect to Omega-41
 - Added new optional explosion effects
+- Improved the Mission and News vendor images
 
 ### Features
 - [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
