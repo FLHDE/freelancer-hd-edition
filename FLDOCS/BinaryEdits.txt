@@ -5,30 +5,30 @@ Filename. Base: Origin
 Offset: Data type Original value -> New value. Explanation.
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch
-0E698E: Binary 7C -> EB. Allows many planets to continue spinning.
+0E698E: Hexadecimal 7C -> EB. Allows many planets to continue spinning.
 13F48C: Single (float32) 10000 -> 50000. Increases the maximum docking initiation distance
 
 Freelancer.exe. Base: Default No-CD EXE
-01AD6F: Binary 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
-02477A: Binary CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1. This edit is applied by the installer.
-02490D: Binary CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2. This edit is applied by the installer.
+01AD6F: Hexadecimal 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
+02477A: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1. This edit is applied by the installer.
+02490D: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2. This edit is applied by the installer.
 06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 0691D1: Int8 32 -> 127. Increases the maximum number of chat lines in the chat history window.
-080499: Binary 74 -> EB. Allows the purchase of equipment below the required level. This edit is applied by the installer.
-082E95: Binary 74 -> EB. Changes the display of equipment below the required level. This edit is applied by the installer.
-0B948D: Binary 74 -> EB. Allows the purchase of ships below the required level. This edit is applied by the installer.
-0A8004: Binary 05 -> 1A. Shows the current worth in Multiplayer.
+080499: Hexadecimal 74 -> EB. Allows the purchase of equipment below the required level. This edit is applied by the installer.
+082E95: Hexadecimal 74 -> EB. Changes the display of equipment below the required level. This edit is applied by the installer.
+0B948D: Hexadecimal 74 -> EB. Allows the purchase of ships below the required level. This edit is applied by the installer.
+0A8004: Hexadecimal 05 -> 1A. Shows the current worth in Multiplayer.
 0B1375: Int8 32 -> 100. Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu.
-0D094B: Binary 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4. Includes player ships in the contact list's ship filter.
+0D094B: Hexadecimal 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4. Includes player ships in the contact list's ship filter.
 0D2C94: Int24 99999 -> 999999. Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list.
-0D5936: Binary 0F 85 -> 90 E9. Removes the cruise speed display limit (300).
-0D5984: Binary 7E -> EB. Removes the general speed display limit (999), which can be seen when using a trade lane.
-158A14: Binary D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90. Prevents intentional framerate drops to 25 from occuring.
-166C2B: Binary 75 -> EB. Bypasses the ESRB notice when entering the Multiplayer menu.
-1ACF6A: Binary 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08. Prevents IPv6 adresses from being displayed in the server list.
-1B16CC: Binary 01 -> 00. Forces Freelancer to run in windowed mode. This edit is applied by the installer.
-1B264C: Binary 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed. This edit is applied by the installer.
-1B2665: Binary 74 -> EB. Keeps Freelancer running when Alt-Tabbed. This edit is applied by the installer.
+0D5936: Hexadecimal 0F 85 -> 90 E9. Removes the cruise speed display limit (300).
+0D5984: Hexadecimal 7E -> EB. Removes the general speed display limit (999), which can be seen when using a trade lane.
+158A14: Hexadecimal D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90. Prevents intentional framerate drops to 25 from occuring.
+166C2B: Hexadecimal 75 -> EB. Bypasses the ESRB notice when entering the Multiplayer menu.
+1ACF6A: Hexadecimal 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08. Prevents IPv6 adresses from being displayed in the server list.
+1B16CC: Hexadecimal 01 -> 00. Forces Freelancer to run in windowed mode. This edit is applied by the installer.
+1B264C: Hexadecimal 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed. This edit is applied by the installer.
+1B2665: Hexadecimal 74 -> EB. Keeps Freelancer running when Alt-Tabbed. This edit is applied by the installer.
 1C8910: Single (float32) 20000 -> 40000. Increases the poly flipping distance, which allows jumpholes to be seen from further away.
 1D7964: Single (float32) 3 -> 1,5. Reduces the time between contact list refreshes.
 1D8484: Single (float32) 1 -> 0,1. Reduces the time between weapon list refreshes.
@@ -38,13 +38,13 @@ Freelancer.exe. Base: Default No-CD EXE
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo.
 
 rendcomp.dll. Base: Default from Freelancer 1.0
-00C499: Binary 02 -> 00. Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
+00C499: Hexadecimal 02 -> 00. Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
 
 rp8.dll. Base: Default from Freelancer 1.0
-004467: Binary 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
+004467: Hexadecimal 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
 
 soundmanager.dll. Base: Default from Freelancer 1.0
-00A021: Binary 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #1. This edit is applied by the installer.
+00A021: Hexadecimal 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #1. This edit is applied by the installer.
 
 soundstreamer.dll. Base: Default from Freelancer 1.0
-0018A9: Binary 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #2. This edit is applied by the installer.
+0018A9: Hexadecimal 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #2. This edit is applied by the installer.

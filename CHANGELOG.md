@@ -41,10 +41,6 @@
 
 ### Features
 - [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
-- flplusplus plugin changes:
-	- Fixed an issue that caused Freelancer to crash when launching on some Windows installs
-	- Improved timestamp logging
-	- Removed sound-related patches
 - Added more pitch variations for the NPC chatter
 - Added the DelayDisplay plugin which shows the cooldown timer for weapons that require ammunition
 - Added the MultiIntro plugin which shows an unused 4th menu intro
@@ -54,6 +50,10 @@
 - Fixed an issue that caused the debris explosion trail effect to stretch out tremendously
 - Updated the faction for the Alaska -> New York jumpgate to prevent it from being hostile in mission 11
 - Added an engine to Battleship Arizona so it can properly move towards the Alaska -> New York jumpgate during mission 11
+- flplusplus plugin changes:
+	- Fixed an issue that caused Freelancer to crash when launching on some Windows installs
+	- Improved timestamp logging
+	- Removed sound-related patches that previously caused issues
 - Assigned correct descriptions to the nebulae in Omicron Theta
 - Corrected numerous German typos and inconsistencies in the English text resources
 - Fixed typos and newline issues in the neural net and interface text resources
@@ -63,7 +63,6 @@
 - Applied general fixes to the space backgrounds in numerous bar scripts to ensure they represent an accurate view of the space the bases are in
 - Prevented the Valkyrie from landing on the same position as the Anubis in one of the Planet Toledo mission cutscenes
 - Reverted a change regarding asteroid draw distances that caused player ships to not be able to collide with some asteroids
-- Decreased saturation and darkness for the ice white blue planet
 - Corrected Frankfurt's nebula color on the nav map
 - Ensure Juni will always say her last voice line in New York during mission 4
 - Make Ozu and the Blood Dragon escort say something after encountering the first hostile contacts in Tohoku during mission 9
@@ -80,7 +79,7 @@
 - Compressed nav map textures for faster load times
 - Compressed several Manhattan base textures for faster load times
 - Removed unused and unedited texture/configuration files
-- Updated ReShade to version v5.2.2
+- Updated ReShade to version 5.3.0
 - Ensure the user sees some explanations about ReShade on first launch
 - Check "Inherit Color Profile" option in the default dgVoodoo config
 - Reduced time between weapon list refreshes to 0.1 seconds
@@ -90,6 +89,7 @@
 - Added an ambient sound to the lab on Planet Toledo
 - Changed icon of the track rings in the Dublin system to trade lane rings
 - Added a description for the Racetrack Buoy in the Dublin system
+- Decreased saturation and darkness for the ice white blue planet
 - Changed the "WEAPONS OFF-LINE" text to "WEAPONS OFFLINE"
 - Renamed "AMBIANCE" to "AMBIENCE" in the sound options
 - Renamed "CUT SCENE" to "CUTSCENE" in the video options
