@@ -77,6 +77,7 @@
 - Fixed the double spaces issue in Zoner pilot names
 - Centered the Scan Cargo window
 - Replaced outdated jumphole infocards
+- Removed a duplicate news entry titled "RHEINLAND ATTACKS LIBERTY!" from mission 9
 
 ### Misc
 - Compressed nav map textures for faster load times
