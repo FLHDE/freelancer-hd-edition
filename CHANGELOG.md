@@ -75,6 +75,7 @@
 - Fixed an issue that caused Benno Henning on Planet New Berlin to sometimes show an empty bribe dialog
 - Fixed the double spaces issue in Zoner pilot names
 - Centered the Scan Cargo window
+- Replaced outdated jumphole infocards
 
 ### Misc
 - Compressed nav map textures for faster load times
