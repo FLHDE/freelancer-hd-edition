@@ -30,9 +30,9 @@ Freelancer.exe. Base: Default No-CD EXE
 1B264C: Hexadecimal 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed. This edit is applied by the installer.
 1B2665: Hexadecimal 74 -> EB. Keeps Freelancer running when Alt-Tabbed. This edit is applied by the installer.
 1C8910: Single (float32) 20000 -> 40000. Increases the poly flipping distance, which allows jumpholes to be seen from further away.
-1D7964: Single (float32) 3 -> 1,5. Reduces the time between contact list refreshes.
-1D8484: Single (float32) 1 -> 0,1. Reduces the time between weapon list refreshes.
-1D7E50: Double (float64) 0,8 -> 0,85. Increases the width of the gauge bars.
+1D7964: Single (float32) 3 -> 1.5. Reduces the time between contact list refreshes.
+1D8484: Single (float32) 1 -> 0.1. Reduces the time between weapon list refreshes.
+1D7E50: Double (float64) 0,8 -> 0.85. Increases the width of the gauge bars.
 1E6DCC: AnsiChar / char8_t 'F' -> ''. Breaks the CreateMutex IpName, allowing multiple instances of Freelancer to run simultaneously. 
 213EC8: Single (float32) 10000 -> 999999. Increases the maximum draw distance for space objects like battleships and trade lanes.
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo.
