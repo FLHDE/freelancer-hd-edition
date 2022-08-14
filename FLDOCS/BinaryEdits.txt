@@ -1,14 +1,14 @@
 This .txt file documents the manual HEX edits that have been made to several binary files in Freelancer: HD Edition.
 
 Format:
-Filename. Base: Origin
+Filename. Base: Origin.
 Offset: Data type Original value -> New value. Explanation.
 
-Common.dll. Base: Default from the official 1.1 Freelancer patch
+Common.dll. Base: Default from the official 1.1 Freelancer patch.
 0E698E: Hexadecimal 7C -> EB. Allows many planets to continue spinning.
 13F48C: Single (float32) 10000 -> 50000. Increases the maximum docking initiation distance
 
-Freelancer.exe. Base: Default No-CD EXE
+Freelancer.exe. Base: Default No-CD EXE.
 01AD6F: Hexadecimal 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
 02477A: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1. This edit is applied by the installer.
 02490D: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2. This edit is applied by the installer.
@@ -37,14 +37,18 @@ Freelancer.exe. Base: Default No-CD EXE
 213EC8: Single (float32) 10000 -> 999999. Increases the maximum draw distance for space objects like battleships and trade lanes.
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo.
 
-rendcomp.dll. Base: Default from Freelancer 1.0
+rendcomp.dll. Base: Default from Freelancer 1.0.
 00C499: Hexadecimal 02 -> 00. Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
 
-rp8.dll. Base: Default from Freelancer 1.0
+rp8.dll. Base: Default from Freelancer 1.0.
 004467: Hexadecimal 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
 
-soundmanager.dll. Base: Default from Freelancer 1.0
+Server.dll. Base: Default from the official 1.1 Freelancer patch.
+06E10D: Hexadecimal E4 B4 -> 14 B3. Disables the encryption of save game files when created and saved.
+07399D: Hexadecimal E4 B4 -> 14 B3. Disables the encryption of the Restart.fl file when created.
+
+soundmanager.dll. Base: Default from Freelancer 1.0.
 00A021: Hexadecimal 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #1. This edit is applied by the installer.
 
-soundstreamer.dll. Base: Default from Freelancer 1.0
+soundstreamer.dll. Base: Default from Freelancer 1.0.
 0018A9: Hexadecimal 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #2. This edit is applied by the installer.
