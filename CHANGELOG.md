@@ -20,6 +20,7 @@
 - Improved the Nomad asteroids
 - Improved the Planet Pittsburgh cliff textures
 - Added HD sun effects that look more like the originals
+- Added a new set of alternative icons
 - Improved the commodity icon
 - Added higher resolution space cursor textures
 - Improved cargo pod texture clarity
