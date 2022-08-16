@@ -113,7 +113,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [HD Universe Map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
-  - [New interface](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
+  - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
 - [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
   - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
