@@ -36,6 +36,7 @@
 - Added improved Badlands obsidian and mined asteroid textures
 - Added HD organism effect textures
 - Added more general improved HD effects
+- Added optional Adaptive Sharpening
 - Ensure all menu intros use space backdrops with stars
 - Added the unused Neutron Star effect to Omega-41
 - Added new optional explosion effects
