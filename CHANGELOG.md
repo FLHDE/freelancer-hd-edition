@@ -106,6 +106,7 @@
 - Added the missing for sale ship in Omicron Minor Battleship Osiris
 - Disabled encryption when save game files are created and saved
 - Adjusted next and previous sub-target button positions slightly
+- Removed an unedited icon file and several unused ReShade effects
 
 
 ## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
