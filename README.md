@@ -46,6 +46,7 @@ Join our Discord server to stay up to date with the latest news and information!
 - Official 1.1 Patch
 - Tons of additional bug fixes
 - Additional gameplay improvements
+- Easy customization
 - Full vanilla Multiplayer support
 
 To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/BC46/freelancer-hd-edition/blob/main/CHANGELOG.md).
