@@ -68,7 +68,7 @@
 - Reverted a change regarding asteroid draw distances that caused player ships to not be able to collide with some asteroids
 - Corrected Frankfurt's nebula color on the nav map
 - Ensure Juni will always say her last voice line in New York during mission 4
-- Make Ozu and the Blood Dragon escort say something after encountering the first hostile contacts in Tohoku during mission 9
+- Make Ozu and the Blood Dragon escort say something before and after encountering the first hostile contacts in Tohoku during mission 9
 - Made the edges of the job board icon softer
 - Ensure Ozu and Hakkera's ships use the correct engine effects during the Tekagi cutscene in mission 9
 - Updated the MP Rep plugin to fix a crash that would occur on some Windows installs when the equipment or commodity dealer window is opened
