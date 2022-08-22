@@ -81,6 +81,7 @@
 - Replaced outdated jumphole infocards
 - Removed a duplicate news entry titled "RHEINLAND ATTACKS LIBERTY!" from mission 9
 - Use correct logos for news items from Los Angeles and Crete
+- Make alarm (klaxon) quieter at the end of the final Battleship Osiris story cutscene
 
 ### Misc
 - Compressed nav map textures for faster load times
