@@ -64,6 +64,7 @@ For the best vanilla Multiplayer experience with this mod, check out the [Zoner 
 - [Freelancer: HD Edition Installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
   - Source code for the Inno Setup script which is used to install Freelancer: HD Edition.
 - Content that is free to use in other mods or anything else, no questions asked:
+  - [HD Base Interiors and Planetscapes](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes) *([Mirror](https://github.com/BC46/freelancer-hd-base-interiors-and-planetscapes))*
   - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-character-models))*
   - [HD Icons and HUD Backgrounds](https://github.com/BC46/freelancer-hd-icons-and-hud-backgrounds) *([Mod DB](https://www.moddb.com/games/freelancer/addons/freelancer-hd-icons-and-hud-backgrounds))*
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances))*
@@ -75,6 +76,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 
 ## Credits
 - [BC46](https://github.com/BC46)
+  - [HD Base Interiors and Planetscapes](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes) *([Mirror](https://github.com/BC46/freelancer-hd-base-interiors-and-planetscapes))*
   - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
   - HD Cockpits
   - HD HUD
@@ -112,8 +114,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - New commodity icon
 - DAVENAT0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
-  - [HD Starsphere pack](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
-  - [HD Universe Map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
+  - [HD Starsphere pack & Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
 - [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
