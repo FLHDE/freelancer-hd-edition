@@ -1,5 +1,5 @@
 # Freelancer: HD Edition
-![Freelancer: HD Edition](https://i.imgur.com/OSfaBzg.png)
+![Freelancer: HD Edition](https://i.imgur.com/6xwdjsX.png)
 
 [![GitHub release](https://img.shields.io/github/release/BC46/freelancer-hd-edition.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
 [![Github all releases](https://img.shields.io/github/downloads/BC46/freelancer-hd-edition/total.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
