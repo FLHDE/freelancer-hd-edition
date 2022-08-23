@@ -1,6 +1,6 @@
 # Changelog
 
-## [[v0.6] - TBD](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.6)
+## [[v0.6] - 2022-08-27](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.6)
 
 ### Visual
 - Added all remaining HD Base Interiors & Planetscapes
