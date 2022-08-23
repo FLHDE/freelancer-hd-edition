@@ -44,7 +44,7 @@
 
 ### Features
 - [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
-- Added more pitch variations for the NPC chatter
+- Added more pitch variations for the NPC chatter as an option
 - Added the DelayDisplay plugin which shows a cooldown timer for weapons that require ammunition
 - Added the MultiIntro plugin which shows an unused 4th menu intro
 - Allow the player to visit the lab on Planet Toledo
@@ -57,7 +57,7 @@
 	- Fixed an issue that caused Freelancer to crash when launching on some Windows installs
 	- Improved timestamp logging
 	- Removed sound-related patches that previously caused issues
-- Assigned correct descriptions to the nebulae in Omicron Theta
+- Assigned correct description names to the nebulae in Omicron Theta
 - Corrected numerous German typos and inconsistencies in the English text resources
 - Fixed typos and newline issues in the neural net and interface text resources
 - Fixed seams in ST03b (Dyson Sphere system) starsphere
@@ -81,7 +81,7 @@
 - Replaced outdated jumphole infocards
 - Removed a duplicate news entry titled "RHEINLAND ATTACKS LIBERTY!" from mission 9
 - Use correct logos for news items from Los Angeles and Crete
-- Make alarm (klaxon) quieter at the end of the final Battleship Osiris story cutscene
+- Made alarm (klaxon) quieter at the end of the final Battleship Osiris story cutscene
 
 ### Misc
 - Compressed nav map textures for faster load times
