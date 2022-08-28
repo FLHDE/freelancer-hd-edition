@@ -64,7 +64,7 @@ For the best vanilla Multiplayer experience with this mod, check out the [Zoner 
 - [Freelancer: HD Edition Installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
   - Source code for the Inno Setup script which is used to install Freelancer: HD Edition.
 - Content that is free to use in other mods or anything else, no questions asked:
-  - [HD Base Interiors and Planetscapes](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes) *([Mirror](https://github.com/BC46/freelancer-hd-base-interiors-and-planetscapes))*
+  - [HD Base Interiors and Planetscapes](https://github.com/BC46/freelancer-hd-base-interiors-and-planetscapes) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes))*
   - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-character-models))*
   - [HD Icons and HUD Backgrounds](https://github.com/BC46/freelancer-hd-icons-and-hud-backgrounds) *([Mod DB](https://www.moddb.com/games/freelancer/addons/freelancer-hd-icons-and-hud-backgrounds))*
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances))*
