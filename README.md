@@ -84,6 +84,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - HD Ships
   - HD Starsphere improvements
   - HD System Map
+  - HD Vanilla Asteroids
   - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
