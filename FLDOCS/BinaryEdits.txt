@@ -9,6 +9,8 @@ Common.dll. Base: Default from the official 1.1 Freelancer patch.
 13F48C: Single (float32) 10000 -> 50000. Increases the maximum docking initiation distance
 
 Freelancer.exe. Base: Default No-CD EXE.
+00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB #1.
+000190: Hexadecimal 66 7B -> 20 3A. Allows Freelancer to use 4GB of virtual memory instead of 2GB #2.
 01AD6F: Hexadecimal 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
 02477A: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1. This edit is applied by the installer.
 02490D: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2. This edit is applied by the installer.
