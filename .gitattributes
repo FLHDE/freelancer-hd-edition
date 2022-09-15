@@ -1,0 +1,2 @@
+*.ini linguist-detectable=true
+*.thn linguist-language=Lua
