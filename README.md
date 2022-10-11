@@ -10,9 +10,7 @@
 
 Freelancer: HD Edition is a mod that aims to improve every aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as a customizable all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
 
-This mod was made possible thanks to the assistance of project Freelancer: Nomad Legacy. Huge thanks to the developers for allowing us to use their textures!  
-[Freelancer: Nomad Legacy website](https://freelancer2.space/en/)  
-[Freelancer: Nomad Legacy Mod DB page](https://www.moddb.com/mods/freelancer-nomad-legacy)
+This mod was made possible with the help of the [Freelancer: Nomad Legacy](https://freelancer2.space/en/) developers. Thanks to them for providing us their station textures.
 
 **N.B. Freelancer: HD Edition does not add additional content on top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
 
@@ -85,6 +83,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - HD Starsphere improvements
   - HD System Map
   - HD Vanilla Asteroids
+  - HD Vanilla Planets
   - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
@@ -137,7 +136,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [zlib](https://zlib.net/)
 - [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
-  - [Nomad Legacy HD textures pack](https://www.moddb.com/mods/nomad-legacy-hd-textures-pack)
   - [HD Station textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 - Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
