@@ -116,6 +116,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - New commodity icon
 - DAVENAT0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
+  - [Flat UI Icons V2](https://www.moddb.com/games/freelancer/addons/flat-ui-icons-v2)
   - [HD Starsphere pack & Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
 - [Jason Hood](https://github.com/adoxa)
