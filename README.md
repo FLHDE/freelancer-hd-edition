@@ -154,5 +154,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [Ruppetus](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - Many other .thn fixes
+- w0dk4
+  - [Freelancer Global Server Workaround v1.0](https://www.moddb.com/games/freelancer/downloads/freelancer-global-server-workaround-v10)
 - [Why485](https://github.com/brihernandez)
   - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)
