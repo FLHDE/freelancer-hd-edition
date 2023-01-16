@@ -98,6 +98,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [flplusplus](https://github.com/CallumDev/flplusplus)
 - [crosire](https://github.com/crosire) et al.
   - [ReShade](https://github.com/crosire/reshade)
+- [Daniel Stenberg](https://github.com/bagder) et al.
+  - [curl](https://github.com/curl/curl)
 - Dege
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 - [dmutlu](https://github.com/dmutlu)
