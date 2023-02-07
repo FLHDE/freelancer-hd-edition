@@ -45,6 +45,7 @@ rendcomp.dll. Base: Default from Freelancer 1.0.
 
 rp8.dll. Base: Default from Freelancer 1.0.
 004467: Hexadecimal 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
+01A4FE: Int8 1 -> 2. Changes the mipmap filtering mode from "nearest" to "linear".
 
 Server.dll. Base: Default from the official 1.1 Freelancer patch.
 06E10D: Hexadecimal E4 B4 -> 14 B3. Disables the encryption of save game files when created and saved.
