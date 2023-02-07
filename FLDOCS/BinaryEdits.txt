@@ -45,7 +45,11 @@ rendcomp.dll. Base: Default from Freelancer 1.0.
 
 rp8.dll. Base: Default from Freelancer 1.0.
 004467: Hexadecimal 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
+01A48C: Int8 2 -> 3. Changes the magnification filtering mode from "linear" to "anisotropic". This edit is applied by the installer.
+01A4C5: Int8 2 -> 3. Changes the minification filtering mode from "linear" to "anisotropic". This edit is applied by the installer.
 01A4FE: Int8 1 -> 2. Changes the mipmap filtering mode from "nearest" to "linear".
+01A4FE: Int8 1 -> 3. Changes the mipmap filtering mode from "nearest" to "anisotropic". This edit is applied by the installer.
+01A5B8: Int8 1 -> 2, 4, 8, 16. Changes the maximum anisotropy from 1 to either 2, 4, 8, or 16, respectively. This edit is applied by the installer.
 
 Server.dll. Base: Default from the official 1.1 Freelancer patch.
 06E10D: Hexadecimal E4 B4 -> 14 B3. Disables the encryption of save game files when created and saved.
