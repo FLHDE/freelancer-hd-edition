@@ -2,7 +2,8 @@ This .txt file documents the manual HEX edits that have been made to several bin
 
 Format:
 Filename. Base: Origin.
-Offset: Data type Original value -> New value. Explanation.
+Offset: Data type Original value -> New value. Explanation.(*)
+* means the edit is applied by the installer, instead of directly inside the file.
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch.
 0E698E: Hexadecimal 7C -> EB. Allows many planets to continue spinning.
@@ -12,13 +13,13 @@ Freelancer.exe. Base: Default No-CD EXE.
 00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB #1.
 000190: Hexadecimal 66 7B -> 20 3A. Allows Freelancer to use 4GB of virtual memory instead of 2GB #2.
 01AD6F: Hexadecimal 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
-02477A: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1. This edit is applied by the installer.
-02490D: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2. This edit is applied by the installer.
+02477A: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1.*
+02490D: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2.*
 06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 0691D1: Int8 32 -> 127. Increases the maximum number of chat lines in the chat history window.
-080499: Hexadecimal 74 -> EB. Allows the purchase of equipment below the required level. This edit is applied by the installer.
-082E95: Hexadecimal 74 -> EB. Changes the display of equipment below the required level. This edit is applied by the installer.
-0B948D: Hexadecimal 74 -> EB. Allows the purchase of ships below the required level. This edit is applied by the installer.
+080499: Hexadecimal 74 -> EB. Allows the purchase of equipment below the required level.*
+082E95: Hexadecimal 74 -> EB. Changes the display of equipment below the required level.*
+0B948D: Hexadecimal 74 -> EB. Allows the purchase of ships below the required level.*
 0A8004: Hexadecimal 05 -> 1A. Shows the current worth in Multiplayer.
 0B1375: Int8 32 -> 100. Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu.
 0D094B: Hexadecimal 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4. Includes player ships in the contact list's ship filter.
@@ -29,9 +30,9 @@ Freelancer.exe. Base: Default No-CD EXE.
 166C2B: Hexadecimal 75 -> EB. Bypasses the ESRB notice when entering the Multiplayer menu.
 174890: Int32 1271 -> 458775. Changes the "VER. 1.0" text to a custom version number in controls.dll. This patch essentially changes the string ID it referes to.
 1ACF6A: Hexadecimal 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08. Prevents IPv6 adresses from being displayed in the server list.
-1B16CC: Hexadecimal 01 -> 00. Forces Freelancer to run in windowed mode. This edit is applied by the installer.
-1B264C: Hexadecimal 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed. This edit is applied by the installer.
-1B2665: Hexadecimal 74 -> EB. Keeps Freelancer running when Alt-Tabbed. This edit is applied by the installer.
+1B16CC: Hexadecimal 01 -> 00. Forces Freelancer to run in windowed mode.*
+1B264C: Hexadecimal 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed.*
+1B2665: Hexadecimal 74 -> EB. Keeps Freelancer running when Alt-Tabbed.*
 1C8910: Single (float32) 20000 -> 40000. Increases the poly flipping distance, which allows jumpholes and other effects to be seen from further away.
 1D7964: Single (float32) 3 -> 1.5. Reduces the time between contact list refreshes.
 1D8484: Single (float32) 1 -> 0.1. Reduces the time between weapon list refreshes.
@@ -45,18 +46,18 @@ rendcomp.dll. Base: Default from Freelancer 1.0.
 
 rp8.dll. Base: Default from Freelancer 1.0.
 004467: Hexadecimal 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
-01A48C: Int8 2 -> 3. Changes the magnification filtering mode from "linear" to "anisotropic". This edit is applied by the installer.
-01A4C5: Int8 2 -> 3. Changes the minification filtering mode from "linear" to "anisotropic". This edit is applied by the installer.
+01A48C: Int8 2 -> 3. Changes the magnification filtering mode from "linear" to "anisotropic".*
+01A4C5: Int8 2 -> 3. Changes the minification filtering mode from "linear" to "anisotropic".*
 01A4FE: Int8 1 -> 2. Changes the mipmap filtering mode from "nearest" to "linear".
-01A4FE: Int8 1 -> 3. Changes the mipmap filtering mode from "nearest" to "anisotropic". This edit is applied by the installer.
-01A5B8: Int8 1 -> 2, 4, 8, 16. Changes the maximum anisotropy from 1 to either 2, 4, 8, or 16, respectively. This edit is applied by the installer.
+01A4FE: Int8 1 -> 3. Changes the mipmap filtering mode from "nearest" to "anisotropic".*
+01A5B8: Int8 1 -> 2, 4, 8, 16. Changes the maximum anisotropy from 1 to either 2, 4, 8, or 16, respectively.*
 
 Server.dll. Base: Default from the official 1.1 Freelancer patch.
 06E10D: Hexadecimal E4 B4 -> 14 B3. Disables the encryption of save game files when created and saved.
 07399D: Hexadecimal E4 B4 -> 14 B3. Disables the encryption of the Restart.fl file when created.
 
 soundmanager.dll. Base: Default from Freelancer 1.0.
-00A021: Hexadecimal 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #1. This edit is applied by the installer.
+00A021: Hexadecimal 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #1.*
 
 soundstreamer.dll. Base: Default from Freelancer 1.0.
-0018A9: Hexadecimal 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #2. This edit is applied by the installer.
+0018A9: Hexadecimal 00 -> 80. Allows Freelancer's audio to continue playing while Alt-Tabbed #2.*
