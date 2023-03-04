@@ -1,2 +1,4 @@
 *.ini linguist-detectable=true
 *.thn linguist-language=Lua
+
+*.ini text eol=crlf
