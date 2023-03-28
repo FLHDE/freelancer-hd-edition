@@ -7,7 +7,7 @@ Offset: Data type Original value -> New value. Explanation.(*)
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch.
 0E698E: Hexadecimal 7C -> EB. Allows many planets to continue spinning.
-13F48C: Single (float32) 10000 -> 50000. Increases the maximum docking initiation distance
+13F48C: Single (float32) 10000 -> 50000. Increases the maximum docking initiation distance.
 
 Freelancer.exe. Base: Default No-CD EXE.
 00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB #1.
@@ -27,10 +27,10 @@ Freelancer.exe. Base: Default No-CD EXE.
 0D2C94: Int24 99999 -> 999999. Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list.
 0D5936: Hexadecimal 0F 85 -> 90 E9. Removes the cruise speed display limit (300).
 0D5984: Hexadecimal 7E -> EB. Removes the general speed display limit (999), which can be seen when using a trade lane.
-158A14: Hexadecimal D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90. Prevents intentional framerate drops to 25 from occuring.
+158A14: Hexadecimal D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90. Prevents intentional framerate drops to 25 from occurring.
 166C2B: Hexadecimal 75 -> EB. Bypasses the ESRB notice when entering the Multiplayer menu.
 174890: Int32 1271 -> 458775. Changes the "VER. 1.0" text to a custom version number in controls.dll. This patch essentially changes the string ID it referes to.
-1ACF6A: Hexadecimal 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08. Prevents IPv6 adresses from being displayed in the server list.
+1ACF6A: Hexadecimal 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08. Prevents IPv6 addresses from being displayed in the server list.
 1B16CC: Hexadecimal 01 -> 00. Forces Freelancer to run in windowed mode.*
 1B264C: Hexadecimal 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed.*
 1B2665: Hexadecimal 74 -> EB. Keeps Freelancer running when Alt-Tabbed.*
@@ -46,7 +46,7 @@ rendcomp.dll. Base: Default from Freelancer 1.0.
 00C499: Hexadecimal 02 -> 00. Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
 
 rp8.dll. Base: Default from Freelancer 1.0.
-004467: Hexadecimal 7D -> EB. Prevents the D3DERR_INVALIDCALL error spam from occuring in FLSpew.txt.
+004467: Hexadecimal 7D -> EB. Prevents the "D3DERR_INVALIDCALL" error spam from occurring in FLSpew.txt.
 01A48C: Int8 2 -> 3. Changes the magnification filtering mode from "linear" to "anisotropic".*
 01A4C5: Int8 2 -> 3. Changes the minification filtering mode from "linear" to "anisotropic".*
 01A4FE: Int8 1 -> 2. Changes the mipmap filtering mode from "nearest" to "linear".
