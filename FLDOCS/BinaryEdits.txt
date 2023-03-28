@@ -40,7 +40,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 1D7E50: Double (float64) 0.8 -> 0.85. Increases the width of the gauge bars.
 1E6DCC: AnsiChar / char8_t 'F' -> ''. Breaks the CreateMutex IpName, allowing multiple instances of Freelancer to run simultaneously. 
 213EC8: Single (float32) 10000 -> 999999. Increases the maximum draw distance for space objects like battleships and trade lanes.
-Freelancer.exe's default .ico was replaced so it has the "HDE" logo.
+Freelancer.exe's default .ico was replaced so it has the "HDE" logo. Also a custom Manifest section has been added.
 
 rendcomp.dll. Base: Default from Freelancer 1.0.
 00C499: Hexadecimal 02 -> 00. Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
