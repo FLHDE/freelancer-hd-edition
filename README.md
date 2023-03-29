@@ -160,6 +160,9 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many other .thn fixes
 - [Skotty](https://github.com/erikroe)
   - Additional text fixes
+  - Bug fixes
+- [Thaddeus](https://github.com/thaddeus-ex)
+  - Fixed models
 - w0dk4
   - [Freelancer Global Server Workaround v1.0](https://www.moddb.com/games/freelancer/downloads/freelancer-global-server-workaround-v10)
 - [Why485](https://github.com/brihernandez)
