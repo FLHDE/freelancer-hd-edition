@@ -15,9 +15,12 @@ Freelancer.exe. Base: Default No-CD EXE.
 01AD6F: Hexadecimal 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
 02477A: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1.*
 02490D: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2.*
+05685F: Hexadecimal 8A 50 2D -> EB 0C 90. Skip story cinematics (excluding space cutscenes) with the Esc key, like in the FL Beta.*
 06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 0691D1: Int8 32 -> 127. Increases the maximum number of chat lines in the chat history window.
 080499: Hexadecimal 74 -> EB. Allows the purchase of equipment below the required level.*
+08050B: Hexadecimal 75 -> EB. Allows the purchase of equipment that cannot be mounted on the player's ship.*
+08053E: Hexadecimal 0F 85 8A 01 00 00 -> E9 8B 01 00 00 90. Allows the purchase of equipment for which no free hardpoint is available on the player's ship.*
 082E95: Hexadecimal 74 -> EB. Changes the display of equipment below the required level.*
 0B948D: Hexadecimal 74 -> EB. Allows the purchase of ships below the required level.*
 0A8004: Hexadecimal 05 -> 1A. Shows the current worth in Multiplayer.
