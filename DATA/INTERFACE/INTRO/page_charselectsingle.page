@@ -1,4 +1,4 @@
-#Automatically  generated. Do not edit!
+#Automatically generated. Do not edit!
 UITextMsgButton LoadCharacter       -.588541666666667   .278994605654762        .334                    5.25483630952381E-02    "Load Game"         12291.0000  "<default>" 1269
 UITextMsgButton DeleteCharacter     -.5859375           .16938709077381         .334                    5.25483630952381E-02    "Delete Game"       12290.0000  "<default>" 1417
 UITextMsgButton MainMenu            -.588541666666667   6.52204241071429E-02    .334                    5.25483630952381E-02    "Main Menu"         12300.0000  "<default>" 393251

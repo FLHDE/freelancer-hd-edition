@@ -58,7 +58,7 @@ rp8.dll. Base: Default from Freelancer 1.0.
 01A5B8: Int8 1 -> 2, 4, 8, 16. Changes the maximum anisotropy from 1 to either 2, 4, 8, or 16, respectively.*
 
 Server.dll. Base: Default from the official 1.1 Freelancer patch.
-00960C: Hexadecimal 0C -> 00. Fixes an issues that causes explosion damage to not cause full damage (or no damage) on large ships and bases.
+00960C: Hexadecimal 0C -> 00. Fixes an issue that causes explosions to not deal full damage (or any damage at all) to large ships and bases.
 06E10D: Hexadecimal E4 B4 -> 14 B3. Disables the encryption of save game files when created and saved.
 07399D: Hexadecimal E4 B4 -> 14 B3. Disables the encryption of the Restart.fl file when created.
 
