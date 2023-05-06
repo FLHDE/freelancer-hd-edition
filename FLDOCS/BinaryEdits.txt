@@ -9,6 +9,9 @@ Common.dll. Base: Default from the official 1.1 Freelancer patch.
 0E698E: Hexadecimal 7C -> EB. Allows many planets to continue spinning.
 13F48C: Single (float32) 10000 -> 50000. Increases the maximum docking initiation distance.
 
+ebueula.dll. Base: Default from Freelancer 1.0.
+002192: Hexadecimal 0F 85 AF 00 00 00 -> E9 B0 00 00 00 90. Never show the EULA when launching the game.
+
 Freelancer.exe. Base: Default No-CD EXE.
 00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB #1.
 000190: Hexadecimal 66 7B -> 20 3A. Allows Freelancer to use 4GB of virtual memory instead of 2GB #2.
