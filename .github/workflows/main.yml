@@ -6,7 +6,7 @@ on:
 jobs:
   FLHook:
     runs-on: windows-latest
-    if: ${{ !contains(github.event.head_commit.message, 'Updated FLHook') }}
+    if: ${{ !contains(github.event.head_commit.message, 'Update FLHook') }}
     steps:
       - name: Get last FLHook tag
         uses: actions/checkout@v3
@@ -55,5 +55,5 @@ jobs:
           git config user.email github-actions@github.com
           git add EXE
           git add .github/workflows/flhooktag
-          git commit -m "Updated FLHook to $env:TAG"
+          git commit -m "Update FLHook to $env:TAG"
           git push
