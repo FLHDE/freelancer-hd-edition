@@ -1,0 +1,59 @@
+name: Build Pipeline
+on:
+  push:
+    branches:
+      - main
+jobs:
+  FLHook:
+    runs-on: windows-latest
+    if: ${{ !contains(github.event.head_commit.message, 'Updated FLHook') }}
+    steps:
+      - name: Get last FLHook tag
+        uses: actions/checkout@v3
+        with:
+          sparse-checkout: .github/workflows/flhooktag
+          sparse-checkout-cone-mode: false
+          path: check
+          
+      - name: Download latest FLHook release
+        id: download-release
+        uses: robinraju/release-downloader@v1.8
+        with:
+          repository: "TheStarport/FLHook"
+          fileName: "Release.zip"
+          latest: true
+          extract: true
+          
+      - name: Is there a new release?
+        env:
+          TAG: ${{steps.download-release.outputs.tag_name}}
+        run: if( (Get-Content -Path .\check\.github\workflows\flhooktag) -ne $env:TAG ) { echo "NEW=true" >> $env:GITHUB_ENV }
+        
+      - name: Checkout full repo
+        if: env.NEW == 'true'
+        uses: actions/checkout@v3
+        with:
+          path: staging
+          token: ${{ secrets.PAT }}
+          sparse-checkout: |
+            .github/workflows/flhooktag
+            EXE
+          sparse-checkout-cone-mode: false
+        
+      - name: Copy new release
+        if: env.NEW == 'true'
+        run: copy Release/*.*  EXE
+        
+      - name: Commit to branch
+        if: env.NEW == 'true'
+        env:
+          TAG: ${{steps.download-release.outputs.tag_name}}
+        run: |
+          cd staging
+          echo $env:TAG > .github/workflows/flhooktag
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add EXE
+          git add .github/workflows/flhooktag
+          git commit -m "Updated FLHook to $env:TAG"
+          git push
