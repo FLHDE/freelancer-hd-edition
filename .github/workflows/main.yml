@@ -42,7 +42,23 @@ jobs:
         
       - name: Copy new release
         if: env.NEW == 'true'
-        run: copy Release/*.*  EXE
+        run: |
+          copy Release/*.*  staging/EXE
+          New-Item -ItemType Directory -Force -Path staging/EXE/plugins
+          copy Release/plugins/afk.dll  staging/EXE/plugins
+          copy Release/plugins/betting.dll  staging/EXE/plugins
+          copy Release/plugins/bountyhunt.dll  staging/EXE/plugins
+          copy Release/plugins/cash_manager.dll  staging/EXE/plugins
+          copy Release/plugins/condata.dll  staging/EXE/plugins
+          copy Release/plugins/crash_catcher.dll  staging/EXE/plugins
+          copy Release/plugins/kill_tracker.dll  staging/EXE/plugins
+          copy Release/plugins/mark.dll  staging/EXE/plugins
+          copy Release/plugins/message.dll  staging/EXE/plugins
+          copy Release/plugins/misc_commands.dll  staging/EXE/plugins
+          copy Release/plugins/rename.dll  staging/EXE/plugins
+          copy Release/plugins/restarts.dll  staging/EXE/plugins
+          copy Release/plugins/sound_manager.dll  staging/EXE/plugins
+          copy Release/plugins/stats.dll  staging/EXE/plugins
         
       - name: Commit to branch
         if: env.NEW == 'true'
