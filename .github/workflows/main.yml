@@ -46,6 +46,7 @@ jobs:
           copy Release/*.*  staging/EXE
           New-Item -ItemType Directory -Force -Path staging/EXE/plugins
           copy Release/plugins/afk.dll  staging/EXE/plugins
+          copy Release/plugins/autobuy.dll  staging/EXE/plugins
           copy Release/plugins/betting.dll  staging/EXE/plugins
           copy Release/plugins/bountyhunt.dll  staging/EXE/plugins
           copy Release/plugins/cash_manager.dll  staging/EXE/plugins
