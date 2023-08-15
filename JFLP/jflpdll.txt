@@ -1,5 +1,5 @@
 			    Jason's Freelancer Patch
-				DLL Version 1.25
+				DLL Version 1.27
 
 
 JFLP.DLL has several options to fine tune its control.	These are added straight
@@ -28,6 +28,18 @@ HISTORY
 =======
 
 Legend: * changed, - fixed, + added.
+
+v1.27, 5 August, 2023:
+
+- Fix the LOD transition in widescreen.
+
+
+v1.26, 20 May, 2021:
+
+- More fixes for widescreen cinematics (no jump after transition).
+
+* Preserve a patched widescreen ratio.
+
 
 v1.25, 2 September, 2020:
 
