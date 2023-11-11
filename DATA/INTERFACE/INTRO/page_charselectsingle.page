@@ -1,6 +1,6 @@
 #Automatically generated. Do not edit!
 UITextMsgButton LoadCharacter       -.588541666666667   .278994605654762        .334                    5.25483630952381E-02    "Load Game"         12291.0000  "<default>" 1269
-UITextMsgButton DeleteCharacter     -.5859375           .16938709077381         .334                    5.25483630952381E-02    "Delete Game"       12290.0000  "<default>" 1417
+UITextMsgButton DeleteCharacter     -.588541666666667   .16938709077381         .334                    5.25483630952381E-02    "Delete Game"       12290.0000  "<default>" 1417
 UITextMsgButton MainMenu            -.588541666666667   6.52204241071429E-02    .334                    5.25483630952381E-02    "Main Menu"         12300.0000  "<default>" 393251
 UIRichTextWin   ShipLabel           -.567515625         -.307083333333333       .123697916666667        2.60416666666667E-02    ""
 UIRichTextWin   MoneyLabel          -.567515625         -.203588541666667       .15596354166666         2.60416666666667E-02    ""
