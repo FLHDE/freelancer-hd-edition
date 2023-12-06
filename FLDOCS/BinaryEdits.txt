@@ -13,15 +13,14 @@ ebueula.dll. Base: Default from Freelancer 1.0.
 002192: Hexadecimal 0F 85 AF 00 00 00 -> E9 B0 00 00 00 90. Never show the EULA when launching the game.
 
 Freelancer.exe. Base: Default No-CD EXE.
-00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB #1.
-000190: Hexadecimal 66 7B -> 20 3A. Allows Freelancer to use 4GB of virtual memory instead of 2GB #2.
+00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB.
 01AD6F: Hexadecimal 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
 0244F7: Hexadecimal B8 89 5C -> F8 EB 5D. Gamma ranges from 0.75 to 1.75, not 1.0 to 2.0.
 02477A: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1.*
 02490D: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2.*
 05685F: Hexadecimal 8A 50 2D -> EB 0C 90. Skip story cinematics (excluding space cutscenes) with the Esc key, like in the FL Beta.*
-06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 0691D1: Int8 32 -> 127. Increases the maximum number of chat lines in the chat history window.
+06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 080499: Hexadecimal 74 -> EB. Allows the purchase of equipment below the required level.*
 082E95: Hexadecimal 74 -> EB. Changes the display of equipment below the required level.*
 0B948D: Hexadecimal 74 -> EB. Allows the purchase of ships below the required level.*
@@ -42,8 +41,8 @@ Freelancer.exe. Base: Default No-CD EXE.
 1B2665: Hexadecimal 74 -> EB. Keeps Freelancer running when Alt-Tabbed.*
 1C8910: Single (float32) 20000 -> 40000. Increases the poly flipping distance, which allows jumpholes and other effects to be seen from further away.
 1D7964: Single (float32) 3 -> 1.5. Reduces the time between contact list refreshes.
-1D8484: Single (float32) 1 -> 0.1. Reduces the time between weapon list refreshes.
 1D7E50: Double (float64) 0.8 -> 0.85. Increases the width of the gauge bars.
+1D8484: Single (float32) 1 -> 0.1. Reduces the time between weapon list refreshes.
 1E6DCC: AnsiChar / char8_t 'F' -> ''. Breaks the CreateMutex IpName, allowing multiple instances of Freelancer to run simultaneously. 
 213EC8: Single (float32) 10000 -> 999999. Increases the maximum draw distance for space objects like battleships and trade lanes.
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo. Also a custom Manifest section has been added to make the game DPI-aware.
