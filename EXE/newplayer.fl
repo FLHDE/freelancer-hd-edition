@@ -145,6 +145,7 @@ vnpc = 3101964420, 2916958218, 2, 0 ; Iw02_03_Base, iw0203_fix_bartender
 vnpc = 3101964420, 2233537482, 2, 0 ; Iw02_03_Base, iw0203_order_002_male
 vnpc = 3101964420, 3028667974, 2, 0 ; Iw02_03_Base, iw0203_fix_weaponsdealer
 vnpc = 3101964420, 2336885255, 2, 0 ; Iw02_03_Base, iw0203_fix_ship
+vnpc = 2804956685, 2416075521, 2, 0 ; Li01_01_Base, li0101_fix_bartender
 vnpc = 2813262602, 3084731407, 2, 0 ; Li04_06_Base, li0406_order_002_m
 vnpc = 2813262602, 2866663561, 2, 0 ; Li04_06_Base, li0406_fix_weaponsdealer
 vnpc = 2813262602, 2764885440, 2, 0 ; Li04_06_Base, li0406_fix_bartender
