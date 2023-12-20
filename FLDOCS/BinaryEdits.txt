@@ -39,6 +39,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 1B16CC: Hexadecimal 01 -> 00. Forces Freelancer to run in windowed mode.*
 1B264C: Hexadecimal 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed.*
 1B2665: Hexadecimal 74 -> EB. Keeps Freelancer running when Alt-Tabbed.*
+1B2D72: Hexadecimal 68 80 -> EB 0F. Never load ..\\EBUEula.dll (root Freelancer folder).
 1C8910: Single (float32) 20000 -> 40000. Increases the poly flipping distance, which allows jumpholes and other effects to be seen from further away.
 1D7964: Single (float32) 3 -> 1.5. Reduces the time between contact list refreshes.
 1D7E50: Double (float64) 0.8 -> 0.85. Increases the width of the gauge bars.
