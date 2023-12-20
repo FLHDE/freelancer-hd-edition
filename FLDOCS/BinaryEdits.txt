@@ -34,6 +34,8 @@ Freelancer.exe. Base: Default No-CD EXE.
 158A14: Hexadecimal D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90. Prevents intentional framerate drops to 25 from occurring.
 166C2B: Hexadecimal 75 -> EB. Bypasses the ESRB notice when entering the Multiplayer menu.
 16DDEC: Int32 1271 -> 458775. Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it referes to #1.
+1745D9: Hexadecimal DF 6C -> EB 02. Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #1.
+1745E6: Hexadecimal D8 0D 54 25 -> D9 05 7C 20. Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #2.
 174890: Int32 1271 -> 458775. Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it referes to #2.
 1ACF6A: Hexadecimal 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08. Prevents IPv6 addresses from being displayed in the server list.
 1B16CC: Hexadecimal 01 -> 00. Forces Freelancer to run in windowed mode.*
