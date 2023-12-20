@@ -37,6 +37,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 1745D9: Hexadecimal DF 6C -> EB 02. Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #1.
 1745E6: Hexadecimal D8 0D 54 25 -> D9 05 7C 20. Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #2.
 174890: Int32 1271 -> 458775. Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it referes to #2.
+18B2D5: Hexadecimal E8 A6 23 EA FF D8 86 7C 03 00 00 D8 15 DC 75 5C 00 D9 96 7C 03 00 00 DF E0 F6 -> 60 8B 86 85 03 00 00 8D 9E 5E 03 00 00 50 53 E8 37 6C FD FF 83 C4 08 61 EB 63. Updates the mouse-hover blinking animation of the load-save menu buttons (after loading a game) such that the colors transition smoothly, like with all other menu-style buttons.
 1ACF6A: Hexadecimal 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08. Prevents IPv6 addresses from being displayed in the server list.
 1B16CC: Hexadecimal 01 -> 00. Forces Freelancer to run in windowed mode.*
 1B264C: Hexadecimal 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed.*
