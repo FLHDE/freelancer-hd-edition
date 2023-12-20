@@ -23,6 +23,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 080499: Hexadecimal 74 -> EB. Allows the purchase of equipment below the required level.*
 082E95: Hexadecimal 74 -> EB. Changes the display of equipment below the required level.*
+082E95: Single (float32) 0.089 -> 0.13. Increases the clickable area width of the load-save menu buttons (after loading a game) such that the property matches with all other menu-style buttons.
 0B948D: Hexadecimal 74 -> EB. Allows the purchase of ships below the required level.*
 0A8004: Hexadecimal 05 -> 1A. Shows the current worth in Multiplayer.
 0AB1C5: Int32 393286 -> 459752. Changes the final section in the game credits to an extended section in controls.dll, which also contains the HDE credits. This patch essentially changes the string ID it referes to.
