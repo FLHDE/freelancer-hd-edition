@@ -10,7 +10,7 @@ Common.dll. Base: Default from the official 1.1 Freelancer patch.
 13F48C: Single (float32) 10000 -> 50000. Increases the maximum docking initiation distance.
 
 ebueula.dll. Base: Default from Freelancer 1.0.
-002192: Hexadecimal 0F 85 AF 00 00 00 -> E9 B0 00 00 00 90. Never show the EULA when launching the game.
+0019E0: Hexadecimal 83 EC 08 -> 89 F0 C3. Never show the EULA when launching the game by bypassing the registry key check.
 
 Freelancer.exe. Base: Default No-CD EXE.
 00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB.
@@ -28,7 +28,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 0AB1C5: Int32 393286 -> 459752. Changes the final section in the game credits to an extended section in controls.dll, which also contains the HDE credits. This patch essentially changes the string ID it referes to.
 0B1375: Int8 32 -> 100. Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu.
 0D094B: Hexadecimal 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4. Includes player ships in the contact list's ship filter.
-0D2C94: Int24 99999 -> 999999. Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list.
+0D2C94: Int32 99999 -> 999999. Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list.
 0D5936: Hexadecimal 0F 85 -> 90 E9. Removes the cruise speed display limit (300).
 0D5984: Hexadecimal 7E -> EB. Removes the general speed display limit (999), which can be seen when using a trade lane.
 158A14: Hexadecimal D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90. Prevents intentional framerate drops to 25 from occurring.
