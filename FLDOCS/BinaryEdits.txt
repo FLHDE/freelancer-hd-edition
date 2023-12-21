@@ -12,18 +12,21 @@ Common.dll. Base: Default from the official 1.1 Freelancer patch.
 ebueula.dll. Base: Default from Freelancer 1.0.
 0019E0: Hexadecimal 83 EC 08 -> 89 F0 C3. Never show the EULA when launching the game by bypassing the registry key check.
 
+DALib.dll. Base: Default from the official 1.1 Freelancer patch.
+004BF4: Hexadecimal FF -> 00. Prevents Freelancer from running in the background after exiting the game in some cases. This occurred because Freelancer would wait for an indefinitely running thread to finish.
+
 Freelancer.exe. Base: Default No-CD EXE.
 00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB.
 01AD6F: Hexadecimal 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
 0244F7: Hexadecimal B8 89 5C -> F8 EB 5D. Gamma ranges from 0.75 to 1.75, not 1.0 to 2.0.
 02477A: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #1.*
 02490D: Hexadecimal CA 02 -> 00 00. Removes window borders when Freelancer is running in a window #2.*
-05685F: Hexadecimal 8A 50 2D -> EB 0C 90. Skip story cinematics (excluding space cutscenes) with the Esc key, like in the FL Beta.*
+05685F: Hexadecimal 8A 50 -> EB 0C. Skip story cinematics (excluding space cutscenes) with the Esc key, like in the FL Beta.*
 0691D1: Int8 32 -> 127. Increases the maximum number of chat lines in the chat history window.
 06A440: Int8 80 -> 127. Increases the maximum number of characters in the chat input box.
 080499: Hexadecimal 74 -> EB. Allows the purchase of equipment below the required level.*
 082E95: Hexadecimal 74 -> EB. Changes the display of equipment below the required level.*
-082E95: Single (float32) 0.089 -> 0.13. Increases the clickable area width of the load-save menu buttons (after loading a game) such that the property matches with all other menu-style buttons.
+085D5D: Single (float32) 0.089 -> 0.13. Increases the clickable area width of the load-save menu buttons (after loading a game) such that the property matches with all other menu-style buttons.
 0B948D: Hexadecimal 74 -> EB. Allows the purchase of ships below the required level.*
 0A8004: Hexadecimal 05 -> 1A. Shows the current worth in Multiplayer.
 0AB1C5: Int32 393286 -> 459752. Changes the final section in the game credits to an extended section in controls.dll, which also contains the HDE credits. This patch essentially changes the string ID it referes to.
