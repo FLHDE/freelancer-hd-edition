@@ -15,6 +15,9 @@ ebueula.dll. Base: Default from Freelancer 1.0.
 DALib.dll. Base: Default from the official 1.1 Freelancer patch.
 004BF4: Hexadecimal FF -> 00. Prevents Freelancer from running in the background after exiting the game in some cases. This occurred because Freelancer would wait for an indefinitely running thread to finish.
 
+FLServer.exe. Base: Default from the official 1.1 Freelancer patch.
+00B865: Hexadecimal 68 C4 57 42 00 8B -> 89 CE 31 C0 EB 03. Never load EBUEula.dll from the root Freelancer folder (FLServer.exe).
+
 Freelancer.exe. Base: Default No-CD EXE.
 00014E: Hexadecimal 0F -> 2F. Allows Freelancer to use 4GB of virtual memory instead of 2GB.
 01AD6F: Hexadecimal 80 00 -> 00 20. Fixes a bug that causes some textures to be shown in a low-quality state.
@@ -46,7 +49,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 1B16CC: Hexadecimal 01 -> 00. Forces Freelancer to run in windowed mode.*
 1B264C: Hexadecimal 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90. Keeps Freelancer and its window running when Alt-Tabbed.*
 1B2665: Hexadecimal 74 -> EB. Keeps Freelancer running when Alt-Tabbed.*
-1B2D72: Hexadecimal 68 80 -> EB 0F. Never load ..\\EBUEula.dll (root Freelancer folder).
+1B2D72: Hexadecimal 68 80 -> EB 0F. Never load EBUEula.dll from the root Freelancer folder (Freelancer.exe).
 1C8910: Single (float32) 20000 -> 40000. Increases the poly flipping distance, which allows jumpholes and other effects to be seen from further away.
 1D7964: Single (float32) 3 -> 1.5. Reduces the time between contact list refreshes.
 1D7E50: Double (float64) 0.8 -> 0.85. Increases the width of the gauge bars.
