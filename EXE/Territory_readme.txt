@@ -1,6 +1,6 @@
 			    TERRITORY by Jason Hood
 
-				  Version 1.02
+				  Version 1.03
 
 
 Territory allows customization of the message displayed when entering a system,
@@ -10,5 +10,5 @@ TERRITORY.INI to the DATA\UNIVERSE directory and edit it as required.  Please
 read the start of TERRITORY.CPP for the description of its format.
 
 
-Jason Hood, 21 February, 2014.
+Jason Hood, 9 February, 2024.
 http://freelancer.adoxa.vze.com/
