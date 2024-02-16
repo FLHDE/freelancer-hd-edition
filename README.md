@@ -137,8 +137,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
   - Support
-- Jean-loup Gailly & [Mark Adler](https://github.com/madler)
-  - [zlib](https://zlib.net/)
+- Jean-loup Gailly & [Mark Adler] et al.(https://github.com/madler)
+  - [zlib-ng](https://github.com/zlib-ng/zlib-ng)
 - [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
   - [HD Station textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)

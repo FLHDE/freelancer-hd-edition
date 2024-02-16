@@ -14,6 +14,22 @@ ebueula.dll. Base: Default from Freelancer 1.0.
 
 DALib.dll. Base: Default from the official 1.1 Freelancer patch.
 004BF4: Hexadecimal FF -> 00. Prevents Freelancer from running in the background after exiting the game in some cases. This occurred because Freelancer would wait for an indefinitely running thread to finish.
+0064F0: Int8 8 -> 18. Makes Freelancer compatible with zlib version 1.3 #1.
+0064F4: Int8 4 -> 12. Makes Freelancer compatible with zlib version 1.3 #2.
+0064F8: Int8 10 -> 22. Makes Freelancer compatible with zlib version 1.3 #3.
+0064FC: Int8 22 -> 67. Makes Freelancer compatible with zlib version 1.3 #4.
+006500: Int8 6 -> 15. Makes Freelancer compatible with zlib version 1.3 #5.
+006504: Int8 20 -> 63. Makes Freelancer compatible with zlib version 1.3 #6.
+006508: Int8 19 -> 57. Makes Freelancer compatible with zlib version 1.3 #7.
+00650C: Int8 23 -> 71. Makes Freelancer compatible with zlib version 1.3 #8.
+006E18: Int8 8 -> 18. Makes Freelancer compatible with zlib version 1.3 #9.
+006E1C: Int8 4 -> 12. Makes Freelancer compatible with zlib version 1.3 #10.
+006E20: Int8 10 -> 22. Makes Freelancer compatible with zlib version 1.3 #11.
+006E24: Int8 22 -> 67. Makes Freelancer compatible with zlib version 1.3 #12.
+006E28: Int8 6 -> 15. Makes Freelancer compatible with zlib version 1.3 #13.
+006E2C: Int8 20 -> 63. Makes Freelancer compatible with zlib version 1.3 #14.
+006E30: Int8 19 -> 57. Makes Freelancer compatible with zlib version 1.3 #15.
+006E34: Int8 23 -> 71. Makes Freelancer compatible with zlib version 1.3 #16.
 
 FLServer.exe. Base: Default from the official 1.1 Freelancer patch.
 00B865: Hexadecimal 68 C4 57 42 00 8B -> 89 CE 31 C0 EB 03. Never load EBUEula.dll from the root Freelancer folder (FLServer.exe).
