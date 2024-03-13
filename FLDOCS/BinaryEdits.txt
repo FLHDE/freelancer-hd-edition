@@ -13,7 +13,6 @@ ebueula.dll. Base: Default from Freelancer 1.0.
 0019E0: Hexadecimal 83 EC 08 -> 89 F0 C3. Never show the EULA when launching the game by bypassing the registry key check.
 
 DALib.dll. Base: Default from the official 1.1 Freelancer patch.
-004BF4: Hexadecimal FF -> 00. Prevents Freelancer from running in the background after exiting the game in some cases. This occurred because Freelancer would wait for an indefinitely running thread to finish.
 0064F0: Int8 8 -> 18. Makes Freelancer compatible with zlib version 1.3 #1.
 0064F4: Int8 4 -> 12. Makes Freelancer compatible with zlib version 1.3 #2.
 0064F8: Int8 10 -> 22. Makes Freelancer compatible with zlib version 1.3 #3.
