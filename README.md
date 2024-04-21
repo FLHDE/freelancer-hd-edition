@@ -8,11 +8,9 @@
 
 [![Mod DB](https://button.moddb.com/popularity/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
 
-Freelancer: HD Edition is a mod that aims to improve every aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. It also serves as a customizable all-in-one package for players so they don't have to worry about installing countless patches and mods to create the perfect HD and bug-free install.
+Freelancer: HD Edition is a mod that aims to improve every aspect of the game Freelancer (2003) while keeping the look and feel as close to vanilla as possible. Experience enhanced visuals with HD textures, high-quality soundtracks, and seamless gameplay with bug fixes and quality of life improvements. The mod is fully compatible with the original game, allowing for seamless integration into vanilla servers. Easy to install and customize, it revitalizes the beloved Freelancer experience for modern systems.
 
 This mod was made possible with the help of the [Freelancer: Nomad Legacy](https://freelancer2.space/en/) developers. Thanks to them for providing us their station textures.
-
-**N.B. Freelancer: HD Edition does not add additional content on top of Freelancer but rather enhances what the game already has to offer. Although minor gameplay changes were made, Freelancer: HD Edition will always be compatible with vanilla Freelancer. Therefore, players can use this mod to play on all vanilla servers as long as the server owners allow these changes.**
 
 Join our Discord server to stay up to date with the latest news and information! 
 
@@ -67,7 +65,6 @@ For the best vanilla Multiplayer experience with this mod, check out the [Zoner 
   - [HD Icons and HUD Backgrounds](https://github.com/BC46/freelancer-hd-icons-and-hud-backgrounds) *([Mod DB](https://www.moddb.com/games/freelancer/addons/freelancer-hd-icons-and-hud-backgrounds))*
   - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances))*
   - [Text Strings Revision](https://github.com/BC46/freelancer-text-strings-revision) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision))*
-  - [Broken Interior Lighting Fix](https://www.moddb.com/games/freelancer/downloads/freelancer-broken-interior-lighting-fix)
 
 ## Contributing
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
