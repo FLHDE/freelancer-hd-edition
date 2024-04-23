@@ -72,6 +72,8 @@ Freelancer.exe. Base: Default No-CD EXE.
 1D7964: Single (float32) 3 -> 1.5. Reduces the time between contact list refreshes.
 1D7E50: Double (float64) 0.8 -> 0.85. Increases the width of the gauge bars.
 1D8484: Single (float32) 1 -> 0.1. Reduces the time between weapon list refreshes.
+12D279: Hexadecimal 90 90 90 90 90 90 90 -> 39 F1 74 03 30 C0 C3. Prevent Countermeasure droppers from being activated by right-clicking #1.
+1DD5A8: Hexadecimal 80 -> 79. Prevent Countermeasure droppers from being activated by right-clicking #2.
 1E6DCC: AnsiChar / char8_t 'F' -> ''. Changes the CreateMutex lpName parameter to an empty string, allowing multiple instances of Freelancer to run simultaneously.
 213EC8: Single (float32) 10000 -> 999999. Increases the maximum draw distance for space objects like battleships and trade lanes.
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo. Also a custom Manifest section has been added to make the game DPI-aware.
