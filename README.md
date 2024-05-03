@@ -47,14 +47,13 @@ Join our Discord server to stay up to date with the latest news and information!
 
 To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/BC46/freelancer-hd-edition/blob/main/CHANGELOG.md).
 
+## Installation instructions
+[Visit this link to view the installation instructions.](https://github.com/BC46/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions)
 
 ## Recommendations 
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
 
 For the best vanilla Multiplayer experience with this mod, check out the [Zoner Universe server](https://www.zoneruniverse.com/). Also be sure to have a look at the [Freelancer Universe mod and server](https://discord.com/invite/JY6xAyv8ay) which are both compatible with Freelancer: HD Edition.
-
-## Installation instructions
-[Visit this link to view the installation instructions.](https://github.com/BC46/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions)
 
 ## Related projects
 - [Freelancer: HD Edition Installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
