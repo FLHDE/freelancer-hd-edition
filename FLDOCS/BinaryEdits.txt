@@ -39,6 +39,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 0244F7: Hex B8 89 5C -> F8 EB 5D = Gamma ranges from 0.75 to 1.75, not 1.0 to 2.0.
 02477A: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #1.*
 02490D: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #2.*
+02D7B8: Hex 6A 01 -> EB DD = Prevents sudden frame drops from occurring in space. Effectively removes Sleep(1) from the delta time calculation.
 05685F: Hex 8A 50 -> EB 0C = Skip story cinematics (excluding space cutscenes) with the Esc key, like in the FL Beta.*
 0691D1: Int8 32 -> 127 = Increases the maximum number of chat lines in the chat history window.
 06A440: Int8 80 -> 127 = Increases the maximum number of characters in the chat input box.
