@@ -54,7 +54,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 0B1554: Hex 39 -> 84 = Ambience volume can be controlled independently, thus no longer relying on the music volume.*
 0B948D: Hex 74 -> EB = Allows the purchase of ships below the required level.*
 0A8004: Hex 05 -> 1A = Shows the current worth in Multiplayer.
-0AB1C5: Int32 393286 -> 459752 = Changes the final section in the game credits to an extended section in controls.dll, which also contains the HDE credits. This patch essentially changes the string ID it referes to.
+0AB1C5: Int32 393286 -> 459752 = Changes the final section in the game credits to an extended section in controls.dll, which also contains the HDE credits. This patch essentially changes the string ID it refers to.
 0B1375: Int8 32 -> 100 = Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu.
 0D094B: Hex 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4 = Includes player ships in the contact list's ship filter.
 0D2C94: Int32 99999 -> 999999 = Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list.
@@ -62,10 +62,10 @@ Freelancer.exe. Base: Default No-CD EXE.
 0D5984: Hex 7E -> EB = Removes the general speed display limit (999), which can be seen when using a trade lane.
 158A14: Hex D9 1D 0C 0A 61 00 -> 90 90 90 90 90 90 = Prevents intentional framerate drops to 25 from occurring.
 166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu.
-16DDEC: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it referes to #1.
+16DDEC: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it refers to #1.
 1745D9: Hex DF 6C -> EB 02 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #1.
 1745E6: Hex D8 0D 54 25 -> D9 05 7C 20 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #2.
-174890: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it referes to #2.
+174890: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it refers to #2.
 18B2D5: Hex E8 A6 23 EA FF D8 86 7C 03 00 00 D8 15 DC 75 5C 00 D9 96 7C 03 00 00 DF E0 F6 -> 60 8B 86 85 03 00 00 8D 9E 5E 03 00 00 50 53 E8 37 6C FD FF 83 C4 08 61 EB 63 = Updates the mouse-hover blinking animation of the load-save menu buttons (after loading a game) such that the colors transition smoothly, like with all other menu-style buttons.
 1ACF6A: Hex 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08 = Prevents IPv6 addresses from being displayed in the server list.
 1B16CC: Hex 01 -> 00 = Forces Freelancer to run in windowed mode.*
