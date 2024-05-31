@@ -60,6 +60,8 @@ Freelancer.exe. Base: Default No-CD EXE.
 0D2C94: Int32 99999 -> 999999 = Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list.
 0D5936: Hex 0F 85 -> 90 E9 = Removes the cruise speed display limit (300).
 0D5984: Hex 7E -> EB = Removes the general speed display limit (999), which can be seen when using a trade lane.
+111BA5: Hex 74 -> EB = Display sun spines within trade lanes.
+111C80: Hex 74 -> EB = Display sun spines within asteroid fields.
 158A10: Hex BC -> C0 = Prevents intentional framerate drops to 25 from occurring during cutscenes.
 166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu.
 16DDEC: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it refers to #1.
