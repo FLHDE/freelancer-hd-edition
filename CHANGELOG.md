@@ -1,5 +1,54 @@
 # Changelog
 
+## [[v0.7] - TBD](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.7)
+
+### Visual
+- Made sure that solars use the same Kusari textures as the Kusari ships
+- Added new HD asteroid textures that look more like the ones from vanilla Freelancer
+- Restored the original overlay color for Utility ships
+- Added overhauled HD vanilla planet textures
+- Added a Deband shader to prevent banding; makes gradients appear smoother
+- Made trade lane lights easier to see by increasing the size and making the green lights blink
+- Smoothened edges of the weapon beam effects
+- Added a new faction flag rift image for Rheinland and Kusari which is now used for news stories about conflicts between Rheinland and Kusari
+
+### Features
+- [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.7)
+- Allow the fixed NPC paths in Multiplayer to be used together with the option that removes the level requirements for ships and equipment
+- Updated the [MultiIntro plugin](https://github.com/BC46/MultiIntro-Updated) to v0.2
+	- Built using a different compiler to prevent false positives from antivirus software
+	- Allows for ini-based configuration
+- Added [FL Save Convert](https://github.com/dmutlu/fl_convert), a tool that fixes save files suffering from incompatibilities related to starting story missions between versions 1.0 and 1.1 of Freelancer
+
+### Fixes
+- Fixed a voice line cutoff when an order member says "All set sir" during the Mission 13 Toledo landing pad scene
+- Reduced the height of the lamp light texture in the planet New Berlin bar to prevent Blix's artifact effect from being hidden during the story cutscene
+- Fixed an issue that caused the custom explosion effects to cut off in some cases
+- Prevented the Rheinland Battleship near Holman Outpost from Mission 7 to be visible when not flying to the waypoint quick enough
+- No longer show blank ship control names in the options menu if the "English Text Fixes" option has been disabled
+- Fixed a bug that caused Q's Men ships to attack the player after the race from Mission 6 was over
+- Fixed an issue where a regular explosion effect would be shown instead of a Nomad explosion effect in some cases
+- Added missing lights to trade lanes in some Border Worlds systems
+- Fixed a visible cutoff of the Liberty Cruiser main gun effect
+- Moved certain HUD maneauverboxes which are used by some bases up slightly to remove a pixel-line
+- Fixed bugged space backdrops seen in the Helgoland and Aomori bars
+- Perfectly centered the dealer window animations
+- Changed the faction of Patrol Zeta 1 from Mission 2 to Navy to be consistent with the voice lines
+- Gave the Navy fighters from Mission 3 a helmet in the comm window since they communicate in space
+- Gave the Norfolk announcer from Mission 5 the correct Bretonia outfit and added a neuralnet accessory to his second comm
+- Gave the Cali base announcer from Mission 7 an Outcast accessory
+- Removed Juni's helmet from comm messages during Mission 4 where she was not in space
+
+### Misc
+- Modified the Tekagi Transport loadout from Mission 8 such that it is consistent with what is being said in the voice lines
+- Ensure the playerer ship is not invulnerable to the gas pocket field from Mission 7
+- Show the custom version number on the main menu too if the "English Text Fixes" option has been disabled
+- Allow Freelancer to use up to 4 GB of virtual memory instead of 2 GB
+- Show hidden infocards for Juneau and Ithaca
+- Updated the Zone plugin to v1.20 to allow capitalized entered and leaving zone messages
+
+<!-- continue starting oct 18, 2022 -->
+
 ## [[v0.6] - 2022-08-27](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.6)
 
 ### Visual
