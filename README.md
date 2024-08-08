@@ -76,7 +76,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - HD HUD
   - HD Nebulae & Fog
   - HD Ships
-  - HD Starsphere improvements
+  - HD Vanilla Starspheres
   - HD System Map
   - HD Vanilla Asteroids
   - HD Vanilla Planets
@@ -112,12 +112,11 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
   - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
-  - HD Vanilla Starspheres
   - New commodity icon
 - DAVENAT0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [Flat UI Icons V2](https://www.moddb.com/games/freelancer/addons/flat-ui-icons-v2)
-  - [HD Starsphere pack & Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
+  - [HD Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
 - [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
