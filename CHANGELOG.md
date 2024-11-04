@@ -1,6 +1,6 @@
 # Changelog
 
-## [[v0.7] - TBD](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.7)
+## [[v0.7] - TBD](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.7)
 
 ### Visual
 - Made sure that solars use the same Kusari textures as the Kusari ships
@@ -13,9 +13,9 @@
 - Added a new faction flag rift image for Rheinland and Kusari which is now used for news stories about conflicts between Rheinland and Kusari
 
 ### Features
-- [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.7)
+- [Installer updates](https://github.com/FLHDE/freelancer-hd-edition-installer/releases/tag/0.7)
 - Allow the fixed NPC paths in Multiplayer to be used together with the option that removes the level requirements for ships and equipment
-- Updated the [MultiIntro plugin](https://github.com/BC46/MultiIntro-Updated) to v0.2
+- Updated the [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated) to v0.2
 	- Built using a different compiler to prevent false positives from antivirus software
 	- Allows for ini-based configuration
 - Added [FL Save Convert](https://github.com/dmutlu/fl_convert), a tool that fixes save files suffering from incompatibilities related to starting story missions between versions 1.0 and 1.1 of Freelancer
@@ -49,7 +49,7 @@
 
 <!-- continue starting oct 18, 2022 -->
 
-## [[v0.6] - 2022-08-27](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.6)
+## [[v0.6] - 2022-08-27](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.6)
 
 ### Visual
 - Added all remaining HD Base Interiors & Planetscapes
@@ -159,7 +159,7 @@
 - Removed an unedited icon file and several unused ReShade effects
 
 
-## [[v0.5] - 2022-01-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.5)
+## [[v0.5] - 2022-01-21](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.5)
 
 ### Visual
 - Added HD Nomad Lair textures
@@ -282,7 +282,7 @@
 - Dropped support for installations via Freelancer Mod Manager
 
 
-## [[v0.4.1] - 2021-08-25](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4.1)
+## [[v0.4.1] - 2021-08-25](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.4.1)
 
 ### Visual
 - Added alternative effects
@@ -295,7 +295,7 @@
 - Added support for installations via [a dedicated installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
 
 
-## [[v0.4] - 2021-08-21](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.4)
+## [[v0.4] - 2021-08-21](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.4)
 
 ### Visual
 - Added HD Liberty news logo
@@ -321,7 +321,7 @@
 - Added more sound and general options
 
 
-## [[v0.3] - 2021-08-15](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.3)
+## [[v0.3] - 2021-08-15](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.3)
 
 ### Visual
 - Added HD Character Models
@@ -345,7 +345,7 @@
 - Updated dgVoodoo
 
 
-## [[v0.2] - 2021-08-07](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.2)
+## [[v0.2] - 2021-08-07](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.2)
 
 ### Visual
 - Added Flat Interface
@@ -372,7 +372,7 @@
 - Added Freelancer manual
 
 
-## [[v0.1] - 2021-07-28](https://github.com/BC46/freelancer-hd-edition/releases/tag/0.1)
+## [[v0.1] - 2021-07-28](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.1)
 
 ### Visual
 - Maximized draw distances for space structures, asteroids and effects

@@ -1,9 +1,9 @@
 # Freelancer: HD Edition
 ![Freelancer: HD Edition](https://i.imgur.com/3e1H27L.png)
 
-[![GitHub release](https://img.shields.io/github/release/BC46/freelancer-hd-edition.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
-[![Github all releases](https://img.shields.io/github/downloads/BC46/freelancer-hd-edition/total.svg)](https://GitHub.com/BC46/freelancer-hd-edition/releases/)
-[![GitHub stars](https://img.shields.io/github/stars/BC46/freelancer-hd-edition?style=social)](https://GitHub.com/BC46/freelancer-hd-edition/stargazers/)
+[![GitHub release](https://img.shields.io/github/release/FLHDE/freelancer-hd-edition.svg)](https://GitHub.com/FLHDE/freelancer-hd-edition/releases/)
+[![Github all releases](https://img.shields.io/github/downloads/FLHDE/freelancer-hd-edition/total.svg)](https://GitHub.com/FLHDE/freelancer-hd-edition/releases/)
+[![GitHub stars](https://img.shields.io/github/stars/FLHDE/freelancer-hd-edition?style=social)](https://GitHub.com/FLHDE/freelancer-hd-edition/stargazers/)
 [![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ScqgYuFqmU)
 
 [![Mod DB](https://button.moddb.com/popularity/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
@@ -45,33 +45,38 @@ Join our Discord server to stay up to date with the latest news and information!
 - Easy customization
 - Full vanilla Multiplayer support
 
-To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/BC46/freelancer-hd-edition/blob/main/CHANGELOG.md).
+To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/FLHDE/freelancer-hd-edition/blob/main/CHANGELOG.md).
 
 ## Installation instructions
-[Visit this link to view the installation instructions.](https://github.com/BC46/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions)
+[Visit this link to view the installation instructions.](https://github.com/FLHDE/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions)
 
 ## Recommendations 
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
+Moreover, having a somewhat modern dedicated GPU is ideal to ensure the game runs smoothly with all the included graphics-related enhancements.
 
-For the best vanilla Multiplayer experience with this mod, check out the [Zoner Universe server](https://www.zoneruniverse.com/). Also be sure to have a look at the [Freelancer Universe mod and server](https://discord.com/invite/JY6xAyv8ay) which are both compatible with Freelancer: HD Edition.
+For the best vanilla Multiplayer experience with this mod, check out the [Zoner Universe server](https://www.zoneruniverse.com/). Also be sure to have a look at the following projects which are all compatible with Freelancer: HD Edition:
+- [Freelancer Universe mod and server](https://discord.com/invite/JY6xAyv8ay)
+- [Leuchtfeuer](https://www.moddb.com/mods/leuchtfeuer)
 
 ## Related projects
 - [Freelancer: HD Edition Installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
   - Source code for the Inno Setup script which is used to install Freelancer: HD Edition.
 - Content that is free to use in other mods or anything else, no questions asked:
-  - [HD Base Interiors and Planetscapes](https://github.com/BC46/freelancer-hd-base-interiors-and-planetscapes) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes))*
-  - [HD Character Models](https://github.com/BC46/freelancer-hd-character-models) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-character-models))*
-  - [HD Icons and HUD Backgrounds](https://github.com/BC46/freelancer-hd-icons-and-hud-backgrounds) *([Mod DB](https://www.moddb.com/games/freelancer/addons/freelancer-hd-icons-and-hud-backgrounds))*
-  - [Maximized Draw Distances](https://github.com/BC46/freelancer-maximized-draw-distances) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances))*
-  - [Text Strings Revision](https://github.com/BC46/freelancer-text-strings-revision) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision))*
+  - [HD Base Interiors and Planetscapes](https://github.com/FLHDE/freelancer-hd-base-interiors-and-planetscapes) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes))*
+  - [HD Character Models](https://github.com/FLHDE/freelancer-hd-character-models) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-character-models))*
+  - [HD Icons and HUD Backgrounds](https://github.com/FLHDE/freelancer-hd-icons-and-hud-backgrounds) *([Mod DB](https://www.moddb.com/games/freelancer/addons/freelancer-hd-icons-and-hud-backgrounds))*
+  - [Maximized Draw Distances](https://github.com/FLHDE/freelancer-maximized-draw-distances) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances))*
+  - [Text Strings Revision](https://github.com/FLHDE/freelancer-text-strings-revision) *([Mod DB](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision))*
+
+More related projects can be found on the [FLHDE organization GitHub page](https://github.com/FLHDE).
 
 ## Contributing
 Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
 
 ## Credits
 - [BC46](https://github.com/BC46)
-  - [HD Base Interiors and Planetscapes](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes) *([Mirror](https://github.com/BC46/freelancer-hd-base-interiors-and-planetscapes))*
-  - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/BC46/freelancer-hd-character-models))*
+  - [HD Base Interiors and Planetscapes](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes) *([Mirror](https://github.com/FLHDE/freelancer-hd-base-interiors-and-planetscapes))*
+  - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/FLHDE/freelancer-hd-character-models))*
   - HD Cockpits
   - HD HUD
   - HD Nebulae & Fog
@@ -83,8 +88,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many general HD and effect additions
   - Many misc fixes
   - Many misc improvements
-  - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/BC46/freelancer-maximized-draw-distances))*
-  - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/BC46/freelancer-text-strings-revision))*
+  - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/FLHDE/freelancer-maximized-draw-distances))*
+  - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/FLHDE/freelancer-text-strings-revision))*
 - [BC46](https://github.com/BC46) & [Aingar](https://github.com/Aingar)
   - [FLSharp](https://github.com/BC46/FLSharp)
 - [Bolte](https://github.com/bolte-io)
@@ -145,11 +150,11 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 - M0tah
   - [DelayDisplay plugin](https://forge.the-starport.net/projects/delaydisplay)
-  - [MultiIntro plugin](https://github.com/BC46/MultiIntro-Updated)
+  - [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated)
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
 - [Raikkonen](https://github.com/oliverpechey), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
-  - [Installation script](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
+  - [Installation script](https://github.com/FLHDE/freelancer-hd-edition-installer)
   - Support
   - Testing
 - [Ruppetus](https://github.com/IrateRedKite)
