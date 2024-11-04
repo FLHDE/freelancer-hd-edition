@@ -86,13 +86,13 @@ rendcomp.dll. Base: Default from Freelancer 1.0.
 
 rp8.dll. Base: Default from Freelancer 1.0.
 004467: Hex 7D -> EB = Prevents the "D3DERR_INVALIDCALL" error spam from occurring in FLSpew.txt.
-008E75: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #1.
-008E87: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #2.
-008E90: Int32 4 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #3.
-008ED2: Int32 2 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #4.
-008EE4: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #5.
-008EED: Int32 4 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #6.
-008F5F: Int32 0 -> 1 = Changes the multisampling type from 0 to either 2, 4, or 8 (anti-aliasing).
+008E75: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #1.*
+008E87: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #2.*
+008E90: Int32 4 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #3.*
+008ED2: Int32 2 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #4.*
+008EE4: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #5.*
+008EED: Int32 4 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #6.*
+008F5F: Int32 0 -> 1 = Changes the multisampling type from 0 to either 2, 4, or 8 (anti-aliasing).*
 01A48C: Int8 2 -> 3 = Changes the magnification filtering mode from "linear" to "anisotropic".*
 01A4C5: Int8 2 -> 3 = Changes the minification filtering mode from "linear" to "anisotropic".*
 01A4FE: Int8 1 -> 2 = Changes the mipmap filtering mode from "nearest" to "linear".
