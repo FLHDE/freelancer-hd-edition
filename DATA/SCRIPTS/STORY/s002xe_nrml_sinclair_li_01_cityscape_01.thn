@@ -4329,8 +4329,8 @@ events =
 		10.656, START_MOTION, { "Char_trent" },
 		{
 			animation = "Sc_MLBODY_WLKG_000LV_XA_01",
-			duration = 4.000,
-			time_scale = 0.7,
+			duration = 3.150,
+			time_scale = 0.68,
 			weight = 1,
 			heading = -1,
 			event_flags = 2

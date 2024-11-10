@@ -5887,7 +5887,7 @@ events =
 	},
 
 	{
-		43.369, ATTACH_ENTITY, { "Char_Trent", "Char_Tr_Mk_loc_43sec" },
+		43.720, ATTACH_ENTITY, { "Char_Trent", "Char_Tr_Mk_loc_43sec" },
 		{
 			duration = 0.000,
 			offset = { 0, 0, 0 },

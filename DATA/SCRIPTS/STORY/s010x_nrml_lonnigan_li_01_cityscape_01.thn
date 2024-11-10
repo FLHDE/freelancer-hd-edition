@@ -1517,7 +1517,7 @@ entities =
 		lt_grp = 0, srt_grp = 0, usr_flg = 0,
 		spatialprops =
 		{
-			pos = { 53.26079, 0, -44.56684 },
+			pos = { 53.26079, 0, -44.76684 },
 			orient = { { -0.544732,  0.000000,  0.838610 },
 					   {  0.000000,  1.000000,  0.000000 },
 					   { -0.838610,  0.000000, -0.544732 } }
@@ -11500,10 +11500,10 @@ events =
 	},
 
 	{
-		102.137, START_MOTION, { "Char_li_male_elite_2_A" },
+		102.337, START_MOTION, { "Char_li_male_elite_2_A" },
 		{
 			animation = "Sc_MLBODY_WLKG_STUN_MILI_315DN_XA_03",
-			duration = 3.465,
+			duration = 3.265,
 			time_scale = 1,
 			weight = 1,
 			heading = -1
