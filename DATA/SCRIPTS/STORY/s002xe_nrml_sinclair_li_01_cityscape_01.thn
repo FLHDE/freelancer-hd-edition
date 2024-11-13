@@ -212,6 +212,20 @@ entities =
 	},
 
 	{
+		entity_name = "Char_Tr_Mk_loc_02_Arrive2",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 50.51625, 0, -12.37261 },
+			orient = { {  0.326755,  0.000000, -0.945109 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.945109,  0.000000,  0.326755 } }
+		}
+	},
+
+	{
 		entity_name = "Char_Medic_1_Mk_loc_01",
 		type = MARKER,
 		template_name = "",
@@ -1761,7 +1775,7 @@ entities =
 		lt_grp = 0, srt_grp = 0, usr_flg = 0,
 		spatialprops =
 		{
-			pos = { 52.78878, 0, -11.0467 },
+			pos = { 52.78878, 0, -10.5467 },
 			orient = { {  0.689218,  0.000000, -0.724554 },
 					   {  0.000000,  1.000000,  0.000000 },
 					   {  0.724554,  0.000000,  0.689218 } }
@@ -4329,8 +4343,8 @@ events =
 		10.656, START_MOTION, { "Char_trent" },
 		{
 			animation = "Sc_MLBODY_WLKG_000LV_XA_01",
-			duration = 3.150,
-			time_scale = 0.68,
+			duration = 3.344,
+			time_scale = 0.7,
 			weight = 1,
 			heading = -1,
 			event_flags = 2
@@ -4586,6 +4600,19 @@ events =
 	},
 
 	{
+		13.656, ATTACH_ENTITY, { "Char_trent", "Char_Tr_Mk_loc_02_Arrive2" },
+		{
+			duration = 0.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "",
+			target_type = ROOT,
+			flags = POSITION
+		}
+	},
+
+	{
 		13.812, START_SPATIAL_PROP_ANIM, { "Cam_02_Intro_Trent_A", "Cam_02_Intro_Trent_B" },
 		{
 			duration = 6.406,
@@ -4606,6 +4633,19 @@ events =
 				}
 			},
 			pcurve_period = -1000
+		}
+	},
+
+	{
+		13.656, START_MOTION, { "Char_trent" },
+		{
+			animation = "Sc_MLBODY_WLKG_000LV_XA_01",
+			duration = 1.299,
+			time_scale = 1,
+			start_time = 1.111,
+			weight = 1,
+			heading = -1,
+			event_flags = 2
 		}
 	},
 
