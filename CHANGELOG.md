@@ -92,7 +92,7 @@
 - Improved the Mission and News vendor images
 
 ### Features
-- [Installer updates](https://github.com/oliverpechey/Freelancer-hd-edition-install-script/releases/tag/0.6)
+- [Installer updates](https://github.com/FLHDE/freelancer-hd-edition-installer/releases/tag/0.6)
 - Added more pitch variations for the NPC chatter as an option
 - Added the DelayDisplay plugin which shows a cooldown timer for weapons that require ammunition
 - Added the MultiIntro plugin which shows an unused 4th menu intro
@@ -292,7 +292,7 @@
 
 ### Misc
 - Updated zlib.dll for better performance in Multiplayer
-- Added support for installations via [a dedicated installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
+- Added support for installations via [a dedicated installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
 
 
 ## [[v0.4] - 2021-08-21](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.4)

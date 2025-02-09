@@ -59,7 +59,7 @@ For the best vanilla Multiplayer experience with this mod, check out the [Zoner 
 - [Leuchtfeuer](https://www.moddb.com/mods/leuchtfeuer)
 
 ## Related projects
-- [Freelancer: HD Edition Installer](https://github.com/oliverpechey/Freelancer-hd-edition-install-script)
+- [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
   - Source code for the Inno Setup script which is used to install Freelancer: HD Edition.
 - Content that is free to use in other mods or anything else, no questions asked:
   - [HD Base Interiors and Planetscapes](https://github.com/FLHDE/freelancer-hd-base-interiors-and-planetscapes) *([Mod DB](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes))*
