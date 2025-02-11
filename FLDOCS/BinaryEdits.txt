@@ -2,110 +2,110 @@ This .txt file documents the manual HEX edits that have been made to several bin
 
 Format:
 Filename. Base: Origin.
-Offset: Data type Original value -> New value = Explanation.(*)
+Offset: Data type Original value -> New value = Explanation.(*) ~Author
 * means the edit is applied by the installer, instead of directly inside the file.
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch.
-0E698E: Hex 7C -> EB = Allows many planets to continue spinning.
-13F48C: Single (float32) 10000 -> 50000 = Increases the maximum docking initiation distance.
+0E698E: Hex 7C -> EB = Allows many planets to continue spinning. ~adoxa
+13F48C: Single (float32) 10000 -> 50000 = Increases the maximum docking initiation distance. ~M0tah
 
 ebueula.dll. Base: Default from Freelancer 1.0.
-0019E0: Hex 83 EC 08 -> 89 F0 C3 = Never show the EULA when launching the game by bypassing the registry key check.
+0019E0: Hex 83 EC 08 -> 89 F0 C3 = Never show the EULA when launching the game by bypassing the registry key check. ~BC46
 
 DALib.dll. Base: Default from the official 1.1 Freelancer patch.
-0064F0: Int8 8 -> 18 = Makes Freelancer compatible with zlib version 1.3 #1.
-0064F4: Int8 4 -> 12 = Makes Freelancer compatible with zlib version 1.3 #2.
-0064F8: Int8 10 -> 22 = Makes Freelancer compatible with zlib version 1.3 #3.
-0064FC: Int8 22 -> 67 = Makes Freelancer compatible with zlib version 1.3 #4.
-006500: Int8 6 -> 15 = Makes Freelancer compatible with zlib version 1.3 #5.
-006504: Int8 20 -> 63 = Makes Freelancer compatible with zlib version 1.3 #6.
-006508: Int8 19 -> 57 = Makes Freelancer compatible with zlib version 1.3 #7.
-00650C: Int8 23 -> 71 = Makes Freelancer compatible with zlib version 1.3 #8.
-006E18: Int8 8 -> 18 = Makes Freelancer compatible with zlib version 1.3 #9.
-006E1C: Int8 4 -> 12 = Makes Freelancer compatible with zlib version 1.3 #10.
-006E20: Int8 10 -> 22 = Makes Freelancer compatible with zlib version 1.3 #11.
-006E24: Int8 22 -> 67 = Makes Freelancer compatible with zlib version 1.3 #12.
-006E28: Int8 6 -> 15 = Makes Freelancer compatible with zlib version 1.3 #13.
-006E2C: Int8 20 -> 63 = Makes Freelancer compatible with zlib version 1.3 #14.
-006E30: Int8 19 -> 57 = Makes Freelancer compatible with zlib version 1.3 #15.
-006E34: Int8 23 -> 71 = Makes Freelancer compatible with zlib version 1.3 #16.
+0064F0: Int8 8 -> 18 = Makes Freelancer compatible with zlib version 1.3 #1. ~BC46
+0064F4: Int8 4 -> 12 = Makes Freelancer compatible with zlib version 1.3 #2. ~BC46
+0064F8: Int8 10 -> 22 = Makes Freelancer compatible with zlib version 1.3 #3. ~BC46
+0064FC: Int8 22 -> 67 = Makes Freelancer compatible with zlib version 1.3 #4. ~BC46
+006500: Int8 6 -> 15 = Makes Freelancer compatible with zlib version 1.3 #5. ~BC46
+006504: Int8 20 -> 63 = Makes Freelancer compatible with zlib version 1.3 #6. ~BC46
+006508: Int8 19 -> 57 = Makes Freelancer compatible with zlib version 1.3 #7. ~BC46
+00650C: Int8 23 -> 71 = Makes Freelancer compatible with zlib version 1.3 #8. ~BC46
+006E18: Int8 8 -> 18 = Makes Freelancer compatible with zlib version 1.3 #9. ~BC46
+006E1C: Int8 4 -> 12 = Makes Freelancer compatible with zlib version 1.3 #10. ~BC46
+006E20: Int8 10 -> 22 = Makes Freelancer compatible with zlib version 1.3 #11. ~BC46
+006E24: Int8 22 -> 67 = Makes Freelancer compatible with zlib version 1.3 #12. ~BC46
+006E28: Int8 6 -> 15 = Makes Freelancer compatible with zlib version 1.3 #13. ~BC46
+006E2C: Int8 20 -> 63 = Makes Freelancer compatible with zlib version 1.3 #14. ~BC46
+006E30: Int8 19 -> 57 = Makes Freelancer compatible with zlib version 1.3 #15. ~BC46
+006E34: Int8 23 -> 71 = Makes Freelancer compatible with zlib version 1.3 #16. ~BC46
 
 FLServer.exe. Base: Default from the official 1.1 Freelancer patch.
-00B865: Hex 68 C4 57 42 00 8B -> 89 CE 31 C0 EB 03 = Never load EBUEula.dll from the root Freelancer folder (FLServer.exe).
+00B865: Hex 68 C4 57 42 00 8B -> 89 CE 31 C0 EB 03 = Never load EBUEula.dll from the root Freelancer folder (FLServer.exe). ~BC46
 
 Freelancer.exe. Base: Default No-CD EXE.
-00014E: Hex 0F -> 2F = Allows Freelancer to use 4GB of virtual memory instead of 2GB.
-01AD6F: Hex 80 00 -> 00 20 = Fixes a bug that causes some textures to be shown in a low-quality state.
-0244F7: Hex B8 89 5C -> F8 EB 5D = Gamma ranges from 0.75 to 1.75, not 1.0 to 2.0.
-02477A: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #1.*
-02490D: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #2.*
-02D7B8: Hex 6A 01 -> EB DD = Prevents sudden frame drops from occurring in space. Effectively removes Sleep(1) from the delta time calculation.
-05685F: Hex 8A 50 -> EB 0C = Skip story cinematics (excluding space cutscenes) with the Esc key, like in the FL Beta.*
-0691D1: Int8 32 -> 127 = Increases the maximum number of chat lines in the chat history window.
-06A440: Int8 80 -> 127 = Increases the maximum number of characters in the chat input box.
-080499: Hex 74 -> EB = Allows the purchase of equipment below the required level.*
-082E95: Hex 74 -> EB = Changes the display of equipment below the required level.*
-085D5D: Single (float32) 0.089 -> 0.13 = Increases the clickable area width of the load-save menu buttons (after loading a game) such that the property matches with all other menu-style buttons.
-08D89B: Hex 90 90 90 90 90 -> 83 C5 18 EB 50 = Show all group members on the nav map #1.
-08D997: Hex 55 -> 00 = Show all group members on the nav map #2.
-096325: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #1.
-096338: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #2.
-0B1503: Hex 38 -> 83 = Interface volume can be controlled independently, thus no longer relying on the sound effects volume.*
-0B1554: Hex 39 -> 84 = Ambience volume can be controlled independently, thus no longer relying on the music volume.*
-0B948D: Hex 74 -> EB = Allows the purchase of ships below the required level.*
-0A8004: Hex 05 -> 1A = Shows the current worth in Multiplayer.
-0AB1C5: Int32 393286 -> 459752 = Changes the final section in the game credits to an extended section in controls.dll, which also contains the HDE credits. This patch essentially changes the string ID it refers to.
-0B1375: Int8 32 -> 120 = Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu.
-0B1377: Int8 8 -> 32 = Increases the minimum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu.
-0D094B: Hex 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4 = Includes player ships in the contact list's ship filter.
-0D2C94: Int32 99999 -> 999999 = Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list.
-0D5936: Hex 0F 85 -> 90 E9 = Removes the cruise speed display limit (300).
-0D5984: Hex 7E -> EB = Removes the general speed display limit (999), which can be seen when using a trade lane.
-158A10: Hex BC -> C0 = Prevents intentional framerate drops to 25 from occurring during cutscenes.
-166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu.
-16DDEC: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it refers to #1.
-1745D9: Hex DF 6C -> EB 02 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #1.
-1745E6: Hex D8 0D 54 25 -> D9 05 7C 20 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #2.
-174890: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it refers to #2.
-18B2D5: Hex E8 A6 23 EA FF D8 86 7C 03 00 00 D8 15 DC 75 5C 00 D9 96 7C 03 00 00 DF -> 8B 86 85 03 00 00 8D 9E 5E 03 00 00 50 53 E8 38 6C FD FF 83 C4 08 EB 65 = Updates the mouse-hover blinking animation of the load-save menu buttons (after loading a game) such that the colors transition smoothly, like with all other menu-style buttons.
-1ACF6A: Hex 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08 = Prevents IPv6 addresses from being displayed in the server list.
-1B16CC: Hex 01 -> 00 = Forces Freelancer to run in windowed mode.*
-1B264C: Hex 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90 = Keeps Freelancer and its window running when Alt-Tabbed.*
-1B2665: Hex 74 -> EB = Keeps Freelancer running when Alt-Tabbed.*
-1B2D72: Hex 68 80 -> EB 0F = Never load EBUEula.dll from the root Freelancer folder (Freelancer.exe).
-1D7964: Single (float32) 3 -> 1.5 = Reduces the time between contact list refreshes.
-1D7E50: Double (float64) 0.8 -> 0.85 = Increases the width of the gauge bars.
-1D8484: Single (float32) 1 -> 0.1 = Reduces the time between weapon list refreshes.
-12D279: Hex 90 90 90 90 90 90 90 -> 39 F1 74 03 30 C0 C3 = Prevent Countermeasure droppers from being activated by right-clicking #1.*
-1DD5A8: Hex 80 -> 79 = Prevent Countermeasure droppers from being activated by right-clicking #2.*
-1E6DCC: AnsiChar / char8_t 'F' -> '' = Changes the CreateMutex lpName parameter to an empty string, allowing multiple instances of Freelancer to run simultaneously.
+00014E: Hex 0F -> 2F = Allows Freelancer to use 4GB of virtual memory instead of 2GB. ~BC46
+01AD6F: Hex 80 00 -> 00 20 = Fixes a bug that causes some textures to be shown in a low-quality state. ~Schmackbolzen
+0244F7: Hex B8 89 5C -> F8 EB 5D = Gamma ranges from 0.75 to 1.75, not 1.0 to 2.0. ~BC46 & adoxa
+02477A: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #1.* ~adoxa & Laz
+02490D: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #2.* ~adoxa & Laz
+02D7B8: Hex 6A 01 -> EB DD = Prevents sudden frame drops from occurring in space. Effectively removes Sleep(1) from the delta time calculation. ~BC46
+05685F: Hex 8A 50 -> EB 0C = Skip story cinematics (excluding space cutscenes) with the Esc key, like in the FL Beta.* ~BC46
+0691D1: Int8 32 -> 127 = Increases the maximum number of chat lines in the chat history window. ~M0tah
+06A440: Int8 80 -> 127 = Increases the maximum number of characters in the chat input box. ~M0tah
+080499: Hex 74 -> EB = Allows the purchase of equipment below the required level.* ~adoxa
+082E95: Hex 74 -> EB = Changes the display of equipment below the required level.* ~adoxa
+085D5D: Single (float32) 0.089 -> 0.13 = Increases the clickable area width of the load-save menu buttons (after loading a game) such that the property matches with all other menu-style buttons. ~BC46
+08D89B: Hex 90 90 90 90 90 -> 83 C5 18 EB 50 = Show all group members on the nav map #1. ~BC46
+08D997: Hex 55 -> 00 = Show all group members on the nav map #2. ~BC46
+096325: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #1. ~Venemon
+096338: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #2. ~Venemon
+0B1503: Hex 38 -> 83 = Interface volume can be controlled independently, thus no longer relying on the sound effects volume.* ~BC46
+0B1554: Hex 39 -> 84 = Ambience volume can be controlled independently, thus no longer relying on the music volume.* ~BC46
+0B948D: Hex 74 -> EB = Allows the purchase of ships below the required level.* ~adoxa
+0A8004: Hex 05 -> 1A = Shows the current worth in Multiplayer. ~adoxa
+0AB1C5: Int32 393286 -> 459752 = Changes the final section in the game credits to an extended section in controls.dll, which also contains the HDE credits. This patch essentially changes the string ID it refers to. ~BC46
+0B1375: Int8 32 -> 120 = Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu. ~adoxa
+0B1377: Int8 8 -> 32 = Increases the minimum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu. ~adoxa
+0D094B: Hex 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4 = Includes player ships in the contact list's ship filter. ~adoxa
+0D2C94: Int32 99999 -> 999999 = Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list. ~Dev
+0D5936: Hex 0F 85 -> 90 E9 = Removes the cruise speed display limit (300). ~Stone-D
+0D5984: Hex 7E -> EB = Removes the general speed display limit (999) which can be seen when using a trade lane. ~Stone-D
+158A10: Hex BC -> C0 = Prevents intentional framerate drops to 25 from occurring during cutscenes. ~BC46 & FriendlyFire
+166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu. ~adoxa
+16DDEC: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it refers to #1. ~BC46
+1745D9: Hex DF 6C -> EB 02 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #1. ~BC46
+1745E6: Hex D8 0D 54 25 -> D9 05 7C 20 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #2. ~BC46
+174890: Int32 1271 -> 458775 = Changes the "VER. 1.0" text in the bottom-right of the main menu to a custom version number in controls.dll. This patch essentially changes the string ID it refers to #2. ~BC46
+18B2D5: Hex E8 A6 23 EA FF D8 86 7C 03 00 00 D8 15 DC 75 5C 00 D9 96 7C 03 00 00 DF -> 8B 86 85 03 00 00 8D 9E 5E 03 00 00 50 53 E8 38 6C FD FF 83 C4 08 EB 65 = Updates the mouse-hover blinking animation of the load-save menu buttons (after loading a game) such that the colors transition smoothly, like with all other menu-style buttons. ~BC46
+1ACF6A: Hex 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08 = Prevents IPv6 addresses from being displayed in the server list. ~adoxa
+1B16CC: Hex 01 -> 00 = Forces Freelancer to run in windowed mode.* ~adoxa
+1B264C: Hex 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90 = Keeps Freelancer and its window running when Alt-Tabbed.* ~Cannon
+1B2665: Hex 74 -> EB = Keeps Freelancer running when Alt-Tabbed.* ~adoxa
+1B2D72: Hex 68 80 -> EB 0F = Never load EBUEula.dll from the root Freelancer folder (Freelancer.exe). ~BC46
+1D7964: Single (float32) 3 -> 1.5 = Reduces the time between contact list refreshes. ~Dev
+1D7E50: Double (float64) 0.8 -> 0.85 = Increases the width of the gauge bars. ~Dev
+1D8484: Single (float32) 1 -> 0.1 = Reduces the time between weapon list refreshes. ~Fox
+12D279: Hex 90 90 90 90 90 90 90 -> 39 F1 74 03 30 C0 C3 = Prevent Countermeasure droppers from being activated by right-clicking #1.* ~BC46 & Venemon
+1DD5A8: Hex 80 -> 79 = Prevent Countermeasure droppers from being activated by right-clicking #2.* ~BC46 & Venemon
+1E6DCC: AnsiChar / char8_t 'F' -> '' = Changes the CreateMutex lpName parameter to an empty string, allowing multiple instances of Freelancer to run simultaneously. ~M0tah
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo. Also a custom Manifest section has been added to make the game DPI-aware.
 
 rendcomp.dll. Base: Default from Freelancer 1.0.
-00C499: Hex 02 -> 00 = Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances.
+00C499: Hex 02 -> 00 = Enables high-quality sphere rendering; prevents planets from looking like soccer balls at great distances. ~adoxa
 
 rp8.dll. Base: Default from Freelancer 1.0.
-004467: Hex 7D -> EB = Prevents the "D3DERR_INVALIDCALL" error spam from occurring in FLSpew.txt.
-008E75: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #1.*
-008E87: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #2.*
-008E90: Int32 4 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #3.*
-008ED2: Int32 2 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #4.*
-008EE4: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #5.*
-008EED: Int32 4 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #6.*
-008F5F: Int32 0 -> 2, 4, 8 = Changes the multisampling type from 0 to either 2, 4, or 8 (anti-aliasing).*
-01A48C: Int8 2 -> 3 = Changes the magnification filtering mode from "linear" to "anisotropic".*
-01A4C5: Int8 2 -> 3 = Changes the minification filtering mode from "linear" to "anisotropic".*
-01A4FE: Int8 1 -> 2 = Changes the mipmap filtering mode from "nearest" to "linear".
-01A4FE: Int8 1 -> 3 = Changes the mipmap filtering mode from "nearest" to "anisotropic".*
-01A5B8: Int8 1 -> 2, 4, 8, 16 = Changes the maximum anisotropy from 1 to either 2, 4, 8, or 16, respectively.*
+004467: Hex 7D -> EB = Prevents the "D3DERR_INVALIDCALL" error spam from occurring in FLSpew.txt. ~Rimshot
+008E75: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #1.* ~BC46
+008E87: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #2.* ~BC46
+008E90: Int32 4 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #3.* ~BC46
+008ED2: Int32 2 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #4.* ~BC46
+008EE4: Int32 3 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #5.* ~BC46
+008EED: Int32 4 -> 1 = Sets the swap effect to "discard" (required for anti-aliasing to work) #6.* ~BC46
+008F5F: Int32 0 -> 2, 4, 8 = Changes the multisampling type from 0 to either 2, 4, or 8 (enables anti-aliasing).* ~BC46
+01A48C: Int8 2 -> 3 = Changes the magnification filtering mode from "linear" to "anisotropic".* ~BC46
+01A4C5: Int8 2 -> 3 = Changes the minification filtering mode from "linear" to "anisotropic".* ~BC46
+01A4FE: Int8 1 -> 2 = Changes the mipmap filtering mode from "nearest" to "linear". ~BC46
+01A4FE: Int8 1 -> 3 = Changes the mipmap filtering mode from "nearest" to "anisotropic".* ~BC46
+01A5B8: Int8 1 -> 2, 4, 8, 16 = Changes the maximum anisotropy from 1 to either 2, 4, 8, or 16, respectively.* ~BC46
 
 Server.dll. Base: Default from the official 1.1 Freelancer patch.
-00960C: Hex 0C -> 00 = Fixes an issue that causes explosions to not deal full damage (or any damage at all) to large ships and bases.
-06E10D: Hex E4 B4 -> 14 B3 = Disables the encryption of save game files when created and saved.
-07399D: Hex E4 B4 -> 14 B3 = Disables the encryption of the Restart.fl file when created.
+00960C: Hex 0C -> 00 = Fixes an issue that causes explosions to not deal full damage (or any damage at all) to large ships and bases. ~M0tah
+06E10D: Hex E4 B4 -> 14 B3 = Disables the encryption of save game files when created and saved. ~adoxa
+07399D: Hex E4 B4 -> 14 B3 = Disables the encryption of the Restart.fl file when created. ~adoxa
 
 soundmanager.dll. Base: Default from Freelancer 1.0.
-00A021: Hex 00 -> 80 = Allows Freelancer's audio to continue playing while Alt-Tabbed #1.*
+00A021: Hex 00 -> 80 = Allows Freelancer's audio to continue playing while Alt-Tabbed #1.* ~adoxa
 
 soundstreamer.dll. Base: Default from Freelancer 1.0.
-0018A9: Hex 00 -> 80 = Allows Freelancer's audio to continue playing while Alt-Tabbed #2.*
+0018A9: Hex 00 -> 80 = Allows Freelancer's audio to continue playing while Alt-Tabbed #2.* ~adoxa
