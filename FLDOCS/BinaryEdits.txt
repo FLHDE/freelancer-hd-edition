@@ -105,9 +105,6 @@ Server.dll. Base: Default from the official 1.1 Freelancer patch.
 06E10D: Hex E4 B4 -> 14 B3 = Disables the encryption of save game files when created and saved. ~adoxa
 07399D: Hex E4 B4 -> 14 B3 = Disables the encryption of the Restart.fl file when created. ~adoxa
 
-shading.dll. Base: Default from Freelancer 1.0.
-00F94B: Hex 0C -> 00 = Fix color banding with 24-bit TGA textures (render them as 32-bit). ~BC46
-
 soundmanager.dll. Base: Default from Freelancer 1.0.
 00A021: Hex 00 -> 80 = Allows Freelancer's audio to continue playing while Alt-Tabbed #1.* ~adoxa
 
