@@ -9,9 +9,6 @@ Common.dll. Base: Default from the official 1.1 Freelancer patch.
 0E698E: Hex 7C -> EB = Allows many planets to continue spinning. ~adoxa
 13F48C: Single (float32) 10000 -> 50000 = Increases the maximum docking initiation distance. ~M0tah
 
-ebueula.dll. Base: Default from Freelancer 1.0.
-0019E0: Hex 83 EC 08 -> 89 F0 C3 = Never show the EULA when launching the game by bypassing the registry key check. ~BC46
-
 DALib.dll. Base: Default from the official 1.1 Freelancer patch.
 0064F0: Int8 8 -> 18 = Makes Freelancer compatible with zlib version 1.3 #1. ~BC46
 0064F4: Int8 4 -> 12 = Makes Freelancer compatible with zlib version 1.3 #2. ~BC46
@@ -29,6 +26,9 @@ DALib.dll. Base: Default from the official 1.1 Freelancer patch.
 006E2C: Int8 20 -> 63 = Makes Freelancer compatible with zlib version 1.3 #14. ~BC46
 006E30: Int8 19 -> 57 = Makes Freelancer compatible with zlib version 1.3 #15. ~BC46
 006E34: Int8 23 -> 71 = Makes Freelancer compatible with zlib version 1.3 #16. ~BC46
+
+ebueula.dll. Base: Default from Freelancer 1.0.
+0019E0: Hex 83 EC 08 -> 89 F0 C3 = Never show the EULA when launching the game by bypassing the registry key check. ~BC46
 
 FLServer.exe. Base: Default from the official 1.1 Freelancer patch.
 00B865: Hex 68 C4 57 42 00 8B -> 89 CE 31 C0 EB 03 = Never load EBUEula.dll from the root Freelancer folder (FLServer.exe). ~BC46
@@ -103,6 +103,9 @@ Server.dll. Base: Default from the official 1.1 Freelancer patch.
 00960C: Hex 0C -> 00 = Fixes an issue that causes explosions to not deal full damage (or any damage at all) to large ships and bases. ~M0tah
 06E10D: Hex E4 B4 -> 14 B3 = Disables the encryption of save game files when created and saved. ~adoxa
 07399D: Hex E4 B4 -> 14 B3 = Disables the encryption of the Restart.fl file when created. ~adoxa
+
+shading.dll. Base: Default from Freelancer 1.0.
+00F94B: Hex 0C -> 00 = Fix color banding with 24-bit TGA textures (render them as 32-bit). ~BC46
 
 soundmanager.dll. Base: Default from Freelancer 1.0.
 00A021: Hex 00 -> 80 = Allows Freelancer's audio to continue playing while Alt-Tabbed #1.* ~adoxa
