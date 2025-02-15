@@ -31,7 +31,7 @@ ebueula.dll. Base: Default from Freelancer 1.0.
 0019E0: Hex 83 EC 08 -> 89 F0 C3 = Never show the EULA when launching the game by bypassing the registry key check. ~BC46
 
 FLServer.exe. Base: Default from the official 1.1 Freelancer patch.
-00B865: Hex 68 C4 57 42 00 8B -> 89 CE 31 C0 EB 03 = Never load EBUEula.dll from the root Freelancer folder (FLServer.exe). ~BC46
+00B865: Hex 68 C4 57 42 00 8B F1 FF D5 -> 89 CE 31 C0 0F 1F 44 00 00 = Never load EBUEula.dll from the root Freelancer folder (FLServer.exe). ~BC46
 
 Freelancer.exe. Base: Default No-CD EXE.
 00014E: Hex 0F -> 2F = Allows Freelancer to use 4GB of virtual memory instead of 2GB. ~BC46
