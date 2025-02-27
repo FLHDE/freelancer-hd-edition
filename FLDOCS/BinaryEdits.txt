@@ -34,7 +34,6 @@ FLServer.exe. Base: Default from the official 1.1 Freelancer patch.
 00B865: Hex 68 C4 57 42 00 8B F1 FF D5 -> 89 CE 31 C0 0F 1F 44 00 00 = Never load EBUEula.dll from the root Freelancer folder (FLServer.exe). ~BC46
 
 Freelancer.exe. Base: Default No-CD EXE.
-00014E: Hex 0F -> 2F = Allows Freelancer to use 4GB of virtual memory instead of 2GB. ~BC46
 01AD6F: Hex 80 00 -> 00 20 = Fixes a bug that causes some textures to be shown in a low-quality state. ~Schmackbolzen
 0244F7: Hex B8 89 5C -> F8 EB 5D = Gamma ranges from 0.75 to 1.75, not 1.0 to 2.0. ~BC46 & adoxa
 02477A: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #1.* ~adoxa & Laz
