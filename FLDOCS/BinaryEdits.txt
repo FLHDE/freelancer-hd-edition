@@ -32,6 +32,7 @@ ebueula.dll. Base: Default from Freelancer 1.0.
 
 FLServer.exe. Base: Default from the official 1.1 Freelancer patch.
 00B865: Hex 68 C4 57 42 00 8B F1 FF D5 -> 89 CE 31 C0 0F 1F 44 00 00 = Never load EBUEula.dll from the root Freelancer folder (FLServer.exe). ~BC46
+A custom Manifest section has been added to make the program DPI-aware.
 
 Freelancer.exe. Base: Default No-CD EXE.
 01AD6F: Hex 80 00 -> 00 20 = Fixes a bug that causes some textures to be shown in a low-quality state. ~Schmackbolzen
