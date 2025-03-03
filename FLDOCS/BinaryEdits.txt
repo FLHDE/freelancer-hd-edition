@@ -66,10 +66,10 @@ Freelancer.exe. Base: Default No-CD EXE.
 0D5984: Hex 7E -> EB = Removes the general speed display limit (999) which can be seen when using a trade lane. ~Stone-D
 158A10: Hex BC -> C0 = Prevents intentional framerate drops to 25 from occurring during cutscenes. ~BC46 & FriendlyFire
 166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu. ~adoxa
-16DDEC: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in controls.dll. #1. ~BC46
+16DDEC: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in controls.dll #1. ~BC46
 1745D9: Hex DF 6C 24 18 -> 0F 1F 40 00 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #1. ~BC46
 1745E6: Hex D8 0D 54 25 -> D9 05 7C 20 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #2. ~BC46
-174890: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in controls.dll. #2. ~BC46
+174890: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in controls.dll #2. ~BC46
 18B2D5: Hex E8 A6 23 EA FF D8 86 7C 03 00 00 D8 15 DC 75 5C 00 D9 96 7C 03 00 00 DF -> 8B 86 85 03 00 00 8D 9E 5E 03 00 00 50 53 E8 38 6C FD FF 83 C4 08 EB 65 = Updates the mouse-hover blinking animation of the load-save menu buttons (after loading a game) such that the colors transition smoothly, like with all other menu-style buttons. ~BC46
 1ACF6A: Hex 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08 = Prevents IPv6 addresses from being displayed in the server list. ~adoxa
 1B16CC: Hex 01 -> 00 = Forces Freelancer to run in windowed mode.* ~adoxa
