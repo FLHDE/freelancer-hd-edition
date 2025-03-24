@@ -53,9 +53,8 @@
 //	Also tried to refactor the samples so more work can be done while they are being sampled, but it's not so easy and the gains
 //	I'm seeing are so small they might be statistical noise. So it MIGHT be faster - no promises.
 
-//Fix by BC46
-//	Removed the "0.5 * pixel" expressions in the DX10 or higher check.
-// 	With the use of dgVoodoo at least, the previous code caused the entire image to be blurry and slightly mispositioned.
+//Fix by CeeJay.dk
+//	Gather optimization is only faster on DX11 and up - Not DX10 and up. Correcting this so DX10 does not use the Gather codepath
 
 uniform float Contrast <
 	ui_type = "drag";
@@ -89,22 +88,22 @@ float3 CASPass(float4 vpos : SV_Position, float2 texcoord : TexCoord) : SV_Targe
 	float3 d = tex2Doffset(sTexColor, texcoord, int2(-1, 0)).rgb;
 	
  
-#if __RENDERER__ >= 0xa000 // If DX10 or higher
-	float4 red_efhi = tex2DgatherR(sTexColor, texcoord);
+#if __RENDERER__ >= 0xb000 // If DX11 or higher
+	float4 red_efhi = tex2DgatherR(sTexColor, texcoord + 0.5 * pixel);
 	
 	float3 e = float3( red_efhi.w, red_efhi.w, red_efhi.w);
 	float3 f = float3( red_efhi.z, red_efhi.z, red_efhi.z);
 	float3 h = float3( red_efhi.x, red_efhi.x, red_efhi.x);
 	float3 i = float3( red_efhi.y, red_efhi.y, red_efhi.y);
 	
-	float4 green_efhi = tex2DgatherG(sTexColor, texcoord);
+	float4 green_efhi = tex2DgatherG(sTexColor, texcoord + 0.5 * pixel);
 	
 	e.g = green_efhi.w;
 	f.g = green_efhi.z;
 	h.g = green_efhi.x;
 	i.g = green_efhi.y;
 	
-	float4 blue_efhi = tex2DgatherB(sTexColor, texcoord);
+	float4 blue_efhi = tex2DgatherB(sTexColor, texcoord + 0.5 * pixel);
 	
 	e.b = blue_efhi.w;
 	f.b = blue_efhi.z;
@@ -165,7 +164,7 @@ technique ContrastAdaptiveSharpen
 	ui_label = "AMD FidelityFX Contrast Adaptive Sharpening";
 	ui_tooltip = 
 	"CAS is a low overhead adaptive sharpening algorithm that AMD includes with their drivers.\n"
-	"This port to ReShade works with all cards from all vendors,\n"
+	"This port to Reshade works with all cards from all vendors,\n"
 	"but cannot do the optional scaling that CAS is normally also capable of when activated in the AMD drivers.\n"
 	"\n"
 	"The algorithm adjusts the amount of sharpening per pixel to target an even level of sharpness across the image.\n"
