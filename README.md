@@ -27,6 +27,7 @@ Join our Discord server to stay up to date with the latest news and information!
 - HD HUD & Icons
 - HD Nebulae
 - HD Starspheres
+- HD Vanilla Universe and HD System map
 - Maximized Draw Distances
 - Anti-Aliasing and Anisotropic Filtering support
 - ReShade
@@ -37,7 +38,9 @@ Join our Discord server to stay up to date with the latest news and information!
 	- Improvements
 	- New features
 	- Bug fixes
-- flplusplus
+- flplusplus plugin
+- FLSharp plugin
+- FLHook (Server Improvement)
 - No-CD Patch
 - Official 1.1 Patch
 - Tons of additional bug fixes
@@ -48,7 +51,11 @@ Join our Discord server to stay up to date with the latest news and information!
 To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/FLHDE/freelancer-hd-edition/blob/main/CHANGELOG.md).
 
 ## Installation instructions
+Supported operating systems: Windows 11, 10, 8.1, 7, XP, and Linux (via Wine).
+
 [Visit this link to view the installation instructions.](https://github.com/FLHDE/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions)
+
+Note that the [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer) and the included version of [FLHook](https://github.com/TheStarport/FLHook) will not work on Windows XP. To install the mod on Windows XP, please perform a simple installation as described in the [installation instructions](https://github.com/FLHDE/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions).
 
 ## Recommendations 
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
@@ -71,7 +78,7 @@ For the best vanilla Multiplayer experience with this mod, check out the [Zoner 
 More related projects can be found on the [FLHDE organization GitHub page](https://github.com/FLHDE).
 
 ## Contributing
-Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible HD mod for Freelancer out there since many modders from around the world have contributed to this project.
+Have something to contribute to make the mod even better? Feel free to create a pull request or feature request! We are always open to new suggestions and improvements. Making the repository public has allowed us as a community to create the best possible vanilla improvement for Freelancer out there.
 
 ## Credits
 - [BC46](https://github.com/BC46)
@@ -90,7 +97,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many misc improvements
   - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/FLHDE/freelancer-maximized-draw-distances))*
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/FLHDE/freelancer-text-strings-revision))*
-- [BC46](https://github.com/BC46) & [Aingar](https://github.com/Aingar)
   - [FLSharp](https://github.com/BC46/FLSharp)
 - [Bolte](https://github.com/bolte-io)
   - Support
@@ -121,7 +127,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - DAVENAT0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [Flat UI Icons V2](https://www.moddb.com/games/freelancer/addons/flat-ui-icons-v2)
-  - [HD Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
+  - [Custom HD Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
 - [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
@@ -166,6 +172,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Bug fixes
 - [Thaddeus](https://github.com/thaddeus-ex)
   - Fixed models
+- [The Starport](https://github.com/TheStarport)
+  - [FLHook](https://github.com/TheStarport/FLHook)
 - w0dk4
   - [Freelancer Global Server Workaround v1.0](https://www.moddb.com/games/freelancer/downloads/freelancer-global-server-workaround-v10)
 - [Why485](https://github.com/brihernandez)
