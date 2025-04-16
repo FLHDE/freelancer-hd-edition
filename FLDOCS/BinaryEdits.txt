@@ -1,4 +1,4 @@
-This .txt file documents the manual HEX edits that have been made to several binary files in Freelancer: HD Edition.
+This .txt file documents the manual hex edits that have been made to several binary files in Freelancer: HD Edition.
 
 Format:
 Filename. Base: Origin.
@@ -8,6 +8,9 @@ Offset: Data type Original value -> New value = Explanation.(*) ~Author
 Common.dll. Base: Default from the official 1.1 Freelancer patch.
 0E698E: Hex 7C -> EB = Allows many planets to continue spinning. ~adoxa
 13F48C: Single (float32) 10000 -> 50000 = Increases the maximum docking initiation distance. ~M0tah
+
+Content.dll. Base: Default from the official 1.1 Freelancer patch.
+037068: Hex 02 -> 03 = Fixes NPCs saying the first number of their call sign twice when requesting to dock. ~BC46
 
 DALib.dll. Base: Default from the official 1.1 Freelancer patch.
 0064F0: Int8 8 -> 18 = Makes Freelancer compatible with zlib version 1.3 #1. ~BC46
