@@ -64,6 +64,7 @@ Moreover, having a somewhat modern dedicated GPU is ideal to ensure the game run
 For the best vanilla Multiplayer experience with this mod, check out the [Zoner Universe server](https://www.zoneruniverse.com/). Also be sure to have a look at the following projects which are all compatible with Freelancer: HD Edition:
 - [Freelancer Universe mod and server](https://discord.com/invite/JY6xAyv8ay)
 - [Leuchtfeuer](https://www.moddb.com/mods/leuchtfeuer)
+- [Frontierspace](https://discord.gg/XhPbHKRu8f)
 
 ## Related projects
 - [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
@@ -104,10 +105,10 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
 - [CallumDev](https://github.com/CallumDev)
-  - [flplusplus](https://github.com/CallumDev/flplusplus)
-- [crosire](https://github.com/crosire) et al.
+  - [flplusplus](https://github.com/FLHDE/flplusplus)
+- [crosire](https://github.com/crosire)
   - [ReShade](https://github.com/crosire/reshade)
-- [Daniel Stenberg](https://github.com/bagder) et al.
+- [Daniel Stenberg](https://github.com/bagder)
   - [curl](https://github.com/curl/curl)
 - Dege
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
@@ -118,12 +119,13 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - HQ Music compression
   - Support
   - Testing
-- [Elisha Riedlinger](https://github.com/elishacloud) et al.
+- [Elisha Riedlinger](https://github.com/elishacloud)
   - [DxWrapper](https://github.com/elishacloud/dxwrapper)
 - Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
   - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
   - New commodity icon
+  - HD targeting icons
 - DAVENAT0R
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [Flat UI Icons V2](https://www.moddb.com/games/freelancer/addons/flat-ui-icons-v2)
@@ -146,17 +148,18 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
   - Support
-- Jean-loup Gailly & [Mark Adler](https://github.com/madler) et al.
+- Jean-loup Gailly & [Mark Adler](https://github.com/madler)
   - [zlib-ng](https://github.com/zlib-ng/zlib-ng)
-- [Jeider](https://github.com/Jeider), RenderG & Whiskas T-Mech
-  - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
+- [Jeider](https://github.com/Jeider) & RenderG
   - [HD Station textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
+- [Jeider](https://github.com/Jeider) & Whiskas T-Mech
+  - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
 - [Laz](https://github.com/Lazrius), [Jason Hood](https://github.com/adoxa) & [BC46](https://github.com/BC46)
   - [Windowed Mode Mouse Fix](https://github.com/FLHDE/windowed-mode-mouse-fix)
 - Louva-Deus
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
 - M0tah
-  - [DelayDisplay plugin](https://forge.the-starport.net/projects/delaydisplay)
+  - [DelayDisplay plugin](https://web.archive.org/web/20221203054234/https://forge.the-starport.net/projects/delaydisplay)
   - [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated)
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
