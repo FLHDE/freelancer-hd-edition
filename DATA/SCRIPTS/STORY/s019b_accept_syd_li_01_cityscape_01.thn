@@ -1534,6 +1534,20 @@ entities =
 	},
 
 	{
+		entity_name = "Marker_Trent_Hands_Lead_Back",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 69.62581, 0.96391, -55.42164 },
+			orient = { { -0.421459,  0.000000,  0.906847 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   { -0.906847,  0.000000, -0.421459 } }
+		}
+	},
+
+	{
 		entity_name = "Marker_Trent_Hands_Lead",
 		type = MARKER,
 		template_name = "",
@@ -7750,7 +7764,7 @@ events =
 		13.984, START_MOTION, { "Char_trent" },
 		{
 			animation = "Sc_MLBODY_WALK_GEST_RHND_STOP_000LV_XC_02",
-			duration = 0.948,
+			duration = 2.826,
 			time_scale = 0.8,
 			weight = 1,
 			heading = -1
@@ -7763,6 +7777,20 @@ events =
 
 	{
 		14.281, SET_CAMERA, { "cam_Monitor_1", "Cam_04_last_two" }
+	},
+
+	{
+		14.281, START_SPATIAL_PROP_ANIM, { "Char_trent", "Marker_Trent_Hands_Lead_Back" },
+		{
+			duration = 0.000,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 70.98581, 0.96391, -54.85164 },
+				q_orient = { -0.421459, 0, 0.906848, 0 }
+			}
+		}
 	},
 
 	{
