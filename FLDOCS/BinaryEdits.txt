@@ -3,7 +3,7 @@ This .txt file documents the manual hex edits that have been made to several bin
 Format:
 Filename. Base: Origin.
 Offset: Data type Original value -> New value = Explanation.(*) ~Author
-* means the edit is applied by the installer, instead of directly inside the file.
+* means the edit is applied by the installer, rather than the file being patched directly.
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch.
 0E698E: Hex 7C -> EB = Allows many planets to continue spinning. ~adoxa
@@ -54,19 +54,20 @@ Freelancer.exe. Base: Default No-CD EXE.
 08D997: Hex 55 -> 00 = Show all group members on the nav map #2. ~BC46
 096325: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #1. ~Venemon
 096338: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #2. ~Venemon
-0B1503: Hex 38 -> 83 = Interface volume can be controlled independently, thus no longer relying on the sound effects volume.* ~BC46
-0B1554: Hex 39 -> 84 = Ambience volume can be controlled independently, thus no longer relying on the music volume.* ~BC46
-0B9011: UInt32 1564 -> 458782 = Changes the IDS of the insufficient reputation message for ships to an IDS in controls.dll with a custom message.* ~BC46
-0B948D: Hex 74 -> EB = Allows the purchase of ships below the required level.* ~adoxa
 0A8004: Hex 05 -> 1A = Shows the current worth in Multiplayer. ~adoxa
 0A9326: Hex 7F -> EB = Always assume best machine speed for determining default performance options. ~BC46
 0AB1C5: UInt32 393286 -> 459752 = Changes the IDS of the final section in the game credits to an extended IDS in controls.dll which contains the HDE credits. ~BC46
 0B1375: Int8 32 -> 120 = Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu. ~adoxa
 0B1377: Int8 8 -> 32 = Increases the minimum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu. ~adoxa
+0B1503: Hex 38 -> 83 = Interface volume can be controlled independently, thus no longer relying on the sound effects volume.* ~BC46
+0B1554: Hex 39 -> 84 = Ambience volume can be controlled independently, thus no longer relying on the music volume.* ~BC46
+0B9011: UInt32 1564 -> 458782 = Changes the IDS of the insufficient reputation message for ships to an IDS in controls.dll with a custom message.* ~BC46
+0B948D: Hex 74 -> EB = Allows the purchase of ships below the required level.* ~adoxa
 0D094B: Hex 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4 = Includes player ships in the contact list's ship filter. ~adoxa
 0D2C94: Int32 99999 -> 999999 = Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list. ~Dev
 0D5936: Hex 0F 85 -> 90 E9 = Removes the cruise speed display limit (300). ~Stone-D
 0D5984: Hex 7E -> EB = Removes the general speed display limit (999) which can be seen when using a trade lane. ~Stone-D
+12D279: Hex 90 90 90 90 90 90 90 -> 39 F1 74 03 30 C0 C3 = Prevent Countermeasure droppers from being activated by right-clicking #1.* ~BC46 & Venemon
 158A10: Hex BC -> C0 = Prevents intentional framerate drops to 25 from occurring during cutscenes. ~BC46 & FriendlyFire
 166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu. ~adoxa
 16DDEC: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in controls.dll #1. ~BC46
@@ -82,7 +83,6 @@ Freelancer.exe. Base: Default No-CD EXE.
 1D7964: Single (float32) 3 -> 1.5 = Reduces the time between contact list refreshes. ~Dev
 1D7E50: Double (float64) 0.8 -> 0.85 = Increases the width of the gauge bars. ~Dev
 1D8484: Single (float32) 1 -> 0.1 = Reduces the time between weapon list refreshes. ~Fox
-12D279: Hex 90 90 90 90 90 90 90 -> 39 F1 74 03 30 C0 C3 = Prevent Countermeasure droppers from being activated by right-clicking #1.* ~BC46 & Venemon
 1DD5A8: Hex 80 -> 79 = Prevent Countermeasure droppers from being activated by right-clicking #2.* ~BC46 & Venemon
 1E6DCC: AnsiChar / char8_t 'F' -> '' = Changes the CreateMutex lpName parameter to an empty string, allowing multiple instances of Freelancer to run simultaneously. ~M0tah
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo. Also a custom Manifest section has been added to make the game DPI-aware.
