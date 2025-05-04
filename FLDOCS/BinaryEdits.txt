@@ -38,7 +38,7 @@ FLServer.exe. Base: Default from the official 1.1 Freelancer patch.
 A custom Manifest section has been added to make the program DPI-aware.
 
 Freelancer.exe. Base: Default No-CD EXE.
-01AD6F: Hex 80 00 -> 00 20 = Fixes a bug that causes some textures to be shown in a low-quality state. ~Schmackbolzen
+01AD6F: Hex 80 00 -> 00 20 = Fixes a bug with low resolution textures on some systems. ~Schmackbolzen
 0244F7: Hex B8 89 5C -> F8 EB 5D = Gamma ranges from 0.75 to 1.75, not 1.0 to 2.0. ~BC46 & adoxa
 02477A: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #1.* ~adoxa & Laz
 02490D: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #2.* ~adoxa & Laz
@@ -80,6 +80,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 1B264C: Hex 83 FF 01 0F 94 C2 -> BA 01 00 00 00 90 = Keeps Freelancer and its window running when Alt-Tabbed.* ~Cannon
 1B2665: Hex 74 -> EB = Keeps Freelancer running when Alt-Tabbed.* ~adoxa
 1B2D72: Hex 68 80 -> EB 0F = Never load EBUEula.dll from the root Freelancer folder (Freelancer.exe). ~BC46
+1B48B8: Hex 07 -> 00 = Fixes a bug with low resolution news and mission images on some systems. ~BC46
 1D7964: Single (float32) 3 -> 1.5 = Reduces the time between contact list refreshes. ~Dev
 1D7E50: Double (float64) 0.8 -> 0.85 = Increases the width of the gauge bars. ~Dev
 1D8484: Single (float32) 1 -> 0.1 = Reduces the time between weapon list refreshes. ~Fox
