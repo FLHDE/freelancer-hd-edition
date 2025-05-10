@@ -5,12 +5,24 @@
 ### Visual
 - Made sure that solars use the same Kusari textures as the Kusari ships
 - Added new HD asteroid textures that look more like the ones from vanilla Freelancer
-- Restored the original overlay color for Utility ships
+- Restored the original diffuse color values for the Utility ships
 - Added overhauled HD vanilla planet textures
-- Added a Deband shader to prevent banding; makes gradients appear smoother
+- Added a Deband shader to the ReShade config to prevent banding; makes gradients appear smoother
 - Made trade lane lights easier to see by increasing the size and making the green lights blink
 - Smoothened edges of the weapon beam effects
+- Added missing HD solar textures
 - Added a new faction flag rift image for Rheinland and Kusari which is now used for news stories about conflicts between Rheinland and Kusari
+- Replaced one of the Liner ship textures
+- Recreated the Liberty and Order ship textures
+- Added opacity to the glass bottles that are used during cinematics
+- Added reactor effects to the Liberty Battleship and Osiris
+- Added HD planet ring textures
+- Updated the Flat UI Interface files to V2
+- Added additional Dark HUD interface textures
+- Added HD vanilla-like trade lane textures
+- Updated the vanilla radiation alert icon
+- Set the default mip filtering mode to "linear" for higher quality texture rendering
+- Added support for Anti-Aliasing and Anisotropic Filtering using the Vanilla Graphics API options
 
 ### Features
 - [Installer updates](https://github.com/FLHDE/freelancer-hd-edition-installer/releases/tag/0.7)
@@ -19,16 +31,18 @@
 	- Built using a different compiler to prevent false positives from antivirus software
 	- Allows for ini-based configuration
 - Added [FL Save Convert](https://github.com/dmutlu/fl_convert), a tool that fixes save files suffering from incompatibilities related to starting story missions between versions 1.0 and 1.1 of Freelancer
+- Added Freelancer Global Server Workaround v1.0 (DLL version) to allow all Freelancer servers to be displayed in the in-game server list
 
 ### Fixes
 - Fixed a voice line cutoff when an order member says "All set sir" during the Mission 13 Toledo landing pad scene
 - Reduced the height of the lamp light texture in the planet New Berlin bar to prevent Blix's artifact effect from being hidden during the story cutscene
-- Fixed an issue that caused the custom explosion effects to cut off in some cases
+- Fixed an issue that caused the custom explosion effects to cut off (disappear) in some cases
 - Prevented the Rheinland Battleship near Holman Outpost from Mission 7 to be visible when not flying to the waypoint quick enough
 - No longer show blank ship control names in the options menu if the "English Text Fixes" option has been disabled
-- Fixed a bug that caused Q's Men ships to attack the player after the race from Mission 6 was over
+- Added missing tooltips for some ship controls in the options menu
+- After the Mission 6 race is over, make the Q's Men ships fly away to prevent them from attacking the player
 - Fixed an issue where a regular explosion effect would be shown instead of a Nomad explosion effect in some cases
-- Added missing lights to trade lanes in some Border Worlds systems
+- Added two missing green lights to trade lanes in some Border Worlds systems
 - Fixed a visible cutoff of the Liberty Cruiser main gun effect
 - Moved certain HUD maneauverboxes which are used by some bases up slightly to remove a pixel-line
 - Fixed bugged space backdrops seen in the Helgoland and Aomori bars
@@ -38,16 +52,44 @@
 - Gave the Norfolk announcer from Mission 5 the correct Bretonia outfit and added a neuralnet accessory to his second comm
 - Gave the Cali base announcer from Mission 7 an Outcast accessory
 - Removed Juni's helmet from comm messages during Mission 4 where she was not in space
+- Fixed Ozu saying that a Blood Dragon fighter was killed right at the start of the battle in Mission 8
+- Gave Walker a Navy Cruiser captain accessory during Mission 3 and 4
+- Gave Walker a helmet when he flies a Defender during Mission 11
+- Gave two Liberty Navy pilots from Mission 11 a Liberty helmet (they were wearing Pirate helmets before)
+- Gave helmets to LSF Delta and LSF Alpha during Mission 1B
+- Fixed Battleship Schiller's cloak effect to not always play in Mission 7
+- Added missing ambient music to the East Leeds Smog Cloud
+- Renamed the Tain Asteroid Field in Edinburgh to Skye to make it consistent with the ini files and in-game rumors
+- Fixed rumors referencing "Sierra Cloud" instead of Tahoe Ice Cloud
+- Put Fischer from Mission 10 in a Rheinland Freighter with supplies to make his role consistent with the shooting script and in-game voice lines
+- Updated Fischer's faction and character model to be Daumann during Mission 10 since this is how he identifies himself
+- Fixed a Pirate Kusary news item using the Manhattan logo
+- Added Niobium to the Barossa wreck to make it consistent with its infocard
+- Fixed inconsistencies regarding the Charles Kane and Thomas Morrel wreck names
+- Fixed some rumors missing a percent sign
+- Replaced the incorrect damaged Kusari Battleship rear model with the correct version from the Freelancer Beta
+- Recreated two Bretonia capship textures that were previously upside-down
+- Updated Muleheim references in rumors to Mülheim
+- Fixed inaudible audio dialogues during Mission 1 and Mission 13 if the sound effects were muted
+- Removed a duplicate population entry from Yokohama's infocard
+- Fixed a sun texture having non-square dimensions
+- Fixed a Sigma-13 rumor incorrectly referencing a GMG fleet when it should have been a Rheinland fleet
+- Adjusted the position and size of the Ronneburg Base exclusion zone to be consistent with other asteroid base exclusion zones
 
 ### Misc
 - Modified the Tekagi Transport loadout from Mission 8 such that it is consistent with what is being said in the voice lines
 - Ensure the playerer ship is not invulnerable to the gas pocket field from Mission 7
-- Show the custom version number on the main menu too if the "English Text Fixes" option has been disabled
-- Allow Freelancer to use up to 4 GB of virtual memory instead of 2 GB
+- Show the custom version number in the main menu even if the "English Text Fixes" option has been disabled
 - Show hidden infocards for Juneau and Ithaca
 - Updated the Zone plugin to v1.20 to allow capitalized entered and leaving zone messages
+- Added race music to the Dublin racetrack
+- Added a ring to Planet Kitadake since that is what its infocard specifies that it has one
+- Added cloud effects to Planet Fuji's ring
+- Make sure the Blood Dragon wing members from mission 9 do not self-destruct too early
+- Relocated out-of-place weapon platforms in Mission 11
+- Ensured the in-game Freelancer: HD Edition credits can be seen even if the user disabled the "English Text Fixes" option
 
-<!-- continue starting oct 18, 2022 -->
+<!-- continue starting mar 4, 2023 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
 
 ## [[v0.6] - 2022-08-27](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.6)
 
