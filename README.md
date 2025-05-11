@@ -99,11 +99,16 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/FLHDE/freelancer-maximized-draw-distances))*
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/FLHDE/freelancer-text-strings-revision))*
   - [FLSharp](https://github.com/BC46/FLSharp)
+- [Bidza](https://github.com/bidzapfc)
+  - Regeneratable NPC shields
 - [Bolte](https://github.com/bolte-io)
   - Support
   - Testing
 - Buck Danny
   - [Unofficial FL SP 1.4 patch](https://www.moddb.com/games/freelancer/downloads/freelancer-unofficial-patch-14) *(included in Jason's Freelancer Patch)*
+- [Caenen](https://github.com/Caenen)
+  - Sun death zone fixes
+  - Rumor fixes
 - [CallumDev](https://github.com/CallumDev)
   - [flplusplus](https://github.com/FLHDE/flplusplus)
 - [crosire](https://github.com/crosire)
@@ -156,30 +161,41 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
 - [Laz](https://github.com/Lazrius), [Jason Hood](https://github.com/adoxa) & [BC46](https://github.com/BC46)
   - [Windowed Mode Mouse Fix](https://github.com/FLHDE/windowed-mode-mouse-fix)
-- Louva-Deus
+- [FireFlyEx](https://github.com/fireflyex)
   - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
+  - Storyline loadout fixes
+  - Patrol path fixes
 - M0tah
   - [DelayDisplay plugin](https://web.archive.org/web/20221203054234/https://forge.the-starport.net/projects/delaydisplay)
   - [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated)
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
 - [Raikkonen](https://github.com/oliverpechey), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
-  - [Installation script](https://github.com/FLHDE/freelancer-hd-edition-installer)
+  - [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
+  - Workflow script for automatically downloading latest FLHook release
   - Support
   - Testing
-- [Ruppetus](https://github.com/IrateRedKite)
+- [IrateRedKite](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
-  - Many other .thn fixes
+  - THN script fixes
+  - ALE effect fixes
 - [Skotty](https://github.com/erikroe)
-  - Additional text fixes
-  - Bug fixes
+  - Text improvements
+  - Texture improvements
+  - General vanilla Freelancer bug fixes
+  - General improvements
+  - Weapon animation fixes
 - [Thaddeus](https://github.com/thaddeus-ex)
-  - Fixed models
+  - Solar and weapon model fixes
 - [The Starport](https://github.com/TheStarport)
   - [FLHook](https://github.com/TheStarport/FLHook)
-- w0dk4
+- [w0dk4](https://github.com/chaosgrid)
   - [Freelancer Global Server Workaround v1.0](https://www.moddb.com/games/freelancer/downloads/freelancer-global-server-workaround-v10)
 - [Why485](https://github.com/brihernandez)
   - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)
+- [Worldwave](https://github.com/Worldwave)
+  - [Freelancer Space Suites Remaster](https://github.com/Freelancer-Sirius-Revival/FLSR/pull/497)
 - [XxSARGExX](https://github.com/XxSARGExX)
   - Civilian engine effects
+
+If you notice anything missing from the credits section, please [raise an issue](https://github.com/FLHDE/freelancer-hd-edition/issues) or contact us on [Discord](https://discord.gg/ScqgYuFqmU).

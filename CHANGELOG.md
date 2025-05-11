@@ -17,12 +17,19 @@
 - Added opacity to the glass bottles that are used during cinematics
 - Added reactor effects to the Liberty Battleship and Osiris
 - Added HD planet ring textures
-- Updated the Flat UI Interface files to V2
+- Updated the Flat UI Interface to V2
 - Added additional Dark HUD interface textures
 - Added HD vanilla-like trade lane textures
 - Updated the vanilla radiation alert icon
 - Set the default mip filtering mode to "linear" for higher quality texture rendering
 - Added support for Anti-Aliasing and Anisotropic Filtering using the Vanilla Graphics API options
+- Added an HD dust texture used by the mining ships effects
+- Improved the projectile and spark effect textures
+- Added custom heavy fighter Civilian effects
+
+### Audio
+- Added unused engine sounds
+- Lowered the default in-game volume to 50%
 
 ### Features
 - [Installer updates](https://github.com/FLHDE/freelancer-hd-edition-installer/releases/tag/0.7)
@@ -32,6 +39,10 @@
 	- Allows for ini-based configuration
 - Added [FL Save Convert](https://github.com/dmutlu/fl_convert), a tool that fixes save files suffering from incompatibilities related to starting story missions between versions 1.0 and 1.1 of Freelancer
 - Added Freelancer Global Server Workaround v1.0 (DLL version) to allow all Freelancer servers to be displayed in the in-game server list
+- Skip story cinematics (excluding space cutscenes) with the Esc key, like in the Freelancer Beta version
+- Replaced the interface and ambient sound checkboxes with optional volume sliders (offered as "Advanced audio options" in the installer)
+- Updated the MultiIntro plugin to fix antivirus false positives and allow for an ini-based config
+- Every time the main menu is displayed, re-pick a random menu intro, rather than sticking to the same one chosen at startup
 
 ### Fixes
 - Fixed a voice line cutoff when an order member says "All set sir" during the Mission 13 Toledo landing pad scene
@@ -63,7 +74,8 @@
 - Fixed rumors referencing "Sierra Cloud" instead of Tahoe Ice Cloud
 - Put Fischer from Mission 10 in a Rheinland Freighter with supplies to make his role consistent with the shooting script and in-game voice lines
 - Updated Fischer's faction and character model to be Daumann during Mission 10 since this is how he identifies himself
-- Fixed a Pirate Kusary news item using the Manhattan logo
+- Fixed a Pirate Kusary news story using the Manhattan logo
+- Fixed several Mission 5-6 news stories using the wrong rift flag image
 - Added Niobium to the Barossa wreck to make it consistent with its infocard
 - Fixed inconsistencies regarding the Charles Kane and Thomas Morrel wreck names
 - Fixed some rumors missing a percent sign
@@ -74,7 +86,28 @@
 - Removed a duplicate population entry from Yokohama's infocard
 - Fixed a sun texture having non-square dimensions
 - Fixed a Sigma-13 rumor incorrectly referencing a GMG fleet when it should have been a Rheinland fleet
-- Adjusted the position and size of the Ronneburg Base exclusion zone to be consistent with other asteroid base exclusion zones
+- Adjusted the position and size of the Ronneburg Base exclusion zone to be consistent with other asteroid bases
+- Fixed the position of Freeport 9's floating space domes
+- Fixed Leipzig Station having no base announcer
+- Enabled phantom physics for mines (fixes the mine collision bug entirely)
+- Fixed mouse snapping and stuttering in (borderless) windowed mode
+- Added a DPI-aware manifest file to Freelancer.exe and FLServer.exe to resolve DPI-scaling issues (e.g. the main monitor resolution not being selectable)
+- Corrected a stretched-out texture from `space_factory2`
+- Fixed light positions and turret rotation limits of some space stations
+- Fixed the solar plants of Nansei Research Station looking broken at great distances
+- Improved the collisions of the pipes used in some research space stations
+- Fixed some storyline NPC ships having incorrect loadouts
+- Fixed the version number not being shifted to the right edge of the screen while the server list is displayed
+- Fixed some heavy fighter and freighter ships having light fighter engine effects
+- Fixed an issue that caused explosions to not deal full damage (or any damage at all) to large ships and bases
+- Centered the load-save information window which is shown when selecting a save game
+- Centered the "Hand over your cargo or I'll open fire" window
+- Fixed Rheinland ships missing engine trails in the Mission 7 Sprague and Baxter cutscenes
+- Lowered the volume of Juni's voice in the Mission 13 Toledo evacuation cutscene
+- Shift the trail alert and multiplayer lag icon to the left-side of the screen on widescreen resolutions
+- Shift the missile alert and radiation alert to the right-side of the screen on widescreen resolutions
+- Fixed a skip in the spinning animation of the Manufacturing Platform model
+- Centered the Nav Map background within the Nav Map window
 
 ### Misc
 - Modified the Tekagi Transport loadout from Mission 8 such that it is consistent with what is being said in the voice lines
@@ -88,8 +121,16 @@
 - Make sure the Blood Dragon wing members from mission 9 do not self-destruct too early
 - Relocated out-of-place weapon platforms in Mission 11
 - Ensured the in-game Freelancer: HD Edition credits can be seen even if the user disabled the "English Text Fixes" option
+- Reverted the detonation distance of mines to the vanilla values
+- Added unused Nomad hull hit sounds to Nomad ships
+- Ensure the Freelancer: HD Edition version number is displayed in the main menu even if the "English Text Fixes" option is disabled
+- Added Civlian engine effects to the Civilian ships
+- Added an asteroid band to Planet Harris' exclusion zone
+- Added an asteroid band to Torres Ice Crystal Field
+- Removed the custom capital explosion effects
+- Always bypass EULA messages when launching Freelancer.exe and FLServer.exe
 
-<!-- continue starting mar 4, 2023 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
+<!-- continue starting May 27, 2023 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
 
 ## [[v0.6] - 2022-08-27](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.6)
 
