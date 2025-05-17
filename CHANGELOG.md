@@ -26,6 +26,25 @@
 - Added an HD dust texture used by the mining ships effects
 - Improved the projectile and spark effect textures
 - Added custom heavy fighter Civilian effects
+- Restored original diffuse colors and transparency values for the Rheinland and Kusari ships
+- Added an HD damage texture for Utility ships
+- Updated the black-yellow metal texture for Jump Gates and Docking Rings to look more realistic
+- Replaced outdated textures for the Kusari, Liberty, and Rheinland turrets
+- Re-encoded the HD movie intros with more accurate colors
+- Adjusted the cinematics TV and fade black effects to cover the entire screen on ultrawide aspect ratios
+- Updated the window textures of stations to illuminate better
+- Ensure the weapon platform turrets use HD textures
+- Replaced the zoomed map texture with one that looks more like the vanilla Freelancer map texture
+- Reduced the default saturation value in the ReShade preset
+- Improved the gas mine texture
+- Improved all nebula textures by making them appear smoother and more vanilla-like
+- Improved the green glass texture
+- Made the nebula exclusion textures seamless
+- Added new HD startup screens
+- Added a visual cruise disrupt effect to all ship engines
+- Made the crater textures seamless
+- Use the correct ice texture for the asteroid bases
+- Increased detail of the cloaking effects
 
 ### Audio
 - Added unused engine sounds
@@ -40,9 +59,59 @@
 - Added [FL Save Convert](https://github.com/dmutlu/fl_convert), a tool that fixes save files suffering from incompatibilities related to starting story missions between versions 1.0 and 1.1 of Freelancer
 - Added Freelancer Global Server Workaround v1.0 (DLL version) to allow all Freelancer servers to be displayed in the in-game server list
 - Skip story cinematics (excluding space cutscenes) with the Esc key, like in the Freelancer Beta version
-- Replaced the interface and ambient sound checkboxes with optional volume sliders (offered as "Advanced audio options" in the installer)
+- Replaced the broken interface and ambient sound checkboxes with optional volume sliders (offered as "Advanced audio options" in the installer)
 - Updated the MultiIntro plugin to fix antivirus false positives and allow for an ini-based config
 - Every time the main menu is displayed, re-pick a random menu intro, rather than sticking to the same one chosen at startup
+- [flplusplus plugin](https://github.com/FLHDE/flplusplus) updates:
+  - Improved timestamp logging format
+  - Patched out "Failed to get start location" warning
+  - Allow for font resource loading
+  - Support LOD (draw distance) scaling based on arbitrary values
+  - Improved the way how LOD scaling works
+  - Added character detail scaling
+  - Added effect detail scaling
+  - Added asteroid draw distance scaling
+  - Added a thn player
+  - Fixed permission issues related to initialising the saves directory on some setups, causing the game to not launch
+  - Allow for zooming in and out in the ship preview window in the ship dealer window by scrolling with the mouse
+  - Configurable screenshots folder
+  - Fixed PNG screenshots not working properly in windowed mode
+  - Include the ship, base, and system name to every screenshot taken
+  - Automatically regenerate Restart.fl on every launch to prevent startup crashes
+  - Allow the FLSpew log to be redirected to the console (with colors)
+  - Fixed a potential infinite loop in the code
+- Included a copy of [FLHook](https://github.com/TheStarport/FLHook) for server-side enhancements
+- Automatically load the required fonts every time Freelancer starts, effectively removing the need to install the fonts manually
+- Group member positions on the Nav Map refresh every second
+- Added the [FLSharp plugin](https://github.com/BC46/FLSharp) which introduces many unique features, quality of life improvements, and vanilla Freelancer bug fixes:
+  - Fixed a bug that caused the lights of a trade lane to never turn back on after the trade lane gets disrupted.
+  - Fixed a bug that caused waypoints to be cleared when the player reaches the coordinates in a different system.
+  - Fixed a bug that makes the player ship a selectable target for creating waypoints on the nav map.
+  - Makes the weapon flash particle effect play on all barrels instead of only on the first barrel.
+  - Fixed a bug for the `one_shot_sound` not playing when firing multi-barrel launchers.
+  - Fixed a bug for the ammo count not decrementing correctly when firing multi-barrel launchers.
+  - Fixed a bug that caused the `use_animation` scripts defined in `weapon_equip.ini` to not work, i.e. enables weapon animations.
+  - Allows a gun's `use_animation` script to be played on the parent (e.g. ship) if the animation name has a leading underscore (`_`); this leading underscore should **not** be included in the cmp file's animation name.
+  - Fixed a bug that caused the client to not send the correct engine state of the player's ship to the server.
+  - When playing on a server, ensure the client sends an update at least every 2 seconds, when engine kill has been toggled, and if after every 0.25 seconds the ship's orientation has been changed to some extent
+  - Sets the minimum time between client-server updates to 40 milliseconds (or 750 ms while in a trade lane) such that jitter is prevented when playing with a high or inconsistent framerate.
+  - Allow `ui_music_test` to play when the current background music has finished playing.
+  - Added support for playing the `ui_interface_test` and `ui_ambiance_test` sounds when adjusting the respective sliders in the options menu; these sounds should be defined in `interface_sounds.ini`.
+  - Automatically prevent crashes while adjusting the interface and ambience volume sliders in the event that the test sounds are not defined.
+  - While adjusting the ambience and music volume, mute other background sounds accordingly so that the volume can be fine-tuned more easily.
+  - Allows for up to 127 selectable resolutions in the general options menu; these are automatically determined based on the user's main monitor resolution.
+  - Fixes the problem where the general options menu can't distinguish two different resolutions with the same width.
+  - Makes the default resolution button in the general options menu select the user's main monitor resolution instead of 1024x768.
+  - Prevent Freelancer from running with resolutions beyond the main display's capabilities in terms of resolution width and height.
+  - Sets the user's main monitor resolution as the default in-game resolution (assumes widescreen support has already been added by JFLP and HUD Shift).
+  - Instead of checking if the available resolutions are supported each time the option menu opens, do it only when needed (optimization).
+  - Allows for the Ctrl + C hotkey to copy text from any Freelancer input box to the clipboard.
+  - Allows for the Ctrl + V hotkey to paste text from the clipboard to any Freelancer input box.
+  - Improved the slide-out animation for some UI buttons in the multiplayer menus.
+  - When the "You must be on friendlier terms to purchase this." message is displayed in the Dealer menus, allow the exact reputation requirement to be printed too. Include `%d` in the IDS (S 1564, `resources.dll`) to make it work.
+  - Fixed a bug that caused the Freelancer process to not always terminate after closing the game.
+  - Automatically set rotation lock and auto leveling to the default value when launching to space to prevent control-related issues from occurring (e.g. mouse flight not working).
+
 
 ### Fixes
 - Fixed a voice line cutoff when an order member says "All set sir" during the Mission 13 Toledo landing pad scene
@@ -68,7 +137,7 @@
 - Gave Walker a helmet when he flies a Defender during Mission 11
 - Gave two Liberty Navy pilots from Mission 11 a Liberty helmet (they were wearing Pirate helmets before)
 - Gave helmets to LSF Delta and LSF Alpha during Mission 1B
-- Fixed Battleship Schiller's cloak effect to not always play in Mission 7
+- Fixed Battleship Schiller's cloak effect not always playing in Mission 7
 - Added missing ambient music to the East Leeds Smog Cloud
 - Renamed the Tain Asteroid Field in Edinburgh to Skye to make it consistent with the ini files and in-game rumors
 - Fixed rumors referencing "Sierra Cloud" instead of Tahoe Ice Cloud
@@ -88,6 +157,7 @@
 - Fixed a Sigma-13 rumor incorrectly referencing a GMG fleet when it should have been a Rheinland fleet
 - Adjusted the position and size of the Ronneburg Base exclusion zone to be consistent with other asteroid bases
 - Fixed the position of Freeport 9's floating space domes
+- Added missing repair and ship views on the Planet Gammu equipment dealer
 - Fixed Leipzig Station having no base announcer
 - Enabled phantom physics for mines (fixes the mine collision bug entirely)
 - Fixed mouse snapping and stuttering in (borderless) windowed mode
@@ -108,6 +178,38 @@
 - Shift the missile alert and radiation alert to the right-side of the screen on widescreen resolutions
 - Fixed a skip in the spinning animation of the Manufacturing Platform model
 - Centered the Nav Map background within the Nav Map window
+- Updated the MP3 Codec Fix plugin to v1.12 to fix crashes that would occur very rarely on startup
+- Added missing asteroid background audio in the Dublin Independent Gold Field
+- Fixed the Unknown Planet in St03 (Nomad Story system) having its size and atmosphere range swapped
+- Updated JFLP.dll to version 1.27 to fix the ratio during cinematics and level detail transitions for widescreen
+- Fixed the Schwefelnebel lava field in Dresden having wrong exclusion zones
+- Fixed Nago Station having no asteroid exclusion zone
+- Removed reputation assignments from all Nav Buoys to prevent NPCs from firing at them
+- Added missing infocards to Hazard Buoys in the Texas system
+- Corrected sun death zone parameters in Bering, Hudson, Manchester, Leeds, and California
+- Fixed NPCs telling a rumor about Trent working for Juni too early during the storyline
+- Fixed a bug that caused Destroy Installation missions to sometimes have a Destroy Contrabrand icon on the job board
+- Fixed a Freeport 7 cutscene dialog about the incoming torpedoes which did not play properly
+- Adjusted the asteroid field bands of the Sabana Fragments, Mahon Dust Field, Alsterfeld, and Krüger Lavafeld to better match their contents
+- Fixed the Asteroid Miners near Leipzig Station mining asteroids of the wrong type
+- Fixed a Utility ship texture having only one mip texture, causing it to look pixelated at far distances
+- Vertically centered the character info text in the Load Game menu
+- Added missing exclusion zone entries in Tau-23 and Omega-41
+- Removed a duplicate exclusion zone in Tau-31
+- Fixed Nome Base having no exclusion zone
+- Fixed an issue that caused the Trade Lane exclusion zone in Tau-23 to not work
+- Fixed the story star animation not starting from and returning to its original position (previously assumed the 4:3 offsets)
+- Properly centered all the Neural Net buttons
+- Fixed the Fürstenfelde Cloud infocard mentioning that the Briesen Mining Facility is operated by the IMG instead of Daumann
+- Fixed some rumors referring to the prison stations as "prison liners" or "prison ships"
+- Fixed the Mission 8 Weapon Platforms around Yukawa Shipyard having the wrong faction assigned
+- Fixed a bug that caused the clickable area of the main menu buttons to be incorrect on higher resolutions
+- Updated the Nomad asteroids seen from the Ruiz Base bar to no longer be of mixed type
+- Prevent the player from possibly being hostile to Shinkaku Station in Mission 7 which previously resulted in possible softlocks
+- Rerouted incorrect patrol paths in the California system
+- Changed the faction of the Mission 1 transports to Universal Shipping to be consistent with their USV tag
+- Removed the word "Transport" from the Mission 1 transport names to ensure the names fit in the contact list
+- Force-disabled maximized windowed mode to prevent stuttering when the legacy Graphics API is enabled
 
 ### Misc
 - Modified the Tekagi Transport loadout from Mission 8 such that it is consistent with what is being said in the voice lines
@@ -129,8 +231,18 @@
 - Added an asteroid band to Torres Ice Crystal Field
 - Removed the custom capital explosion effects
 - Always bypass EULA messages when launching Freelancer.exe and FLServer.exe
+- Moved three weapon platforms in Omega-41 10K up to be on the same plane as everything else in the system
+- Increased the turret zoom scroll speed
+- Made the Lower Unknown asteroid field visible on the nav map
+- Made the Alaska nebula visible on the nav map
+- Decreased the gamma slider range from the options menu to allow for darker gamma values
+- Added asteroid billboards to the Kyoto Base exclusion zone to give the illusion of a denser asteroid field around the base
+- Added an HD version of the Freelancer: HD Edition icon which is now used for the Freelancer executable
+- Changed the mouse hover animation of the load-save menu buttons (load game menu) to no longer blink but rather have a smooth color transition, like most other in-game buttons have
+- Updated the Territory plugin to version 1.03
+- Replaced [zlib](https://github.com/madler/zlib) version 1.2.3 with [zlib-ng](https://github.com/zlib-ng/zlib-ng) version 2.2.4 for significantly faster compression and decompression speeds
 
-<!-- continue starting May 27, 2023 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
+<!-- continue starting Apr 16, 2024 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
 
 ## [[v0.6] - 2022-08-27](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.6)
 

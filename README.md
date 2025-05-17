@@ -17,36 +17,32 @@ Join our Discord server to stay up to date with the latest news and information!
 [![Support Server](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/ScqgYuFqmU)
 
 ## Key Features
-- HD Space Stations
-- HD Ships
-- HD Planets
-- HD Effects
-- HD Asteroids
-- HD Character Models
-- HD Base Interiors & Planetscapes
-- HD HUD & Icons
-- HD Nebulae
-- HD Starspheres
-- HD Vanilla Universe and HD System map
-- Maximized Draw Distances
+- HD Textures
+- Increased Draw Distances
 - Anti-Aliasing and Anisotropic Filtering support
 - ReShade
 - HQ Music
-- Windows 10 & 11 compatibility fixes
-- Jason's Freelancer Patch
+- No-CD Executable
+- Official 1.1 Patch
+- [Jason's Freelancer Patch](https://adoxa.altervista.org/freelancer/index.html)
 	- Full Widescreen support
 	- Improvements
 	- New features
 	- Bug fixes
-- flplusplus plugin
-- FLSharp plugin
-- FLHook (Server Improvement)
-- No-CD Patch
-- Official 1.1 Patch
+- [flplusplus plugin](https://github.com/FLHDE/flplusplus)
+	- New features
+	- Quality of life improvements
+- [FLSharp plugin](https://github.com/BC46/FLSharp)
+	- New features
+	- Quality of life improvements
+	- Bug fixes
+- [FLHook](https://github.com/TheStarport/FLHook)
+	- Server-side enhancements
 - Tons of additional bug fixes
 - Additional gameplay improvements
-- Easy customization
+- Windows 10 & 11 compatibility fixes
 - Full vanilla Multiplayer support
+- Easy customization
 
 To learn more about all the changes made in this mod, please refer to the [Changelog](https://github.com/FLHDE/freelancer-hd-edition/blob/main/CHANGELOG.md).
 
@@ -121,6 +117,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [FL Save Convert](https://github.com/dmutlu/fl_convert)
 - [DragonFire](https://github.com/Drakohen)
   - Player engine trails and fixes
+  - System ini improvements
+  - Visual engine effect and sound effect additions
   - HQ Music compression
   - Support
   - Testing
@@ -170,11 +168,12 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated)
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
-- [Raikkonen](https://github.com/oliverpechey), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
-  - [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
+- [Raikkonen](https://github.com/oliverpechey)
   - Workflow script for automatically downloading latest FLHook release
   - Support
   - Testing
+- [Raikkonen](https://github.com/oliverpechey), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
+  - [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
 - [IrateRedKite](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - THN script fixes
