@@ -12,7 +12,7 @@ Freelancer: HD Edition is a mod that aims to improve every aspect of the game Fr
 
 This mod was made possible with the help of the [Freelancer: Nomad Legacy](https://freelancer2.space/en/) developers. Thanks to them for providing us their station textures.
 
-Join our Discord server to stay up to date with the latest news and information! 
+Join the Discord community for Freelancer: HD Edition!
 
 [![Support Server](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/ScqgYuFqmU)
 
@@ -29,10 +29,7 @@ Join our Discord server to stay up to date with the latest news and information!
 	- Improvements
 	- New features
 	- Bug fixes
-- [flplusplus plugin](https://github.com/FLHDE/flplusplus)
-	- New features
-	- Quality of life improvements
-- [FLSharp plugin](https://github.com/BC46/FLSharp)
+- [flplusplus plugin](https://github.com/FLHDE/flplusplus) & [FLSharp plugin](https://github.com/BC46/FLSharp)
 	- New features
 	- Quality of life improvements
 	- Bug fixes
@@ -108,7 +105,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [CallumDev](https://github.com/CallumDev)
   - [flplusplus](https://github.com/FLHDE/flplusplus)
 - [crosire](https://github.com/crosire)
-  - [ReShade](https://github.com/crosire/reshade)
+  - [ReShade](https://reshade.me/)
 - [Daniel Stenberg](https://github.com/bagder)
   - [curl](https://github.com/curl/curl)
 - Dege
@@ -141,6 +138,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [HUDless plugin](http://adoxa.altervista.org/freelancer/plugins.html#hudless)
   - [HUD Shift plugin](http://adoxa.altervista.org/freelancer/plugins.html#hudshift)
   - [Jason's Freelancer Patch v1.25](http://adoxa.altervista.org/freelancer/index.html)
+  - [JFLP.DLL](http://adoxa.altervista.org/freelancer/index.html)
   - [MP Rep plugin](http://adoxa.altervista.org/freelancer/plugins.html#mprep)
   - [MP3 Codec Fix](http://adoxa.altervista.org/freelancer/plugins.html#mp3codec)
   - [Numeric Damage plugin](http://adoxa.altervista.org/freelancer/plugins.html#numeric)
