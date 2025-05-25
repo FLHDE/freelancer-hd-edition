@@ -58,6 +58,7 @@ For the best vanilla Multiplayer experience with this mod, check out the [Zoner 
 - [Freelancer Universe mod and server](https://discord.com/invite/JY6xAyv8ay)
 - [Leuchtfeuer](https://www.moddb.com/mods/leuchtfeuer)
 - [Frontierspace](https://discord.gg/XhPbHKRu8f)
+- [Project Reforge](https://www.moddb.com/mods/project-reforge)
 
 ## Related projects
 - [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
@@ -78,18 +79,18 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [BC46](https://github.com/BC46)
   - [HD Base Interiors and Planetscapes](https://www.moddb.com/addons/freelancer-hd-base-interiors-and-planetscapes) *([Mirror](https://github.com/FLHDE/freelancer-hd-base-interiors-and-planetscapes))*
   - [HD Character Models](https://www.moddb.com/addons/freelancer-hd-character-models) *([Mirror](https://github.com/FLHDE/freelancer-hd-character-models))*
+  - HD Ships
   - HD Cockpits
   - HD HUD
   - HD Nebulae & Fog
-  - HD Ships
   - HD Vanilla Starspheres
-  - HD System Map
+  - HD Vanilla Nav Map and System Map
   - HD Vanilla Asteroids
   - HD Vanilla Planets
-  - Many general HD and effect additions
+  - Many general HD texture and visual effect additions
   - Many misc fixes
   - Many misc improvements
-  - [Maximized Draw Distances](https://www.moddb.com/games/freelancer/downloads/freelancer-maximized-draw-distances) *([Mirror](https://github.com/FLHDE/freelancer-maximized-draw-distances))*
+  - Reverse engineering
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/FLHDE/freelancer-text-strings-revision))*
   - [FLSharp](https://github.com/BC46/FLSharp)
 - [Bidza](https://github.com/bidzapfc)
@@ -108,7 +109,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [ReShade](https://reshade.me/)
 - [Daniel Stenberg](https://github.com/bagder)
   - [curl](https://github.com/curl/curl)
-- Dege
+- [Dege](https://github.com/dege-diosg)
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 - [dmutlu](https://github.com/dmutlu)
   - [FL Save Convert](https://github.com/dmutlu/fl_convert)
@@ -149,7 +150,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Wheel Scroll plugin](http://adoxa.altervista.org/freelancer/plugins.html#wheelscroll)
   - [Zone plugin](http://adoxa.altervista.org/freelancer/plugins.html#zone)
   - Support
-- Jean-loup Gailly & [Mark Adler](https://github.com/madler)
+- Jean-loup Gailly, [Mark Adler](https://github.com/madler) & zlib-ng contributors
   - [zlib-ng](https://github.com/zlib-ng/zlib-ng)
 - [Jeider](https://github.com/Jeider) & RenderG
   - [HD Station textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)

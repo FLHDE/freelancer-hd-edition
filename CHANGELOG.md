@@ -23,7 +23,7 @@
 - Added HD vanilla-like trade lane textures
 - Updated the vanilla radiation alert icon
 - Set the default mip filtering mode to "linear" for higher quality texture rendering
-- Added support for Anti-Aliasing and Anisotropic Filtering using the Vanilla Graphics API options
+- Added support for Anti-Aliasing and Anisotropic Filtering with the Vanilla Graphics API options
 - Added an HD dust texture used by the mining ships effects
 - Removed the custom capital ship explosion effects
 - Improved the projectile and spark effect textures
@@ -140,7 +140,8 @@
 - Added an option to make NPCs use regeneratable shields as an extra challenge
 - Updated the HUDless plugin to v1.02 which allows the HUD to be hidden while docked at bases too
 - Added fully dynamic scaling of draw distances for space objects, effects, and character models
-- Removed sun spines that JFLP added to the large red suns (e.g. Red Giant and Red Dwarf) to preserve the vanilla Freelancer look
+- Updated the Wheel Scroll plugin to v1.12 to add support for scrolling in the chat history and player list
+- Added support for various weapon animations
 
 ### Fixes
 - Fixed widescreen-induced character-related issues in the story cinematics part of Missions 1 to 7 (e.g. characters suddenly appearing, disappearing, or not walking off-screen properly) for ultrawide resolutions (WIP)
@@ -224,11 +225,12 @@
 - Fixed the Asteroid Miners near Leipzig Station mining asteroids of the wrong type
 - Fixed a Utility ship texture having only one mip texture, causing it to look pixelated at far distances
 - Vertically centered the character info text in the Load Game menu
+- Prevent the buttons in the Load Game menu from stuttering during the slide-out animation
 - Added missing exclusion zone entries in Tau-23 and Omega-41
 - Removed a duplicate exclusion zone in Tau-31
 - Fixed Nome Base having no exclusion zone
 - Fixed an issue that caused the Trade Lane exclusion zone in Tau-23 to not work
-- Fixed the story star animation not starting from and returning to its original position (previously assumed the 4:3 offsets)
+- Fixed the neural net objective star animation not starting from and returning to its original position (previously assumed the 4:3 offsets)
 - Properly centered all the Neural Net buttons
 - Fixed the Fürstenfelde Cloud infocard mentioning that the Briesen Mining Facility is operated by the IMG instead of Daumann
 - Fixed some rumors referring to the prison stations as "prison liners" or "prison ships"
@@ -240,7 +242,7 @@
 - Changed the faction of the Mission 1 transports to Universal Shipping to be consistent with their USV tag
 - Removed the word "Transport" from the Mission 1 transport names to ensure the names fit in the contact list
 - Force-disabled maximized windowed mode to prevent micro-stuttering when the legacy Graphics API is enabled
-- Updated the MPRep plugin to v1.03 to fix the background flickering that would occur on some setups when the ship dealer window is opened
+- Updated the MP Rep plugin to v1.03 to fix the background flickering that would occur on some setups when the ship dealer window is opened
 - Fixed Hideo Yokoyama and Hiroshi Yamazaki at Kabukicho Depot selling information about Ohashi Border Station but revealing a different base on the Nav Map after accepting the offer
 - Applied a fix to prevent sudden frame drops from occurring while flying in space
 - Added a missing visit flag to one of the Hosho Maru Escort wrecks in Omicron Beta
@@ -258,6 +260,27 @@
 - Fixed a softlock that would occur if the player docked too early at Battleship Osiris during Mission 10
 - Fixed the large red suns having lens flare shapes that didn't match the sun's shape
 - Adjusted the gasminer3 intro script to fix the ships not suddenly appearing and disappearing on ultrawide resolutions
+- Fixed some Nomad Fighters in Mission 12 having an incorrect NPC class
+- Fixed wrong fuse hardpoints for the Rheinland Battleship explosion effects
+- Removed duplicate lights and added missing lights to the `space_mining01` stations
+- Fixed Hakkera having outdated hardpoint placements on his Dagger during the Mission 9 Tekagi cutscene
+- Fixed startup crashes that occurred due to missing sections in the custom resource DLLs (re-added them)
+- Fixed a texture used in the Planet Cambridge Commodity Dealer having wrong dimensions
+- Fixed fan animations not playing in the New Berlin Commodity Dealer, Westfalen Bar, and New Tokyo Bar
+- Fixed Mactan Weapon Platforms sometimes firing at Juni during Mission 4 despite being friendly
+- Added a missing neuralnet eye accessory to the Mactan announcer during Mission 4
+- Fixed spacings, grammar, and punctuation in some of Freelancer's text strings
+- Fixed inconsistencies in the Starflier, Startracker, and Legionnaire ship infocards
+- Fixed a Blood Dragons rumor missing a large chunk of its original text
+- Fixed typos and incorrect information in several rumor texts
+- Fixed some general capitalization issues in Freelancer's text strings
+- Enforce correct quotation marks and apostrophes in all of Freelancer's text strings
+- Fixed Prison Station Mitchell's infocard mentioning that it is being operated by the LSF (the base is actually owned by the Liberty Navy)
+- Updated a Mission 1 help text to refer to mention the correct Trade Lane name
+- Removed a forced line break in one of Mission 1's help texts
+- Fixed the Badlands asteroid field refering "Bedford" instead of Benford
+- Fixed Planet Breisgau having a bright spot on its surface
+- Fixed Battleship Osiris having no loadout at all at the start of Mission 11
 
 ### Misc
 - Modified the Tekagi Transport loadout from Mission 8 such that it is consistent with what is being said in the voice lines
@@ -298,9 +321,18 @@
 - Decreased the default mouse sensitivity to 35%
 - Increased the default maximum sound elements to 120
 - Adjusted the range of the maximum sound elements to 32-120
-- Removed the "practice" debris field in the New York system for having no reason apparent reason to exist
+- Removed sun spines that JFLP added to the large red suns (e.g. Red Giant and Red Dwarf) to preserve the vanilla Freelancer look
+- Removed the "practice" debris field in the New York system for having no apparent reason to exist
+- Added a Cruise Disrupt Missile Launcher to King's loadout during Mission 2 since he mentioned firing a Cruise Disruptor at Ashcroft
+- Updated the name and infocard of the modified Vengeance Mk III guns to be named Vengeance Mk IV instead
+- Updated the loadout of the Mission 11 Navy Satellite fighters to use modified Vengeance Mk III guns instead of Nomad Prototypes for voiceline consistency
+- Updated the names of the Prototype Elite fighters in Mission 11 to be consistent with the shooting script
+- Made all story dialogue audio mixes play on the voice channel instead of the sound effects channel
+- Renamed California Minor to Planet California Minor to be consistent with mission texts and voice lines
+- Updated the message which you get after failing to destroy the Weapon Platforms in Mission 8 to include that they must be destroyed in time to avoid confusion
+- Disrupt the player's cruise when the Transport convoy gets attacked in Mission 8
 
-<!-- continue starting Oct 19, 2024 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
+<!-- continue starting Feb 12, 2025 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
 
 ## [[v0.6] - 2022-08-27](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.6)
 
