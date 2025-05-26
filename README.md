@@ -103,12 +103,17 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [Caenen](https://github.com/Caenen)
   - Sun death zone fixes
   - Rumor fixes
-- [CallumDev](https://github.com/CallumDev)
+- [Callum McGing](https://github.com/CallumDev)
   - [flplusplus](https://github.com/FLHDE/flplusplus)
 - [crosire](https://github.com/crosire)
   - [ReShade](https://reshade.me/)
 - [Daniel Stenberg](https://github.com/bagder)
   - [curl](https://github.com/curl/curl)
+- DAVENAT0R
+  - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
+  - [Flat UI Icons V2](https://www.moddb.com/games/freelancer/addons/flat-ui-icons-v2)
+  - [Custom HD Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
+  - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
 - [Dege](https://github.com/dege-diosg)
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 - [dmutlu](https://github.com/dmutlu)
@@ -122,16 +127,19 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Testing
 - [Elisha Riedlinger](https://github.com/elishacloud)
   - [DxWrapper](https://github.com/elishacloud/dxwrapper)
-- Freestalker.fl
+- [FireFlyEx](https://github.com/fireflyex)
+  - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
+  - Storyline loadout fixes
+  - Patrol path fixes
+- [Freestalker.fl](https://github.com/Freestalkerdotfr)
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
   - [HD Lava and Ice Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
   - New commodity icon
   - HD targeting icons
-- DAVENAT0R
-  - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
-  - [Flat UI Icons V2](https://www.moddb.com/games/freelancer/addons/flat-ui-icons-v2)
-  - [Custom HD Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
-  - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
+- [IrateRedKite](https://github.com/IrateRedKite)
+  - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
+  - THN script fixes
+  - ALE effect fixes
 - [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
   - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
@@ -158,10 +166,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
 - [Laz](https://github.com/Lazrius), [Jason Hood](https://github.com/adoxa) & [BC46](https://github.com/BC46)
   - [Windowed Mode Mouse Fix](https://github.com/FLHDE/windowed-mode-mouse-fix)
-- [FireFlyEx](https://github.com/fireflyex)
-  - [Freelancer SDK/QuickFix](https://swat-portal.com/forum/filebase/file/619-freelancer-quickfix-1-0c/) *(included in Jason's Freelancer Patch)*
-  - Storyline loadout fixes
-  - Patrol path fixes
 - M0tah
   - [DelayDisplay plugin](https://web.archive.org/web/20221203054234/https://forge.the-starport.net/projects/delaydisplay)
   - [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated)
@@ -173,10 +177,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Testing
 - [Raikkonen](https://github.com/oliverpechey), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
   - [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
-- [IrateRedKite](https://github.com/IrateRedKite)
-  - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
-  - THN script fixes
-  - ALE effect fixes
 - [Skotty](https://github.com/erikroe)
   - Text improvements
   - Texture improvements
@@ -187,10 +187,10 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Solar and weapon model fixes
 - [The Starport](https://github.com/TheStarport)
   - [FLHook](https://github.com/TheStarport/FLHook)
-- [w0dk4](https://github.com/chaosgrid)
-  - [Freelancer Global Server Workaround v1.0](https://www.moddb.com/games/freelancer/downloads/freelancer-global-server-workaround-v10)
 - [Why485](https://github.com/brihernandez)
   - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)
+- [w0dk4](https://github.com/chaosgrid)
+  - [Freelancer Global Server Workaround v1.0](https://www.moddb.com/games/freelancer/downloads/freelancer-global-server-workaround-v10)
 - [Worldwave](https://github.com/Worldwave)
   - [Freelancer Space Suites Remaster](https://github.com/Freelancer-Sirius-Revival/FLSR/pull/497)
 - [XxSARGExX](https://github.com/XxSARGExX)

@@ -357,6 +357,7 @@
 - Enabled the firing animation for Countermeasure Droppers and Mine Droppers
 - Made the hailing Blood Dragon fighter come closer to the player when entering Chugoku in Mission 8
 - Added a clear error message when Freelancer failed to initialize the saves directory
+- Updated the Freelancer: HD Edition credits to be displayed at the top instead of bottom of the original Freelancer credits
 
 ## [[v0.6] - 2022-08-27](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.6)
 
