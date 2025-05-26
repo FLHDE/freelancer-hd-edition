@@ -49,7 +49,7 @@
 - Used the correct ice texture for asteroid bases
 - Added HD cloaking and storm effects
 - Decreased the gamma slider range from the options menu to allow for darker gamma values
-- Converted all news and mission images to 32-bit to prevent banding
+- Converted all news and mission images to 32-bit to prevent them from being rendered with banding
 - Updated the dust asteroid belt to remove groups of rocks that appeared to have been glued together
 - Adjusted the default Gamma values in the ReShade preset when windowed or borderless windowed mode is used
 - Updated the Nav map legend texture to be more detailed
@@ -74,6 +74,8 @@
 - Added missing ambient sounds to the East Leeds Smog Cloud
 - Added race music to the Dublin racetrack
 - Added test sounds for the interface and ambient volume sliders (part of the "Advanced audio options" feature selectable in the installer)
+- Removed the following HQ music tracks for sounding too different from the retail versions: `anticipation_moref`, `awe_and_wonderment`, `dangerous_chase`, and `reveal_enemy_pos`
+- Replaced the space, danger, and battle soundtracks with [new remastered versions](https://github.com/Freelancer-Sirius-Revival/FLSR/pull/497) made by [Worldwave](https://github.com/worldwave)
 
 ### Features
 - [Installer updates](https://github.com/FLHDE/freelancer-hd-edition-installer/releases/tag/0.7)
@@ -103,7 +105,7 @@
   - Automatically regenerate Restart.fl on every launch to prevent startup crashes
   - Allow the FLSpew log to be redirected to the console (with colors)
   - Fixed a potential infinite loop in the code
-- Included a copy of [FLHook](https://github.com/TheStarport/FLHook) for server-side enhancements
+- Included a copy of [FLHook](https://github.com/TheStarport/FLHook) version 4.0.33 for server-side enhancements
 - Automatically load the required fonts every time Freelancer starts, effectively removing the need to install the fonts manually
 - Show all group members on the Nav Map
 - Group member positions on the Nav Map refresh every second
@@ -142,6 +144,8 @@
 - Added fully dynamic scaling of draw distances for space objects, effects, and character models
 - Updated the Wheel Scroll plugin to v1.12 to add support for scrolling in the chat history and player list
 - Added support for various weapon animations
+- Added the [Hail plugin](http://adoxa.altervista.org/freelancer/plugins.html#hail) which enables the Hail key
+- When the player does not meet the reputation requirements to purchase an item, show the exact reputation requirement
 
 ### Fixes
 - Fixed widescreen-induced character-related issues in the story cinematics part of Missions 1 to 7 (e.g. characters suddenly appearing, disappearing, or not walking off-screen properly) for ultrawide resolutions (WIP)
@@ -164,6 +168,7 @@
 - Gave the Norfolk announcer from Mission 5 the correct Bretonia outfit and added a neuralnet accessory to his second comm
 - Gave the Cali base announcer from Mission 7 an Outcast accessory
 - Removed Juni's helmet from comm messages during Mission 4 where she was not in space
+- Fixed Juni's face not being visible due to making a comm while taking the jump hole to Leeds in Mission 4 (slightly delayed the comm)
 - Fixed Ozu saying that a Blood Dragon fighter was killed right at the start of the battle in Mission 8
 - Gave Walker a Navy Cruiser captain accessory during Mission 3 and 4
 - Gave Walker a helmet when he flies a Defender during Mission 11
@@ -254,7 +259,7 @@
 - Fixed the Weapon Group buttons being incorrectly positioned on aspect ratios other than 16:9
 - Fixed Blood Dragons NPCs on Ainu Depot telling rumors which belonged to the Golden Chrysanthemums
 - Fixed the Freeport 5 bartender telling Corsair rumors instead of Zoner rumors
-- Fixed the Spew warning "Fix NomadRGB1_NomadAlpha1 texture verify failed: nomad surface" from being logged when visiting the Nomad City system
+- Fixed the Spew warning "Fix NomadRGB1_NomadAlpha1 texture verify failed: nomad surface" being logged when visiting the Nomad City system
 - Added a missing news vendor to Battleship Osiris in Omicron Minor
 - Fixed some end-game related news stories and rumors not always showing up
 - Fixed a softlock that would occur if the player docked too early at Battleship Osiris during Mission 10
@@ -276,11 +281,28 @@
 - Fixed some general capitalization issues in Freelancer's text strings
 - Enforce correct quotation marks and apostrophes in all of Freelancer's text strings
 - Fixed Prison Station Mitchell's infocard mentioning that it is being operated by the LSF (the base is actually owned by the Liberty Navy)
-- Updated a Mission 1 help text to refer to mention the correct Trade Lane name
+- Updated a Mission 1 help text to mention the correct Trade Lane name
 - Removed a forced line break in one of Mission 1's help texts
 - Fixed the Badlands asteroid field refering "Bedford" instead of Benford
 - Fixed Planet Breisgau having a bright spot on its surface
 - Fixed Battleship Osiris having no loadout at all at the start of Mission 11
+- Applied a patch to ensure Freelancer always assumes the highest possible machine speed (prevents low quality video options from being applied by default on some systems)
+- Fixed the ship glass materials not rendering correctly on modern DirectX versions without using dgVoodoo
+- Lowered the death zone damage of the Unknown Planet in St03 to make it consistent with all other planet death zone damage values
+- Fixed a crash that would occur if a vanilla client docked at a base with robot dealers on a server running HD Edition
+- Added a missing Equipment Dealer button navigation button on the Planet Gammu bar
+- Fixed the Spew warning "VMESH: couldnt find material 4208234010" being logged when visiting the Nomad Lair system
+- Fixed a material name collision that caused Civilian and Utility ships to sometimes have the wrong cockpit glass color
+- Fixed a material name collision that caused the Kusari ships to sometimes have the wrong texture colors
+- Fixed some NPCs having their dialogue references to Border Station Pirna and Vogtland swapped
+- Spawned Von Claussen and King in the first Mission 13 battle (they launched to space during the cutscene but were nowhere to be found in space)
+- Fixed Gamma 1 in Mission 3 wearing a male helmet instead of a female helmet
+- Fixed an Armored Transport flying backwards in the Cambridge Cityscape background
+- Fixed NPCs saying the first number of their call sign twice when requesting to dock
+- Fixed some weapon animations being looped incorrectly or oddly timed
+- Fixed an issue that caused the weapon platform turrets to possibly not appear properly
+- Fixed a bug with low resolution news and mission images on some systems
+- Reduced the water planet intro script duration to prevent the suns from appearing to "turn off" for a few seconds right when the script ended
 
 ### Misc
 - Modified the Tekagi Transport loadout from Mission 8 such that it is consistent with what is being said in the voice lines
@@ -309,7 +331,7 @@
 - Updated the Territory plugin to version 1.03
 - Replaced [zlib](https://github.com/madler/zlib) version 1.2.3 with [zlib-ng](https://github.com/zlib-ng/zlib-ng) version 2.2.4 for significantly faster compression and decompression speeds
 - Updated [DxWrapper](https://github.com/elishacloud/dxwrapper) to v1.3.7700.25 (includes lighting bug fix, detail map fix, and more Anti-Aliasing options)
-- Updated [dgVoodoo](https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/) to v2.86.2 (recommended for NVIDIA and Intel GPU users)
+- Included a copy of [dgVoodoo](https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/) v2.86.2 (recommended for NVIDIA and Intel GPU users)
 - Updated [ReShade](https://reshade.me/) to version 6.4.1 (development build)
 - Removed the [Microsoft Visual C++ Redist](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) dependency from all included DLLs (only exception being [FLHook](https://github.com/TheStarport/FLHook))
 - Enabled the Console plugin by default
@@ -331,6 +353,11 @@
 - Renamed California Minor to Planet California Minor to be consistent with mission texts and voice lines
 - Updated the message which you get after failing to destroy the Weapon Platforms in Mission 8 to include that they must be destroyed in time to avoid confusion
 - Disrupt the player's cruise when the Transport convoy gets attacked in Mission 8
+- Re-added the `vnpc` lines in the new player file for Gammu and Primus which were removed by JFLP (makes it so that the people at the bar know who you are the first time you talk to them)
+- Enabled the Liberty Cruiser main gun firing animation
+- Enabled the firing animation for Countermeasure Dropers and Mine Droppers
+- Made the hailing Blood Dragon fighter come closer to the player when entering Chugoku in Mission 8
+- Added a clear error message when Freelancer failed to initialize the saves directory
 
 <!-- continue starting Feb 12, 2025 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
 
