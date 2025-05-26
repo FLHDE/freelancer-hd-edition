@@ -24,7 +24,7 @@
 - Updated the vanilla radiation alert icon
 - Set the default mip filtering mode to "linear" for higher quality texture rendering
 - Added support for Anti-Aliasing and Anisotropic Filtering with the Vanilla Graphics API options
-- Added an HD dust texture used by the mining ships effects
+- Added an HD dust texture used by the mining ship effects
 - Removed the custom capital ship explosion effects
 - Improved the projectile and spark effect textures
 - Added custom heavy fighter Civilian effects
@@ -35,7 +35,7 @@
 - Re-encoded the HD movie intros with more accurate colors
 - Adjusted the cinematics TV and fade black effects to cover the entire screen on ultrawide aspect ratios
 - Updated the window textures of stations to illuminate better
-- Ensure the weapon platform turrets use HD textures
+- Ensured the weapon platform turrets use HD textures
 - Replaced the zoomed Nav Map texture with one that looks more like the vanilla Freelancer version
 - Added an HD version of the vanilla Freelancer Nav Map background
 - Reduced the default saturation value in the ReShade preset
@@ -50,16 +50,16 @@
 - Added HD cloaking and storm effects
 - Decreased the gamma slider range from the options menu to allow for darker gamma values
 - Converted all news and mission images to 32-bit to prevent them from being rendered with banding
-- Updated the dust asteroid belt to remove groups of rocks that appeared to have been glued together
+- Updated the dust asteroid belt texture to remove groups of rocks that appeared to have been glued together
 - Adjusted the default Gamma values in the ReShade preset when windowed or borderless windowed mode is used
-- Updated the Nav map legend texture to be more detailed
+- Updated the Nav Map legend texture to be more detailed
 - Added missing HD Dyson Sphere textures
 - Made the Nomad mines and some Nomad City textures emissive
 - Made the Manufacturing Platform window textures emissive
 - Adjusted the order of ReShade shaders
-- Adjusted the defaulted settings for the adaptive sharpening ReShade shader
+- Adjusted the default settings for the adaptive sharpening ReShade shader
 - Improved the metal floor pads in the deck base interiors
-- Added unused starspheres to the following systems: Omega-7, Sigma-13, Omicron Beta, Alaska, Omicron Minor, Nomad Lair, and St03 (Dyson)
+- Added unused starspheres to the following systems: Omega-7, Sigma-13, Omicron Beta, Alaska, Omicron Minor, Nomad Lair, and St03 (Nomad Story system)
 - Removed out-of-place spots on the Planet Hiran texture
 - Improved the destroy and assassination mission images
 - Replaced the lava detailmap texture with a more detailed version
@@ -97,11 +97,11 @@
   - Added effect detail scaling
   - Added asteroid draw distance scaling
   - Added a thn player
-  - Fixed permission issues related to initialising the saves directory on some setups, causing the game to not launch
+  - Fixed permission issues related to initializing the saves directory on some setups, causing the game to not launch
   - Allow for zooming in and out in the ship dealer preview window by scrolling with the mouse wheel
   - Configurable screenshots folder
   - Fixed PNG screenshots not working properly in windowed mode
-  - Include the ship, base, and system name to every screenshot taken
+  - When taking a screenshot, include the ship, base, and system name in the screenshot name
   - Automatically regenerate Restart.fl on every launch to prevent startup crashes
   - Allow the FLSpew log to be redirected to the console (with colors)
   - Fixed a potential infinite loop in the code
@@ -151,6 +151,7 @@
 - Fixed widescreen-induced character-related issues in the story cinematics part of Missions 1 to 7 (e.g. characters suddenly appearing, disappearing, or not walking off-screen properly) for ultrawide resolutions (WIP)
 - Fixed some minor bugs in several cinematics from Missions 1 to 7 like improper lip syncs and missing animations
 - Fixed a voice line cutoff when an order member says "All set sir" during the Mission 13 Toledo landing pad scene
+- Modified the Tekagi Transport loadout from Mission 8 such that it is consistent with what is being said in the voice lines
 - Reduced the height of the lamp light texture in the planet New Berlin bar to prevent Blix's artifact effect from being hidden during the story cutscene
 - Fixed an issue that caused the custom explosion effects to cut off (disappear) in some cases
 - Prevented the Rheinland Battleship near Holman Outpost from Mission 7 to be visible when not flying to the waypoint quick enough
@@ -198,7 +199,7 @@
 - Enabled phantom physics for mines (fixes the mine collision bug entirely)
 - Fixed mouse snapping and stuttering in (borderless) windowed mode by including a fixed dinput8.dll file
 - Added a DPI-aware manifest file to Freelancer.exe and FLServer.exe to resolve DPI-scaling issues (e.g. in-game resolution not looking right and the main monitor's resolution not being selectable)
-- Corrected a stretched-out texture from `space_factory2`
+- Corrected a stretched-out texture used by `space_factory2`
 - Fixed light positions and turret rotation limits of some space stations
 - Fixed the solar plants of Nansei Research Station looking broken at great distances
 - Improved the collisions of the pipes used in some research space stations
@@ -206,7 +207,7 @@
 - Fixed the version number not being shifted to the right edge of the screen while the server list is displayed
 - Fixed some heavy fighter and freighter ships having light fighter engine effects
 - Fixed an issue that caused explosions to not deal full damage (or any damage at all) to large ships and bases
-- Centered the load-save information window which is shown when selecting a save game
+- Centered the load-save information window and its content in the Load Game menu
 - Centered the "Hand over your cargo or I'll open fire" window
 - Fixed Rheinland ships missing engine trails in the Mission 7 Sprague and Baxter cutscenes
 - Lowered the volume of Juni's voice in the Mission 13 Toledo evacuation cutscene
@@ -229,7 +230,6 @@
 - Adjusted the asteroid field bands of the Sabana Fragments, Mahon Dust Field, Alsterfeld, and Krüger Lavafeld to better match their contents
 - Fixed the Asteroid Miners near Leipzig Station mining asteroids of the wrong type
 - Fixed a Utility ship texture having only one mip texture, causing it to look pixelated at far distances
-- Vertically centered the character info text in the Load Game menu
 - Prevent the buttons in the Load Game menu from stuttering during the slide-out animation
 - Added missing exclusion zone entries in Tau-23 and Omega-41
 - Removed a duplicate exclusion zone in Tau-31
@@ -242,7 +242,7 @@
 - Fixed the Mission 8 Weapon Platforms around Yukawa Shipyard having the wrong faction assigned
 - Fixed a bug that caused the clickable area of the main menu buttons to be incorrect on higher resolutions
 - Updated the Nomad asteroids seen from the Ruiz Base bar to no longer be of mixed type
-- Prevent the player from possibly being hostile to Shinkaku Station in Mission 7 which previously resulted in possible softlocks
+- Prevent the player from possibly being hostile to Shinkaku Station in Mission 7 which previously resulted in a softlock
 - Rerouted incorrect patrol paths in the California system
 - Changed the faction of the Mission 1 transports to Universal Shipping to be consistent with their USV tag
 - Removed the word "Transport" from the Mission 1 transport names to ensure the names fit in the contact list
@@ -261,7 +261,7 @@
 - Fixed the Freeport 5 bartender telling Corsair rumors instead of Zoner rumors
 - Fixed the Spew warning "Fix NomadRGB1_NomadAlpha1 texture verify failed: nomad surface" being logged when visiting the Nomad City system
 - Added a missing news vendor to Battleship Osiris in Omicron Minor
-- Fixed some end-game related news stories and rumors not always showing up
+- Fixed some end-game-related news stories and rumors not always showing up
 - Fixed a softlock that would occur if the player docked too early at Battleship Osiris during Mission 10
 - Fixed the large red suns having lens flare shapes that didn't match the sun's shape
 - Adjusted the gasminer3 intro script to fix the ships not suddenly appearing and disappearing on ultrawide resolutions
@@ -283,14 +283,14 @@
 - Fixed Prison Station Mitchell's infocard mentioning that it is being operated by the LSF (the base is actually owned by the Liberty Navy)
 - Updated a Mission 1 help text to mention the correct Trade Lane name
 - Removed a forced line break in one of Mission 1's help texts
-- Fixed the Badlands asteroid field refering "Bedford" instead of Benford
+- Fixed the Badlands asteroid field referring to "Bedford" instead of Benford
 - Fixed Planet Breisgau having a bright spot on its surface
 - Fixed Battleship Osiris having no loadout at all at the start of Mission 11
 - Applied a patch to ensure Freelancer always assumes the highest possible machine speed (prevents low quality video options from being applied by default on some systems)
 - Fixed the ship glass materials not rendering correctly on modern DirectX versions without using dgVoodoo
-- Lowered the death zone damage of the Unknown Planet in St03 to make it consistent with all other planet death zone damage values
+- Lowered the death zone damage of the Unknown Planet in St03 (Nomad Story system) to make it consistent with all other planet death zone damage values
 - Fixed a crash that would occur if a vanilla client docked at a base with robot dealers on a server running HD Edition
-- Added a missing Equipment Dealer button navigation button on the Planet Gammu bar
+- Added a missing Equipment Dealer navigation button on the Planet Gammu bar
 - Fixed the Spew warning "VMESH: couldnt find material 4208234010" being logged when visiting the Nomad Lair system
 - Fixed a material name collision that caused Civilian and Utility ships to sometimes have the wrong cockpit glass color
 - Fixed a material name collision that caused the Kusari ships to sometimes have the wrong texture colors
@@ -302,29 +302,28 @@
 - Fixed some weapon animations being looped incorrectly or oddly timed
 - Fixed an issue that caused the weapon platform turrets to possibly not appear properly
 - Fixed a bug with low resolution news and mission images on some systems
-- Reduced the water planet intro script duration to prevent the suns from appearing to "turn off" for a few seconds right when the script ended
+- Reduced the water planet intro script duration to prevent the suns from appearing to "turn off" for a few seconds right before the script ended
 
 ### Misc
-- Modified the Tekagi Transport loadout from Mission 8 such that it is consistent with what is being said in the voice lines
-- Ensure the playerer ship is not invulnerable to the gas pocket field from Mission 7
+- Ensured the player's ship is not invulnerable to the gas pocket field in Mission 7
 - Show the custom version number in the main menu even if the "English Text Fixes" option has been disabled
 - Show hidden infocards for Juneau and Ithaca
 - Updated the Zone plugin to v1.20 to allow capitalized entered and leaving zone messages
 - Added a ring to Planet Kitadake since its infocard specifies that it has one
 - Added cloud effects to Planet Fuji's ring
-- Make sure the Blood Dragon wing members from mission 9 do not self-destruct too early
+- Made sure the Blood Dragon wing members from mission 9 do not self-destruct too early
 - Relocated out-of-place weapon platforms in Mission 11
 - Ensured the in-game Freelancer: HD Edition credits can be seen even if the user disabled the "English Text Fixes" option
 - Reverted the detonation distance of mines to the vanilla values
-- Ensure the Freelancer: HD Edition version number is displayed in the main menu even if the "English Text Fixes" option is disabled
-- Added Civlian engine effects to the Civilian ships
+- Ensured the Freelancer: HD Edition version number is displayed in the main menu even if the "English Text Fixes" option is disabled
+- Added Civilian engine effects to the Civilian ships
 - Added an asteroid band to Planet Harris' exclusion zone
 - Added an asteroid band to Torres Ice Crystal Field in Tau-37
 - Always bypass EULA dialogs when launching Freelancer.exe and FLServer.exe
 - Moved three weapon platforms in Omega-41 10K up to be on the same plane as everything else in the system
 - Increased the turret zoom scroll speed
-- Made the Lower Unknown asteroid field visible on the nav map
-- Made the Alaska nebula visible on the nav map
+- Made the Lower Unknown asteroid field visible on the Nav Map
+- Made the Alaska nebula visible on the Nav Map
 - Added asteroid billboards to the Kyoto Base exclusion zone to give the illusion of a denser asteroid field around the base
 - Added an HD version of the Freelancer: HD Edition icon which is now used for the Freelancer executable
 - Changed the mouse hover animation of the load-save menu buttons (load game menu) to no longer blink but rather have a smooth color transition, like most other in-game buttons have
@@ -346,8 +345,8 @@
 - Removed sun spines that JFLP added to the large red suns (e.g. Red Giant and Red Dwarf) to preserve the vanilla Freelancer look
 - Removed the "practice" debris field in the New York system for having no apparent reason to exist
 - Added a Cruise Disrupt Missile Launcher to King's loadout during Mission 2 since he mentioned firing a Cruise Disruptor at Ashcroft
-- Updated the name and infocard of the modified Vengeance Mk III guns to be named Vengeance Mk IV instead
 - Updated the loadout of the Mission 11 Navy Satellite fighters to use modified Vengeance Mk III guns instead of Nomad Prototypes for voiceline consistency
+- Updated the name and infocard of the modified Vengeance Mk III guns to be named Vengeance Mk IV instead
 - Updated the names of the Prototype Elite fighters in Mission 11 to be consistent with the shooting script
 - Made all story dialogue audio mixes play on the voice channel instead of the sound effects channel
 - Renamed California Minor to Planet California Minor to be consistent with mission texts and voice lines
@@ -355,11 +354,9 @@
 - Disrupt the player's cruise when the Transport convoy gets attacked in Mission 8
 - Re-added the `vnpc` lines in the new player file for Gammu and Primus which were removed by JFLP (makes it so that the people at the bar know who you are the first time you talk to them)
 - Enabled the Liberty Cruiser main gun firing animation
-- Enabled the firing animation for Countermeasure Dropers and Mine Droppers
+- Enabled the firing animation for Countermeasure Droppers and Mine Droppers
 - Made the hailing Blood Dragon fighter come closer to the player when entering Chugoku in Mission 8
 - Added a clear error message when Freelancer failed to initialize the saves directory
-
-<!-- continue starting Feb 12, 2025 https://github.com/FLHDE/freelancer-hd-edition/compare/0.6...main -->
 
 ## [[v0.6] - 2022-08-27](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.6)
 

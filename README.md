@@ -124,7 +124,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [DxWrapper](https://github.com/elishacloud/dxwrapper)
 - Freestalker.fl
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
-  - [HD Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
+  - [HD Lava and Ice Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
   - New commodity icon
   - HD targeting icons
 - DAVENAT0R
@@ -168,7 +168,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
 - [Raikkonen](https://github.com/oliverpechey)
-  - Workflow script for automatically downloading latest FLHook release
+  - Workflow script for automatically downloading the latest FLHook release
   - Support
   - Testing
 - [Raikkonen](https://github.com/oliverpechey), [Keenan Weaver](https://github.com/keenanweaver) & [BC46](https://github.com/BC46)
