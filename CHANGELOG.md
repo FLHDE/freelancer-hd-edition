@@ -56,6 +56,8 @@
 - Added missing HD Dyson Sphere textures
 - Made the Nomad mines and some Nomad City textures emissive
 - Made the Manufacturing Platform window textures emissive
+- Made the Liberty Capship exhaust texture emissive
+- Made the Solar screen texture emissive
 - Adjusted the order of ReShade shaders
 - Adjusted the default settings for the adaptive sharpening ReShade shader
 - Improved the metal floor pads in the deck base interiors
