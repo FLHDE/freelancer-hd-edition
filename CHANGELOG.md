@@ -306,6 +306,7 @@
 - Fixed an issue that caused the weapon platform turrets to possibly not appear properly
 - Fixed a bug with low resolution news and mission images on some systems
 - Reduced the water planet intro script duration to prevent the suns from appearing to "turn off" for a few seconds right before the script ended
+- Renamed the Mission 6 NPC "Ray Barrera" to "Rey Barrera" (named after a DA employee but his first name was misspelled)
 
 ### Misc
 - Ensured the player's ship is not invulnerable to the gas pocket field in Mission 7
