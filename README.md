@@ -116,6 +116,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
 - [Dege](https://github.com/dege-diosg)
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
+- DF & OutCast
+  - [rus_chat plugin](https://github.com/FLHDE/rus_chat)
 - [dmutlu](https://github.com/dmutlu)
   - [FL Save Convert](https://github.com/dmutlu/fl_convert)
 - [DragonFire](https://github.com/Drakohen)
@@ -187,6 +189,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Solar and weapon model fixes
 - [The Starport](https://github.com/TheStarport)
   - [FLHook](https://github.com/TheStarport/FLHook)
+- [Venemon](https://github.com/Venemon)
+  - Reverse engineering
 - [Why485](https://github.com/brihernandez)
   - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)
 - [w0dk4](https://github.com/chaosgrid)
