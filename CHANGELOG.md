@@ -209,6 +209,7 @@
 - Fixed an issue that caused explosions to not deal full damage (or any damage at all) to large ships and bases
 - Centered the load-save information window and its content in the Load Game menu
 - Centered the "Hand over your cargo or I'll open fire" window
+- Centered the Mission Briefing Nav Map
 - Fixed Rheinland ships missing engine trails in the Mission 7 Sprague and Baxter cutscenes
 - Lowered the volume of Juni's voice in the Mission 13 Toledo evacuation cutscene
 - Shifted the trail alert and multiplayer lag icon to the left-side of the screen on widescreen resolutions
@@ -355,6 +356,7 @@
 - Re-added the `vnpc` lines in the new player file for Gammu and Primus which were removed by JFLP (makes it so that the people at the bar know who you are the first time you talk to them)
 - Enabled the Liberty Cruiser main gun firing animation
 - Enabled the firing animation for Countermeasure Droppers and Mine Droppers
+- Disabled the ReShade screenshot message
 - Made the hailing Blood Dragon fighter come closer to the player when entering Chugoku in Mission 8
 - Added a clear error message when Freelancer failed to initialize the saves directory
 - Updated the Freelancer: HD Edition credits to be displayed at the top instead of bottom of the original Freelancer credits
