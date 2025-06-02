@@ -335,7 +335,7 @@
 - Replaced [zlib](https://github.com/madler/zlib) version 1.2.3 with [zlib-ng](https://github.com/zlib-ng/zlib-ng) version 2.2.4 for significantly faster compression and decompression speeds
 - Updated [DxWrapper](https://github.com/elishacloud/dxwrapper) to v1.3.7700.25 (includes lighting bug fix, detail map fix, and more Anti-Aliasing options)
 - Included a copy of [dgVoodoo](https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/) v2.86.2 (recommended for NVIDIA and Intel GPU users)
-- Updated [ReShade](https://reshade.me/) to version 6.4.1 (development build)
+- Updated [ReShade](https://reshade.me/) to version 6.5.0
 - Removed the [Microsoft Visual C++ Redist](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) dependency from all included DLLs (only exception being [FLHook](https://github.com/TheStarport/FLHook))
 - Enabled the Console plugin by default
 - Reversed the scrolling directions of the Turret Zoom plugin
