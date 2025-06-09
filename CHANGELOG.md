@@ -1,6 +1,6 @@
 # Changelog
 
-## [[v0.7] - TBD](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.7)
+## [[v0.7] - 2025-06-14](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.7)
 
 ### Visual
 - Replaced all starsphere textures with detailed vanilla upscales
