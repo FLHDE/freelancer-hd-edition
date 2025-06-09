@@ -307,6 +307,11 @@
 - Fixed a bug with low resolution news and mission images on some systems
 - Reduced the water planet intro script duration to prevent the suns from appearing to "turn off" for a few seconds right before the script ended
 - Renamed the Mission 6 NPC "Ray Barrera" to "Rey Barrera" (named after a DA employee but his first name was misspelled)
+- Fixed incorrect Kusari Battleship Turret fuse hardpoints
+- Fixed the Freeport 1 Base announcer having no shoulders
+- Changed "Web site" reference to Website in the credits section
+- Corrected a Mission 13 autosave name to reference Omicron Minor instead of Omicron Alpha
+- Fixed Trade Lanes leading to Helgoland having debris asteroids inside of them
 
 ### Misc
 - Ensured the player's ship is not invulnerable to the gas pocket field in Mission 7
