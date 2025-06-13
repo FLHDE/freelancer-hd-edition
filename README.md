@@ -59,6 +59,7 @@ For the best vanilla Multiplayer experience with this mod, check out the [Zoner 
 - [Leuchtfeuer](https://www.moddb.com/mods/leuchtfeuer)
 - [Frontierspace](https://discord.gg/XhPbHKRu8f)
 - [Project Reforge](https://www.moddb.com/mods/project-reforge)
+- [Freelancer Co-op Campaign Mod](https://www.moddb.com/mods/freelancer-co-op-campaign-mod)
 
 ## Related projects
 - [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer)
@@ -91,6 +92,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Many misc fixes
   - Many misc improvements
   - Reverse engineering
+  - Extensive cutscene fixes
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/FLHDE/freelancer-text-strings-revision))*
   - [FLSharp](https://github.com/BC46/FLSharp)
 - [Bidza](https://github.com/bidzapfc)
