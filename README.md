@@ -105,20 +105,21 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [Caenen](https://github.com/Caenen)
   - Sun death zone fixes
   - Rumor fixes
+  - Loot chance fixes for regenerating NPC shields
 - [Callum McGing](https://github.com/CallumDev)
   - [flplusplus](https://github.com/FLHDE/flplusplus)
 - [crosire](https://github.com/crosire)
   - [ReShade](https://reshade.me/)
 - [Daniel Stenberg](https://github.com/bagder)
   - [curl](https://github.com/curl/curl)
-- DAVENAT0R
+- [DAVENAT0R](https://www.moddb.com/members/davenator1)
   - [Flat Interface](https://www.moddb.com/games/freelancer/addons/freelancer-flat-interface)
   - [Flat UI Icons V2](https://www.moddb.com/games/freelancer/addons/flat-ui-icons-v2)
   - [Custom HD Universe map](https://www.moddb.com/games/freelancer/news/freelancer-hd-starsphere-pack)
   - [New interface](http://www.mediafire.com/download/4qluqu7564lztvs/New+interface.rar)
 - [Dege](https://github.com/dege-diosg)
   - [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
-- DF & OutCast
+- DF & [OutCast](https://the-starport.com/forums/user/outcast)
   - [rus_chat plugin](https://github.com/FLHDE/rus_chat)
 - [dmutlu](https://github.com/dmutlu)
   - [FL Save Convert](https://github.com/dmutlu/fl_convert)
@@ -126,7 +127,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Player engine trails and fixes
   - System ini improvements
   - Visual engine effect and sound effect additions
-  - HQ Music compression
   - Support
   - Testing
 - [Elisha Riedlinger](https://github.com/elishacloud)
@@ -170,8 +170,8 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
 - [Laz](https://github.com/Lazrius), [Jason Hood](https://github.com/adoxa) & [BC46](https://github.com/BC46)
   - [Windowed Mode Mouse Fix](https://github.com/FLHDE/windowed-mode-mouse-fix)
-- M0tah
-  - [DelayDisplay plugin](https://web.archive.org/web/20221203054234/https://forge.the-starport.net/projects/delaydisplay)
+- [M0tah](https://the-starport.com/forums/user/m0tah)
+  - [DelayDisplay plugin](https://github.com/FLHDE/DelayDisplay)
   - [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated)
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
@@ -187,11 +187,13 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - General vanilla Freelancer bug fixes
   - General improvements
   - Weapon animation fixes
+- [Skotty](https://github.com/erikroe) & Gibbon
+  - Emissive Manufacturing Platform windows
 - [Thaddeus](https://github.com/thaddeus-ex)
   - Solar and weapon model fixes
 - [The Starport](https://github.com/TheStarport)
   - [FLHook](https://github.com/TheStarport/FLHook)
-- [Venemon](https://github.com/Venemon)
+- [Venemon](https://www.moddb.com/members/venemon)
   - Reverse engineering
 - [Why485](https://github.com/brihernandez)
   - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)
