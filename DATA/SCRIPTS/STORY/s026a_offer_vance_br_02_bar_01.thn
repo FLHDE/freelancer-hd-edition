@@ -295,6 +295,20 @@ entities =
 	},
 
 	{
+		entity_name = "Mk_Trent_Spatial_Mark1_back",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 1.208141, 0, 2.968959 },
+			orient = { {  0.512726,  0.000000, -0.858552 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.858552,  0.000000,  0.512726 } }
+		}
+	},
+
+	{
 		entity_name = "Mk_Trent_Look",
 		type = MARKER,
 		template_name = "",
@@ -1520,7 +1534,7 @@ events =
 	{
 		4.656, START_IK, { "Char_Trent_LtG1", "Char_Vance_LtG1" },
 		{
-			duration = 1.243,
+			duration = 0.752,
 			end_effector = "Body_Head",
 			count_to_root = 1,
 			target_part = "hp_neck",
@@ -1597,6 +1611,49 @@ events =
 
 	{
 		5.408, SET_CAMERA, { "Cam_Monitor_s026a_static", "Cam_02_Walkup_static_mon" }
+	},
+
+	{
+		5.408, START_SPATIAL_PROP_ANIM, { "Char_Trent_LtG1", "Mk_Trent_Spatial_Mark1_back" },
+		{
+			duration = 0.000,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 0.408141, 0, 2.968959 },
+				q_orient = { 0.512726, 0, -0.858552, 0 }
+			}
+		}
+	},
+
+	{
+		5.408, START_MOTION, { "Char_Trent_LtG1" },
+		{
+			animation = "Sc_MLBODY_WALK_STND_TRNS_000LV_XA_02",
+			duration = 0.779,
+			time_scale = 1,
+			weight = 1,
+			heading = -1
+		}
+	},
+
+	{
+		5.408, START_IK, { "Char_Trent_LtG1", "Char_Juni_LtG1" },
+		{
+			duration = 0.779,
+			end_effector = "Body_Head",
+			count_to_root = 1,
+			target_part = "hp_neck",
+			target_type = HARDPOINT,
+			damping = 1,
+			up = NEG_Y_AXIS,
+			front = Z_AXIS,
+			point_at = 1,
+			move_to = 0,
+			transition_duration = 0.000,
+			event_flags = 128
+		}
 	},
 
 	{
