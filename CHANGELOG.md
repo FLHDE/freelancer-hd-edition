@@ -1,5 +1,43 @@
 # Changelog
 
+## [[v0.7.1] - TBD](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.7.1)
+
+### Fixes
+- Patched `dgVoodooCpl_new.exe` to only include the 48x48 icon in its icon group (reduced the detection amount from [29](https://www.virustotal.com/gui/file/9da0817b30afd666a3a03d1144fea71a41d9a92ebd3ed680176010e71b242137) to [4](https://www.virustotal.com/gui/file/e76fdb6cfd8e4873f37e30c4e0881a9b6a5a4383f4a6b68ba94d98bf13413fe3))
+- Renamed "Omicron Minor Docking Ring" to "Toledo Docking Ring"
+- Fixed the Mission 4 Lambda fighters wearing the wrong helmet
+- Fixed Fischer still having his original (non-Daumann) outfit in his final comm during Mission 10
+- Fixed Fischer being vulnerable to death zones during Mission 10
+- Fixed Alpha 1 having a random name in his final comm during Mission 1B
+- Fixed some rumors still referring to the prison stations as "prison liners" or "prison ships"
+- Made all text references to "The Walls" (Huntsville) consistent
+- Renamed "Tool Tip" to "Tooltip" in the options menu
+- Updated the Planet Toledo death zone damage to be consistent with all other planet death zones
+- Fixed Juni and King colliding with each other off-screen during the Mission 12 Osiris cutscene
+- Fixed the Nomad Laser projectiles having no impact effect
+- Fixed a name collision between several Nomad effects that caused Nomad Laser projectiles to look much larger sometimes
+- Fixed Ozu having no tooltip in the bar after the player declines his Mission 9 offer
+- Updated all texts referencing "H-fuel" to mention "H-Fuel" instead (consistency)
+- Reduced the volume of the Nomad Ally Battle and Nomad Lair Battle soundtracks
+- Improved the way how Trent walks into view during the Mission 5 offer cutscene on widescreen
+- Fixed some female Blood Dragon pilots having no shoulders (the same goes for one Blood Dragon escort from Mission 8)
+- Added a missing space to Benford Station's infocard
+- Combined the information and description part of the Mining Station Glorious, Benford Station, and Baxter Research Station infocards such that their description can be viewed in the Current Information window
+- Fixed a startup crash that occurs when Freelancer tries to load a modded/malformed save file ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
+- Fixed a very rare and inconsistent crash in alchemy.dll, file offset `0x701b` ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
+- Fixed waypoints being called "Unknown Object" in the target view and Current Information window ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
+- Fixed player waypoint infocards being shown incorrectly in the Current Information window ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
+
+### Features
+- [Installer updates](https://github.com/FLHDE/freelancer-hd-edition-installer/releases/tag/0.7.1)
+- In the Current Information window, show infocards for dynamic bases spawned during the storyline ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
+
+### Misc
+- Encrypted `dgVoodooCpl_new.exe` and `dgVoodooCpl_old.exe` to prevent antiviruses from detecting these files as malicious in the future
+- Made the player waypoint infocard non-uppercased
+- Updated the Dragon wing members from Mission 9 to not potentially self-destruct after destroying the first Kusari patrol
+
+
 ## [[v0.7] - 2025-06-14](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.7)
 
 ### Visual
@@ -27,7 +65,7 @@
 - Added an HD dust texture used by the mining ship effects
 - Removed the custom capital ship explosion effects
 - Improved the projectile and spark effect textures
-- Added custom heavy fighter Civilian effects
+- Added custom heavy fighter Civilian engine effects
 - Restored original diffuse colors and transparency values for the Rheinland and Kusari ships
 - Added an HD damage texture for Utility ships
 - Updated the black-yellow metal texture for Jump Gates and Docking Rings to look more realistic

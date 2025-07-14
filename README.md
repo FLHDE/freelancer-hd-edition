@@ -94,7 +94,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Reverse engineering
   - Extensive cutscene fixes
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/FLHDE/freelancer-text-strings-revision))*
-  - [FLSharp](https://github.com/BC46/FLSharp)
+  - [FLSharp plugin](https://github.com/BC46/FLSharp)
 - [Bidza](https://github.com/bidzapfc)
   - Regeneratable NPC shields
 - [Bolte](https://github.com/bolte-io)
@@ -107,7 +107,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Rumor fixes
   - Loot chance fixes for regenerating NPC shields
 - [Callum McGing](https://github.com/CallumDev)
-  - [flplusplus](https://github.com/FLHDE/flplusplus)
+  - [flplusplus plugin](https://github.com/FLHDE/flplusplus)
 - [crosire](https://github.com/crosire)
   - [ReShade](https://reshade.me/)
 - [Daniel Stenberg](https://github.com/bagder)
@@ -127,6 +127,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Player engine trails and fixes
   - System ini improvements
   - Visual engine effect and sound effect additions
+  - HQ Music compression
   - Support
   - Testing
 - [Elisha Riedlinger](https://github.com/elishacloud)
@@ -187,7 +188,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - General vanilla Freelancer bug fixes
   - General improvements
   - Weapon animation fixes
-- [Skotty](https://github.com/erikroe) & Gibbon
+- [Skotty](https://github.com/erikroe) & [Gibbon](https://www.moddb.com/members/gibbon)
   - Emissive Manufacturing Platform windows
 - [Thaddeus](https://github.com/thaddeus-ex)
   - Solar and weapon model fixes
