@@ -1,9 +1,13 @@
 # Changelog
 
-## [[v0.7.1] - TBD](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.7.1)
+## [[v0.7.1] - 2025-07-15](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.7.1)
+
+### Features
+- [Installer updates](https://github.com/FLHDE/freelancer-hd-edition-installer/releases/tag/0.7.1)
+- In the Current Information window, show infocards for dynamic bases spawned during the storyline ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
 
 ### Fixes
-- Patched `dgVoodooCpl_new.exe` to only include the 48x48 icon in its icon group (reduced the detection amount from [29](https://www.virustotal.com/gui/file/9da0817b30afd666a3a03d1144fea71a41d9a92ebd3ed680176010e71b242137) to [4](https://www.virustotal.com/gui/file/e76fdb6cfd8e4873f37e30c4e0881a9b6a5a4383f4a6b68ba94d98bf13413fe3))
+- Patched `dgVoodooCpl_new.exe` to only include the 48x48 icon in its icon group (reduced the malicious detection amount from [29](https://www.virustotal.com/gui/file/9da0817b30afd666a3a03d1144fea71a41d9a92ebd3ed680176010e71b242137) to [4](https://www.virustotal.com/gui/file/e76fdb6cfd8e4873f37e30c4e0881a9b6a5a4383f4a6b68ba94d98bf13413fe3))
 - Renamed "Omicron Minor Docking Ring" to "Toledo Docking Ring"
 - Fixed the Mission 4 Lambda fighters wearing the wrong helmet
 - Fixed Fischer still having his original (non-Daumann) outfit in his final comm during Mission 10
@@ -28,14 +32,11 @@
 - Fixed waypoints being called "Unknown Object" in the target view and Current Information window ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
 - Fixed player waypoint infocards being shown incorrectly in the Current Information window ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
 
-### Features
-- [Installer updates](https://github.com/FLHDE/freelancer-hd-edition-installer/releases/tag/0.7.1)
-- In the Current Information window, show infocards for dynamic bases spawned during the storyline ([FLSharp](https://github.com/BC46/FLSharp) v0.8 update)
-
 ### Misc
-- Encrypted `dgVoodooCpl_new.exe` and `dgVoodooCpl_old.exe` to prevent antiviruses from detecting these files as malicious in the future
+- Encrypted `dgVoodooCpl_new.exe` and `dgVoodooCpl_old.exe` to prevent antivirus software from detecting these files as malicious in the future
 - Made the player waypoint infocard non-uppercased
-- Updated the Dragon wing members from Mission 9 to not potentially self-destruct after destroying the first Kusari patrol
+- Restored the original self-destruct hit trigger values for the Dragon wing members in Mission 9
+- Updated the Dragon wing members from Mission 9 to not potentially self-destruct after destroying the first Naval Forces patrol
 
 
 ## [[v0.7] - 2025-06-14](https://github.com/FLHDE/freelancer-hd-edition/releases/tag/0.7)
@@ -358,7 +359,7 @@
 - Updated the Zone plugin to v1.20 to allow capitalized entered and leaving zone messages
 - Added a ring to Planet Kitadake since its infocard specifies that it has one
 - Added cloud effects to Planet Fuji's ring
-- Made sure the Blood Dragon wing members from mission 9 do not self-destruct too early
+- Made sure the Blood Dragon wing members from Mission 9 do not self-destruct too early
 - Relocated out-of-place weapon platforms in Mission 11
 - Ensured the in-game Freelancer: HD Edition credits can be seen even if the user disabled the "English Text Fixes" option
 - Reverted the detonation distance of mines to the vanilla values
