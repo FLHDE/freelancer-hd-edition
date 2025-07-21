@@ -48,7 +48,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 06A440: Int8 80 -> 127 = Increases the maximum number of characters in the chat input box. ~M0tah
 075A56: UInt32 1125 -> 1102 = Changes the ids_info of player waypoints to a non-uppercased string ("PLAYER WAYPOINT" -> "Player Waypoint").
 080499: Hex 74 -> EB = Allows the purchase of equipment below the required level.* ~adoxa
-08073C: UInt32 1564 -> 458782 = Changes the IDS of the insufficient reputation message for equipment and commodities to an IDS in controls.dll with a custom message.* ~BC46
+08073C: UInt32 1564 -> 458782 = Changes the IDS of the insufficient reputation message for equipment and commodities to an IDS in hderesources.dll with a custom message.* ~BC46
 082E95: Hex 74 -> EB = Changes the display of equipment below the required level.* ~adoxa
 085D5D: Single (float32) 0.089 -> 0.13 = Increases the clickable area width of the load-save menu buttons (after loading a game) such that the property matches with all other menu-style buttons. ~BC46
 08D89B: Hex 90 90 90 90 90 -> 83 C5 18 EB 50 = Show all group members on the nav map #1. ~BC46
@@ -57,12 +57,12 @@ Freelancer.exe. Base: Default No-CD EXE.
 096338: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #2. ~Venemon
 0A8004: Hex 05 -> 1A = Shows the current worth in Multiplayer. ~adoxa
 0A9326: Hex 7F -> EB = Always assume best machine speed for determining default performance options. ~BC46
-0AB150: UInt32 393279 -> 459752 = Changes the IDS of the first section in the game credits to an extended IDS in controls.dll which contains the HDE credits. ~BC46
+0AB150: UInt32 393279 -> 459752 = Changes the IDS of the first section in the game credits to an extended IDS in hderesources.dll which contains the HDE credits. ~BC46
 0B1375: Int8 32 -> 120 = Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu. ~adoxa
 0B1377: Int8 8 -> 32 = Increases the minimum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu. ~adoxa
 0B1503: Hex 38 -> 83 = Interface volume can be controlled independently, thus no longer relying on the sound effects volume.* ~BC46
 0B1554: Hex 39 -> 84 = Ambience volume can be controlled independently, thus no longer relying on the music volume.* ~BC46
-0B9011: UInt32 1564 -> 458782 = Changes the IDS of the insufficient reputation message for ships to an IDS in controls.dll with a custom message.* ~BC46
+0B9011: UInt32 1564 -> 458782 = Changes the IDS of the insufficient reputation message for ships to an IDS in hderesources.dll with a custom message.* ~BC46
 0B948D: Hex 74 -> EB = Allows the purchase of ships below the required level.* ~adoxa
 0D094B: Hex 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4 = Includes player ships in the contact list's ship filter. ~adoxa
 0D2C94: Int32 99999 -> 999999 = Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list. ~Dev
@@ -71,10 +71,10 @@ Freelancer.exe. Base: Default No-CD EXE.
 12D279: Hex 90 90 90 90 90 90 90 -> 39 F1 74 03 30 C0 C3 = Prevent Countermeasure Droppers from being activated by right-clicking #1.* ~BC46 & Venemon
 158A10: Hex BC -> C0 = Prevents intentional framerate drops to 25 from occurring during cutscenes. ~BC46 & FriendlyFire
 166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu. ~adoxa
-16DDEC: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in controls.dll #1. ~BC46
+16DDEC: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in hderesources.dll #1. ~BC46
 1745D9: Hex DF 6C 24 18 -> 0F 1F 40 00 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #1. ~BC46
 1745E6: Hex D8 0D 54 25 -> D9 05 7C 20 = Fixes a bug that causes the clickable area height of the main menu buttons to be incorrect on higher resolutions #2. ~BC46
-174890: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in controls.dll #2. ~BC46
+174890: UInt32 1271 -> 458775 = Changes the "VER. 1.0" text IDS in the bottom-right of the main menu to a custom version number IDS in hderesources.dll #2. ~BC46
 18B2D5: Hex E8 A6 23 EA FF D8 86 7C 03 00 00 D8 15 DC 75 5C 00 D9 96 7C 03 00 00 DF -> 8B 86 85 03 00 00 8D 9E 5E 03 00 00 50 53 E8 38 6C FD FF 83 C4 08 EB 65 = Updates the mouse-hover blinking animation of the load-save menu buttons (after loading a game) such that the colors transition smoothly, like with all other menu-style buttons. ~BC46
 1ACF6A: Hex 51 8D 4C 24 20 51 8D 8C 24 C8 00 00 00 -> 40 74 63 48 51 8D 54 E4 20 52 83 E9 08 = Prevents IPv6 addresses from being displayed in the server list. ~adoxa
 1B16CC: Hex 01 -> 00 = Forces Freelancer to run in windowed mode.* ~adoxa
