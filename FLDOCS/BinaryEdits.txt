@@ -6,8 +6,8 @@ Offset: Data type Original value -> New value = Explanation.(*) ~Author
 * means the edit is applied by the installer, rather than the file being patched directly.
 
 Common.dll. Base: Default from the official 1.1 Freelancer patch.
+0638AC: Hex 7B -> EB = Removes the maximum docking initiation distance. ~BC46
 0E698E: Hex 7C -> EB = Allows many planets to continue spinning. ~adoxa
-13F48C: Single (float32) 10000 -> 50000 = Increases the maximum docking initiation distance. ~M0tah
 
 Content.dll. Base: Default from the official 1.1 Freelancer patch.
 037068: Hex 02 -> 03 = Fixes NPCs saying the first number of their call sign twice when requesting to dock. ~BC46
