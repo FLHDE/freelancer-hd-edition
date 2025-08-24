@@ -8,6 +8,7 @@ Offset: Data type Original value -> New value = Explanation.(*) ~Author
 Common.dll. Base: Default from the official 1.1 Freelancer patch.
 0638AC: Hex 7B -> EB = Removes the maximum docking initiation distance. ~BC46
 0E698E: Hex 7C -> EB = Allows many planets to continue spinning. ~adoxa
+18D210: Int32 -1 -> 1001 = Skips the first-time machine speed test and assume the highest speed for determining default performance options. ~BC46
 
 Content.dll. Base: Default from the official 1.1 Freelancer patch.
 037068: Hex 02 -> 03 = Fixes NPCs saying the first number of their call sign twice when requesting to dock. ~BC46
@@ -56,7 +57,6 @@ Freelancer.exe. Base: Default No-CD EXE.
 096325: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #1. ~Venemon
 096338: Hex 40 3E -> CC 2E = Group member's NAV position refreshes every second #2. ~Venemon
 0A8004: Hex 05 -> 1A = Shows the current worth in Multiplayer. ~adoxa
-0A9326: Hex 7F -> EB = Always assume best machine speed for determining default performance options. ~BC46
 0AB150: UInt32 393279 -> 459752 = Changes the IDS of the first section in the game credits to an extended IDS in hderesources.dll which contains the HDE credits. ~BC46
 0B1375: Int8 32 -> 120 = Increases the maximum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu. ~adoxa
 0B1377: Int8 8 -> 32 = Increases the minimum value for the "TOTAL SOUND ELEMENTS" slider in the audio options menu. ~adoxa
