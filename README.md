@@ -195,6 +195,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [The Starport](https://github.com/TheStarport)
   - [FLHook](https://github.com/TheStarport/FLHook)
 - [Venemon](https://www.moddb.com/members/venemon)
+  - [Dynamic Target Screen plugin](https://github.com/FLHDE/DynamicTargetScreen)
   - Reverse engineering
 - [Why485](https://github.com/brihernandez)
   - [The Big Huge Effects Pack](https://the-starport.net/freelancer/forum/viewtopic.php?topic_id=1317)
