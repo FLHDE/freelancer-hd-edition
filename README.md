@@ -50,7 +50,7 @@ Supported operating systems: Windows 11, 10, 8.1, 7, XP, and Linux (via Wine).
 
 Note that the [Freelancer: HD Edition Installer](https://github.com/FLHDE/freelancer-hd-edition-installer) and the included version of [FLHook](https://github.com/TheStarport/FLHook) will not work on Windows XP. To install the mod on Windows XP, please perform a simple installation as described in the [installation instructions](https://github.com/FLHDE/freelancer-hd-edition/wiki/Freelancer:-HD-Edition-installation-instructions).
 
-## Recommendations 
+## Recommendations
 Due to the large file size of many textures used in this mod, some users may experience significantly longer load times during gameplay. Therefore, it is strongly recommended to install Freelancer: HD Edition on an (M.2) SSD.
 Moreover, having a somewhat modern dedicated GPU is ideal to ensure the game runs smoothly with all the included graphics-related enhancements.
 
@@ -138,13 +138,13 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Patrol path fixes
 - [Freestalker.fl](https://github.com/Freestalkerdotfr)
   - [FLHQmusics Remaster](https://www.moddb.com/games/freelancer/addons/flhqmusics-remaster-read-description)
-  - [HD Lava and Ice Asteroid Textures](https://www.moddb.com/games/freelancer/addons/hd-asteroid-textures-for-freelancer)
   - New commodity icon
   - HD targeting icons
 - [IrateRedKite](https://github.com/IrateRedKite)
   - [Planetscapes Fixed for 16:9 Resolutions](https://www.moddb.com/games/freelancer/addons/planetscapes-fixed-for-169-resolutions)
   - THN script fixes
   - ALE effect fixes
+  - Fixed weapon platform radar animation
 - [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
   - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
