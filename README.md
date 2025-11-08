@@ -95,6 +95,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Extensive cutscene fixes
   - [Text Strings Revision](https://www.moddb.com/games/freelancer/downloads/freelancer-text-strings-revision) *([Mirror](https://github.com/FLHDE/freelancer-text-strings-revision))*
   - [FLSharp plugin](https://github.com/BC46/FLSharp)
+  - [FL Lighting Bug Fix](https://github.com/FLHDE/fl-lighting-bug-fix)
 - [Bidza](https://github.com/bidzapfc)
   - Regeneratable NPC shields
 - [Bolte](https://github.com/bolte-io)
