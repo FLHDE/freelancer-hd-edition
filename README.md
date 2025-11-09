@@ -5,6 +5,7 @@
 [![Github all releases](https://img.shields.io/github/downloads/FLHDE/freelancer-hd-edition/total.svg)](https://GitHub.com/FLHDE/freelancer-hd-edition/releases/)
 [![GitHub stars](https://img.shields.io/github/stars/FLHDE/freelancer-hd-edition?style=social)](https://GitHub.com/FLHDE/freelancer-hd-edition/stargazers/)
 [![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ScqgYuFqmU)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/FLHDE/freelancer-hd-edition/pulls)
 
 [![Mod DB](https://button.moddb.com/popularity/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
 

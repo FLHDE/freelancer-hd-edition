@@ -68,7 +68,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 0D2C94: Int32 99999 -> 999999 = Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list. ~Dev
 0D5936: Hex 0F 85 -> 90 E9 = Removes the cruise speed display limit (300). ~Stone-D
 0D5984: Hex 7E -> EB = Removes the general speed display limit (999) which can be seen when using a trade lane. ~Stone-D
-0E15D3: UInt32 1535 -> 458790 = Changes the "Switch To Target" IDS to "Toggle Top-Down Target View" (hderesources.dll).* ~BC46
+0E15D3: UInt32 1535 -> 458790 = Changes the "Switch To Target" IDS to "Toggle Top-Down Target" (hderesources.dll).* ~BC46
 12D279: Hex 90 90 90 90 90 90 90 -> 39 F1 74 03 30 C0 C3 = Prevent Countermeasure Droppers from being activated by right-clicking #1.* ~BC46 & Venemon
 158A10: Hex BC -> C0 = Prevents intentional framerate drops to 25 from occurring during cutscenes. ~BC46 & FriendlyFire
 166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu. ~adoxa
@@ -88,7 +88,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 1D8484: Single (float32) 1 -> 0.1 = Reduces the time between weapon list refreshes. ~Fox
 1DD5A8: Hex 80 -> 79 = Prevent Countermeasure Droppers from being activated by right-clicking #2.* ~BC46 & Venemon
 1E6DCC: AnsiChar / char8_t 'F' -> '' = Changes the CreateMutex lpName parameter to an empty string, allowing multiple instances of Freelancer to run simultaneously. ~M0tah
-214470: Hex 00 -> 01 = Enables top-down mode in the Target View by default.* ~BC46
+214470: Hex 00 -> 01 = Enables top-down mode in the Target View by default.* ~BC46 & Whiskas
 Freelancer.exe's default .ico was replaced so it has the "HDE" logo. Also a custom Manifest section has been added to make the game DPI-aware.
 
 rendcomp.dll. Base: Default from Freelancer 1.0.
