@@ -260,7 +260,7 @@ entities =
 		lt_grp = 0, srt_grp = 0, usr_flg = 0,
 		spatialprops =
 		{
-			pos = { 41.59782, 0, -14.22714 },
+			pos = { 41.60782, 0, -14.22714 },
 			orient = { {  0.239362,  0.000000, -0.970930 },
 					   {  0.000000,  1.000000,  0.000000 },
 					   {  0.970930,  0.000000,  0.239362 } }
@@ -6937,7 +6937,7 @@ events =
 	{
 		48.944, START_SPATIAL_PROP_ANIM, { "Char_medic_1", "Char_Medic_1_Mk_loc_02_Runback" },
 		{
-			duration = 0.008,
+			duration = 0.000,
 			target_part = "",
 			target_type = ROOT,
 			spatialprops =
