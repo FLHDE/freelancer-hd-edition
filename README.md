@@ -147,6 +147,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - THN script fixes
   - ALE effect fixes
   - Fixed weapon platform radar animation
+  - Fixed Hamburg cityscape spinners animation
 - [Jason Hood](https://github.com/adoxa)
   - [Call Sign plugin](http://adoxa.altervista.org/freelancer/plugins.html#callsign)
   - [Console plugin](http://adoxa.altervista.org/freelancer/plugins.html#console)
