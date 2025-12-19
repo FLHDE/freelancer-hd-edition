@@ -47,7 +47,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 05685F: Hex 8A 50 -> EB 0C = Skip story cinematics (excluding space cutscenes) with the Esc key, like in the FL Beta.* ~BC46
 0691D1: Int8 32 -> 127 = Increases the maximum number of chat lines in the chat history window. ~M0tah
 06A440: Int8 80 -> 127 = Increases the maximum number of characters in the chat input box. ~M0tah
-075A56: UInt32 1125 -> 1102 = Changes the ids_info of player waypoints to a non-uppercased string ("PLAYER WAYPOINT" -> "Player Waypoint").
+075A56: UInt32 1125 -> 1102 = Changes the ids_info of player waypoints to a non-uppercased string ("PLAYER WAYPOINT" -> "Player Waypoint"). ~BC46
 080499: Hex 74 -> EB = Allows the purchase of equipment below the required level.* ~adoxa
 08073C: UInt32 1564 -> 458782 = Changes the IDS of the insufficient reputation message for equipment and commodities to an IDS in hderesources.dll with a custom message.* ~BC46
 082E95: Hex 74 -> EB = Changes the display of equipment below the required level.* ~adoxa
