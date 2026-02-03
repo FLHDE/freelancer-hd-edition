@@ -64,6 +64,7 @@ Freelancer.exe. Base: Default No-CD EXE.
 0B1554: Hex 39 -> 84 = Ambience volume can be controlled independently, thus no longer relying on the music volume.* ~BC46
 0B9011: UInt32 1564 -> 458782 = Changes the IDS of the insufficient reputation message for ships to an IDS in hderesources.dll with a custom message.* ~BC46
 0B948D: Hex 74 -> EB = Allows the purchase of ships below the required level.* ~adoxa
+0CD8BA: Hex 0C 01 -> 00 00 = Comm window remains visible while the Nav Map is open. ~DiscountMarkiplier
 0D094B: Hex 0F 85 2A 05 00 00 -> 74 04 FE C8 75 C4 = Includes player ships in the contact list's ship filter. ~adoxa
 0D2C94: Int32 99999 -> 999999 = Increases the distance at which "Far" is displayed rather than the actual distance for entries in the contact list. ~Dev
 0D5936: Hex 0F 85 -> 90 E9 = Removes the cruise speed display limit (300). ~Stone-D
