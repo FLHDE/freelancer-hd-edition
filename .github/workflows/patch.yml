@@ -1,6 +1,8 @@
 name: Run FLStaticPatch
 
 on: [push, workflow_dispatch]
+permissions:
+  contents: write
 jobs:
   patch:
     runs-on: windows-latest
