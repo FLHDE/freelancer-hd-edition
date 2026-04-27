@@ -28,7 +28,9 @@ jobs:
           path: og-binaries
 
       - name: Replace binaries with originals
-        run: cp -a og-binaries/. freelancer-hd-edition/
+        run: |
+          del og-binaries\README.md
+          xcopy /s /y og-binaries freelancer-hd-edition
 
       - uses: actions/setup-python@v6
         with:
