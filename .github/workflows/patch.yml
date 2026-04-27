@@ -13,6 +13,7 @@ jobs:
           sparse-checkout: |
             DLLS
             EXE
+            FLDOCS
 
       - name: Checkout patch tool repo
         uses: actions/checkout@v6
