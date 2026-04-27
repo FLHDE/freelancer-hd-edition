@@ -8,6 +8,10 @@
 #Offset: Data type Original value -> New value = Explanation.(*) ~Author
 #* means the edit is applied by the installer, rather than the file being patched directly. Such edits should be commented out so they do not get applied by FLStaticPatch.
 #
+#To apply a new binary patch, simply add an entry to this file using the same syntax as the existing entries.
+#After the changes have been pushed, the binary patch will be automatically applied in a subsequent commit.
+#Alternatively, the binary patch can be applied by manually by running the FLStaticPatch tool locally.
+#
 Common.dll 99fbba9aaf30299857838c6c3b7443a804e860d3. Base: Default from the official 1.1 Freelancer patch.
 0638AC: Hex 7B -> EB = Removes the maximum docking initiation distance. ~BC46
 0E698E: Hex 7C -> EB = Allows many planets to continue spinning. ~adoxa

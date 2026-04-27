@@ -14,7 +14,7 @@ jobs:
           sparse-checkout: .github/workflows/flhooktag
           sparse-checkout-cone-mode: false
           path: check
-          
+
       - name: Download latest FLHook release
         id: download-release
         uses: robinraju/release-downloader@v1
@@ -23,12 +23,12 @@ jobs:
           fileName: "Release.zip"
           latest: true
           extract: true
-          
+
       - name: Is there a new release?
         env:
           TAG: ${{steps.download-release.outputs.tag_name}}
         run: if( (Get-Content -Path .\check\.github\workflows\flhooktag) -ne $env:TAG ) { echo "NEW=true" >> $env:GITHUB_ENV }
-        
+
       - name: Checkout full repo
         if: env.NEW == 'true'
         uses: actions/checkout@v6
@@ -39,7 +39,7 @@ jobs:
             .github/workflows/flhooktag
             EXE
           sparse-checkout-cone-mode: false
-        
+
       - name: Copy new release
         if: env.NEW == 'true'
         run: |
@@ -60,7 +60,7 @@ jobs:
           copy Release/plugins/restarts.dll  staging/EXE/plugins
           copy Release/plugins/sound_manager.dll  staging/EXE/plugins
           copy Release/plugins/stats.dll  staging/EXE/plugins
-        
+
       - name: Commit to branch
         if: env.NEW == 'true'
         env:
@@ -68,8 +68,8 @@ jobs:
         run: |
           cd staging
           echo $env:TAG > .github/workflows/flhooktag
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add EXE
           git add .github/workflows/flhooktag
           git commit -m "Update FLHook to $env:TAG"
