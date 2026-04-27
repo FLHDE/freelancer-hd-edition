@@ -9,7 +9,7 @@ jobs:
     if: false # ${{ !contains(github.event.head_commit.message, 'Update FLHook') }}
     steps:
       - name: Get last FLHook tag
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           sparse-checkout: .github/workflows/flhooktag
           sparse-checkout-cone-mode: false
@@ -17,7 +17,7 @@ jobs:
           
       - name: Download latest FLHook release
         id: download-release
-        uses: robinraju/release-downloader@v1.8
+        uses: robinraju/release-downloader@v1
         with:
           repository: "TheStarport/FLHook"
           fileName: "Release.zip"
@@ -31,7 +31,7 @@ jobs:
         
       - name: Checkout full repo
         if: env.NEW == 'true'
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           path: staging
           token: ${{ secrets.PAT }}
