@@ -1,0 +1,46 @@
+name: Run FLStaticPatch
+
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main repo
+        uses: actions/checkout@v6
+        with:
+          path: freelancer-hd-edition
+          token: ${{ secrets.PAT }}
+          sparse-checkout: |
+            DLLS
+            EXE
+
+      - name: Checkout patch tool repo
+        uses: actions/checkout@v6
+        with:
+          repository: FLHDE/FLStaticPatch
+          path: patching
+
+      - name: Checkout original binaries repo
+        uses: actions/checkout@v6
+        with:
+          repository: FLHDE/OriginalFLBinaries
+          path: og-binaries
+
+      - name: Replace binaries with originals
+        run: cp -a /og-binaries/. /freelancer-hd-edition/
+
+      - uses: actions/checkout@v6
+      - name: Apply binary edits
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: python patching/FLStaticPatch.py freelancer-hd-edition\FLDOCS\BinaryEdits.patch freelancer-hd-edition
+
+      - name: Push changes to branch
+        run: |
+          cd freelancer-hd-edition
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -am 'Apply binary edits'
+          git push
