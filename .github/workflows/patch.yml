@@ -34,7 +34,7 @@ jobs:
           python-version: '3.13'
 
       - name: Apply binary edits
-        run: python patching/FLStaticPatch.py freelancer-hd-edition\FLDOCS\BinaryEdits.patch freelancer-hd-edition
+        run: python patching/FLStaticPatch.py freelancer-hd-edition/FLDOCS/BinaryEdits.patch freelancer-hd-edition
 
       - name: Push changes to branch
         run: |
