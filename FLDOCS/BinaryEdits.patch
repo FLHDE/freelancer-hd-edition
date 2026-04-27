@@ -93,7 +93,6 @@ Freelancer.exe 659be06fbbffd0b6cef48824471b94447ae5f65b. Base: Default No-CD EXE
 1B2D72: Hex 68 80 -> EB 0F = Never load EBUEula.dll from the root Freelancer folder (Freelancer.exe). ~BC46
 1B48B8: Hex 07 -> 00 = Fixes a bug with low resolution news and mission images on some systems. ~BC46
 1D7964: Float32 3 -> 1.5 = Reduces the time between contact list refreshes. ~Dev
-1D7BF0: Float64 0.004 -> 0.05 = Vertical offset of player name in contact list. ~M0tah
 1D7E50: Float64 0.8 -> 0.85 = Increases the width of the gauge bars. ~Dev
 1D8484: Float32 1 -> 0.1 = Reduces the time between weapon list refreshes. ~Fox
 #1DD5A8: Hex 80 -> 79 = Prevent Countermeasure Droppers from being activated by right-clicking #2.* ~BC46 & Venemon
