@@ -2,14 +2,14 @@ name: Run FLStaticPatch
 
 on: [push, workflow_dispatch]
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  patch:
+    runs-on: windows-latest
     steps:
       - name: Checkout main repo
         uses: actions/checkout@v6
         with:
           path: freelancer-hd-edition
-          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref }}
           sparse-checkout: |
             DLLS
             EXE
