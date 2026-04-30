@@ -48,8 +48,7 @@ jobs:
           cd freelancer-hd-edition
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add .
-          git diff --quiet && git diff --staged --quiet || git commit -am 'Apply binary edits'
+          git diff --quiet && git diff --staged --quiet || git commit -am 'Apply binary edits [skip ci]'
           git push
 
 concurrency:
