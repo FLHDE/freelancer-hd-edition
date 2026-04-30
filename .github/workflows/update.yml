@@ -33,7 +33,7 @@ jobs:
       - name: Replace all resource DLLs
         run: |
           del tsr\output\script.xml
-          xcopy /s /y tsr\output freelancer-hd-edition\EXE
+          xcopy /s /y tsr\output freelancer-hd-edition
 
       - name: Push changes to branch
         run: |
