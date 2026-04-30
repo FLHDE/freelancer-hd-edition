@@ -46,7 +46,6 @@ FLServer.exe a5f5ce8e44e3c6dcea0af52e59bf9fcfc9d1460b. Base: Default from the of
 #A custom Manifest section has been added to make the program DPI-aware.
 
 Freelancer.exe 659be06fbbffd0b6cef48824471b94447ae5f65b. Base: Default No-CD EXE.
-00014E: Hex 0F -> 2F = Allows Freelancer to use 4 GB of virtual memory instead of 2 GB. ~BC46
 01AD6F: Hex 80 00 -> 00 20 = Fixes a bug with low resolution textures on some systems. ~Schmackbolzen
 0244F7: Hex B8 89 5C -> F8 EB 5D = Gamma ranges from 0.75 to 1.75, not 1.0 to 2.0. ~BC46 & adoxa
 #02477A: Hex CA 02 -> 00 00 = Removes window borders when Freelancer is running in a window #1.* ~adoxa & Laz
