@@ -1,0 +1,48 @@
+name: Update TSR DLLs
+
+on: [push, workflow_dispatch]
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: windows-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.pusher.name != 'github-actions[bot]' }}
+    steps:
+      - name: Checkout main repo
+        uses: actions/checkout@v6
+        with:
+          path: freelancer-hd-edition
+          ref: ${{ github.ref }}
+          token: ${{ secrets.PAT }}
+          sparse-checkout: |
+            EXE
+
+      - name: Checkout TSR repo
+        uses: actions/checkout@v6
+        with:
+          repository: FLHDE/freelancer-text-strings-revision
+          path: tsr
+
+      - name: Compile resource files
+        run: |
+          cd tsr
+          compile-tsr-hde.bat
+          cd ..
+        shell: cmd
+
+      - name: Replace all resource DLLs
+        run: |
+          del tsr\output\script.xml
+          xcopy /s /y tsr\output freelancer-hd-edition\EXE
+
+      - name: Push changes to branch
+        run: |
+          cd freelancer-hd-edition
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -am 'Update TSR DLLs'
+          git push
+
+concurrency:
+  group: push-${{ github.ref }}
