@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/FLHDE/freelancer-hd-edition.svg)](https://GitHub.com/FLHDE/freelancer-hd-edition/releases/)
 [![Github all releases](https://img.shields.io/github/downloads/FLHDE/freelancer-hd-edition/total.svg)](https://GitHub.com/FLHDE/freelancer-hd-edition/releases/)
 [![GitHub stars](https://img.shields.io/github/stars/FLHDE/freelancer-hd-edition?style=social)](https://GitHub.com/FLHDE/freelancer-hd-edition/stargazers/)
-[![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ScqgYuFqmU)
+[![Discord](https://img.shields.io/discord/873144025350295612.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/HkAeTaFVQk)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/FLHDE/freelancer-hd-edition/pulls)
 
 [![Mod DB](https://button.moddb.com/popularity/medium/mods/51151.png)](https://www.moddb.com/mods/freelancer-hd-edition)
@@ -15,7 +15,7 @@ This mod was made possible with the help of the [Freelancer: Nomad Legacy](https
 
 Join the Discord community for Freelancer: HD Edition!
 
-[![Support Server](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/ScqgYuFqmU)
+[![Support Server](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/HkAeTaFVQk)
 
 ## Key Features
 - HD Textures
@@ -56,10 +56,11 @@ Due to the large file size of many textures used in this mod, some users may exp
 Moreover, having a somewhat modern dedicated GPU is ideal to ensure the game runs smoothly with all the included graphics-related enhancements.
 
 For the best vanilla Multiplayer experience with this mod, check out the [Zoner Universe server](https://www.zoneruniverse.com/). Also be sure to have a look at the following projects which are all compatible with Freelancer: HD Edition:
+- [Project Reforge](https://www.moddb.com/mods/project-reforge)
+- [Homeworld: Rise of Hiigara](https://www.moddb.com/mods/homeworld-rise-of-hiigara)
 - [Freelancer Universe mod and server](https://discord.com/invite/JY6xAyv8ay)
 - [Leuchtfeuer](https://www.moddb.com/mods/leuchtfeuer)
 - [Frontierspace](https://discord.gg/XhPbHKRu8f)
-- [Project Reforge](https://www.moddb.com/mods/project-reforge)
 - [Freelancer Co-op Campaign Mod](https://www.moddb.com/mods/freelancer-co-op-campaign-mod)
 
 ## Related projects
@@ -205,4 +206,4 @@ Have something to contribute to make the mod even better? Feel free to create a 
 - [XxSARGExX](https://github.com/XxSARGExX)
   - Civilian engine effects
 
-If you notice anything missing from the credits section, please [raise an issue](https://github.com/FLHDE/freelancer-hd-edition/issues) or contact us on [Discord](https://discord.gg/ScqgYuFqmU).
+If you notice anything missing from the credits section, please [raise an issue](https://github.com/FLHDE/freelancer-hd-edition/issues) or contact us on [Discord](https://discord.gg/HkAeTaFVQk).
