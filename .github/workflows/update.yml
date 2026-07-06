@@ -12,7 +12,7 @@ permissions:
 jobs:
   update:
     runs-on: windows-latest
-    if: ${{ (github.event_name == 'push' && github.event.pusher.email == 'github-actions[bot]@users.noreply.github.com') || github.event_name != 'push' }}
+    if: ${{ !(github.event_name == 'push' && github.event.pusher.email == 'github-actions[bot]@users.noreply.github.com') || github.event_name != 'push' }}
     steps:
       - name: Checkout main repo
         uses: actions/checkout@v6
