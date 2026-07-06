@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           path: staging
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT }}
           sparse-checkout: |
             .github/workflows/flhooktag
             EXE
