@@ -1,7 +1,11 @@
 name: Perform checks
 
 on:
-  [push, pull_request, workflow_dispatch]
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   test:
