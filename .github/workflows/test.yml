@@ -32,7 +32,7 @@ jobs:
           cd ..\..
         shell: cmd
 
-      - name: Checkout FLScan-2
+      - name: Checkout FLScan II repo
         uses: actions/checkout@v6
         with:
           repository: FLHDE/FLScan-2
