@@ -1,0 +1,46 @@
+name: Perform checks
+
+on:
+  [push, pull_request, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout main repo
+        uses: actions/checkout@v6
+        with:
+          path: freelancer-hd-edition
+          ref: ${{ github.ref }}
+          lfs: true
+
+      - name: Rename resource files
+        run: |
+          cd freelancer-hd-edition\EXE
+          rename resources_tsr.dll resources.dll
+          rename serverresources_tsr.dll serverresources.dll
+          rename offerbriberesources_tsr.dll offerbriberesources.dll
+          rename nameresources_tsr.dll nameresources.dll
+          rename misctextinfo2_tsr.dll misctextinfo2.dll
+          rename misctext_tsr.dll misctext.dll
+          rename infocards_tsr.dll infocards.dll
+          rename equipresources_tsr.dll equipresources.dll
+          cd ..\..
+        shell: cmd
+
+      - name: Checkout FLScan-2
+        uses: actions/checkout@v6
+        with:
+          repository: FLHDE/FLScan-2
+          path: FLScan-2
+
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v3
+
+      - name: Build FLScan II
+        run: msbuild FLScan-2\src\FLScanII.csproj /property:Configuration=Release
+
+      - name: Run FLScan II
+        run: |
+          cd FLScan-2\bin
+          .\FLScanII.exe --flpath=${{ github.workspace }}\freelancer-hd-edition --assume-vanilla-files-exist --treat-warnings-as-errors
