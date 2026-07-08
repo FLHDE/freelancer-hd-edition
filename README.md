@@ -15,7 +15,7 @@ This mod was made possible with the help of the [Freelancer: Nomad Legacy](https
 
 Join the Discord community for Freelancer: HD Edition!
 
-[![Support Server](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/HkAeTaFVQk)
+[![Freelancer: HD Edition Discord](https://img.shields.io/discord/873144025350295612.svg?label=Freelancer:%20HD%20Edition%20Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/HkAeTaFVQk)
 
 ## Key Features
 - HD Textures
