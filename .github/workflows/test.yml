@@ -16,7 +16,6 @@ jobs:
         with:
           path: freelancer-hd-edition
           ref: ${{ github.ref }}
-          lfs: true
 
       - name: Rename resource files
         run: |
