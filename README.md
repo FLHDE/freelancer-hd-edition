@@ -178,8 +178,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated)
 - [Microsoft](https://github.com/microsoft)
   - [Freelancer Patch 1.1](https://www.moddb.com/games/freelancer/downloads/freelancer-patch-11)
-- [Might_Impress](https://www.moddb.com/members/might-impress)
-  - [HudInventory plugin](https://github.com/FLHDE/freelancer-hd-edition/issues/324)
 - [Raikkonen](https://github.com/oliverpechey)
   - Workflow script for automatically downloading the latest FLHook release
   - Support
