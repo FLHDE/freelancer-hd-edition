@@ -83,12 +83,12 @@ Freelancer.exe 659be06fbbffd0b6cef48824471b94447ae5f65b. Base: Default No-CD EXE
 0E11AF: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #2. ~adoxa
 0E1A61: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #3. ~adoxa
 #0E15D3: UInt32 1535 -> 458790 = Changes the "Switch To Target" IDS to "Toggle Top-Down Target" (hderesources.dll).* ~BC46
+0E19C6: Hex 6A 00 -> EB 09 = Prevents the Request to Trade button from flickering when maximizing the HUD. ~BC46
 0E21CF: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #4. ~adoxa
 0E32B6: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #5. ~adoxa
 0E32CA: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #6. ~adoxa
 0E47B2: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #7. ~adoxa
 0E47C6: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #8. ~adoxa
-0E19C6: Hex 6A 00 -> EB 09 = Prevents the Request to Trade button from flickering when maximizing the HUD. ~BC46
 12D279: Hex 90 90 90 90 90 90 90 -> 39 F1 74 03 30 C0 C3 = Prevent Countermeasure Droppers from being activated by right-clicking #1. ~BC46 & Venemon
 158A10: Hex BC -> C0 = Prevents intentional framerate drops to 25 from occurring during cutscenes. ~BC46 & FriendlyFire
 166C2B: Hex 75 -> EB = Bypasses the ESRB notice when entering the Multiplayer menu. ~adoxa
@@ -104,7 +104,6 @@ Freelancer.exe 659be06fbbffd0b6cef48824471b94447ae5f65b. Base: Default No-CD EXE
 1B2D72: Hex 68 80 -> EB 0F = Never load EBUEula.dll from the root Freelancer folder (Freelancer.exe). ~BC46
 1B48B8: Hex 07 -> 00 = Fixes a bug with low resolution news and mission images on some systems. ~BC46
 1D7964: Float32 3 -> 1.5 = Reduces the time between contact list refreshes. ~Dev
-1D7E50: Float64 0.8 -> 0.85 = Increases the width of the gauge bars. ~Dev
 1D8484: Float32 1 -> 0.1 = Reduces the time between weapon list refreshes. ~Fox
 1DD5A8: Hex 80 -> 79 = Prevent Countermeasure Droppers from being activated by right-clicking #2. ~BC46 & Venemon
 1E6DCC: Hex 46 -> 00 = Changes the CreateMutex lpName parameter to an empty string, allowing multiple instances of Freelancer to run simultaneously. ~M0tah
