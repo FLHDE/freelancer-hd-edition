@@ -172,8 +172,6 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - [HD Station textures from Freelancer: The Nomad Legacy](https://www.moddb.com/mods/freelancer-nomad-legacy)
 - [Jeider](https://github.com/Jeider) & Whiskas T-Mech
   - [Freelancer Advanced Widescreen HUD](https://www.moddb.com/mods/freelacer-advanced-widescreen-hud)
-- [Laz](https://github.com/Lazrius), [Jason Hood](https://github.com/adoxa) & [BC46](https://github.com/BC46)
-  - [Windowed Mode Mouse Fix](https://github.com/FLHDE/windowed-mode-mouse-fix)
 - [M0tah](https://the-starport.com/forums/user/m0tah)
   - [DelayDisplay plugin](https://github.com/FLHDE/DelayDisplay)
   - [MultiIntro plugin](https://github.com/FLHDE/MultiIntro-Updated)
