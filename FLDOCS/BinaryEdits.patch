@@ -85,6 +85,7 @@ Freelancer.exe 659be06fbbffd0b6cef48824471b94447ae5f65b. Base: Default No-CD EXE
 #0E15D3: UInt32 1535 -> 458790 = Changes the "Switch To Target" IDS to "Toggle Top-Down Target" (hderesources.dll).* ~BC46
 0E19C6: Hex 6A 00 -> EB 09 = Prevents the Request to Trade button from flickering when maximizing the HUD. ~BC46
 0E21CF: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #4. ~adoxa
+0E241E: Hex 75 -> EB = Shows the next and previous sub-target buttons for selected ships in the target view. ~BC46
 0E32B6: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #5. ~adoxa
 0E32CA: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #6. ~adoxa
 0E47B2: Hex 01 -> 00 = Disables the typing effect for the target name and sub-target name in the target view #7. ~adoxa
