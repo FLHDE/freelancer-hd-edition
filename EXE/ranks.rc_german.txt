@@ -1,0 +1,20 @@
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  0, 	"%%d - %s"
+  1, 	"Rekrut"
+  2, 	"Gefreiter"
+  3, 	"Korporal"
+  4, 	"Sergeant"
+  5, 	"Offizier"
+  6, 	"F\xE4hnrich"
+  7, 	"Leutnant"
+  8, 	"Kommandant"
+  9, 	"Hauptmann"
+  10, 	"Major"
+  11, 	"Oberst"
+  12, 	"General"
+  13, 	"Veteran"
+  14, 	"Ass"
+  15, 	"Legende"
+}
