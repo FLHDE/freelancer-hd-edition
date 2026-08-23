@@ -1,0 +1,6 @@
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+  0, 	"Sie betreten: %Zv0."
+  1, 	"Sie verlassen: %Zv0."
+}
