@@ -193,6 +193,7 @@ Have something to contribute to make the mod even better? Feel free to create a 
   - Emissive Manufacturing Platform windows
 - [Thaddeus](https://github.com/thaddeus-ex)
   - Solar and weapon model fixes
+  - Bonn and Aomori station door fixes
 - [The Starport](https://github.com/TheStarport) & FLHook contributors
   - [FLHook](https://github.com/TheStarport/FLHook)
 - [Venemon](https://www.moddb.com/members/venemon)
